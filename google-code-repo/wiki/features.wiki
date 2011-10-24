@@ -5,8 +5,8 @@
 
   * automatic translation (if language files doesn't exists, it load automatically english). Available languages: english, italian and hungarian;
   * easy to understand device overview, with temperature, last test result, overall health and bad sectors indication;
-  * display an icon into the tray area for each fixed device;
-  * HDD Guardian tray icon change shied color if a device is failing;
+  * display an ptional icon into the tray area for each fixed device;
+  * HDD Guardian tray icon change shield color if a device is failing;
   * automatically export smartctl output into a specified folder;
   * monitor virtual devices loaded from a shared smartctl output;
   * displays device identity information;
@@ -15,5 +15,5 @@
   * displays attributes informations and graphs;
   * displays device capabilities;
   * displays device error log;
-  * allow to set device-specific tolerance, attribute format and formware debug;
-  * allow to set warnings beahviour.
+  * allow to set device-specific tolerance, attribute format and firmware debug;
+  * allow to set warnings behaviour.
