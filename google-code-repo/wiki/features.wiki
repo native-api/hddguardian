@@ -1,0 +1,19 @@
+#summary HDD Guardian features.
+#labels Featured
+
+=HDD Guardian features=
+
+  * automatic translation (if languages file doesn't exists, it load automatically english). Available languages: english, italian and hungarian;
+  * easy to understand device overview, with temperature, last test result, overall health and bad sectors indication;
+  * display an icon into the tray area for each fixed device;
+  * HDD Guardian tray icon change shied color if a device is failing;
+  * automatically export smartctl output into a specified folder;
+  * monitor virtual devices loaded from a shared smartctl output;
+  * displays device identity information;
+  * perform self-test and displays their results;
+  * allow enabling/disabling S.M.A.R.T., automatic offline data collection (an automatic test performed by device every four hours) and autosave of vendor-specific attributes;
+  * displays attributes informations and graphs;
+  * displays device capabilities;
+  * displays device error log;
+  * allow to set device-specific tolerance, attribute format and formware debug;
+  * allow to set warnings beahviour.
