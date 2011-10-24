@@ -4,7 +4,7 @@
 *HDD Guardian 0.2.0.0*
 
 _New:_
-	* full renewed GUI, with a single windowed interface;
+	* full renewed GUI, with a single window interface;
 	* package now include smartctl 5.42;
 	* full support for smartctl reports generated with '-f brief' option;
 	* full support for smartctl reports from version 5.22 to version 5.42;
