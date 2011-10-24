@@ -1,0 +1,20 @@
+#summary One-sentence summary of this page.
+#labels Featured
+
+= HDD Guardian 0.2.0.0 Screenshots =
+
+<img src="http://hddguardian.googlecode.com/svn/screenshots/00-summary.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/06-device_info.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/07-features.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/08-attributes.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/09-attributes+info.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/11-capabilities.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/12-error_log.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/14-self-tests_log.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/15-run_test.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/18-tolerance.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/19-attributes_format.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/20-firmware_debug.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/21-trayicons_all_ok.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/22-trayicons_device_info.png">
+<img src="http://hddguardian.googlecode.com/svn/screenshots/24-device_failure_warning.png">
