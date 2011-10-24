@@ -1,0 +1,38 @@
+#summary Changelog of HDD Guardian
+
+*HDD Guardian 0.2.0.0*
+
+_New:_
+	* full renewed GUI, with a single windowed interface;
+	* package now include smartctl 5.42;
+	* full support for smartctl reports generated with '-f brief' option;
+	* full support for smartctl reports from version 5.22 to version 5.42;
+	* settings autosave;
+	* HDD Guardian behaviour is based upon the device type where is stored;
+	* local devices tray icons are now available (only if HDD Guardian is installed into a fixed device);
+	* HDD Guardian tray icon change the shield color if a device is failing;
+	* now is possible to minimize HDD Guardian into the tray area instead to close;
+	* automatic translation selection (if translation files can't exists, it switch to english);
+	* summary panel, with an overview of disk temperature, health, bad sectors, last test result and eventual warnings;
+	* devices are now separated in two categories: physical and virtual;
+	* added several informations about device attributes, tests and settings;
+	* added Sandforce, OWC, Kingston, Corsair and AData banners;
+	* added Suse, Redhat, Mandriva and Slackware icons;
+	* changed Windows icon;
+	* installed .NET Framework is visible under "About" section;
+_Removed:_
+	* icons themes;
+	* Health Center window: "Events Log" are now into the "Main" section, "Devices Health" is merged with devices list;
+	* Database window: this informations are now available under "Smartctl" section;
+	* Report viewer window: output are now available under "Smartctl" section;
+	* Settings window: settings are now available under "Settings" section;
+_Bugfix:_
+	* Asus/Phison and Transcend banners flag;
+	* sometimes can't show disk size;
+	* under non administrative user can't create subfolders on "Program Files" folder: now setting files are stored under user folder;
+	* program can't start if a WD external HDD is connected: local fixed devices are now listed by smartctl;
+	* program crash when a device don't display a valid numeric temperature.
+
+----
+*HDD Guardian 0.1.3909*
+     Initial release
