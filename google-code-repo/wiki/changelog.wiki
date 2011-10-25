@@ -35,5 +35,5 @@ _Bugfix:_
 	* program crash when a device don't display a valid numeric temperature.
 
 ----
-*HDD Guardian 0.1.3909*
+*HDD Guardian 0.1.3903*
      Initial release
