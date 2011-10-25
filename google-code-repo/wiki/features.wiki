@@ -4,7 +4,7 @@
 =HDD Guardian features=
 
   * automatic translation (if language files doesn't exists, it load automatically english). Available languages: english, italian and hungarian;
-  * easy to understand device overview, with temperature, last test result, overall health and bad sectors indication;
+  * easy device overview, with temperature, last test result, overall health and bad sectors indication;
   * display an ptional icon into the tray area for each fixed device;
   * HDD Guardian tray icon change shield color if a device is failing;
   * automatically export smartctl output into a specified folder;
