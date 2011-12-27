@@ -2,6 +2,54 @@
 
 = HDD S.M.A.R.T. attributes =
 
-||*ID*||*Hex*||*Name*||*Description*||
-||01||01||Read Error Rate||Indicates the rate of hardware read errors that occurred when reading data from a disk surface. The raw value has different structure for different vendors and is often not meaningful as a decimal number.||
-||02||02||Throughput Performance||Overall (general) throughput performance of a hard disk drive. If the value of this attribute is decreasing there is a high probability that there is a problem with the disk.||
+=== Attributes table ===
+
+|| *ID* || *Hex* || *Name* || *Description* ||
+||01||01||Read Error Rate||Indicates the rate of hardware read errors that occurred when reading data from a disk surface.^2^ The raw value has different structure for different vendors and is often not meaningful as a decimal number.^3^||
+||02||02||Throughput Performance||Overall (general) throughput performance of a hard disk drive. If the value of this attribute is decreasing there is a high probability that there is a problem with the disk.^1^||
+||03||03||Spin-Up Time||Average time (in milliseconds or seconds) of spindle spin up (from zero RPM - Revolutions Per Minute - to fully operational).^2^||
+||04||04||Start/Stop Count||Indicates a count of hard disk spindle start/stop cycles.^2^||
+||05||05||Reallocated Sectors Count||Count of reallocated sectors (1 sector = 512 bytes). When the hard drive finds a read/write/verification error, it marks this sector as "reallocated" and transfers data to a special reserved area (spare area). This process is also known as remapping and "reallocated" sectors are called remaps. This is why, on modern hard disks, "bad blocks" cannot be found while testing the surface - all bad blocks are hidden in reallocated sectors. However, the more sectors that are reallocated, the more read/write speed will decrease.^1^||
+||06||06||Read Channel Margin||Indicates a margin of a channel while reading data. Usually manufacturers do not use this parameter.^2^||
+||07||07||Seek Error Rate||Rate of seek errors of the magnetic heads. If there is a failure in the mechanical positioning system, a servo damage or a thermal widening of the hard disk, seek errors arise. More seek errors indicates a worsening condition of a disk surface and the mechanical subsystem.^1^||
+||08||08||Seek Time Performance||Average performance of seek operations of the magnetic heads. If this attribute is decreasing, it is a sign of problems in the mechanical subsystem.^1^||
+||09||09||Power-On Hours (POH)||Indicates a count of hours in power-on state. The value of this attribute shows total count of hours (or minutes, or seconds, depending on manufacturer) in power-on state. A decrease of this attribute value to the critical level (threshold) indicates a decrease of the MTBF (Mean Time Between Failures).^2^||
+||10||0A||Spin Retry Count||Count of retry of spin start attempts. This attribute stores a total count of the spin start attempts to reach the fully operational speed under the condition that the first attempt was unsuccessful). An increase of this attribute value is a sign of problems in the hard disk mechanical subsystem.^1^||
+||11||0B||Recalibration Retries||This attribute indicates the number of times recalibration was requested (under the condition that the first attempt was unsuccessful). A decrease of this attribute value is a sign of problems in the hard disk mechanical subsystem.^1^||
+||12||0C||Power Cycle Count ||Is an informational parameter and indicates the count of full hard disk power on/off cycles.^2^||
+||13||0D||Soft Read Error Rate||Uncorrected read errors reported to the operating system. If the value is non-zero, you should back up your data.^1^||
+||96||60||?||Found on Maxtor DiamondMax Plus 6800 92040U6||
+||97||61||?||Found on Maxtor DiamondMax Plus 6800 92040U6||
+||98||62||?||Found on Maxtor DiamondMax Plus 6800 92040U6||
+||99||63||Average Flying Height control||Maxtor hard drive attribute. Can be an indicator of drive aging and/or potential electromechanical problem.^4^||
+||100||64||Erase/Program Cycles||Maxtor hard drive attribute. Can be an indicator of drive aging and/or potential electromechanical problem.^4^||
+||101||65||Maximum Flying Height control||Maxtor hard drive attribute. Can be an indicator of drive aging and/or potential electromechanical problem.^4^||
+||103||67||Translation Table Rebuild||Maxtor attribute.^2^||
+||183||B7||SATA Downshift Error Count||Western Digital and Samsung attribute.^2^||
+||184||B8||End-to-End Error||This parameter is a part of HP's SMART IV technology and it means that after transferring through the cache RAM data buffer, the parity data between the host and the hard drive did not match. For detailed information see SMART IV Documentation from HP.^2^||
+||184||B9||Head Stability||Western Digital attribute.^2^||
+||186||BA||Induced Op-Vibration Detection||Western Digital attribute.^2^||
+||187||BB||Reported Uncorrectable Errors||This parameter indicates a number of errors that could not be recovered using hardware ECC (error-correcting code).^2^||
+||188||BC||Command Timeout||The count of aborted operations due to HDD timeout. Normally this attribute value should be equal to zero and if the value is far above zero, then most likely there will be some serious problems with power supply or an oxidized data cable.^4^||
+||189||BD||High Fly Writes||HDD producers implement a Fly Height Monitor that attempts to provide additional protections for write operations by detecting when a recording head is flying outside its normal operating range. If an unsafe fly height condition is encountered, the write process is stopped, and the information is rewritten or reallocated to a safe region of the hard drive. This attribute indicates the count of these errors detected over the lifetime of the drive.^4^||
+||190||BE||Airflow Temperature||Airflow temperature on Western Digital HDs (Same as temperature (194), but current value is 50 less).^1^||
+||190||BE||Temperature Difference from 100||This parameter indicates the temperature of the air inside the Seagate and Samsung hard disk housing. The value is equal to [100 – specified by manufacturer temperature °C], which allows setting the minimum threshold.^2^||
+||191||BF||G-sense error rate||This parameter indicates the number of errors caused by externally-induced shock or vibration.^2^||
+||192||C0||Power-off Retract Count||This attribute indicates the number of times the head was retracted as a result of power loss.^4^||
+||192||C0||Emergency Retract Cycle Count (Fujitsu)||This attribute indicates the number of times the head was retracted as a result of power loss.^4^||
+||193||C1||Load/Unload Cycle Count / Load Cycle Count||Count of load/unload cycles into head landing zone position.^1^||
+||194||C2||Hard Disk Assembly Temperature||This parameter indicates a hard disk drive current internal temperature. The raw value of this attribute shows built-in heat sensor registrations (in degrees centigrade).^2^||
+||195||C3||Hardware ECC Recovered||Time between ECC (error-correcting code) corrected errors.^1^||
+||196||C4||Reallocation Event Count||This parameter indicates a count of remap operations (transferring data from a bad sector to a special reserved disk area - spare area). The raw value of this attribute shows the total number of attempts to transfer data from reallocated sectors to a spare area. Unsuccessful attempts are counted as well as successful. Since this is a count value, it can only increase.^2^||
+
+
+
+
+
+
+=== Sources ===
+ # LSoft Technologies Inc. Active@ (http://www.disk-monitor.com/smart_info.html)
+ # Acronis Knowledge Base (http://kb.acronis.com/search/apachesolr_search/s.m.a.r.t.?filters=%20type%3Aarticle)
+ # Wikipedia S.M.A.R.T. Page (http://en.wikipedia.org/wiki/S.M.A.R.T.)
+ # Labtech Software (http://www.labtechsoftware.com/component/k2/item/573-smart-attributes.html)
+ # Ariolic (http://www.ariolic.com/activesmart/smart-attributes/)
