@@ -5,7 +5,7 @@
 === Attributes table ===
 
 || *ID* || *Hex* || *Name* || *Description* ||
-||01||01||Read Error Rate||Indicates the rate of hardware read errors that occurred when reading data from a disk surface.^2^ The raw value has different structure for different vendors and is often not meaningful as a decimal number.^3^||
+||01||01||Read Error Rate||Indicates the rate of hardware read errors that occurred when reading data from a disk surface.<sup> [http://kb.acronis.com/search/apachesolr_search/s.m.a.r.t.?filters=%20type%3Aarticle 2]</sup> The raw value has different structure for different vendors and is often not meaningful as a decimal number.^3^||
 ||02||02||Throughput Performance||Overall (general) throughput performance of a hard disk drive. If the value of this attribute is decreasing there is a high probability that there is a problem with the disk.^1^||
 ||03||03||Spin-Up Time||Average time (in milliseconds or seconds) of spindle spin up (from zero RPM - Revolutions Per Minute - to fully operational).^2^||
 ||04||04||Start/Stop Count||Indicates a count of hard disk spindle start/stop cycles.^2^||
@@ -33,7 +33,7 @@
 ||188||BC||Command Timeout||The count of aborted operations due to HDD timeout. Normally this attribute value should be equal to zero and if the value is far above zero, then most likely there will be some serious problems with power supply or an oxidized data cable.^4^||
 ||189||BD||High Fly Writes||HDD producers implement a Fly Height Monitor that attempts to provide additional protections for write operations by detecting when a recording head is flying outside its normal operating range. If an unsafe fly height condition is encountered, the write process is stopped, and the information is rewritten or reallocated to a safe region of the hard drive. This attribute indicates the count of these errors detected over the lifetime of the drive.^4^||
 ||190||BE||Airflow Temperature||Airflow temperature on Western Digital HDs (Same as temperature 194, but current value is 50 less).^1^||
-||190||BE||Temperature Difference from 100||This parameter indicates the temperature of the air inside the Seagate and Samsung hard disk housing. The value is equal to [100 – specified by manufacturer temperature °C], which allows setting the minimum threshold.^2^||
+||190||BE||Temperature Difference from 100||This parameter indicates the temperature of the air inside the Seagate and Samsung hard disk housing. The value is equal to [[]100 – specified by manufacturer temperature °C], which allows setting the minimum threshold.^2^||
 ||191||BF||G-sense error rate||This parameter indicates the number of errors caused by externally-induced shock or vibration.^2^||
 ||192||C0||Power-off Retract Count||This attribute indicates the number of times the head was retracted as a result of power loss.^4^||
 ||192||C0||Emergency Retract Cycle Count (Fujitsu)||This attribute indicates the number of times the head was retracted as a result of power loss.^4^||
@@ -81,9 +81,9 @@
 ||254||FE||Free Fall Protection||This parameter indicates a number of free fall events detected by the accelerometer sensor.^2^||
 
 === Sources ===
- # LSoft Technologies Inc. Active@ (http://www.disk-monitor.com/smart_info.html)
- # Acronis Knowledge Base (http://kb.acronis.com/search/apachesolr_search/s.m.a.r.t.?filters=%20type%3Aarticle)
- # Wikipedia S.M.A.R.T. Page (http://en.wikipedia.org/wiki/S.M.A.R.T.)
- # Labtech Software (http://www.labtechsoftware.com/component/k2/item/573-smart-attributes.html)
- # Ariolic (http://www.ariolic.com/activesmart/smart-attributes/)
- # Fujitsu disk manual (http://www.msc-ge.com/download/itmain/datasheets/fujitsu/MHY2xxxBH.pdf);
+ # [http://www.disk-monitor.com/smart_info.html LSoft Technologies Inc. Active@]
+ # [http://kb.acronis.com/search/apachesolr_search/s.m.a.r.t.?filters=%20type%3Aarticle Acronis Knowledge Base]
+ # [http://en.wikipedia.org/wiki/S.M.A.R.T. Wikipedia S.M.A.R.T. page]
+ # [http://www.labtechsoftware.com/component/k2/item/573-smart-attributes.html Labtech Software]
+ # [http://www.ariolic.com/activesmart/smart-attributes/ Ariolic]
+ # [http://www.msc-ge.com/download/itmain/datasheets/fujitsu/MHY2xxxBH.pdf Fujitsu MHY2xxxBH datasheet]
