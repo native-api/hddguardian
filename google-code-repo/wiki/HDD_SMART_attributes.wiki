@@ -5,7 +5,7 @@
 === Attributes table ===
 
 || *ID* || *Hex* || *Name* || *Description* ||
-||01||01||Read Error Rate||Indicates the rate of hardware read errors that occurred when reading data from a disk surface.^[HDD_SMART_attributes#Sources 2]^ The raw value has different structure for different vendors and is often not meaningful as a decimal number.^3^||
+||01||01||Read Error Rate||Indicates the rate of hardware read errors that occurred when reading data from a disk surface.^2^ The raw value has different structure for different vendors and is often not meaningful as a decimal number.^3^||
 ||02||02||Throughput Performance||Overall (general) throughput performance of a hard disk drive. If the value of this attribute is decreasing there is a high probability that there is a problem with the disk.^1^||
 ||03||03||Spin-Up Time||Average time (in milliseconds or seconds) of spindle spin up (from zero RPM - Revolutions Per Minute - to fully operational).^2^||
 ||04||04||Start/Stop Count||Indicates a count of hard disk spindle start/stop cycles.^2^||
