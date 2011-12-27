@@ -4,8 +4,8 @@
 
 === Attributes table ===
 || *ID* || *Hex* || *Name* ||
-||1||01||Raw Read Error Rate||
-||9||09||Power-On Hours||
+||01||01||Raw Read Error Rate||
+||09||09||Power-On Hours||
 ||12||0C||Power Cycle Count||
 ||184||B8||Initial Bad Block Count||
 ||195||C3||Program Failure Block Count||
