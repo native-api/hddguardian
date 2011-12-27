@@ -4,10 +4,10 @@
 
 === Attributes table ===
 || *ID* || *Hex* || *Name* || *Description* ||
-||3||03||Spin Up Time||The average time it takes the spindle to spin up. Since a SSD has no moveable parts, this attribute reports a fixed raw value of zero (0) and a fixed normalized value of 100.||
-||4||04||Start/Stop Count||This type of event is not an issue for SSDs. However, hard disk drives can experience only a finite number of these events and, therefore, must be tracked. This attribute reports a fixed value of zero (0) and a fixed normalized value of 100.||
-||5||05||Re-Allocated Sector Count||This attribute shows the number of retired blocks since leaving the factory (also known as a grown defect count). For 50nm drives, the normalized value has an initial value of 100 but counts up from 1, for every 4 grown defects. The normalized value of this attribute becomes 1 when there are 4 grown defects, then the value is 2 when there are 8 grown defects, etc. For 34nm drives, the raw value increments for every grown defect.||
-||9||09||Power-On Hours Count||This attribute reports the cumulative number of power-on hours over the life of the device.||
+||03||03||Spin Up Time||The average time it takes the spindle to spin up. Since a SSD has no moveable parts, this attribute reports a fixed raw value of zero (0) and a fixed normalized value of 100.||
+||04||04||Start/Stop Count||This type of event is not an issue for SSDs. However, hard disk drives can experience only a finite number of these events and, therefore, must be tracked. This attribute reports a fixed value of zero (0) and a fixed normalized value of 100.||
+||05||05||Re-Allocated Sector Count||This attribute shows the number of retired blocks since leaving the factory (also known as a grown defect count). For 50nm drives, the normalized value has an initial value of 100 but counts up from 1, for every 4 grown defects. The normalized value of this attribute becomes 1 when there are 4 grown defects, then the value is 2 when there are 8 grown defects, etc. For 34nm drives, the raw value increments for every grown defect.||
+||09||09||Power-On Hours Count||This attribute reports the cumulative number of power-on hours over the life of the device.||
 ||12||0C||Power Cycle Count||This attribute reports the cumulative number of power cycle events (power on/off cycles) over the life of the device.||
 ||170||AA||Available Reserved Space|| ||
 ||171||AB||Program Fail Count||Percentage of NAND program failures.||
