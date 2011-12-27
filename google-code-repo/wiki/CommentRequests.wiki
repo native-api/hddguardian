@@ -1,5 +1,5 @@
-#summary Feel free to leave your comment or your request here ;D
+#summary HDD S.M.A.R.T. attributes
 
-*Comment/Requests*
-
-_Feel free to leave your comment or your request here ;D_
+||*ID*||*Hex*||*Name*||*Description*||
+||01||01||Read Error Rate||Indicates the rate of hardware read errors that occurred when reading data from a disk surface. The raw value has different structure for different vendors and is often not meaningful as a decimal number.||
+||02||02||Throughput Performance||Overall (general) throughput performance of a hard disk drive. If the value of this attribute is decreasing there is a high probability that there is a problem with the disk.||
