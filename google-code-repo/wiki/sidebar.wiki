@@ -1,8 +1,8 @@
 #summary Wiki sidebar
 
 HDD Guardian
- *[features Features]
- *[changelog Changelog]
+ * [features Features]
+ * [changelog Changelog]
  * Versions
   * [hddguardian_0_1_3903 0.1.3903]
   * [screenshots 0.2.0.0]
@@ -12,3 +12,5 @@ S.M.A.R.T. attributes
  * SSD
   * [Indilinx_SMART_attributes Indilinx]
   * [Micron_SMART_attributes Micron]
+
+----
