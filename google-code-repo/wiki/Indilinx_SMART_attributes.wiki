@@ -1,0 +1,32 @@
+#summary Indilinx S.M.A.R.T. attributes
+
+= Indilinx S.M.A.R.T. attributes =
+
+=== Attributes table ===
+|| *ID* || *Hex* || *Name* ||
+||1||01||Raw Read Error Rate||
+||9||09||Power-On Hours||
+||12||0C||Power Cycle Count||
+||184||B8||Initial Bad Block Count||
+||195||C3||Program Failure Block Count||
+||196||C4||Erase Failure Block Count||
+||197||C5||Read Failure Block Count (Uncorrectable)||
+||198||C6||Total Count of Read Sectors||
+||199||C7||Total Count of Write Sectors||
+||200||C8||Total Count of Read Commands||
+||201||C9||Total Count of Write Commands||
+||202||CA||Total Count of Error Bits from Flash||
+||203||CB||Total Count of Read Sectors with Correctable Errors||
+||204||CC||Bad Block Full Flag||
+||205||CD||Maximum PE Count Specification||
+||206||CE||Minimum Erase Count||
+||207||CF||Maximum Erase Count||
+||208||D0||Average Erase Count||
+||209||D1||Remaining Life (%)||
+||210||D2||?||
+||211||D3||SATA Error Count CRC||
+||212||D4||SATA Error Count Handshake||
+||213||D5||?||
+
+=== Sources ===
+[http://www.ocztechnologyforum.com/staff/ryderocz/misc/Indilinx.jpg Indlinx attributes table]
