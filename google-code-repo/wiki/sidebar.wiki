@@ -10,4 +10,5 @@
   * [HDD_SMART_attributes HDD]
   * SSD
    * [Indilinx_SMART_attributes Indilinx]
+   * [Intel_SMART_attributes Intel]
    * [Micron_SMART_attributes Micron]
