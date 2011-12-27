@@ -5,80 +5,80 @@
 === Attributes table ===
 
 || *ID* || *Hex* || *Name* || *Description* ||
-||01||01||Read Error Rate||Indicates the rate of hardware read errors that occurred when reading data from a disk surface.<sup> [http://kb.acronis.com/search/apachesolr_search/s.m.a.r.t.?filters=%20type%3Aarticle 2]</sup> The raw value has different structure for different vendors and is often not meaningful as a decimal number.^3^||
-||02||02||Throughput Performance||Overall (general) throughput performance of a hard disk drive. If the value of this attribute is decreasing there is a high probability that there is a problem with the disk.^1^||
-||03||03||Spin-Up Time||Average time (in milliseconds or seconds) of spindle spin up (from zero RPM - Revolutions Per Minute - to fully operational).^2^||
-||04||04||Start/Stop Count||Indicates a count of hard disk spindle start/stop cycles.^2^||
-||05||05||Reallocated Sectors Count||Count of reallocated sectors (1 sector = 512 bytes). When the hard drive finds a read/write/verification error, it marks this sector as "reallocated" and transfers data to a special reserved area (spare area). This process is also known as remapping and "reallocated" sectors are called remaps. This is why, on modern hard disks, "bad blocks" cannot be found while testing the surface - all bad blocks are hidden in reallocated sectors. However, the more sectors that are reallocated, the more read/write speed will decrease.^1^||
-||06||06||Read Channel Margin||Indicates a margin of a channel while reading data. Usually manufacturers do not use this parameter.^2^||
-||07||07||Seek Error Rate||Rate of seek errors of the magnetic heads. If there is a failure in the mechanical positioning system, a servo damage or a thermal widening of the hard disk, seek errors arise. More seek errors indicates a worsening condition of a disk surface and the mechanical subsystem.^1^||
-||08||08||Seek Time Performance||Average performance of seek operations of the magnetic heads. If this attribute is decreasing, it is a sign of problems in the mechanical subsystem.^1^||
-||09||09||Power-On Hours (POH)||Indicates a count of hours in power-on state. The value of this attribute shows total count of hours (or minutes, or seconds, depending on manufacturer) in power-on state. A decrease of this attribute value to the critical level (threshold) indicates a decrease of the MTBF (Mean Time Between Failures).^2^||
-||10||0A||Spin Retry Count||Count of retry of spin start attempts. This attribute stores a total count of the spin start attempts to reach the fully operational speed under the condition that the first attempt was unsuccessful). An increase of this attribute value is a sign of problems in the hard disk mechanical subsystem.^1^||
-||11||0B||Recalibration Retries||This attribute indicates the number of times recalibration was requested (under the condition that the first attempt was unsuccessful). A decrease of this attribute value is a sign of problems in the hard disk mechanical subsystem.^1^||
-||12||0C||Power Cycle Count ||Is an informational parameter and indicates the count of full hard disk power on/off cycles.^2^||
-||13||0D||Soft Read Error Rate||Uncorrected read errors reported to the operating system. If the value is non-zero, you should back up your data.^1^||
-||96||60||?||Found on Maxtor !DiamondMax Plus 6800 92040U6||
-||97||61||?||Found on Maxtor !DiamondMax Plus 6800 92040U6||
-||98||62||?||Found on Maxtor !DiamondMax Plus 6800 92040U6||
-||99||63||Average Flying Height control||Maxtor hard drive attribute. Can be an indicator of drive aging and/or potential electromechanical problem.^4^||
-||100||64||Erase/Program Cycles||Maxtor hard drive attribute. Can be an indicator of drive aging and/or potential electromechanical problem.^4^||
-||101||65||Maximum Flying Height control||Maxtor hard drive attribute. Can be an indicator of drive aging and/or potential electromechanical problem.^4^||
-||103||67||Translation Table Rebuild||Maxtor attribute.^2^||
-||183||B7||SATA Downshift Error Count||Western Digital and Samsung attribute.^2^||
-||184||B8||End-to-End Error||This parameter is a part of HP's SMART IV technology and it means that after transferring through the cache RAM data buffer, the parity data between the host and the hard drive did not match. For detailed information see SMART IV Documentation from HP.^2^||
-||184||B9||Head Stability||Western Digital attribute.^2^||
-||186||BA||Induced Op-Vibration Detection||Western Digital attribute.^2^||
-||187||BB||Reported Uncorrectable Errors||This parameter indicates a number of errors that could not be recovered using hardware ECC (error-correcting code).^2^||
-||188||BC||Command Timeout||The count of aborted operations due to HDD timeout. Normally this attribute value should be equal to zero and if the value is far above zero, then most likely there will be some serious problems with power supply or an oxidized data cable.^4^||
-||189||BD||High Fly Writes||HDD producers implement a Fly Height Monitor that attempts to provide additional protections for write operations by detecting when a recording head is flying outside its normal operating range. If an unsafe fly height condition is encountered, the write process is stopped, and the information is rewritten or reallocated to a safe region of the hard drive. This attribute indicates the count of these errors detected over the lifetime of the drive.^4^||
-||190||BE||Airflow Temperature||Airflow temperature on Western Digital HDs (Same as temperature 194, but current value is 50 less).^1^||
-||190||BE||Temperature Difference from 100||This parameter indicates the temperature of the air inside the Seagate and Samsung hard disk housing. The value is equal to [[]100 – specified by manufacturer temperature °C], which allows setting the minimum threshold.^2^||
-||191||BF||G-sense error rate||This parameter indicates the number of errors caused by externally-induced shock or vibration.^2^||
-||192||C0||Power-off Retract Count||This attribute indicates the number of times the head was retracted as a result of power loss.^4^||
-||192||C0||Emergency Retract Cycle Count (Fujitsu)||This attribute indicates the number of times the head was retracted as a result of power loss.^4^||
-||193||C1||Load/Unload Cycle Count / Load Cycle Count||Count of load/unload cycles into head landing zone position.^1^||
-||194||C2||Hard Disk Assembly Temperature||This parameter indicates a hard disk drive current internal temperature. The raw value of this attribute shows built-in heat sensor registrations (in degrees centigrade).^2^||
-||195||C3||Hardware ECC Recovered||Time between ECC (error-correcting code) corrected errors.^1^||
-||196||C4||Reallocation Event Count||This parameter indicates a count of remap operations (transferring data from a bad sector to a special reserved disk area - spare area). The raw value of this attribute shows the total number of attempts to transfer data from reallocated sectors to a spare area. Unsuccessful attempts are counted as well as successful. Since this is a count value, it can only increase.^2^||
-||197||C5||Current Pending Sector Count ||This parameter is a critical parameter and indicates the current count of unstable sectors (waiting for remapping). The raw value of this attribute indicates the total number of sectors waiting for remapping.^2^ Read errors on the sector will not remap the sector, it will only be remapped on a failed write attempt. This can be problematic to test because cached writes will not remap the sector, only direct I/O writes to the disk.^1^ Later, when some of these sectors are read successfully, the value is decreased. If errors still occur when reading some sector, the hard drive will try to restore the data, transfer it to the reserved disk area (spare area) and mark this sector as remapped.^2^||
-||198||C6||Uncorrectable Sector Count||This parameter is a critical parameter and indicates the quantity of uncorrectable errors. The raw value of this attribute indicates the total number of uncorrectable errors when reading/writing a sector.^2^ A rise in the value of this attribute indicates defects of the disk surface and/or problems in the mechanical subsystem.^1^||
-||199||C7||UltraDMA CRC Error Count||This parameter indicates the total quantity of CRC (Cyclic Redundancy Check) errors during UltraDMA mode. The raw value of this attribute indicates the number of errors found during data transfer in UltraDMA mode by ICRC (Interface Cyclic Redundancy Check).^2^||
-||200||C8||Write Error Rate / Multi-Zone Error Rate (Western Digital)||This parameter indicates the total number of errors appearing while recording data to a hard disk. This may be caused by problems with disk surface or the read/write heads.^2^||
-||201||C9||Soft Read Error Rate||This parameter indicates the number of uncorrectable software read errors.^2^||
-||201||C9||Off Track Errors (Maxtor)||Number of off-track errors. If non-zero, make a backup.^1^||
-||202||CA||Data Address Mark Errors||This parameter indicates the number of incorrect or invalid address marks.^2^||
-||203||CB||Run Out Cancel||This parameter indicates that an invalid error correction checksum was found during error correction.^2^||
-||204||CC||Soft ECC Correction||This parameter indicates the number of errors corrected by the internal error correction mechanism.^2^||
-||205||CD||Thermal Asperity Rate||This parameter indicates the total number of problems caused by high temperature.^2^||
-||206||CE||Flying Height||This parameter indicates the height of heads above the disk surface. The low value of this parameter increases the chances of a head crash while a flying height that is too high increases the chances of a read/write error.^2^||
-||207||CF||Spin High Current||This parameter indicates the current needed to spin up the drive.^2^||
-||208||D0||Spin Buzz||This parameter indicates the number of retries during spin up because of low current available.^2^||
-||209||D1||Offline Seek Performance||This parameter indicates the seek performance of the hard drive during internal self tests.^2^||
-||210||D2||?||Found on Maxtor !DiamondMax 10 6B200M0 and Maxtor Fireball 531DX 2R015H1||
-||211||D3||Vibration During Write||This parameter indicates a vibration encountered during write operations.^2^||
-||212||D4||Shock During Write||This parameter indicates shock encountered during write operations.^2^||
-||213||D5||Gr seek err/RRO-C ERP Count||Found on Hitachi Deskstar 7K80||
-||214||D6||Ground Load Errors Count||Found on Hitachi Deskstar 7K80||
-||215||D7||Ground SpinUp Errors||Found on Hitachi Deskstar 7K80||
-||216||D8||Unexpectant Errors Count||Found on Hitachi Deskstar 7K80||
-||217||D9||Unlock/Mis Read Count||Found on Hitachi Deskstar 7K80||
-||218||DA||FlashROM ECC Corr. Count||Found on Hitachi Deskstar !P7K500||
-||220||DC||Disk Shift||This parameter indicates that a distance of the disk has shifted relative to the spindle, which could be caused by a mechanical shock or high temperature.^2^ Unit of measure is unknown.^1^||
-||221||DD||G-Sense Error Rate / Shock Sense Error Rate (Hitachi)||Rate of errors occurring as a result of impact loads. This attribute stores an indication of a shock-sensitive sensor, that is, the total quantity of errors occurring as a result of internal impact loads.^4^||
-||222||DE||Loaded Hours||Time spent operating under data load (movement of magnetic head armature).^1^ This value is constantly increasing (once per every hour).^2^||
-||223||DF||Load/Unload Retry Count||This parameter indicates a number of drive head enters/leaves the data zone.^2^||
-||224||E0||Load Friction||This parameter indicates the rate of friction between mechanical parts of the hard disk. The increasing value means there is a problem with the mechanical subsystem of the drive.^2^||
-||225||E1||Load/Unload Cycle Count||Loading on magnetic heads actuator caused by numerous recurrences of operations like: reading, recording, positioning of heads, etc. Only the time when heads were in the operating position is counted.^4^||
-||226||E2||Load-In time||Total time of loading on the magnetic heads actuator (time not spent in parking area).^1^||
-||227||E3||Torque Amplification Count||Number of attempts to compensate for platter speed variations.^1^||
-||228||E4||Power-Off Retract Cycle||This parameter indicates a number of times the head was retracted as a result of power loss.^2^||
-||230||E6||GMR Head Amplitude||Amplitude of heads trembling (Giant MagnetoResistive-head) in running mode.^5^||
-||231||E7||Temperature||This parameter indicates a drive temperature.^2^||
-||240||F0||Head Flying Hours||This parameter indicates time spent during the positioning of the drive heads.^2^||
-||240||F0||Transfer Error Rate (Fujitsu)||If the device receives the reset during transferring the data, the transfer error is counted up.^6^||
-||250||FA||Read Error Retry Rate||This parameter indicates a number of errors found during reading a sector from disk surface.^2^||
-||254||FE||Free Fall Protection||This parameter indicates a number of free fall events detected by the accelerometer sensor.^2^||
+||01||01||Read Error Rate||Indicates the rate of hardware read errors that occurred when reading data from a disk surface.<sup>[HDD_SMART_attributes#Sources 2]</sup> The raw value has different structure for different vendors and is often not meaningful as a decimal number.<sup>[HDD_SMART_attributes#Sources 3]</sup>||
+||02||02||Throughput Performance||Overall (general) throughput performance of a hard disk drive. If the value of this attribute is decreasing there is a high probability that there is a problem with the disk.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||03||03||Spin-Up Time||Average time (in milliseconds or seconds) of spindle spin up (from zero RPM - Revolutions Per Minute - to fully operational).<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||04||04||Start/Stop Count||Indicates a count of hard disk spindle start/stop cycles.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||05||05||Reallocated Sectors Count||Count of reallocated sectors (1 sector = 512 bytes). When the hard drive finds a read/write/verification error, it marks this sector as "reallocated" and transfers data to a special reserved area (spare area). This process is also known as remapping and "reallocated" sectors are called remaps. This is why, on modern hard disks, "bad blocks" cannot be found while testing the surface - all bad blocks are hidden in reallocated sectors. However, the more sectors that are reallocated, the more read/write speed will decrease.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||06||06||Read Channel Margin||Indicates a margin of a channel while reading data. Usually manufacturers do not use this parameter.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||07||07||Seek Error Rate||Rate of seek errors of the magnetic heads. If there is a failure in the mechanical positioning system, a servo damage or a thermal widening of the hard disk, seek errors arise. More seek errors indicates a worsening condition of a disk surface and the mechanical subsystem.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||08||08||Seek Time Performance||Average performance of seek operations of the magnetic heads. If this attribute is decreasing, it is a sign of problems in the mechanical subsystem.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||09||09||Power-On Hours (POH)||Indicates a count of hours in power-on state. The value of this attribute shows total count of hours (or minutes, or seconds, depending on manufacturer) in power-on state. A decrease of this attribute value to the critical level (threshold) indicates a decrease of the MTBF (Mean Time Between Failures).<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||10||0A||Spin Retry Count||Count of retry of spin start attempts. This attribute stores a total count of the spin start attempts to reach the fully operational speed under the condition that the first attempt was unsuccessful). An increase of this attribute value is a sign of problems in the hard disk mechanical subsystem.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||11||0B||Recalibration Retries||This attribute indicates the number of times recalibration was requested (under the condition that the first attempt was unsuccessful). A decrease of this attribute value is a sign of problems in the hard disk mechanical subsystem.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||12||0C||Power Cycle Count ||Is an informational parameter and indicates the count of full hard disk power on/off cycles.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||13||0D||Soft Read Error Rate||Uncorrected read errors reported to the operating system. If the value is non-zero, you should back up your data.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||96||60||?||Found on Maxtor !DiamondMax Plus 6800 92040U6.||
+||97||61||?||Found on Maxtor !DiamondMax Plus 6800 92040U6.||
+||98||62||?||Found on Maxtor !DiamondMax Plus 6800 92040U6.||
+||99||63||Average Flying Height control||Maxtor hard drive attribute. Can be an indicator of drive aging and/or potential electromechanical problem.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
+||100||64||Erase/Program Cycles||Maxtor hard drive attribute. Can be an indicator of drive aging and/or potential electromechanical problem.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
+||101||65||Maximum Flying Height control||Maxtor hard drive attribute. Can be an indicator of drive aging and/or potential electromechanical problem.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
+||103||67||Translation Table Rebuild||Maxtor attribute.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||183||B7||SATA Downshift Error Count||Western Digital and Samsung attribute.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||184||B8||End-to-End Error||This parameter is a part of HP's SMART IV technology and it means that after transferring through the cache RAM data buffer, the parity data between the host and the hard drive did not match. For detailed information see SMART IV Documentation from HP.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||184||B9||Head Stability||Western Digital attribute.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||186||BA||Induced Op-Vibration Detection||Western Digital attribute.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||187||BB||Reported Uncorrectable Errors||This parameter indicates a number of errors that could not be recovered using hardware ECC (error-correcting code).<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||188||BC||Command Timeout||The count of aborted operations due to HDD timeout. Normally this attribute value should be equal to zero and if the value is far above zero, then most likely there will be some serious problems with power supply or an oxidized data cable.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
+||189||BD||High Fly Writes||HDD producers implement a Fly Height Monitor that attempts to provide additional protections for write operations by detecting when a recording head is flying outside its normal operating range. If an unsafe fly height condition is encountered, the write process is stopped, and the information is rewritten or reallocated to a safe region of the hard drive. This attribute indicates the count of these errors detected over the lifetime of the drive.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
+||190||BE||Airflow Temperature||Airflow temperature on Western Digital HDs (Same as temperature 194, but current value is 50 less).<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||190||BE||Temperature Difference from 100||This parameter indicates the temperature of the air inside the Seagate and Samsung hard disk housing. The value is equal to [[]100 – specified by manufacturer temperature °C], which allows setting the minimum threshold.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||191||BF||G-sense error rate||This parameter indicates the number of errors caused by externally-induced shock or vibration.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||192||C0||Power-off Retract Count||This attribute indicates the number of times the head was retracted as a result of power loss.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
+||192||C0||Emergency Retract Cycle Count (Fujitsu)||This attribute indicates the number of times the head was retracted as a result of power loss.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
+||193||C1||Load/Unload Cycle Count / Load Cycle Count||Count of load/unload cycles into head landing zone position.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||194||C2||Hard Disk Assembly Temperature||This parameter indicates a hard disk drive current internal temperature. The raw value of this attribute shows built-in heat sensor registrations (in degrees centigrade).<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||195||C3||Hardware ECC Recovered||Time between ECC (error-correcting code) corrected errors.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||196||C4||Reallocation Event Count||This parameter indicates a count of remap operations (transferring data from a bad sector to a special reserved disk area - spare area). The raw value of this attribute shows the total number of attempts to transfer data from reallocated sectors to a spare area. Unsuccessful attempts are counted as well as successful. Since this is a count value, it can only increase.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||197||C5||Current Pending Sector Count ||This parameter is a critical parameter and indicates the current count of unstable sectors (waiting for remapping). The raw value of this attribute indicates the total number of sectors waiting for remapping.<sup>[HDD_SMART_attributes#Sources 2]</sup> Read errors on the sector will not remap the sector, it will only be remapped on a failed write attempt. This can be problematic to test because cached writes will not remap the sector, only direct I/O writes to the disk.<sup>[HDD_SMART_attributes#Sources 1]</sup> Later, when some of these sectors are read successfully, the value is decreased. If errors still occur when reading some sector, the hard drive will try to restore the data, transfer it to the reserved disk area (spare area) and mark this sector as remapped.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||198||C6||Uncorrectable Sector Count||This parameter is a critical parameter and indicates the quantity of uncorrectable errors. The raw value of this attribute indicates the total number of uncorrectable errors when reading/writing a sector.<sup>[HDD_SMART_attributes#Sources 2]</sup> A rise in the value of this attribute indicates defects of the disk surface and/or problems in the mechanical subsystem.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||199||C7||UltraDMA CRC Error Count||This parameter indicates the total quantity of CRC (Cyclic Redundancy Check) errors during UltraDMA mode. The raw value of this attribute indicates the number of errors found during data transfer in UltraDMA mode by ICRC (Interface Cyclic Redundancy Check).<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||200||C8||Write Error Rate / Multi-Zone Error Rate (Western Digital)||This parameter indicates the total number of errors appearing while recording data to a hard disk. This may be caused by problems with disk surface or the read/write heads.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||201||C9||Soft Read Error Rate||This parameter indicates the number of uncorrectable software read errors.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||201||C9||Off Track Errors (Maxtor)||Number of off-track errors. If non-zero, make a backup.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||202||CA||Data Address Mark Errors||This parameter indicates the number of incorrect or invalid address marks.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||203||CB||Run Out Cancel||This parameter indicates that an invalid error correction checksum was found during error correction.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||204||CC||Soft ECC Correction||This parameter indicates the number of errors corrected by the internal error correction mechanism.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||205||CD||Thermal Asperity Rate||This parameter indicates the total number of problems caused by high temperature.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||206||CE||Flying Height||This parameter indicates the height of heads above the disk surface. The low value of this parameter increases the chances of a head crash while a flying height that is too high increases the chances of a read/write error.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||207||CF||Spin High Current||This parameter indicates the current needed to spin up the drive.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||208||D0||Spin Buzz||This parameter indicates the number of retries during spin up because of low current available.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||209||D1||Offline Seek Performance||This parameter indicates the seek performance of the hard drive during internal self tests.<sup> [HDD_SMART_attributes#Sources 2]</sup>||
+||210||D2||?||Found on Maxtor !DiamondMax 10 6B200M0 and Maxtor Fireball 531DX 2R015H1.||
+||211||D3||Vibration During Write||This parameter indicates a vibration encountered during write operations.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||212||D4||Shock During Write||This parameter indicates shock encountered during write operations.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||213||D5||Gr seek err/RRO-C ERP Count||Found on Hitachi Deskstar 7K80.||
+||214||D6||Ground Load Errors Count||Found on Hitachi Deskstar 7K80.||
+||215||D7||Ground SpinUp Errors||Found on Hitachi Deskstar 7K80.||
+||216||D8||Unexpectant Errors Count||Found on Hitachi Deskstar 7K80.||
+||217||D9||Unlock/Mis Read Count||Found on Hitachi Deskstar 7K80.||
+||218||DA||FlashROM ECC Corr. Count||Found on Hitachi Deskstar !P7K500.||
+||220||DC||Disk Shift||This parameter indicates that a distance of the disk has shifted relative to the spindle, which could be caused by a mechanical shock or high temperature.<sup>[HDD_SMART_attributes#Sources 2]</sup> Unit of measure is unknown.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||221||DD||G-Sense Error Rate / Shock Sense Error Rate (Hitachi)||Rate of errors occurring as a result of impact loads. This attribute stores an indication of a shock-sensitive sensor, that is, the total quantity of errors occurring as a result of internal impact loads.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
+||222||DE||Loaded Hours||Time spent operating under data load (movement of magnetic head armature).<sup>[HDD_SMART_attributes#Sources 1]</sup> This value is constantly increasing (once per every hour).<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||223||DF||Load/Unload Retry Count||This parameter indicates a number of drive head enters/leaves the data zone.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||224||E0||Load Friction||This parameter indicates the rate of friction between mechanical parts of the hard disk. The increasing value means there is a problem with the mechanical subsystem of the drive.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||225||E1||Load/Unload Cycle Count||Loading on magnetic heads actuator caused by numerous recurrences of operations like: reading, recording, positioning of heads, etc. Only the time when heads were in the operating position is counted.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
+||226||E2||Load-In time||Total time of loading on the magnetic heads actuator (time not spent in parking area).<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||227||E3||Torque Amplification Count||Number of attempts to compensate for platter speed variations.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
+||228||E4||Power-Off Retract Cycle||This parameter indicates a number of times the head was retracted as a result of power loss.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||230||E6||GMR Head Amplitude||Amplitude of heads trembling (Giant !MagnetoResistive-head) in running mode.<sup>[HDD_SMART_attributes#Sources 5]</sup>||
+||231||E7||Temperature||This parameter indicates a drive temperature.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||240||F0||Head Flying Hours||This parameter indicates time spent during the positioning of the drive heads.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||240||F0||Transfer Error Rate (Fujitsu)||If the device receives the reset during transferring the data, the transfer error is counted up.<sup>[HDD_SMART_attributes#Sources 6]</sup>||
+||250||FA||Read Error Retry Rate||This parameter indicates a number of errors found during reading a sector from disk surface.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||254||FE||Free Fall Protection||This parameter indicates a number of free fall events detected by the accelerometer sensor.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
 
 === Sources ===
  # [http://www.disk-monitor.com/smart_info.html LSoft Technologies Inc. Active@]
