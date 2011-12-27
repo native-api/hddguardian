@@ -2,7 +2,7 @@
 
 = Micron S.M.A.R.T. attributes =
 
-== Attributes table ==
+=== Attributes table ===
 || *ID* || *Hex* || *Name* || *Description* ||
 ||1||01||Raw Read Error Rate||The data field holds the raw sum of correctable and uncorrectable ECC (error-correcting code) error events over  the life of the drive. If this ever exceeds 4.294.967.295, this value will wrap around.||
 ||5||05||Re-Allocated Block Count||This value gives the total bad block count of the drive minus the number of one-time programmable (OTP) bad blocks.||
@@ -26,5 +26,5 @@
 ||206||CE||Write Error Rate||Report the number of program failures divided by 60,000. If the value ever reaches 65,535, it will remain there thereafter.||
 
 
-== Sources ==
+=== Sources ===
 [http://micron.com/~/media/Documents/Products/Technical%20Note/Solid%20State%20Storage/5611tnfd03.ashx Micron  TN-FD-03: The SMART Command Feature Set Introduction]
