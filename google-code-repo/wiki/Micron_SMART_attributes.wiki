@@ -1,0 +1,30 @@
+#summary Micron S.M.A.R.T. attributes
+
+= Micron S.M.A.R.T. attributes =
+
+== Attributes table ==
+|| *ID* || *Hex* || *Name* || *Description* ||
+||1||01||Raw Read Error Rate||The data field holds the raw sum of correctable and uncorrectable ECC (error-correcting code) error events over  the life of the drive. If this ever exceeds 4.294.967.295, this value will wrap around.||
+||5||05||Re-Allocated Block Count||This value gives the total bad block count of the drive minus the number of one-time programmable (OTP) bad blocks.||
+||9||09||Power-On Hours Count||This value gives the raw number of hours that the device has been online over its life.||
+||12||0C||Power Cycle Count||This value gives the raw number of power cycle events that this drive has experienced.||
+||170||AA||New Failing Block Count||This value gives the total bad block count of the drive minus the number of one-time programmable (OTP) bad blocks.||
+||171||AB||Program Fail Count||This value contains the raw number of flash program failure events. If this value ever would exceed 65,535, it will stay at 65,535.||
+||172||AC||Erase Fail Count||This value contains the raw number of flash erase failure events. If this value ever would exceed 65,535, it will stay at 65,535.||
+||173||AD||Block Wear Leveling Count / Average Block Erase Count||Average erase count of all good blocks.||
+||174||AE||Unexpected Power Loss Count||The total number of times that the device has been power cycled unexpectedly.||
+||181||B5||Non-4K Aligned Access Count||This attribute contains two values: the low order 16 bits of the raw data contain the total unaligned reads counter, divided by 60,000, with a ceiling value of 65,535; the high order 16 bits of the raw data contain the total unaligned writes counter, divided by 60,000, with a ceiling value of 65,535.||
+||183||B7||SATA Interface Downshift||At completion of speed negotiation between host and device, the firmware records the value of the newly negotiated speed. This value is compared to the previously recorded value; if the new value is lower than the previous, a downshift has occurred and the downshift counter is incremented.||
+||187||BB||Reported Uncorrectable Errors||This value is the total number of ECC (error-correcting code) correction failures reported by the sequencer.||
+||188||BC||Command Timeouts||This counter is incremented by the number of outstanding commands when the host issues a soft reset, host reset, or a comreset. The raw data holds the value of this counter. If it ever exceeds 4.294.967.295, it will wrap around.||
+||189||BD||Factory Bad Block Count||One-time programmable (OTP) bad block count.||
+||196||C4||Reallocation Event Count||This value gives the total bad block count of the drive minus the number of one-time programmable (OTP) bad blocks.||
+||197||C5||Current Pending Sector Count||Will always be 0 because reallocation will be done on the fly.||
+||198||C6||SMART Off-Line Scan Uncorrectable Error Count||Uncorrectable errors detected during SMART off-line scan.||
+||199||C7||Ultra DMA CRC Error Rate||Gives the number of captured FIS interface general CRC (error-correcting code) errors over the life of the drive, for both reads and writes, since the most recent power cycle. If this counter ever reaches 4.294.967.295, it will wrap around.||
+||202||CA||Percentage Lifetime Used||The average erase count of all blocks on Channel 0 CE 0 divided by the specified !MaxEraseCount (10k for MLC or 100k for SLC), reported as a percentage from 0 to 100%.||
+||206||CE||Write Error Rate||Report the number of program failures divided by 60,000. If the value ever reaches 65,535, it will remain there thereafter.||
+
+
+== Sources ==
+[http://micron.com/~/media/Documents/Products/Technical%20Note/Solid%20State%20Storage/5611tnfd03.ashx Micron  TN-FD-03: The SMART Command Feature Set Introduction]
