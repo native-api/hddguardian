@@ -4,9 +4,9 @@
 
 === Attributes table ===
 || *ID* || *Hex* || *Name* || *Description* ||
-||1||01||Raw Read Error Rate||The data field holds the raw sum of correctable and uncorrectable ECC (error-correcting code) error events over  the life of the drive. If this ever exceeds 4.294.967.295, this value will wrap around.||
-||5||05||Re-Allocated Block Count||This value gives the total bad block count of the drive minus the number of one-time programmable (OTP) bad blocks.||
-||9||09||Power-On Hours Count||This value gives the raw number of hours that the device has been online over its life.||
+||01||01||Raw Read Error Rate||The data field holds the raw sum of correctable and uncorrectable ECC (error-correcting code) error events over  the life of the drive. If this ever exceeds 4.294.967.295, this value will wrap around.||
+||05||05||Re-Allocated Block Count||This value gives the total bad block count of the drive minus the number of one-time programmable (OTP) bad blocks.||
+||09||09||Power-On Hours Count||This value gives the raw number of hours that the device has been online over its life.||
 ||12||0C||Power Cycle Count||This value gives the raw number of power cycle events that this drive has experienced.||
 ||170||AA||New Failing Block Count||This value gives the total bad block count of the drive minus the number of one-time programmable (OTP) bad blocks.||
 ||171||AB||Program Fail Count||This value contains the raw number of flash program failure events. If this value ever would exceed 65,535, it will stay at 65,535.||
