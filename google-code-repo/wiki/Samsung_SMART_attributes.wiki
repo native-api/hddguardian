@@ -25,4 +25,4 @@
 ||202||CA||Exception Mode Status||
 
 === Sources ===
- * [http://www.samsung.com/global/business/semiconductor/products/SSD/downloads/ds_SS805_NSSD_100_SLC_SATA_II_rev11.pdf Samsung SS805 - 2.5" SATA 3.0Gb/s SLC SSD]
+ * [http://www.samsung.com/global/business/semiconductor/products/SSD/downloads/ds_SS805_NSSD_100_SLC_SATA_II_rev11.pdf Samsung SS805 - 2.5" SATA 3.0Gb/s SLC SSD datasheet]
