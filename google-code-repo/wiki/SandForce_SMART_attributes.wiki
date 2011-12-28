@@ -1,6 +1,6 @@
 #summary SandForce S.M.A.R.T. attributes
 
-= SandForce S.M.A.R.T. attributes =
+= !SandForce S.M.A.R.T. attributes =
 
 === Attributes table ===
 || *ID* || *Hex* || *Name* || *Description* ||
