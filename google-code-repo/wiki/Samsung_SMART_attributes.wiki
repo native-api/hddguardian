@@ -1,0 +1,28 @@
+#summary Samsung S.M.A.R.T. attributes
+
+= Samsung S.M.A.R.T. attributes =
+
+=== Attributes table ===
+|| *ID* || *Hex* || *Name* ||
+||09||09||Power-on Hours||
+||12||0C||Power-on Count||
+||175||AF||Program Fail Count (Chip)||
+||176||B0||Erase Fail Count (Chip)||
+||177||B1||Wear Leveling Count||
+||178||B2||Used Reserved Block Count (Chip)||
+||179||B3||Used Reserved Block Count (Total)||
+||180||B4||Unused Reserved Block Count (Total)||
+||181||B5||Program Fail Count (Total)||
+||182||B6||Erase Fail Count (Total)||
+||183||B7||Runtime bad block (Total)||
+||187||BB||Uncorrectable Error Count||
+||190||BE||Temperature Exceed Count||
+||194||C2||Airflow Temperature||
+||195||C3||ECC Rate||
+||198||C6||Off-Line Uncorrectable Error Count||
+||199||C7||CRC Error Count||
+||201||C9||Supercap Status||
+||202||CA||Exception Mode Status||
+
+=== Sources ===
+ * [http://www.samsung.com/global/business/semiconductor/products/SSD/downloads/ds_SS805_NSSD_100_SLC_SATA_II_rev11.pdf Samsung SS805 - 2.5" SATA 3.0Gb/s SLC SSD]
