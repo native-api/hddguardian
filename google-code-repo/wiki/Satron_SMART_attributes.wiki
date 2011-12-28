@@ -2,7 +2,7 @@
 
 = Satron S.M.A.R.T. attributes =
 
-Note: Satron was closed on 31 July 2011.
+<font color="red">Note: Satron was closed on 31 July 2011.</font>
 
 === Attributes table ===
 || *ID* || *Hex* || *Name* ||
@@ -35,4 +35,3 @@ Note: Satron was closed on 31 July 2011.
 
 === Sources ===
  * [http://www.users.on.net/~fzabkar/SSD_CF_attribs.txt Text file with some SSD attributes]
-
