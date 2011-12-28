@@ -55,15 +55,16 @@
 ||207||CF||Spin High Current||This parameter indicates the current needed to spin up the drive.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
 ||208||D0||Spin Buzz||This parameter indicates the number of retries during spin up because of low current available.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
 ||209||D1||Offline Seek Performance||This parameter indicates the seek performance of the hard drive during internal self tests.<sup> [HDD_SMART_attributes#Sources 2]</sup>||
-||210||D2||?||Found on Maxtor !DiamondMax 10 6B200M0 and Maxtor Fireball 531DX 2R015H1.||
+||210||D2||?||Found on Maxtor !DiamondMax 10 (model 6B200M0 and 6L160P0) and Maxtor Fireball 531DX (model 2R015H1).||
 ||211||D3||Vibration During Write||This parameter indicates a vibration encountered during write operations.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
+||211||D3||Spin Runnig Current||Found on Hitachi Deskstar !P7K500; reported by Victoria 4.46B. For the same device smartctl limits their output to attribute 199.||
 ||212||D4||Shock During Write||This parameter indicates shock encountered during write operations.<sup>[HDD_SMART_attributes#Sources 2]</sup>||
-||213||D5||Gr seek err/RRO-C ERP Count||Found on Hitachi Deskstar 7K80.||
-||214||D6||Ground Load Errors Count||Found on Hitachi Deskstar 7K80.||
-||215||D7||Ground SpinUp Errors||Found on Hitachi Deskstar 7K80.||
-||216||D8||Unexpectant Errors Count||Found on Hitachi Deskstar 7K80.||
-||217||D9||Unlock/Mis Read Count||Found on Hitachi Deskstar 7K80.||
-||218||DA||FlashROM ECC Corr. Count||Found on Hitachi Deskstar !P7K500.||
+||213||D5||Gr seek err/RRO-C ERP Count||Found on Hitachi Deskstar !P7K500; reported by Victoria 4.46B. For the same device smartctl limits their output to attribute 199.||
+||214||D6||Ground Load Errors Count||Found on Hitachi Deskstar !P7K500; reported by Victoria 4.46B. For the same device smartctl limits their output to attribute 199.||
+||215||D7||Ground SpinUp Errors||Found on Hitachi Deskstar !P7K500; reported by Victoria 4.46B. For the same device smartctl limits their output to attribute 199.||
+||216||D8||Unexpectant Errors Count||Found on Hitachi Deskstar !P7K500; reported by Victoria 4.46B. For the same device smartctl limits their output to attribute 199.||
+||217||D9||Unlock/Mis Read Count||Found on Hitachi Deskstar !P7K500; reported by Victoria 4.46B. For the same device smartctl limits their output to attribute 199.||
+||218||DA||FlashROM ECC Corr. Count||Found on Hitachi Deskstar !P7K500; reported by Victoria 4.46B. For the same device smartctl limits their output to attribute 199.||
 ||220||DC||Disk Shift||This parameter indicates that a distance of the disk has shifted relative to the spindle, which could be caused by a mechanical shock or high temperature.<sup>[HDD_SMART_attributes#Sources 2]</sup> Unit of measure is unknown.<sup>[HDD_SMART_attributes#Sources 1]</sup>||
 ||221||DD||G-Sense Error Rate / Shock Sense Error Rate (Hitachi)||Rate of errors occurring as a result of impact loads. This attribute stores an indication of a shock-sensitive sensor, that is, the total quantity of errors occurring as a result of internal impact loads.<sup>[HDD_SMART_attributes#Sources 4]</sup>||
 ||222||DE||Loaded Hours||Time spent operating under data load (movement of magnetic head armature).<sup>[HDD_SMART_attributes#Sources 1]</sup> This value is constantly increasing (once per every hour).<sup>[HDD_SMART_attributes#Sources 2]</sup>||
