@@ -1,0 +1,40 @@
+#summary STEC S.M.A.R.T. attributes
+
+= STEC S.M.A.R.T. attributes =
+
+=== Attributes table ===
+|| *ID* || *Hex* || *Name* || *Description* ||
+||01||01||Raw Read Error||Count of raw data errors while data from media, including retry errors or data error (uncorrectable).<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||02||02||Throughput Performance||Internally measured average and worst data transfer rate.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||05||05||Reallocated Sector Count||Count of reallocated blocks. This is the count of reallocated  or  remapped  sectors  during  normal operation from the grown defects table.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||09||09||Power On Hours||Number of hours elapsed in the Power-On state.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||12||0C||Power Cycle||Number of power-on events.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||13||0D||Soft Read Error Rate||Number of corrected read errors reported to the operating system.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||100||64||Erase/program cycles||Count of erase program cycles for entire card.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||103||67||Translation Table Rebuild||Power backup fault or internal error resulting in loss of  system unit tables.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||170||AA||Reserved Block Count||Number of reserved spares for bad block handling.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||171||AB||Program Fail Count||Count of flash program failures.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||172||AC||Erase Fail Count||Count of flash erase command failures.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||173||AD||Wear Leveling Count||Worst case erase count.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||174||AE||Unexpected Power Loss||Attribute counts number of unexpected power loss events.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||177||B1||Wear Leveling Count||Worst case erase count.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||178||B2||Unexpected Power Loss||This  attribute is used to count the number of unexpected power loss events.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||180||B4||Reserved Block Count||Number of reserved spares for bad block handling.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||181||B5||Program Fail Count||Count of flash program failures.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||182||B6||Erase Fail Count||Count of flash erase command failures.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||183||B7||Runtime Bad Block||Total number of data blocks with detected, uncorrectable  errors  encountered  during  normal operation.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||184||B8||End-to-end error detection||Tracks the number of end to end internal card data path errors that were detected.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||187||BB||Reported Uncorrectable Errors||Number of uncorrectable errors reported at the interface.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||188||BC||Command Timeout||Tracks the number of command time outs as defined by an active command being interrupted.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||194||C2||Temperature||Temperature of the base casting.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||195||C3||Hardware ECC Recovered||Count of ECC errors encountered and corrected using hardware error correction.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||196||C4||Reallocation Event||Total number of remapping events during normal operation and offline surface scanning.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||197||C5||Current Pending Sector Count||Number of blocks marked suspect due to uncorrectable errors.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||198||C6||Offline Surface Scan||Number of uncorrected errors that occurred during offline scan.<sup>[STEC_SMART_attributes#Sources 1]</sup>||
+||199||C7||UDMA/SATA CRC Error||Number of CRC errors during UDMA or SATA mode.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||200||C8||Average Wear Leveling||Average number of block erase counts for all blocks on the solid state drive.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+||233||E9||Number of Write Count||Count of write commands originating from the host side.<sup>[STEC_SMART_attributes#Sources 2]</sup>||
+
+=== Sources ===
+ # [http://www.stec-inc.com/downloads/flash_datasheets/SLMPCIxGM4U_M_61000_05494.pdf STEC mPCI-Express IDE Card Preliminary]
+ # [http://www.stec-inc.com/downloads/ssd_datasheets/V4SDCF-xxxU_T_M_Rampage.pdf STEC Velocity-4 SATA SSD Product Manual]
