@@ -1,0 +1,40 @@
+#summary SandForce S.M.A.R.T. attributes
+
+= SandForce S.M.A.R.T. attributes =
+
+=== Attributes table ===
+|| *ID* || *Hex* || *Name* || *Description* ||
+||01||01||Raw Read Error Rate||Raw error related to ECC errors. Correctable and uncorrectable RAISE (Redundant Array of Independent Silicon Elements) errors are included in the error count.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||05||05||Retired Block Count||Tracks the total number of retired blocks. Data is calculated as 100 – (100 x RBC : MRB), where RBC is the retired block count and MRB is the minimum required blocks. Also an indicator of remaining life.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||09||09||Power On Hours (POH)||Count of hours in power-on state. The raw value of this attribute shows total count of hours in power-on state.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||12||0C||Device Power Cycle Count||This attribute indicates the count of full hard disk power on/off cycles.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||13||0D||Soft Read Error Rate||The number of corrected (CECC) read errors reported.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
+||100||64||Program/Erase Cycles||This attribute counts the number of flash program and erase cycles across the entire drive over the life of the drive.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
+||170||AA||Reserved Block Count||The number of reserved spares for bad block handling.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
+||171||AB||Program Fail Block Count||Counts the number of flash program failures.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||172||AC||Erase Fail Block Count||Counts the number of flash erase failures.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||174||AE||Unexpected Power Loss Count||Counts the number of unexpected power loss events since the drive was deployed.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||177||B1||Wear Range Delta||Returns the percent difference in wear between the most-worn block and least-worn block.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||181||B5||Program Fail Count||Four bytes used to show the program failures since the drive was deployed (identical to attribute 171).<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||182||B6||Erase Fail Count||Four bytes used to show the number of block erase failures since the drive was deployed (identical to attribute 172).<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||184||B8||Reported I/O Error Detection Code Rate||I/O Error Detection Code rate. This attribute tracks the number of end-to-end CRC errors encountered during host initiated reads and writes.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
+||187||BB||Reported Uncorrectable Errors||This attribute tracks the umber of uncorrectable RAISE (Redundant Array of Independent Silicon Elements) errors reported back to the host for all data access commands.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||194||C2||Temperature||Temperature reported from the on-board sensor.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||195||C3||On the fly ECC Uncorrectable Error Count||This attribute tracks the number of uncorrectable errors.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||196||C4||Reallocation Event Count||This attribute tracks the number of blocks that fail programming which are reallocated as a result.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||199||C7||SATA R-Errors (CRC) Error Count||SATA R-Errors (CRC) Error Count.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
+||201||C9||Uncorrectable Soft Read Error Rate||Number of soft read errors that cannot be fixed on-the-fly and requires deep recovery via RAISE (Redundant Array of Independent Silicon Elements).<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
+||204||CC||Soft ECC Correction Rate||Number of errors corrected by RAISE (Redundant Array of Independent Silicon Elements) that cannot be fixed on-the-fly and requires ECC (multilevel) to correct.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
+||230||E6||Life Curve Status||A life curve used to help predict life in terms of the endurance based on the number of writes to flash.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
+||231||E7||SSD Life Left||A measure of the estimated life left, based on a combination of PE cycles and available reserve blocks. 100 is a new drive, 10 = replace a it has sufficient reserved blocks but the PE cycles have been used, 0 = insufficient reserved blocks, drive is read only to allow recovery of data on the drive.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||232||E8||Available Reserved Space||The number of reserved blocks remaining.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||233||E9||Reserved<sup>[SandForce_SMART_attributes#Sources 1]</sup>|| ||
+||234||EA||Reserved<sup>[SandForce_SMART_attributes#Sources 1]</sup>|| ||
+||235||EB||Power Fail Backup Health||Power Fail Backup Health is an estimation of capacitive hold-up capability based on a timed discharge test, wherein discharge (past a pre-defined voltage threshold) faster than a predefined time-value threshold indicates a capacitor bank whose capacitance value is degraded past the point of reliability to protect SSD data. If an SSD has never run a "!SuperCapacitor Test", the normalized value of this Attribute remains at '100'.<sup>[SandForce_SMART_attributes#Sources 3]</sup>||
+||241||F1||Lifetime Writes from Host||Indicates the total amount of data written from hosts since the drive was deployed. This is stored in 4 bytes. The number stores represents the number of bytes written by the host to the drive, in 64 GB increments.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||242||F2||Lifetime Reads from Host||Indicates the total amount of data read to hosts since the drive was deployed. This is stored in 4 bytes. The number stores represents the number of bytes read by the host to the drive, in 64 GB increments.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+
+=== Sources ===
+ # [http://www.ocztechnologyforum.com/staff/ryderocz/misc/Sandforce.jpg SandForce attributes table]
+ # [http://www.vikingmodular.com/documents/products/PSFS21XXXGBXXX_A1.pdf Viking Element Enterprise SSD Datasheet - 2.5" Products]
+ # Kingston SMART attributes details for HyperX SSD
