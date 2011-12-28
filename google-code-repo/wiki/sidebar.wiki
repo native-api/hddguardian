@@ -11,4 +11,10 @@
   * SSD
    * [Indilinx_SMART_attributes Indilinx]
    * [Intel_SMART_attributes Intel]
+   * [JMicron_SMART_attributes JMicron]
    * [Micron_SMART_attributes Micron]
+   * [Samsung_SMART_attributes Samsung]
+   * [SandForce_SMART_attributes SandForce]
+   * [Satron_SMART_attributes Satron]
+   * [Smart_Modular_SMART_attributes SMART Modular Technologies]
+   * [STEC_SMART_attributes STEC]
