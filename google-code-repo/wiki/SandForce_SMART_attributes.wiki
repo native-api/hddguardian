@@ -37,4 +37,4 @@
 === Sources ===
  # [http://www.ocztechnologyforum.com/staff/ryderocz/misc/Sandforce.jpg SandForce attributes table]
  # [http://www.vikingmodular.com/documents/products/PSFS21XXXGBXXX_A1.pdf Viking Element Enterprise SSD Datasheet - 2.5" Products]
- # Kingston SMART attributes details for HyperX SSD
+ # [http://hddguardian.googlecode.com/svn/docs/Kingston%20SMART%20attributes%20details.pdf Kingston SMART attributes details]
