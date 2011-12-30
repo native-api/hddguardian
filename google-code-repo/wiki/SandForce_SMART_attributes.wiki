@@ -26,7 +26,7 @@
 ||201||C9||Uncorrectable Soft Read Error Rate||Number of soft read errors that cannot be fixed on-the-fly and requires deep recovery via RAISE (Redundant Array of Independent Silicon Elements).<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
 ||204||CC||Soft ECC Correction Rate||Number of errors corrected by RAISE (Redundant Array of Independent Silicon Elements) that cannot be fixed on-the-fly and requires ECC (multilevel) to correct.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
 ||230||E6||Life Curve Status||A life curve used to help predict life in terms of the endurance based on the number of writes to flash.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
-||231||E7||SSD Life Left||A measure of the estimated life left, based on a combination of PE cycles and available reserve blocks. 100 is a new drive, 10 = replace a it has sufficient reserved blocks but the PE cycles have been used, 0 = insufficient reserved blocks, drive is read only to allow recovery of data on the drive.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||231||E7||SSD Life Left||A measure of the estimated life left, based on a combination of PE cycles and available reserve blocks. 100 is a new drive, 10 = replace as it has sufficient reserved blocks but the PE cycles have been used, 0 = insufficient reserved blocks, drive is read only to allow recovery of data on the drive.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
 ||232||E8||Available Reserved Space||The number of reserved blocks remaining.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
 ||233||E9||Reserved<sup>[SandForce_SMART_attributes#Sources 1]</sup>|| ||
 ||234||EA||Reserved<sup>[SandForce_SMART_attributes#Sources 1]</sup>|| ||
