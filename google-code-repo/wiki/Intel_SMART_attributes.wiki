@@ -9,7 +9,7 @@
 ||05||05||Re-Allocated Sector Count||This attribute shows the number of retired blocks since leaving the factory (also known as a grown defect count). For 50nm drives, the normalized value has an initial value of 100 but counts up from 1, for every 4 grown defects. The normalized value of this attribute becomes 1 when there are 4 grown defects, then the value is 2 when there are 8 grown defects, etc. For 34nm drives, the raw value increments for every grown defect.<sup>[Intel_SMART_attributes#Sources 1]</sup>||
 ||09||09||Power-On Hours Count||This attribute reports the cumulative number of power-on hours over the life of the device.<sup>[Intel_SMART_attributes#Sources 1]</sup>||
 ||12||0C||Power Cycle Count||This attribute reports the cumulative number of power cycle events (power on/off cycles) over the life of the device.<sup>[Intel_SMART_attributes#Sources 1]</sup>||
-||170||AA||Available Reserved Space<sup>[Intel_SMART_attributes#Sources 2]</sup>|| ||
+||170||AA||Available Reserved Space||This attribute reports the number of reserve blocks remaining. The attribute value begins at 100, which indicates that the reserved space is 100% available. The threshold value for this attribute is 10% availability, which indicated that the drive is close to its end life.<sup>[Intel_SMART_attributes#Sources 1]</sup>||
 ||171||AB||Program Fail Count||Percentage of NAND program failures.<sup>[Intel_SMART_attributes#Sources 2]</sup>||
 ||172||AC||Erase Fail Count||Percentage of NAND erase failures.<sup>[Intel_SMART_attributes#Sources 2]</sup>||
 ||183||B7||SATA Downshift Count||The count of the number of times SATA interface selected lower signaling rate due to error.<sup>[Intel_SMART_attributes#Sources 4]</sup>||
