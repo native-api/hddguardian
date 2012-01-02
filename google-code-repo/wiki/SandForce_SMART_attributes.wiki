@@ -22,6 +22,7 @@
 ||194||C2||Temperature||Temperature reported from the on-board sensor.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
 ||195||C3||On the fly ECC Uncorrectable Error Count||This attribute tracks the number of uncorrectable errors.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
 ||196||C4||Reallocation Event Count||This attribute tracks the number of blocks that fail programming which are reallocated as a result.<sup>[SandForce_SMART_attributes#Sources 1]</sup>||
+||198||C6||Uncorrectable Sector Count||Uncorrectable sector count relative to the number of sectors read this power cycle. The normalized value is only computed when the number of bits is greater than 10^10^. The count is cleared at power-on reset and wraps to 10^10^ when it exceeds 10^12^.<sup>[SandForce_SMART_attributes#Sources 3]</sup>||
 ||199||C7||SATA R-Errors (CRC) Error Count||SATA R-Errors (CRC) Error Count.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
 ||201||C9||Uncorrectable Soft Read Error Rate||Number of soft read errors that cannot be fixed on-the-fly and requires deep recovery via RAISE (Redundant Array of Independent Silicon Elements).<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
 ||204||CC||Soft ECC Correction Rate||Number of errors corrected by RAISE (Redundant Array of Independent Silicon Elements) that cannot be fixed on-the-fly and requires ECC (multilevel) to correct.<sup>[SandForce_SMART_attributes#Sources 2]</sup>||
