@@ -21,7 +21,7 @@
 ||196||C4||Reallocation Event Count||This value gives the total bad block count of the drive minus the number of one-time programmable (OTP) bad blocks.||
 ||197||C5||Current Pending Sector Count||Will always be 0 because reallocation will be done on the fly.||
 ||198||C6||SMART Off-Line Scan Uncorrectable Error Count||Uncorrectable errors detected during SMART off-line scan.||
-||199||C7||Ultra DMA CRC Error Rate||Gives the number of captured FIS interface general CRC (error-correcting code) errors over the life of the drive, for both reads and writes, since the most recent power cycle. If this counter ever reaches 4.294.967.295, it will wrap around.||
+||199||C7||Ultra DMA CRC Error Rate||Gives the number of captured FIS interface general CRC (cyclic redundancy check) errors over the life of the drive, for both reads and writes, since the most recent power cycle. If this counter ever reaches 4.294.967.295, it will wrap around.||
 ||202||CA||Percentage Lifetime Used||The average erase count of all blocks on Channel 0 CE 0 divided by the specified !MaxEraseCount (10k for MLC or 100k for SLC), reported as a percentage from 0 to 100%.||
 ||206||CE||Write Error Rate||Report the number of program failures divided by 60,000. If the value ever reaches 65,535, it will remain there thereafter.||
 
