@@ -12,6 +12,6 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-<div style="background-color:#00FF00;border:1px solid gray;width:20">
+<div style="background-color:#00FF00; border:1px solid gray; width:20">
   <h1>text</h1>
 </div>
