@@ -13,5 +13,5 @@ Add your content here.  Format your content with:
   * Automatic links to other wiki pages
 
 <div style="background-color:#00FF00;border:1px solid gray;width:20">
-  text
+  <p>text</p>
 </div>
