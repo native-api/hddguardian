@@ -1,6 +1,34 @@
 #summary Changelog of HDD Guardian
 #labels Featured
 
+*HDD Guardian 0.3.1.0*
+
+_New:_
+	* full support for all USB devices recognized by smartctl (only under profiles with administrative rights);
+	* each manufacturer have a different disk image sample;
+	* tray icon change the shield to a cross if an update of HDD Guardian is available (requires an Internet connection);
+	* disk size is now displayed in decimal (GB) and in binary (GiB) values;
+	* automatically correct wrong fake temperatures on some OCZ devices;
+	* physical devices are now named as internal devices;
+	* separate update timing between internal, external and virtual devices;
+	* parameters to monitor now are moved into a proper panel under "Settings" section;
+	* allow to monitor some SSDs vital values:
+		* Remainig Life Percentage (Indilinx);
+		* Media Wearout Indicator (Intel);
+		* Percentage Lifetime Used (Micron);
+		* Wear Leveling Count (Samsung);
+		* SSD Life Left (SandForce);
+	* added ASAX, G.Skill, Indilinx, JMicron, Renice, SMART and Unigen banners;
+	* revised and expanded SMART attributes descriptions;
+_Removed:_
+	* devices database;
+_Bugfix:_
+	* Hitachi and IBM web links now points to Hitachi Global Storage Technologies site;
+	* fixed a couple of issues displayed when removing a virtual device;
+	* fixed a couple of issues that can't make save smartctl attributes remaps;
+	* fixed an issue that occurred when an SMART error logged doesn't have a description for the command that caused the error.
+
+----
 *HDD Guardian 0.2.0.0*
 
 _New:_
