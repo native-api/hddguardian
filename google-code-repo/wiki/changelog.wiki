@@ -17,7 +17,7 @@ _New:_
 		* Media Wearout Indicator (Intel);
 		* Percentage Lifetime Used (Micron);
 		* Wear Leveling Count (Samsung);
-		* SSD Life Left (SandForce);
+		* SSD Life Left (!SandForce);
 	* added ASAX, G.Skill, Indilinx, JMicron, Renice, SMART and Unigen banners;
 	* revised and expanded SMART attributes descriptions;
 _Removed:_
