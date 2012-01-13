@@ -1,0 +1,19 @@
+#summary HDD Guardian 0.3.1.0 screenshots
+
+= HDD Guardian 0.3.1.0 Screenshots =
+
+These are screenshots of the interface parts that have changed from version 0.2.0.0.
+
+<img src="http://hddguardian.googlecode.com/svn/screenshots/0310/00-Main-Summary.png">
+<br>External devices are now recognized.</br>
+
+<img src="http://hddguardian.googlecode.com/svn/screenshots/0310/04.2-Advanced-SMART_attributes+info.png">
+<br>S.M.A.R.T. attributes details have been revised and expanded.</br>
+
+<img src="http://hddguardian.googlecode.com/svn/screenshots/0310/14-Settings-Data_update.png">
+<br>Update timings are separated between device type.</br>
+
+<img src="http://hddguardian.googlecode.com/svn/screenshots/0310/15-Settings-Monitoring.png">
+<br>Parameters to monitor now are moved into a proper panel and allow also to monitor SSDs life percentages.</br>
+
+<img src="http://hddguardian.googlecode.com/svn/screenshots/0310/16-Settings-Warnings.png">
