@@ -18,8 +18,3 @@
    * [Satron_SMART_attributes Satron]
    * [Smart_Modular_SMART_attributes SMART Modular Technologies]
    * [STEC_SMART_attributes STEC]
-
-<div style="background-color:#00FF00;border:1px solid gray;width:20">
-  <h3>This is a header</h3>
-  <p>This is a paragraph.</p>
-</div>
