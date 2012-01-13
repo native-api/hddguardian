@@ -2,7 +2,7 @@
 
 = HDD Guardian 0.3.1.0 Screenshots =
 
-These are screenshots of the interface parts that have changed from version 0.2.0.0.
+These are screenshots of the interface parts that have been changed from version 0.2.0.0.
 
 <img src="http://hddguardian.googlecode.com/svn/screenshots/0310/00-Main-Summary.png">
 <br>External devices are now recognized.</br>
