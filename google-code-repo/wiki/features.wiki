@@ -16,4 +16,6 @@
   * displays device capabilities;
   * displays device error log;
   * allow to set device-specific tolerance, attribute format and firmware debug;
-  * allow to set warnings behaviour.
+  * allow to set warnings behaviour;
+  * allow to monitor SSDs life percentage;
+  * allow to monitor external devices (requires administrative rigths).
