@@ -108,8 +108,8 @@ Create your translation, I'll include into the package!
 <a href="http://www.windows7download.com/" target="_blank"><img src="http://www.windows7download.com/templates/w7d/images/awards/award_5.png" alt="Windows 7 Download" border="0"/></a>
 <a href="http://www.downloadtyphoon.com/" target="_blank"><img src="http://www.downloadtyphoon.com/templates/downty/images/award_5.gif" alt="Download Typhoon" border="0"/></a>
 <a href="http://tech.sina.com.cn/" target="_blank"><img src="http://i2.sinaimg.cn/IT/download/downp/cho_lmy_061.gif" alt="SINA" border="0"/></a>
-<a href="http://www.freewarefiles.com/HDD-Guardian_program_74177.html" target=
-http://www.freewarefiles.com/banners/fwf_clean_170x90b.png
+<a href="http://www.freewarefiles.com/HDD-Guardian_program_74177.html" target="_blank"><img src="http://www.freewarefiles.com/banners/fwf_clean_170x90b.png"/></a>
+<a href="http://www.snapfiles.com/get/hddguardian.html" target="_blank"><img src="http://www.snapfiles.com/linkedimg/snapfiles140_award40.png"/></a>
 </td>
 </tr>
 </table>
