@@ -1,0 +1,115 @@
+#summary Home Page
+
+<table>
+<tr>
+<td width="auto" valign="top">
+<wiki:comment>
+                      #################
+                      ## Description ##
+                      #################
+</wiki:comment>
+The purpose of HDD Guardian is to provide a graphical interface to smartctl, part of the S.M.A.R.T. Monitoring Tools, in order to make this nice utility accessible to all Windows users.
+----
+<table>
+<tr>
+<td valign="top">
+HDD Guardian requires _.NET Framework 4.0_ and is actually tested on Windows XP SP3 and Windows 7.
+
+HDD Guardian alert in case of imminent failure, temperature threshold or vital parameter change.
+
+See [http://code.google.com/p/hddguardian/wiki/features features list], [http://code.google.com/p/hddguardian/wiki/changelog change log] or [http://code.google.com/p/hddguardian/wiki/screenshots_0310 screenshots] for an overview of HDD Guardian.
+Source code is available [http://hddguardian.googlecode.com/svn/source/ here].
+
+If you have any question, comment, suggestion or bug report, you can also contact on [http://groups.google.com/group/hddguardian/topics HDD Guardian] support group.
+</td>
+<td align="center" width="630px">
+<wiki:comment>
+                      ################
+                      ## Screenshot ##
+                      ################
+</wiki:comment>
+<img src="http://hddguardian.googlecode.com/svn/screenshots/0310/00-Main-Summary.png" height="80%" width="80%" align="right"></img>
+</td>
+</tr>
+</table>
+----
+<wiki:comment>
+                      ##############
+                      ## Warnings ##
+                      ##############
+</wiki:comment>
+<table>
+<tr>
+<td valign="top">
+<img src="http://git.gnome.org/browse/gnome-icon-theme/plain/gnome/32x32/status/dialog-warning.png"></img>
+</td>
+<td>
+*WARNING!*<br></br>
+Do not use HDD Guardian with Samsung HD155UI and HD204UI unless you install [http://www.samsung.com/global/business/hdd/faqView.do?b2b_bbs_msg_id=386 this patch]. See [http://sourceforge.net/apps/trac/smartmontools/wiki/SamsungF4EGBadBlocks this page] for details.<br></br>
+OCZ Agility 3 need a firmware update: prior to version 2.15 shows a wrong temperature of 128°C. This temperature is not real because the unit is not equipped with thermal sensor, and is a fixed value placed by the manufacturer. Firmware update is available [http://www.ocztechnology.com/ssd_tools/OCZ_Vertex_3,_Vertex_3_Max_IOPS,_Agility_3,_Solid_3,_RevoDrive_3_and_RevoDrive_3_X2/ here].
+</td>
+</tr>
+</table>
+----
+<wiki:comment>
+                      #################
+                      ## Translators ##
+                      #################
+</wiki:comment>
+<table>
+<tr>
+<td valign="top">
+<img src="http://git.gnome.org/browse/gnome-icon-theme/plain/gnome/32x32/apps/preferences-desktop-locale.png"></img>
+</td>
+<td>
+*TRANSLATORS WANTED!*<br></br>
+Create your translation, I'll include into the package!
+</td>
+</tr>
+</table>
+----
+<wiki:comment>
+                      #############
+                      ## Updates ##
+                      #############
+</wiki:comment>
+<table>
+<tr>
+<td valign="top">
+<img src="http://git.gnome.org/browse/gnome-icon-theme/plain/gnome/32x32/apps/system-software-update.png"></img>
+</td>
+<td>
+*UPDATES*<br></br>
+*14 jan 2012*: Released HDD Guardian 0.3.1.0<br>Now support external devices (requires administrative rights) and monitor SSD health percentages!</br>
+
+*24 oct 2011*: Released HDD Guardian 0.2.0.0<br>Included languages: english (default), italian and hungarian.</br>
+
+*26 aug 2011*: Over 10000 downloads for HDD Guardian! Thank you very much for your appreciation!
+
+*25 aug 2011*: Added hungarian translation created by Kutfej Béla.
+
+*16 oct 2010*: Published the first version of HDD Guardian.
+</td>
+</tr>
+</table>
+</td>
+<td width="180px" align="center" valign="top">
+<wiki:comment>
+                      ############
+                      ## Awards ##
+                      ############
+</wiki:comment>
+<g:plusone size="big"></g:plusone>
+<br></br>
+<br></br>
+<a href="http://www.top4download.com/" target="_blank"><img src="http://www.top4download.com/templates/T4D/images/award_5.gif" alt="Top 4 Download" border="0"/></a>
+<a href="http://www.bestvistadownloads.com/" target="_blank"><img src="http://www.bestvistadownloads.com/templates/BVD/images/award_5.gif" alt="Best Vista Download" border="0"/></a>
+<a href="http://www.bestfreewaredownload.com/" target="_blank"><img src="http://www.bestfreewaredownload.com/images/BFD_award5.png" alt="Best Freeware Download" border="0"/></a>
+<a href="http://www.windows7download.com/" target="_blank"><img src="http://www.windows7download.com/templates/w7d/images/awards/award_5.png" alt="Windows 7 Download" border="0"/></a>
+<a href="http://www.downloadtyphoon.com/" target="_blank"><img src="http://www.downloadtyphoon.com/templates/downty/images/award_5.gif" alt="Download Typhoon" border="0"/></a>
+<a href="http://tech.sina.com.cn/" target="_blank"><img src="http://i2.sinaimg.cn/IT/download/downp/cho_lmy_061.gif" alt="SINA" border="0"/></a>
+<a href="http://www.freewarefiles.com/HDD-Guardian_program_74177.html" target=
+http://www.freewarefiles.com/banners/fwf_clean_170x90b.png
+</td>
+</tr>
+</table>
