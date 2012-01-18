@@ -12,7 +12,7 @@ The purpose of HDD Guardian is to provide a graphical interface to smartctl, par
 ----
 <table>
 <tr>
-<td valign="top">
+<td valign="top" width="40%">
 HDD Guardian requires _.NET Framework 4.0_ and is actually tested on Windows XP SP3 and Windows 7.
 
 HDD Guardian alert in case of imminent failure, temperature threshold or vital parameter change.
@@ -22,7 +22,7 @@ Source code is available [http://hddguardian.googlecode.com/svn/source/ here].
 
 If you have any question, comment, suggestion or bug report, you can also contact on [http://groups.google.com/group/hddguardian/topics HDD Guardian] support group.
 </td>
-<td align="center" width="630px">
+<td align="center" width="60%">
 <wiki:comment>
                       ################
                       ## Screenshot ##
@@ -121,14 +121,15 @@ Create your translation, I'll include into the package!
 </td>
 </tr>
 </table>
+----
 <wiki:comment>
                       #################
                       ## Clustermaps ##
                       #################
 </wiki:comment>
-<table>
+<table width="100%">
 <tr>
-<td align="center">
+<td align="center" width="100%">
 <a href="http://www4.clustrmaps.com/user/7f1d9da0"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/code.google.com-p-hddguardian--thumb.jpg" alt="Locations of visitors to this page" align="center"/></a>
 <a href="http://www.histats.com" alt="counter stats" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?1695912&101" alt="counter stats" border="0"/></a>
 </td>
