@@ -11,7 +11,7 @@
   * Advanced section
    * [smart_attributes S.M.A.R.T. attributes]
    * [device_capabilities Device capabilities]
-   * S.M.A.R.T. error log
+   * [smart_error_log S.M.A.R.T. error log]
    * S.M.A.R.T. self-test log
    * Run test
   * Smartctl section
