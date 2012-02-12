@@ -46,7 +46,5 @@
    * [Satron_SMART_attributes Satron]
    * [Smart_Modular_SMART_attributes SMART Modular Technologies]
    * [STEC_SMART_attributes STEC]
- * Credits and copyrights
-  * Credits
-  * Copyrights
- * License
+ * [credits_and_copyrights Credits and copyrights]
+ * [http://www.gnu.org/licenses/gpl-2.0.html License]
