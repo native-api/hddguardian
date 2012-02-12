@@ -7,7 +7,7 @@
    * [summary Summary]
    * [device_info Device info]
    * [enable_disable_features Enable/disable features]
-   * Log events
+   * [log_events Log events]
   * Advanced section
    * S.M.A.R.T. attributes
    * Device capabilities
