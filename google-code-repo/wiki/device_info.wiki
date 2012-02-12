@@ -1,0 +1,9 @@
+#summary Device info
+
+= Device info =
+
+http://hddguardian.googlecode.com/svn/wiki/images/01-Main-Device_info.png
+
+Into device info panel you can see many useful informations about your device, like model family, device model, the serial number, device World Wide Name, the firmware version, total disk size, the sector size, if device is in smartctl database, the ATA version and standard, the last check, and the S.M.A.R.T. ability availability and if they're enabled.
+
+Some of these informations are not available for all units, like the World Wide Name or, with very old devices, the S.M.A.R.T. capability.
