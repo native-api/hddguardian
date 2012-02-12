@@ -1,0 +1,34 @@
+#summary Window layout.
+
+= Window layout =
+
+HDD Guardian screen is composed basically by four areas: the top panel, the navigation bar, the device's list and the section area
+Into the top panel you can see some informations about selected device, like an image sample of an hard drive produced by manufacturer, the index of device, their size, the serial number, the firmware version and a link to main page of manufacturer.
+
+http://hddguardian.googlecode.com/svn/wiki/images/00-Main-Summary.png
+
+At bottom of the top panel we have the navigation bar. All sections are available on the right of this bar.
+
+The device's list display all local devices, and, when connected, the most commons USB external hard drives. Right clicking on this list appear a context menu where you can update the selected device or all devices listed and add or remove a virtual device. Devices are divided in three types: internal, external and virtual.
+
+The device list supports several color schemes based about results of device checking.
+
+The device name are displayed in blue if they've passed the overall health check, and becomes red if they're failed. This scheme is also followed by the icon device.
+
+When is displayed in gray, the device doesn't support S.M.A.R.T. technology or they're not possible to determine their health result.
+
+The temperature are displayed in three color: blue up to 49°C, yellow from 50°C to 54°C and the from 55°C in red. If the temperature is unknown, area displayed a “N/A” in gray color.
+
+http://hddguardian.googlecode.com/svn/wiki/images/ok-ok.png
+
+http://hddguardian.googlecode.com/svn/wiki/images/ok-hi.png
+
+http://hddguardian.googlecode.com/svn/wiki/images/ko-ok.png
+
+http://hddguardian.googlecode.com/svn/wiki/images/na-na.png
+
+The section area displays many details or settings about selected device or HDD Guardian divided in some panels.
+
+When an update is available, at the bottom appears a message like in the following image: 
+
+http://hddguardian.googlecode.com/svn/wiki/images/Update.png
