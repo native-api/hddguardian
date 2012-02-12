@@ -5,7 +5,7 @@
   * [window_layout Window layout]
   * Main section
    * [summary Summary]
-   * Device info
+   * [device_info Device info]
    * Enable/disable features
    * Log events
   * Advanced section
