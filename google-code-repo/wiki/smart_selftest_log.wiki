@@ -1,0 +1,9 @@
+#summary S.M.A.R.T. self-test log
+
+= S.M.A.R.T. self-test log =
+
+http://hddguardian.googlecode.com/svn/wiki/images/07-Advanced-SMART_self-tests_log.png
+
+From here you can view the results of tests that were performed on selected device.
+
+You can also run the tests available on devices installed into the PC clicking on [run_test Run test] panel.
