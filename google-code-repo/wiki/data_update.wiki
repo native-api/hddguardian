@@ -1,0 +1,9 @@
+#summary Data update
+
+= Data update =
+
+http://hddguardian.googlecode.com/svn/wiki/images/14-Settings-Data_update.png
+
+Here you can set the refresh interval of the S.M.A.R.T. Attributes for each type of devices (internal, external and virtual).
+
+The refresh frequency start from a minimum of 1 to a maximum of 60 minutes.
