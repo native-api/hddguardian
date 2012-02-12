@@ -1,0 +1,9 @@
+#summary Sharing
+
+= Sharing =
+
+http://hddguardian.googlecode.com/svn/wiki/images/17-Settings-Sharing.png
+
+HDD Guardian can export and import smartctl devices outputs. In a context of local area network is possible for the system administrator to monitor all disks of the computers in the LAN.
+
+To share local drives, you must select a destination folder where HDD Guardian will save these outputs after the set refresh timing is expired. You can also select the local disks you want to share into the [enable_disable_features Enable/disable features] of Main section.
