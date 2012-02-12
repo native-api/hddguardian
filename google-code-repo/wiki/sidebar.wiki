@@ -16,7 +16,7 @@
    * [run_test Run test]
   * Smartctl section
    * [device_output Device output]
-   * Tolerance
+   * [tolerance Tolerance]
    * Attributes format
    * Firmware debug
   * Settings section
