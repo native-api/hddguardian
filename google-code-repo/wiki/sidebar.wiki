@@ -20,7 +20,7 @@
    * [attributes_format Attributes format]
    * [firmware_debug Firmware debug]
   * Settings section
-   * Startup and interface
+   * [startup_and_interface Startup and interface]
    * Data update
    * Monitoring
    * Warnings
