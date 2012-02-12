@@ -1,13 +1,38 @@
 #summary Wiki sidebar
 
- * HDD Guardian
+ * HDD Guardian Help
+  * [project_purpose Projetc purpose]
+  * Window layout
+  * Main section
+   * Summary
+   * Device info
+   * Enable/disable features
+   * Log events
+  * Advanced section
+   * S.M.A.R.T. attributes
+   * Device capabilities
+   * S.M.A.R.T. error log
+   * S.M.A.R.T. self-test log
+   * Run test
+  * Smartctl section
+   * Device output
+   * Tolerance
+   * Attributes format
+   * Firmware debug
+  * Settings section
+   * Startup and interface
+   * Data update
+   * Monitoring
+   * Warnings
+   * Sharing
+  * Translations
   * [features Features]
   * [changelog Changelog]
   * Versions
    * [hddguardian_0_1_3903 0.1.3903]
    * [screenshots 0.2.0.0]
    * [screenshots_0310 0.3.1.0]
- * S.M.A.R.T. attributes
+ * S.M.A.R.T. attributes details
   * [HDD_SMART_attributes HDD]
   * SSD
    * [Indilinx_SMART_attributes Indilinx]
@@ -19,3 +44,7 @@
    * [Satron_SMART_attributes Satron]
    * [Smart_Modular_SMART_attributes SMART Modular Technologies]
    * [STEC_SMART_attributes STEC]
+ * Credits and copyrights
+  * Credits
+  * Copyrights
+ * License
