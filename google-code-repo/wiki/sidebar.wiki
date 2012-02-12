@@ -17,7 +17,7 @@
   * Smartctl section
    * [device_output Device output]
    * [tolerance Tolerance]
-   * Attributes format
+   * [attributes_format Attributes format]
    * Firmware debug
   * Settings section
    * Startup and interface
