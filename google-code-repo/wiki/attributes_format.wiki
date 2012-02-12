@@ -1,0 +1,11 @@
+#summary Attributes format
+
+= Attributes format =
+
+http://hddguardian.googlecode.com/svn/wiki/images/11-Smartctl-Attributes_format.png
+
+Normally if the drive is recognized by smartctl, the presets are used for the SMART values recorded in the database.
+
+If the drive is not recognized by smartctl and some parameters have strange values, you can manually set the display options for the S.M.A.R.T. attributes, or choose from those already available in the list.
+
+Naturally these options are safe for device integrity and stored data, and are only useful to tell to smartctl how to display certain attribute value. 
