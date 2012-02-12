@@ -24,7 +24,7 @@
    * [data_update Data update]
    * [monitoring Monitoring]
    * [warnings Warnings]
-   * Sharing
+   * [sharing Sharing]
   * Translations
   * [features Features]
   * [changelog Changelog]
