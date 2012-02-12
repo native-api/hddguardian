@@ -2,7 +2,7 @@
 
 = Translations =
 
-From version 0.2.0.0 they're bundled with HDD Guardian a tools that aid the works of translator: the HDD Guardian Translation Tool. This tool require administration rights to work.
+From version 0.2.0.0 they're bundled with HDD Guardian a tool that aid the works of translator: the HDD Guardian Translation Tool. This tool require administration rights to work.
 
 To create a new translation, select the culture code from the list, click the button “Create project” and then fill the boxes “Language”, “Translator” and “Version”.
 
