@@ -4,7 +4,7 @@
   * [Project_purpose Project purpose]
   * [window_layout Window layout]
   * Main section
-   * Summary
+   * [summary Summary]
    * Device info
    * Enable/disable features
    * Log events
