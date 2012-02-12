@@ -1,0 +1,14 @@
+#summary Translations
+
+= Translations =
+
+From version 0.2.0.0 they're bundled with HDD Guardian a tools that aid the works of translator: the HDD Guardian Translation Tool. This tool require administration rights to work.
+
+To create a new translation, select the culture code from the list, click the button “Create project” and then fill the boxes “Language”, “Translator” and “Version”.
+
+They're two sections: one for the interface and one for the S.M.A.R.T. attributes meanings. The progression of work is displayed at the bottom of sections.
+
+http://hddguardian.googlecode.com/svn/wiki/images/tt1.png
+http://hddguardian.googlecode.com/svn/wiki/images/tt2.png
+
+When the project is finished, click the button with the folder icon at the top right; appears an Explorer window with two files: “attributes.xml” and “interface.xml”. Send these files to [mailto:hddguardian@googlegroups.com this mail] and they're added in a new version, giving credits to the author into the “Contributors” of the “About” section.
