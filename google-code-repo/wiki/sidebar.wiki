@@ -15,7 +15,7 @@
    * [smart_selftest_log S.M.A.R.T. self-test log]
    * [run_test Run test]
   * Smartctl section
-   * Device output
+   * [device_output Device output]
    * Tolerance
    * Attributes format
    * Firmware debug
