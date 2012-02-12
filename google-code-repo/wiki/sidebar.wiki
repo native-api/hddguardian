@@ -2,7 +2,7 @@
 
  * HDD Guardian Help
   * [Project_purpose Project purpose]
-  * Window layout
+  * [window_layout Window layout]
   * Main section
    * Summary
    * Device info
