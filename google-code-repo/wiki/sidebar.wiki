@@ -25,7 +25,7 @@
    * [monitoring Monitoring]
    * [warnings Warnings]
    * [sharing Sharing]
-  * Virtual devices
+  * [virtual_devices Virtual devices]
   * Tray icons and warnings
   * [translations Translations]
   * [features Features]
