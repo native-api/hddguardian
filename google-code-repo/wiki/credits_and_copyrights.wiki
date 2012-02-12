@@ -1,0 +1,18 @@
+#summary Credits
+
+= Credits =
+
+[http://sourceforge.net/apps/trac/smartmontools/wiki S.M.A.R.T. Monitoring Tools] utilities have been created by the team lead by Bruce Allen and licensed under GNU GPL 2.0.
+
+The icons used into the program interface are from the following collections:
+ # [http://p.yusukekamiyamane.com/ Fugue Icons], created by Yusuke Kamiyamane and licensed under [http://creativecommons.org/licenses/by/3.0/ Creative Commons 3.0];
+ # [http://www.famfamfam.com/lab/icons/flags/ Flags], created by Mark James and released under public domain license.
+
+The graphics used to create the logos of hard drives manufacturers and operating systems has been drawn mostly from vector drawings on the site [http://www.brandsoftheworld.com/ Brands Of The World].
+
+The main interface graphics are derived from Orman Clark's works, all available in [http://www.premiumpixels.com/ Premium Pixels].
+
+HDD Guardian and Translation Tool program icons are created using icons from [http://git.gnome.org/ Gnome Icon Theme 2.30.2.1], released under [http://www.gnu.org/licenses/gpl-2.0.html GNU GPL 2.0 license].
+
+= Copyrights =
+All used logos and images are intellectual property of the copyright and/or trademark holder. 
