@@ -22,8 +22,8 @@
   * Settings section
    * [startup_and_interface Startup and interface]
    * [data_update Data update]
-   * Monitoring
-   * Warnings
+   * [monitoring Monitoring]
+   * [warnings Warnings]
    * Sharing
   * Translations
   * [features Features]
