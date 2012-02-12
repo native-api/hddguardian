@@ -13,7 +13,7 @@
    * [device_capabilities Device capabilities]
    * [smart_error_log S.M.A.R.T. error log]
    * [smart_selftest_log S.M.A.R.T. self-test log]
-   * Run test
+   * [run_test Run test]
   * Smartctl section
    * Device output
    * Tolerance
