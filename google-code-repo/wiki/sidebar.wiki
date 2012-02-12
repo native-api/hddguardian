@@ -9,7 +9,7 @@
    * [enable_disable_features Enable/disable features]
    * [log_events Log events]
   * Advanced section
-   * S.M.A.R.T. attributes
+   * [smart_attributes S.M.A.R.T. attributes]
    * Device capabilities
    * S.M.A.R.T. error log
    * S.M.A.R.T. self-test log
