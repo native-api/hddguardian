@@ -21,7 +21,7 @@
    * [firmware_debug Firmware debug]
   * Settings section
    * [startup_and_interface Startup and interface]
-   * Data update
+   * [data_update Data update]
    * Monitoring
    * Warnings
    * Sharing
