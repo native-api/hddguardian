@@ -10,7 +10,7 @@
    * [log_events Log events]
   * Advanced section
    * [smart_attributes S.M.A.R.T. attributes]
-   * Device capabilities
+   * [device_capabilities Device capabilities]
    * S.M.A.R.T. error log
    * S.M.A.R.T. self-test log
    * Run test
