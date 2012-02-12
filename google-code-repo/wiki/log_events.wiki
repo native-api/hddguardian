@@ -8,4 +8,4 @@ Log events panel displays all parameters have changed during HDD Guardian monito
 
 Here you can navigate through the days, refresh the log or delete a single or all the logs registered.
 
-You can choose parameters to monitor into the Warnings panel of Settings section.
+You can choose parameters to monitor into the [warnings Warnings] panel of Settings section.
