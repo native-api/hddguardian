@@ -17,7 +17,7 @@ The device name are displayed in blue if they've passed the overall health check
 
 When is displayed in gray, the device doesn't support S.M.A.R.T. technology or they're not possible to determine their health result.
 
-The temperature are displayed in three color: blue up to 49°C, yellow from 50°C to 54°C and the from 55°C in red. If the temperature is unknown, area displayed a “N/A” in gray color.
+The temperature are displayed in three color: blue up to 49°C, yellow from 50°C to 54°C and then from 55°C in red. If the temperature is unknown, area displayed a “N/A” in gray color.
 
 http://hddguardian.googlecode.com/svn/wiki/images/ok-ok.png
 
