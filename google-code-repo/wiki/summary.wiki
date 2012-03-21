@@ -10,7 +10,7 @@ At panel's left bottom we have an area where you can see the OS (a) and manufact
 
 http://hddguardian.googlecode.com/svn/wiki/images/infobar_1.png
 
-The modality varies in base of media where HDD Guardian is stored: if is stored into a fixed device the icons is a PC tower, and all function area available; otherwise if is stored into a removable media, HDD Guardian switch automatically into portable mode, appears an USB stick and some functions are not available.
+The modality varies in base of media where HDD Guardian is stored: if is stored into a fixed device the icons is a PC tower, and all function are available; otherwise if is stored into a removable media, HDD Guardian switch automatically into portable mode, appears an USB stick and some functions are not available.
 
 The fingerprint icon varies in base of user rights: if is an administrator the program works with full functionality and the fingerprint is green; otherwise some functions are not available (like USB detection, that is disabled) and the fingerprint appear colored in red.
 
