@@ -2,7 +2,8 @@
 
 = Window layout =
 
-HDD Guardian screen is composed basically by four areas: the top panel, the navigation bar, the device's list and the section area
+HDD Guardian screen is composed basically by four areas: the top panel, the navigation bar, the device's list and the section area.
+
 Into the top panel you can see some informations about selected device, like an image sample of an hard drive produced by manufacturer, the index of device, their size, the serial number, the firmware version and a link to main page of manufacturer.
 
 http://hddguardian.googlecode.com/svn/wiki/images/00-Main-Summary.png
