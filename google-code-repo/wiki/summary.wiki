@@ -6,7 +6,7 @@ http://hddguardian.googlecode.com/svn/wiki/images/00-Main-Summary.png
 
 The summary panel displays health basics about selected device: temperature, last test result, overall health, bad sector information, the last update and eventual warnings about firmware updates.
 
-At panel's left bottom we have an area where you can see the OS (a) and manufacturer logos (b), plus the flag of nationality of manufacturer (c); the other two icons represents respectively the operating modality of HDD Guardian (d) and the user rights (e).
+At panel's left bottom we have an area where you can see the OS (a) and manufacturer logos (b), plus the nationality flag of manufacturer (c); the other two icons represents respectively the operating modality of HDD Guardian (d) and the user rights (e).
 
 http://hddguardian.googlecode.com/svn/wiki/images/infobar_1.png
 
