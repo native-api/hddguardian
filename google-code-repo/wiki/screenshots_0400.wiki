@@ -2,7 +2,7 @@
 
 = HDD Guardian 0.4.0.0 screenshots =
 
-These are screenshots of the interface parts that have been changed from version 0.3.1.0. 
+These are screenshots of the interface parts that have been changed or added from version 0.3.1.0. 
 
 http://hddguardian.googlecode.com/svn/screenshots/0400/main.png
 
