@@ -6,6 +6,7 @@
   * Main section
    * [summary Summary]
    * [device_info Device info]
+   * [geometry Geometry and partitions]
    * [enable_disable_features Enable/disable features]
    * [log_events Log events]
   * Advanced section
@@ -13,6 +14,7 @@
    * [device_capabilities Device capabilities]
    * [smart_error_log S.M.A.R.T. error log]
    * [smart_selftest_log S.M.A.R.T. self-test log]
+   * [reliability_details Reliability details]
    * [run_test Run test]
   * Smartctl section
    * [device_output Device output]
@@ -25,6 +27,7 @@
    * [monitoring Monitoring]
    * [warnings Warnings]
    * [sharing Sharing]
+   * [rating Reliability]
   * [virtual_devices Virtual devices]
   * [tray_icons_and_warnings Tray icons and warnings]
   * [translations Translations]
