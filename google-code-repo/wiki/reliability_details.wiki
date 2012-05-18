@@ -1,0 +1,16 @@
+#summary Reliability details.
+
+= Reliability details =
+
+http://hddguardian.googlecode.com/svn/screenshots/0400/reliability_details.png
+
+Into this section is possible to see details about device health: they're two sections, one for hard disk and one for SSD.
+
+For hard disk devices are rated four values critical for their health:
+ * errors count;
+ * reallocated sector count (bad blocks);
+ * current pending sectors;
+ * offline uncorrectable.
+Is possible to set a different threshold for each of these values (except for bad blocks) into the [rating Reliability] tab in the Settings section.
+
+For SSD devices are rated the vendor-specific S.M.A.R.T. attributes.
