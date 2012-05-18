@@ -1,5 +1,5 @@
 #summary Company merging
 
-This is a little scheme about company merging. It starts from the commercialization of first hard drive of each company.
+This is a little scheme about companies merging. It starts from the commercialization of first hard drive of each company.
 
 http://hddguardian.googlecode.com/svn/docs/HDD%20company%20merging.png
