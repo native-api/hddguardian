@@ -20,7 +20,7 @@ For errors, pending sectors and offline reallocation we have a default threshold
 HDD Guardian give a maximum of 5 green stars for the healthy hard disk to a minimum of one red star for a nearest to death drive. If appears 5 grey stars is not possible to give an evaluation.
 
 == SSD realibility ==
-Evaluate an SSD haelthy is much more simple: vendors have specific values that determines the remaining (or used) life of device. And here we don't have mechanical parts in movement.
+Evaluate if an SSD is healthy is much more simple: vendors have specific values that determines the remaining (or used) life of device. And here we don't have mechanical parts in movement.
 
 Here is gathered vital parameters of SSD vendors that HDD Guardian tracks:
 || *Vendor* || *ID* || *Hex* || *Name* || *Meaning* ||
