@@ -1,6 +1,24 @@
 #summary Changelog of HDD Guardian
 #labels Featured
+* HDD Guardian 0.4.0.0*
 
+_New:_
+	* added "Geometry and partitions" tab into "Main" section;
+	* added "Reliability details" tab into "Advanced" section;
+	* added capability to generate an XML file to use in desktop enhancers like Rainmeter;
+	* introduced the (optional) reliability 5 star rating system;
+	* added capability to manually re-scan for external devices;
+	* added link to online help;
+	* now virtual devices have placeholders instead of switches into "Enable/disable features" tab;
+	* now tracks also the total amount of errors;
+	* keep track of SMART vital values between program sessions;
+_Bugfix:_
+	* fixed a very rare bug that appear when switch between two devices with a different error count;
+	* fixed a bug on !SandForce vital parameter logging;
+	* fixed an issue on output sharing;
+	* fixed a summary panel issue.
+
+----
 *HDD Guardian 0.3.1.0*
 
 _New:_
