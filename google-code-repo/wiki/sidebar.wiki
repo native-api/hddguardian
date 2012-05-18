@@ -50,5 +50,6 @@
    * [Smart_Modular_SMART_attributes SMART Modular Technologies]
    * [STEC_SMART_attributes STEC]
  * [about_reliability About devices realibility]
+ * [company_merging Companies merging]
  * [credits_and_copyrights Credits and copyrights]
  * [http://www.gnu.org/licenses/gpl-2.0.html License]
