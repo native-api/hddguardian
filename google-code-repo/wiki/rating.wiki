@@ -1,4 +1,10 @@
-#summary Rating settings
+#summary Reliability
 
 
-Under construction!
+= Reliability =
+
+http://hddguardian.googlecode.com/svn/screenshots/0400/reliability_setup.png
+
+Here you can enable or disable the rating that appear on the bottom of disk image.
+
+Is also possible make a change on some threshold values. Values can have a minimum of 1 and a maximum of 100.
