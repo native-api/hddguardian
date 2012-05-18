@@ -1,0 +1,33 @@
+#summary About devices realibility.
+
+== Hard disks realibility ==
+For hard disks is very hard to determine their reliability because we have several thing to monitor, like temperature, vibrations, shocks, power supply and much more. On top of all we have mechanical parts in movement that increase the possibility of damages.
+
+Naturally hard disks are very strongs, and their life reach and pass 10 years of service, but in some cases some units reach their death in a few months.
+
+S.M.A.R.T. values produces a warning if the current value reach the threshold, but an (apparently) healthy disk are could be very nearest to their end of life.
+
+Onto the [http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/it//archive/disk_failures.pdf "Failure Trends in a Large Disk Drive Population"] we have an analisys of critical values that causes a drive failure.
+
+HDD Guardian try to determine with five star the hard disk reliability rating the total amount of errors, reallocated sectors count, current pending sectors and offline uncorrectable.
+For errors, pending sectors and offline reallocation we have a default threshold value of 10; threshold of reallocations (bad blocks) is based upon the threshold that you find into the S.M.A.R.T. table for parameter number 5. This values could be:
+ * 50 for Toshiba;
+ * 20, 36 or 63 for Maxtor;
+ * 5 for IBM and Hitachi;
+ * 36 for Seagate;
+ * 20 for Quantum;
+ * 140 for Western Digital.
+HDD Guardian give a maximum of 5 green stars for the healthy hard disk to a minimum of one red star for a nearest to death drive. If appears 5 grey stars is not possible to give an evaluation.
+
+== SSD realibility ==
+Evaluate an SSD haelthy is much more simple: vendors have specific values that determines the remaining (or used) life of device. And here we don't have mechanical parts in movement.
+
+Here is gathered vital parameters of SSD vendors that HDD Guardian tracks:
+|| *Vendor* || *ID* || *Hex* || *Name* || *Meaning* ||
+|| Indilinx || 209 || D1 || Remaining Life (%) ||
+|| Intel || 233 || E9 || Media Wearout Indicator || This attribute reports the number of cycles the NAND media has experienced. The normalized value declines linearly from 100 to 1 as the average erase cycle count increases from 0 to the maximum rated cycles. Once the normalized value reaches 1, the number will not decrease, although it is likely that significant additional wear can be put on the device. ||
+|| Micron || 202 || CA || Percentage Lifetime Used || The average erase count of all blocks on Channel 0 CE 0 divided by the specified !MaxEraseCount (10k for MLC or 100k for SLC), reported as a percentage from 0 to 100%. ||
+|| Samsung || 177 || B1 || Wear Leveling Count || (note: this value is assumed as for Intel Media Wearout Indicator, since Samsung can't provide a description of their S.M.A.R.T. values meanings.) ||
+|| !SandForce || 231 || E7 || SSD Life Left || A measure of the estimated life left, based on a combination of PE cycles and available reserve blocks. 100 is a new drive, 10 = replace as it has sufficient reserved blocks but the PE cycles have been used, 0 = insufficient reserved blocks, drive is read only to allow recovery of data on the drive. ||
+
+The rating that HDD Guardian gives start from 5 star (80% to 100% life remainig) to a minimum of 1 star (0% to 20% life remaining). If appears 5 grey stars is not possible to give an evaluation.
