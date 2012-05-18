@@ -1,4 +1,4 @@
-#summary About devices realibility.
+#summary About devices realibility
 
 == Hard disks realibility ==
 For hard disks is very hard to determine their reliability because we have several thing to monitor, like temperature, vibrations, shocks, power supply and much more. On top of all we have mechanical parts in movement that increase the possibility of damages.
