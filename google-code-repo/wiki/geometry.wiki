@@ -3,6 +3,8 @@
 = Geometry and partitions =
 
 From version 0.4.0.0 on main section we have this new tab that displays some information about geometry and partitions hosted into selected device.
+
+All these informations are not available for virtual devices.
 <br></br>
 == Disk geometry ==
 http://hddguardian.googlecode.com/svn/screenshots/0400/geometry_and_partitions.png
