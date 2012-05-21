@@ -5,7 +5,7 @@ For hard disks is very hard to determine their reliability because we have sever
 
 Naturally hard disks are very strongs, and their life reach and pass 10 years of service, but in some extremely rare cases some units reach their death in a few months.
 
-S.M.A.R.T. values produces a warning if the current value reach the threshold, but an (apparently) healthy disk are could be very nearest to their end of life.
+S.M.A.R.T. values produces a warning if the current value reach the threshold, but an (apparently) healthy disk could be nearest to their end of life.
 
 Onto the [http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/it//archive/disk_failures.pdf "Failure Trends in a Large Disk Drive Population"] we have an analisys of critical values that causes a drive failure.
 
