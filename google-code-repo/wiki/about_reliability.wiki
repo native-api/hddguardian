@@ -9,7 +9,7 @@ S.M.A.R.T. values produces a warning if the current value reach the threshold, b
 
 Onto the [http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/it//archive/disk_failures.pdf "Failure Trends in a Large Disk Drive Population"] we have an analisys of critical values that causes a drive failure.
 
-HDD Guardian try to determine with five star the hard disk reliability rating the total amount of errors, reallocated sectors count, current pending sectors and offline uncorrectable.
+HDD Guardian try to determine with five star the hard disk reliability, rating the total amount of errors, reallocated sectors count, current pending sectors and offline uncorrectable.
 For errors, pending sectors and offline reallocation we have a default threshold value of 10; threshold of reallocations (bad blocks) is based upon the threshold that you find into the S.M.A.R.T. table for parameter number 5. This values could be:
  * 50 for Toshiba;
  * 20, 36 or 63 for Maxtor;
