@@ -9,6 +9,7 @@
    * [geometry Geometry and partitions]
    * [enable_disable_features Enable/disable features]
    * [log_events Log events]
+  * [performance Performance section]
   * Advanced section
    * [smart_attributes S.M.A.R.T. attributes]
    * [device_capabilities Device capabilities]
