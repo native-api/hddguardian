@@ -1,0 +1,47 @@
+#summary Performace.
+
+= Performace section =
+
+In this section you can set some features (if they're available) relatives to performaces of you disk.
+
+
+== Advanced Acoustic Management (AAM) ==
+http://hddguardian.googlecode.com/svn/screenshots/0410/aam.png
+
+Here you can set the loudness of your hard disk: a more loud disk is more fast than a quiet disk. This feature is available for oldest disks, because it was declared obsolete in decemeber 2010 with the document ATA ACS-2 revision 4a.
+
+To set a new value, move the ruler and then click "Set value". When you enable this feature you can see also the recommended value of manufacturer.
+
+Set to 0 to disable this feature.
+
+== Advanced Power Management (APM) ==
+http://hddguardian.googlecode.com/svn/screenshots/0410/apm.png
+
+Here you can set the power management of you disk: basically you can regulate the performance of the hard disk drive and, thereby, to save energy of power supplies. Value less than 128 enables the hard disk drive to stop the spindle motor without any commands during certain period time, which allows saving as much energy of the power supply as possible, but leads to the increased deterioration of kinematics and the delay at the waking caused by waiting of magnetic disks spinning up to the necessary speed. The work of the advanced power management implemented in the hard disk drives does not depend on the "sleep" timer of the operating system.
+
+Set to 0 to disable this feature.
+
+== Standby (spindown) timer ==
+http://hddguardian.googlecode.com/svn/screenshots/0410/spindown.png
+
+Here you can set the standby frequency of your drive. Values goes from 0 (disabled) to 255:
+ * values from 1 to 240 specifies a timeout from 5 seconds to 20 minutes with increments of 5 second;
+ * values from 241 to 251 specifies a timeout from 30 to 330 minutes with increments of 30 minutes;
+ * value 252 specify a timeout of 21 minutes;
+ * value 253 specify a vendor specific timeout between 8 and 12 hours;
+ * value 255 specify a timeout of 21 minutes and 15 seconds.
+
+== Other features ==
+http://hddguardian.googlecode.com/svn/screenshots/0410/other.png
+
+*Volatile write cache*
+
+Enabling disk write caching may increase operating system performance. By enabling write caching file system corruption and/or data loss could occur if the machine experiences a power device or system failure and cannot be shutdown properly.
+
+The write cache is usually enabled by default.
+
+*Read Look Ahead*
+
+Drives are configured with a feature called Read Look Ahead that keeps the drive reading ahead, even after execution of the current command has completed. The data is retained in the drive buffer to provide a prompt response to a system request if the ensuing command is indeed sequential.
+
+Read look-ahead is usually enabled by default.
