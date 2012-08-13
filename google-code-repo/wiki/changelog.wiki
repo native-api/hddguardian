@@ -1,5 +1,15 @@
 #summary Changelog of HDD Guardian
 #labels Featured
+*HDD Guardian 0.4.1.0*
+
+_New:_
+	* added "Performance" section, that allows to change status of Automatic Acoustic Management (AAM), Advanced Power Managemet (APM), standby frequency, disk write cache and Look-Ahead capability;
+	* added !SanDisk banner and his internal disk sample;
+_Bugfix:_
+	* fixed a bug that appears during the parse of Self-Test log;
+	* fixed a bug that affect reliability calculation under non administrative accounts.
+
+----
 * HDD Guardian 0.4.0.0*
 
 _New:_
