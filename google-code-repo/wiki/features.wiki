@@ -3,7 +3,7 @@
 
 =HDD Guardian features=
 
-  * automatic translation (if language files doesn't exists, it load automatically english). Available languages: english, italian and hungarian;
+  * automatic translation (if language files doesn't exists, it load automatically english). Available languages: english, italian, french and hungarian;
   * easy device overview, with temperature, last test result, overall health and bad sectors indication;
   * display an optional icon into the tray area for each fixed device;
   * HDD Guardian tray icon change shield color if a device is failing;
@@ -18,4 +18,5 @@
   * allow to set device-specific tolerance, attribute format and firmware debug;
   * allow to set warnings behaviour;
   * allow to monitor SSDs life percentage;
-  * allow to monitor external devices (requires administrative rigths).
+  * allow to monitor external devices (requires administrative rigths);
+  * allow to set APM (Advanced Power Management), AAM (Advanced Acoustic Management), standby frequency, volatile write cache and read look ahead features.
