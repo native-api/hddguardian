@@ -32,6 +32,7 @@
   * [virtual_devices Virtual devices]
   * [tray_icons_and_warnings Tray icons and warnings]
   * [translations Translations]
+  * [TranslationStatus Translation status]
   * [features Features]
   * [changelog Changelog]
   * Versions
