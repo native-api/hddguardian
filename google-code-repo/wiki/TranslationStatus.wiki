@@ -2,7 +2,7 @@
 
 = Translation status =
 
-|| *Language* || *Interface* || *Attributes description* || *Need a translator* ||
+|| *Language* || *Interface* || *Attributes description* || *Translator needed* ||
 || <img src="http://upload.wikimedia.org/wikipedia/commons/0/07/Icons-flag-uk.png"/> English || 100% (381/381)|| 100% (200/200) || No ||
 || <img src="http://upload.wikimedia.org/wikipedia/commons/f/f3/Icons-flag-fr.png"/> French || 100% (381/381) || 0% (0/200) || Yes ||
 || <img src="http://upload.wikimedia.org/wikipedia/commons/5/5b/Icons-flag-hu.png"/> Hungarian || 46% (175/381) || 0% (0/200) || Yes ||
