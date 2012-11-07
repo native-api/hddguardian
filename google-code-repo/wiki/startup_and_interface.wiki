@@ -2,7 +2,7 @@
 
 = Startup and interface =
 
-http://hddguardian.googlecode.com/svn/wiki/images/13-Settings-Startup_and_interface.png
+http://hddguardian.googlecode.com/svn/screenshots/042/settings.png
 
 From here you can set the behavior and appearance HDD Guardian.
 
@@ -12,4 +12,6 @@ In detail, the available options are:
  * _Minimize on tray_: when the program is minimized disappear from the taskbar and placed an icon into the tray area; 
  * _Always show tray icon_: always displays the icon into the tray area, even if the program is not minimized; 
  * _Close on tray_: instead of closing HDD Guardian, it went minimized into the tray area;
- * _Confirm on exit_: ask a confirm when user exits the program.
+ * _Confirm on exit_: ask a confirm when user exits the program;
+ * _Check for updates_: try to find a new version of HDD Guardian;
+ * _Show temperatures in Fahrenheit_: switch from Celsius to Fahrenheit temperatures displayed into the devices list, the main screen and also into the tray icons.
