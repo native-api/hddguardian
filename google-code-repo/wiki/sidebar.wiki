@@ -6,8 +6,8 @@
   * Main section
    * [summary Summary]
    * [device_info Device info]
-   * [geometry Geometry and partitions]
    * [enable_disable_features Enable/disable features]
+   * [system System]
    * [log_events Log events]
   * [performance Performance section]
   * Advanced section
@@ -41,6 +41,7 @@
    * [screenshots_0310 0.3.1.0]
    * [screenshots_0400 0.4.0.0]
    * [0410_screenshots 0.4.1.0]
+   * [screenshots_042 0.4.2]
  * S.M.A.R.T. attributes details
   * [HDD_SMART_attributes HDD]
   * SSD
