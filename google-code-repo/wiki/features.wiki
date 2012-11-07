@@ -19,4 +19,6 @@
   * allow to set warnings behaviour;
   * allow to monitor SSDs life percentage;
   * allow to monitor external devices (requires administrative rigths);
-  * allow to set APM (Advanced Power Management), AAM (Advanced Acoustic Management), standby frequency, volatile write cache and read look ahead features.
+  * allow to set APM (Advanced Power Management), AAM (Advanced Acoustic Management), standby frequency, volatile write cache and read look ahead features;
+  * support Intel Matrix system (thanks to Daniel Pixley);
+  * temperatures can be displayed in Fahrenheit.
