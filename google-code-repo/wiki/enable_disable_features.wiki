@@ -2,7 +2,7 @@
 
 = Enable/disable features =
 
-http://hddguardian.googlecode.com/svn/wiki/images/02-Main-Enable_disable_features.png
+http://hddguardian.googlecode.com/svn/screenshots/042/features.png
 
 Here we can enable or disable the main features of device, like the S.M.A.R.T. capability, which is very useful for predict malfunctions and take appropriates countermeasures, the S.M.A.R.T. automatic offline test, which scan device every four hours for disc defects without performance impact or the S.M.A.R.T. autosave, which autosave all device's vendor-specific attributes.
 
