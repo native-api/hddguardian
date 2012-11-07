@@ -1,5 +1,28 @@
 #summary Changelog of HDD Guardian
 #labels Featured
+*HDD Guardian 0.4.2*
+
+_New:_
+	* added support for devices under Intel Matrix system (thanks to Daniel Pixley);
+	* temperatures can be displayed in Fahrenheit;
+	* is possible to disable HDD Guardian update check;
+	* device trayicon right-click baloon now display also device reliability;
+	* replaced "Geometry and partitions" with "System";
+	* added new SMART attributes descriptions;
+	* replaced switches into "Enable/disable features" with checkboxes;
+	* updated "Device info" tab;
+	* package now include smartctl 5.60;
+	* add support for new smartctl firmware debug options;
+_Bugfix:_
+	* fixed a pair of bugs that appears querying WMI;
+	* corrected SMART Storage System logo and web link;
+	* corrected Conner, Quantum, Maxtor and Samsung web link (now points to www.seagate.com);
+	* corrected IBM and Hitachi web link (now points to www.hgst.com);
+	* corrected Toshiba and Fujitsu web link (now points to www.toshibastorage.com);
+	* fixed an issue with Self-Test log parser;
+	* fixed a bug that occurred with smartctl device database update.
+
+----
 *HDD Guardian 0.4.1.0*
 
 _New:_
