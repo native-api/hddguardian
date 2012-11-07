@@ -2,7 +2,7 @@
 
 = System =
 
-Here you can see some generla informations about your system (mother board, processor, installed memory and video card) and several details about your Windows drives configuration: their partitions and their logical drives.
+Here you can see some generla informations about your system (mother board, processor, installed memory and video card) and several details about your Windows drives configuration, their partitions and their logical drives.
 
 http://hddguardian.googlecode.com/svn/screenshots/042/system_1.png
 http://hddguardian.googlecode.com/svn/screenshots/042/system_2.png
