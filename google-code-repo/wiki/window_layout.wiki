@@ -8,7 +8,7 @@ Into the top panel you can see some informations about selected device, like an 
 
 Clicking onto the stars you can see the [reliability_details Reliability details].
 
-http://hddguardian.googlecode.com/svn/screenshots/0400/main.png
+http://hddguardian.googlecode.com/svn/screenshots/042/main.png
 
 At bottom of the top panel we have the navigation bar. All sections are available on the right of this bar.
 
