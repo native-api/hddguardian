@@ -2,7 +2,7 @@
 
 = Summary =
 
-http://hddguardian.googlecode.com/svn/screenshots/0400/main.png
+http://hddguardian.googlecode.com/svn/screenshots/042/main.png
 
 The summary panel displays health basics about selected device: temperature, last test result, overall health, bad sector and error information, the last update and eventual warnings about firmware updates.
 
