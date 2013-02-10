@@ -8,7 +8,7 @@ _New:_
 _Bugfix:_
 	* fixed an issue that affect systems with more than one hard drive of the same model (only one was displayed).
 
----
+----
 *HDD Guardian 0.4.2*
 
 _New:_
