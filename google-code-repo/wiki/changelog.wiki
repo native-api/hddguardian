@@ -1,5 +1,12 @@
 #summary Changelog of HDD Guardian
 #labels Featured
+*HDD Guardian 0.4.3*
+_New:_
+	* package include german and finnish translation;
+	* add an initial support for LSI Falcon (LSI SAS 9211-8i) and Intel RST (QM77 chipset);
+_Bugfix:_
+	* fixed an issue that affect systems with more than one hard drive of the same model (only one was displayed).
+
 *HDD Guardian 0.4.2*
 
 _New:_
