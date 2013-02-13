@@ -1,71 +1,90 @@
 #summary HDD Guardian awards
+#labels Featured
 
+==5 STARS AWARDS==
 <table>
 <tr>
-<td>
-<a href="http://www.opensource-dvd.de/programme/hddguardian.htm" target="_blank"><img src="http://hddguardian.googlecode.com/svn/opensource-dvd_4.png"/></a>
-</td>
-<td>
+<td align="center" width=210>
 <a href="http://softcoffee.net/software/1244-HDD_Guardian-0_3_1" target="_blank"><img src="http://hddguardian.googlecode.com/svn/softcoffee_5.png"/></a>
 </td>
-<td>
-<a href="http://hdd-guardian.softbull.com/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/softbull_4.png"/></a>
-</td>
-<td>
+<td align="center" width=210>
 <a href="http://hdd-guardian.findmysoft.com/" target="_blank"><img src="http://www.findmysoft.com/review2_5_HDD%20Guardian_award.png"/></a>
 </td>
-</tr>
-<tr>
-<td>
+<td align="center" width=210>
 <a href="http://www.softepic.com/windows/system-utilities/hard-disk-utils/hdd-guardian/" target="_blank"><img src="http://www.softepic.com/skins/Images/softepic_5Star.png"/></a>
 </td>
-<td>
+<td align="center" width=210>
 <a href="http://hdd-guardian.software.informer.com/" target="_blank"><img border="0" src="http://img.informer.com/awards/si_editor5.gif" alt="Software.Informer Editor's pick award" height="111" width="166" /></a>
 </td>
-<td>
-<a href="http://www.softpedia.com/get/System/Hard-Disk-Utils/HDD-Guardian.shtml" target="_blank"><img src="http://s1.softpedia-static.com/base_img/softpedia_free_award_f.gif"/></a>
-</td>
-<td>
-<a href="http://www.softsea.com/review/HDD-Guardian.html" target="_blank"><img src="http://www.softsea.com/images/pro-logo-4stars-1.gif"/></a>
-</td>
 </tr>
 <tr>
-<td>
-<a href="http://www.softsea.com/review/HDD-Guardian.html" target="_blank"><img src="http://www.softsea.com/images/pro-logo-clean-1.gif"/></a>
-</td>
-<td>
+<td align="center" width=210>
 <a href="http://www.top4download.com/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/t4d_5.png" alt="Top 4 Download" border="0"/></a>
 </td>
-<td>
+<td align="center" width=210>
 <a href="http://www.bestvistadownloads.com/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/bvd_5.gif" alt="Best Vista Download" border="0"/></a>
 </td>
-<td>
+<td align="center" width=210>
 <a href="http://www.bestfreewaredownload.com/" target="_blank"><img src="http://www.bestfreewaredownload.com/images/BFD_award5.png" alt="Best Freeware Download" border="0"/></a>
 </td>
-</tr>
-<tr>
-<td>
+<td align="center" width=210>
 <a href="http://www.windows7download.com/" target="_blank"><img src="http://www.windows7download.com/templates/w7d/images/awards/award_5.png" alt="Windows 7 Download" border="0"/></a>
 </td>
-<td>
+</tr>
+<tr>
+<td align="center" width=210>
 <a href="http://www.downloadtyphoon.com/" target="_blank"><img src="http://www.downloadtyphoon.com/templates/downty/images/award_5.gif" alt="Download Typhoon" border="0"/></a>
 </td>
-<td>
+<td align="center" width=210>
 <a href="http://down.tech.sina.com.cn/content/52769.html" target="_blank"><img src="http://i2.sinaimg.cn/IT/download/downp/cho_lmy_061.gif" alt="SINA" border="0"/></a>
 </td>
-<td>
-<a href="http://www.freewarefiles.com/HDD-Guardian_program_74177.html" target="_blank"><img src="http://www.freewarefiles.com/banners/fwf_clean_170x90b.png"/></a>
+</tr>
+</table>
+----
+==4 STARS AWARDS==
+<table>
+<tr>
+<td align="center" width=210>
+<a href="http://www.opensource-dvd.de/programme/hddguardian.htm" target="_blank"><img src="http://hddguardian.googlecode.com/svn/opensource-dvd_4.png"/></a>
+</td>
+<td align="center" width=210>
+<a href="http://hdd-guardian.softbull.com/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/softbull_4.png"/></a>
+</td>
+<td align="center" width=210>
+<a href="http://www.softsea.com/review/HDD-Guardian.html" target="_blank"><img src="http://www.softsea.com/images/pro-logo-4stars-1.gif"/></a>
+</td>
+<td align="center" width=210>
+<a href="http://www.snapfiles.com/get/hddguardian.html" target="_blank"><img src="http://www.snapfiles.com/linkedimg/snapfiles140_award40.png"/></a>
 </td>
 </tr>
 <tr>
-<td>
-<a href="http://www.snapfiles.com/get/hddguardian.html" target="_blank"><img src="http://www.snapfiles.com/linkedimg/snapfiles140_award40.png"/></a>
-</td>
-<td>
-<a href="http://www.soft82.com/download/windows/hdd-guardian/"><img src="http://www.soft82.com/images/produse/clean_awards/soft82_clean_award_80128.png" width="167" height="129"/></a>
-</td>
-<td>
+<td align="center" width=210>
 <a href="http://www.oyksoft.com/soft/22906.html"><img src="http://hddguardian.googlecode.com/svn/docs/4star-oyksoft-plain.png"/></a>
 </td>
+<td align="center" width=210>
+<a href="http://www.tamindir.com/hdd-guardian/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/tam-indir_4.png"/></a>
+</td>
 </tr>
+</table>
+----
+==CLEAN AWARDS==
+<table>
+<tr>
+<td align="center" width=210>
+<a href="http://www.softpedia.com/get/System/Hard-Disk-Utils/HDD-Guardian.shtml" target="_blank"><img src="http://s1.softpedia-static.com/base_img/softpedia_free_award_f.gif"/></a>
+</td>
+<td align="center" width=210>
+<a href="http://www.softsea.com/review/HDD-Guardian.html" target="_blank"><img src="http://www.softsea.com/images/pro-logo-clean-1.gif"/></a>
+</td>
+<td align="center" width=210>
+<a href="http://www.freewarefiles.com/HDD-Guardian_program_74177.html" target="_blank"><img src="http://www.freewarefiles.com/banners/fwf_clean_170x90b.png"/></a>
+</td>
+<td align="center" width=210>
+<a href="http://www.soft82.com/download/windows/hdd-guardian/"><img src="http://www.soft82.com/images/produse/clean_awards/soft82_clean_award_80128.png" width="167" height="129"/></a>
+</td>
+</tr>
+
+<tr>
+</tr>
+
 </table>
