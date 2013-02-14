@@ -64,6 +64,9 @@
 <td align="center" width=210>
 <a href="http://www.tamindir.com/hdd-guardian/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/tam-indir_4.png"/></a>
 </td>
+<td align="center" width=210>
+<a href="http://www.veindir.com/hdd-guardian/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/veindir-com_4.png"/></a>
+</td>
 </tr>
 </table>
 ----
