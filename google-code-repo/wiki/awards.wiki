@@ -48,7 +48,7 @@
 <a href="http://www.opensource-dvd.de/programme/hddguardian.htm" target="_blank"><img src="http://hddguardian.googlecode.com/svn/opensource-dvd_4.png"/></a>
 </td>
 <td align="center" width=210>
-<a href="http://hdd-guardian.softbull.com/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/softbull_4.png"/></a>
+<a href="http://hdd-guardian.softbull.com/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/softbull-4.png"/></a>
 </td>
 <td align="center" width=210>
 <a href="http://www.softsea.com/review/HDD-Guardian.html" target="_blank"><img src="http://www.softsea.com/images/pro-logo-4stars-1.gif"/></a>
