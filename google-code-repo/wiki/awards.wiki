@@ -14,7 +14,7 @@
 <a href="http://www.softepic.com/windows/system-utilities/hard-disk-utils/hdd-guardian/" target="_blank"><img src="http://www.softepic.com/skins/Images/softepic_5Star.png"/></a>
 </td>
 <td align="center" width=210>
-<a href="http://hdd-guardian.software.informer.com/" target="_blank"><img border="0" src="http://hddguardian.googlecode.com/svn/awards/si_editor5.png" alt="Software.Informer Editor's pick award" /></a>
+<a href="http://hdd-guardian.software.informer.com/" target="_blank"><img border="0" src="http://hddguardian.googlecode.com/svn/awards/si_editor5.gif" alt="Software.Informer Editor's pick award" /></a>
 </td>
 </tr>
 <tr>
