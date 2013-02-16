@@ -38,6 +38,7 @@
 <td align="center" width=210>
 <a href="http://down.tech.sina.com.cn/content/52769.html" target="_blank"><img src="http://i2.sinaimg.cn/IT/download/downp/cho_lmy_061.gif" alt="SINA" border="0"/></a>
 </td>
+</tr>
 </table>
 ----
 ==4 STARS AWARDS==
@@ -65,7 +66,6 @@
 </td>
 <td align="center" width=210>
 <a href="http://www.veindir.com/hdd-guardian/" target="_blank"><img src="http://hddguardian.googlecode.com/svn/awards/veindir_4.png"/></a>
-</td>
 </td>
 <td align="center" width=210>
 <a href="http://www.download.hr/software-hdd-guardian.html" target="_blank"><img src="http://www.download.hr/modules/awards/windows/downloadhr_editors_review_4_eng.gif"/></a>
