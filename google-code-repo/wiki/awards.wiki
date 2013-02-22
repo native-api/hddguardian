@@ -92,6 +92,9 @@
 <td align="center" width=210>
 <a href="http://www.download.hr/software-hdd-guardian.html"><img src="http://www.download.hr/modules/awards/windows/downloadhr_safe_award_eng.gif"/></a>
 </td>
+<td align="center" width=210>
+<a href="http://hdd-guardian.en.lo4d.com/"><img src="http://www.lo4d.com/i/award/HDD%20Guardian.png"/></a>
+</td>
 <tr>
 </tr>
 
