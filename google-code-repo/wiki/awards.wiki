@@ -28,7 +28,7 @@
 <a href="http://www.bestfreewaredownload.com/" target="_blank"><img src="http://www.bestfreewaredownload.com/images/BFD_award5.png" alt="Best Freeware Download" border="0"/></a>
 </td>
 <td align="center" width=210>
-<a href="http://www.windows7download.com/" target="_blank"><img src="http://www.windows7download.com/templates/w7d/images/awards/award_5.png" alt="Windows 7 Download" border="0"/></a>
+<a href="http://www.windows7download.com/win7-hdd-guardian/phiokdno.html" target="_blank"><img src="http://www.windows7download.com/templates/w7d/images/awards/award_5.png" alt="Windows 7 Download" border="0"/></a>
 </td>
 </tr>
 <tr>
@@ -37,6 +37,9 @@
 </td>
 <td align="center" width=210>
 <a href="http://down.tech.sina.com.cn/content/52769.html" target="_blank"><img src="http://i2.sinaimg.cn/IT/download/downp/cho_lmy_061.gif" alt="SINA" border="0"/></a>
+</td>
+<td align="center" width=210>
+<a href="http://www.windows8downloads.com/win8-hdd-guardian-clqeysbq/" target="_blank"><img src="http://www.windows8downloads.com/img/awards/award_5.png" alt="Windows 8 Downloads" border="0"/></a>
 </td>
 </tr>
 </table>
