@@ -8,27 +8,45 @@
                       ## Description ##
                       #################
 </wiki:comment>
-The purpose of HDD Guardian is to provide a graphical interface to smartctl, part of the S.M.A.R.T. Monitoring Tools, in order to make this nice utility accessible to all Windows users.
-----
-<table>
+<table width="100%">
 <tr>
-<td valign="top" width="40%">
-HDD Guardian requires _.NET Framework 4.0_ and is actually tested on Windows XP SP3 and Windows 7.
+<td width="80%">
+The purpose of HDD Guardian is to provide a graphical interface to smartctl, part of the [http://sourceforge.net/apps/trac/smartmontools/wiki S.M.A.R.T. Monitoring Tools], in order to make this nice utility accessible to all Windows users.
+</td>
+<td width="20%">
+<a href="https://plus.google.com/b/106826995603694539889/"><img src="http://hddguardian.googlecode.com/svn/badge.png" align="right"/></a>
+</td>
+</tr>
+</table>
+----
+Available languages:
+<img src="http://upload.wikimedia.org/wikipedia/commons/0/07/Icons-flag-uk.png"/>
+<img src="http://upload.wikimedia.org/wikipedia/commons/b/b5/Icons-flag-de.png"/>
+<img src="http://upload.wikimedia.org/wikipedia/commons/1/1c/Icons-flag-fi.png"/>
+<img src="http://upload.wikimedia.org/wikipedia/commons/f/f3/Icons-flag-fr.png"/>
+<img src="http://upload.wikimedia.org/wikipedia/commons/5/5b/Icons-flag-hu.png"/>
+<img src="http://upload.wikimedia.org/wikipedia/commons/b/b0/Icons-flag-it.png"/>
+[http://code.google.com/p/hddguardian/wiki/TranslationStatus Check translation status]
+----
+<table width="100%">
+<tr>
+<td valign="top" width="auto">
+HDD Guardian requires _*.NET Framework 4.0*_ and is actually tested on Windows XP SP3 32 bit and Windows 7 Ultimate 64 bit.
 
 HDD Guardian alert in case of imminent failure, temperature threshold or vital parameter change.
 
-See [http://code.google.com/p/hddguardian/wiki/features features list], [http://code.google.com/p/hddguardian/wiki/changelog change log] or [http://code.google.com/p/hddguardian/wiki/screenshots_0310 screenshots] for an overview of HDD Guardian.
+See [http://code.google.com/p/hddguardian/wiki/features features list], [http://code.google.com/p/hddguardian/wiki/changelog change log] or [http://code.google.com/p/hddguardian/wiki/screenshots_0400 screenshots] for an overview of HDD Guardian.
 Source code is available [http://hddguardian.googlecode.com/svn/source/ here].
 
 If you have any question, comment, suggestion or bug report, you can also contact on [http://groups.google.com/group/hddguardian/topics HDD Guardian] support group.
 </td>
-<td align="center" width="60%">
+<td align="center" width="auto">
 <wiki:comment>
                       ################
                       ## Screenshot ##
                       ################
 </wiki:comment>
-<img src="http://hddguardian.googlecode.com/svn/screenshots/0310/00-Main-Summary.png" height="80%" width="80%" align="right"></img>
+<img src="http://hddguardian.googlecode.com/svn/screenshots/042/main.png" height="376px" width="614px" align="right"></img>
 </td>
 </tr>
 </table>
@@ -63,7 +81,7 @@ OCZ Agility 3 need a firmware update: prior to version 2.15 shows a wrong temper
 </td>
 <td>
 *TRANSLATORS WANTED!*<br></br>
-Create your translation, I'll include into the package!
+Create your translation, I'll include into the package! [http://code.google.com/p/hddguardian/wiki/translations Here] you can get some information on how to translate HDD Guardian.
 </td>
 </tr>
 </table>
@@ -80,6 +98,25 @@ Create your translation, I'll include into the package!
 </td>
 <td>
 *UPDATES*<br></br>
+
+*10 feb 2013*: Released HDD Guardian 0.4.3<br> Now package include german and finnish translation, add an initial support for LSI Falcon (LSI SAS 9211-8i) and Intel RST (QM77 chipset) and fixed an issue that affect systems with more than one hard drive of the same model (only one was displayed).</br>
+
+*04 dec 2012*: Updated finnish translation with SMART attributes and some corrections. Thanks again, Teijo!
+
+*02 dec 2012*: Thanks to Teijo HDD Guardian have also the finnish translation! You can find it into the download section as a separate archive!
+
+*27 nov 2012*: Now, thanks to Ben Berger, HDD Guardian have also the german translation! You can find it into the download section as a separate archive!
+
+*07 nov 2012*: Released HDD Guardian 0.4.2<br>Added Intel Matrix system support (thanks to Daniel Pixley) and temperatures can be displayed in Fahrenheit!
+</br>
+
+*13 aug 2012*: Released HDD Guardian 0.4.1.0<br>Added "Performance" section, that allows to change status of Automatic Acoustic Management (AAM), Advanced Power Managemet (APM), standby frequency, disk write cache and Read Look-Ahead capabilities!
+</br>
+
+*19 may 2012*: Released HDD Guardian 0.4.0.0<br>Now package is also available in portable version, added french language (I'm sorry for errors, my french is covered by rust!), is possible to export an xml summary for desktop enhancers, you can see geometry and partitions details and is introduced a five star rating system for devices realibility!</br>
+
+*12 feb 2012*: [http://code.google.com/p/hddguardian/wiki/Project_purpose New online help!]
+
 *14 jan 2012*: Released HDD Guardian 0.3.1.0<br>Now support external devices (requires administrative rights) and monitor SSD health percentages!</br>
 
 *24 oct 2011*: Released HDD Guardian 0.2.0.0<br>Included languages: english (default), italian and hungarian.</br>
@@ -93,6 +130,9 @@ Create your translation, I'll include into the package!
 </tr>
 </table>
 </td>
+<td height="100%">
+<table border="1" height="100%" width="1"></table>
+</td>
 <td width="180px" align="center" valign="top">
 <wiki:comment>
                       ##########
@@ -100,24 +140,19 @@ Create your translation, I'll include into the package!
                       ##########
 </wiki:comment>
 <g:plusone size="big"></g:plusone>
-<br></br>
-<br></br>
+----
 <wiki:comment>
                       ############
                       ## Awards ##
                       ############
 </wiki:comment>
-<a href="http://www.softpedia.com/get/System/Hard-Disk-Utils/HDD-Guardian.shtml" target="_blank"><img src="http://s1.softpedia-static.com/base_img/softpedia_free_award_f.gif"/></a>
-<a href="http://www.softsea.com/review/HDD-Guardian.html" target="_blank"><img src="http://www.softsea.com/images/pro-logo-4stars-1.gif"/></a>
-<a href="http://www.softsea.com/review/HDD-Guardian.html" target="_blank"><img src="http://www.softsea.com/images/pro-logo-clean-1.gif"/></a>
-<a href="http://www.top4download.com/" target="_blank"><img src="http://www.top4download.com/templates/T4D/images/award_5.gif" alt="Top 4 Download" border="0"/></a>
-<a href="http://www.bestvistadownloads.com/" target="_blank"><img src="http://www.bestvistadownloads.com/templates/BVD/images/award_5.gif" alt="Best Vista Download" border="0"/></a>
-<a href="http://www.bestfreewaredownload.com/" target="_blank"><img src="http://www.bestfreewaredownload.com/images/BFD_award5.png" alt="Best Freeware Download" border="0"/></a>
-<a href="http://www.windows7download.com/" target="_blank"><img src="http://www.windows7download.com/templates/w7d/images/awards/award_5.png" alt="Windows 7 Download" border="0"/></a>
-<a href="http://www.downloadtyphoon.com/" target="_blank"><img src="http://www.downloadtyphoon.com/templates/downty/images/award_5.gif" alt="Download Typhoon" border="0"/></a>
-<a href="http://tech.sina.com.cn/" target="_blank"><img src="http://i2.sinaimg.cn/IT/download/downp/cho_lmy_061.gif" alt="SINA" border="0"/></a>
-<a href="http://www.freewarefiles.com/HDD-Guardian_program_74177.html" target="_blank"><img src="http://www.freewarefiles.com/banners/fwf_clean_170x90b.png"/></a>
-<a href="http://www.snapfiles.com/get/hddguardian.html" target="_blank"><img src="http://www.snapfiles.com/linkedimg/snapfiles140_award40.png"/></a>
+<a href="http://hdd-guardian.findmysoft.com/" target="_blank"><img src="http://www.findmysoft.com/review2_5_HDD%20Guardian_award.png"/></a>
+<a href="http://hdd-guardian.software.informer.com/" target="_blank"><img border="0" src="http://hddguardian.googlecode.com/svn/awards/si_editor5.gif" alt="Software.Informer Editor's pick award" height="111" width="166" /></a>
+----
+<a href="http://www.windows7download.com/win7-hdd-guardian/phiokdno.html" target="_blank" title="free Windows 7 downloads"><img src="http://www.windows7download.com/img/awards/windows7compatible.png" alt="Windows 7 Download" border="0" width="160" height="80"/></a>
+<a href="http://www.windows8downloads.com/win8-hdd-guardian-clqeysbq/" target="_blank" title="free Windows 8 downloads"><img src="http://www.windows8downloads.com/img/awards/windows8compatible.png" alt="Windows 8 Downloads" border="0" width="160" height="80"/></a>
+----
+Click [awards here] to see all awards gained by HDD Guardian
 </td>
 </tr>
 </table>
