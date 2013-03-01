@@ -24,10 +24,10 @@ Evaluate if an SSD is healthy is much more simple: vendors have specific values 
 
 Here is gathered vital parameters of SSD vendors that HDD Guardian tracks:
 || *Vendor* || *ID* || *Hex* || *Name* || *Meaning* ||
-|| Indilinx || 209 || D1 || Remaining Life (%) ||
+|| Indilinx || 209 || D1 || Remaining Life (%) || 
 || Intel || 233 || E9 || Media Wearout Indicator || This attribute reports the number of cycles the NAND media has experienced. The normalized value declines linearly from 100 to 1 as the average erase cycle count increases from 0 to the maximum rated cycles. Once the normalized value reaches 1, the number will not decrease, although it is likely that significant additional wear can be put on the device. ||
 || Micron || 202 || CA || Percentage Lifetime Used || The average erase count of all blocks on Channel 0 CE 0 divided by the specified !MaxEraseCount (10k for MLC or 100k for SLC), reported as a percentage from 0 to 100%. ||
 || Samsung || 177 || B1 || Wear Leveling Count || (note: this value is assumed as for Intel Media Wearout Indicator, since Samsung can't provide a description of their S.M.A.R.T. values meanings.) ||
 || !SandForce || 231 || E7 || SSD Life Left || A measure of the estimated life left, based on a combination of PE cycles and available reserve blocks. 100 is a new drive, 10 = replace as it has sufficient reserved blocks but the PE cycles have been used, 0 = insufficient reserved blocks, drive is read only to allow recovery of data on the drive. ||
 
-The rating that HDD Guardian gives start from 5 star (80% to 100% life remainig) to a minimum of 1 star (0% to 20% life remaining). If appears 5 grey stars is not possible to give an evaluation.
+The rating that HDD Guardian gives start from 5 stars (80% to 100% life remaining) to a minimum of 1 star (0% to 20% life remaining). If appears 5 grey stars is not possible to give an evaluation.
