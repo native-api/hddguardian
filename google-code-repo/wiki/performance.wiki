@@ -2,7 +2,7 @@
 
 = Performace section =
 
-In this section you can set some features (if they're available) relatives to performaces of you disk.
+In this section you can set some features (if they're available) relatives to performaces of your disk.
 
 
 == Advanced Acoustic Management (AAM) ==
