@@ -9,3 +9,4 @@
 || <img src="http://upload.wikimedia.org/wikipedia/commons/b/b5/Icons-flag-de.png"/> German || 100% (376) || 100% (220) || No ||
 || <img src="http://upload.wikimedia.org/wikipedia/commons/5/5b/Icons-flag-hu.png"/> Hungarian || 46% (175) || 0% (0) || Yes ||
 || <img src="http://upload.wikimedia.org/wikipedia/commons/b/b0/Icons-flag-it.png"/> Italian || 100% (376) || 100% (220) || No ||
+|| <img src="http://upload.wikimedia.org/wikipedia/commons/9/99/Icons-flag-se.png"/> Swedish || 100% (376) || 100% (220) || No ||
