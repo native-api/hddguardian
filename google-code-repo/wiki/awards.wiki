@@ -99,9 +99,20 @@
 <a href="http://hdd-guardian.en.lo4d.com/"><img src="http://www.lo4d.com/i/award/HDD%20Guardian.png"/></a>
 </td>
 <td align="center" width=210>
-<a href="http://www.freewarebb.com/files/file/12169-hdd-guardian/"><img src="http://www.freewarebb.com/images/virus-total.png" width="200" height="60"/></a>
+<a href="http://www.freewarebb.com/files/file/12169-hdd-guardian/"><img src="http://www.freewarebb.com/images/virus-total.png" width=200 height=60 /></a>
 </td>
 <tr>
 </tr>
-
+</table>
+----
+==OTHER AWARDS==
+<table>
+<tr>
+<td align="center" width=210>
+<a href="http://www.windows7download.com/win7-hdd-guardian/phiokdno.html" target="_blank" title="free Windows 7 downloads"><img src="http://www.windows7download.com/img/awards/windows7compatible.png" alt="Windows 7 Download" border="0" width="160" height="80"/></a>
+</td>
+<td align="center" width=210>
+<a href="http://www.windows8downloads.com/win8-hdd-guardian-clqeysbq/" target="_blank" title="free Windows 8 downloads"><img src="http://www.windows8downloads.com/img/awards/windows8compatible.png" alt="Windows 8 Downloads" border="0" width="160" height="80"/></a>
+</td>
+</tr>
 </table>
