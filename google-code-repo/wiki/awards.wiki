@@ -98,6 +98,9 @@
 <td align="center" width=210>
 <a href="http://hdd-guardian.en.lo4d.com/"><img src="http://www.lo4d.com/i/award/HDD%20Guardian.png"/></a>
 </td>
+<td align="center" width=210>
+<a href="http://www.freewarebb.com/files/file/12169-hdd-guardian/"><img src="http://www.freewarebb.com/images/virus-total.png" width="200" height="60"/></a>
+</td>
 <tr>
 </tr>
 
