@@ -1,5 +1,37 @@
 #summary Changelog of HDD Guardian
 #labels Featured
+*HDD Guardian 0.5.0*
+
+_New:_
+	* added support for SCSI devices (thanks to Gerhard Schneider);
+	* package now include smartctl 6.1;
+	* package inclue swedish translation;
+	* device tray icon can display remaining life of SSD;
+	* added "Monitoring" section, where are moved devices tray icon and sharing options and the log viewer;
+	* graph with variations of monitored vital parameters, available under "Monitoring" section;
+	* section menu is available clicking on the top left menu icon;
+	* sections shortcuts keys;
+	* is possible update manually smartctl devices database;
+	* modified SMART attribute table layout;
+	* added capability to change powermode option for smartctl;
+	* added capability to copy data from monitoring report;
+	* added capability to generate a report file with monitored data;
+	* added Apacer, Mushkin, SuperSSpeed, sTec and Plextor banners;
+	* added a new utility that allow to monitor partitions activity (also with tray icons);
+	* is possible to disable USB devices connection/disconnection;
+_Removed:_
+	* old menu;
+	* icons on devices list;
+	* ASAX web link (is offline now);
+_Bugfix:_
+	* updated HP logo;
+	* Samsung web link now points again to www.samsung.com (only for SSDs);
+	* corrected an issue with monitoring of Samsung's Wear Leveling Count;
+	* fixed an issue related to output parser;
+	* fixed an issue related to device health fail message;
+	* corrected some little bugs.
+
+----
 *HDD Guardian 0.4.3*
 
 _New:_
