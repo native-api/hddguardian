@@ -3,7 +3,7 @@
 
 =HDD Guardian features=
 
-  * automatic translation (if language files doesn't exists, it load automatically english). Available languages: english, italian, finnish, french, german and hungarian;
+  * automatic translation (if language files doesn't exists, it load automatically english). Available languages: english, italian, finnish, french, german, hungarian and swedish;
   * easy device overview, with temperature, last test result, overall health and bad sectors indication;
   * display an optional icon into the tray area for each fixed device;
   * HDD Guardian tray icon change shield color if a device is failing;
