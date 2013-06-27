@@ -23,4 +23,5 @@
   * support Intel Matrix system (thanks to Daniel Pixley);
   * support LSI Falcon (LSI SAS 9211-8i);
   * support Intel RST (QM77 chipset);
-  * temperatures can be displayed in Fahrenheit.
+  * temperatures can be displayed in Fahrenheit;
+  * support SCSI devices.
