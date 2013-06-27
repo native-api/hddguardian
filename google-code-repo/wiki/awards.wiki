@@ -74,6 +74,11 @@
 <a href="http://www.download.hr/software-hdd-guardian.html" target="_blank"><img src="http://www.download.hr/modules/awards/windows/downloadhr_editors_review_4_eng.gif"/></a>
 </td>
 </tr>
+<tr>
+<td align="center" width=210>
+<a href="http://www.cnback.cn/down/3035.html" target="_blank"><img src="http://hddguardian.googlecode.com/svn/awards/cnback_4.png"/></a>
+</td>
+</tr>
 </table>
 ----
 ==CLEAN AWARDS==
