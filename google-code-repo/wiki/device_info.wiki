@@ -2,8 +2,10 @@
 
 = Device info =
 
-http://hddguardian.googlecode.com/svn/screenshots/042/device_info.png
+http://hddguardian.googlecode.com/svn/screenshots/050/main-device_info.png
 
 Into device info panel you can see many useful informations about your device, like model family, device model, the serial number, device World Wide Name, the firmware version, total disk size, the sector size, the rotation rate (if available), if device is in smartctl database, the ATA version and standard, the interface type, and the S.M.A.R.T. ability availability and if they're enabled.
 
 Some of these informations are not available for all units, like the World Wide Name or, with very old devices, the S.M.A.R.T. capability.
+
+Clicking on "Update database" you launch the Smartmontools utility created to update smartctl database.
