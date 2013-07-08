@@ -2,7 +2,7 @@
 
 = S.M.A.R.T. error log =
 
-http://hddguardian.googlecode.com/svn/wiki/images/06-Advanced-SMART_error_log.png
+http://hddguardian.googlecode.com/svn/screenshots/050/advanced-errors_log.png
 
 The units have the ability to record each error that occur during their life cycle, even if you normally can recover only the data of the past five errors recorded.
 
