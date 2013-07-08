@@ -2,7 +2,7 @@
 
 = Tolerance =
 
-http://hddguardian.googlecode.com/svn/wiki/images/10-Smartctl-Tolerance.png
+http://hddguardian.googlecode.com/svn/screenshots/050/smartctl-tolerance.png
 
 To retrieve all S.M.A.R.T. data from some units, we have to set an error tolerance for smartctl. The options are: normal (default), conservative and very permissive.
 
