@@ -9,7 +9,7 @@
    * [enable_disable_features Enable/disable features]
    * [system System]
   * [performance Performance section]
-  * [monitoring Monitoring section]
+  * [monitoring_section Monitoring section]
   * Advanced section
    * [smart_attributes S.M.A.R.T. attributes]
    * [device_capabilities Device capabilities]
