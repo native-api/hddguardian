@@ -1,0 +1,28 @@
+#summary Monitoring section
+
+= Monitoring section =
+
+== Tray icon and sharing ==
+
+http://hddguardian.googlecode.com/svn/screenshots/050/monitoring-tray_icon_and_sharing.png
+
+The monitoring features allows to place an icon into the tray area that display device health and temperature (or remainig life for SSDs) and share device output into a specified folder. This last option was designed specifically for system's administrators: sharing all the outputs into a LAN folder, and adding all these outputs as virtual devices, is possible to monitor in a single workplace all these devices.
+
+== Log events ==
+
+http://hddguardian.googlecode.com/svn/screenshots/050/monitoring-log_events.png
+
+Log events panel displays all parameters have changed during HDD Guardian monitoring.
+Here you can navigate through the days, refresh the log, copy the selected item into the clipboard or export a log of all events occured during HDD Guardian monitoring.
+You can choose parameters to monitor into the [warnings Warnings] panel of Settings section.
+
+== Events chart ==
+
+http://hddguardian.googlecode.com/svn/screenshots/050/monitoring-events_chart_display_all.png
+
+Here you can see all events registered for each device monitored. You can change the visualized event by clicking on the top-left list and eventually refresh the content by clicking on the button at his right side. You can also choose to see only the list of events or only the chart.
+
+By selecting a range of items into the events list, the chart display only selected items.
+
+http://hddguardian.googlecode.com/svn/screenshots/050/monitoring-events_chart_selection.png
+
