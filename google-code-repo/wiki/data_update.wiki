@@ -2,7 +2,7 @@
 
 = Data update =
 
-http://hddguardian.googlecode.com/svn/wiki/images/14-Settings-Data_update.png
+http://hddguardian.googlecode.com/svn/screenshots/050/settings-data_update.png
 
 Here you can set the refresh interval of the S.M.A.R.T. Attributes for each type of devices (internal, external and virtual).
 
