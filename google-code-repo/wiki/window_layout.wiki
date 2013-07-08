@@ -8,9 +8,9 @@ Into the top panel you can see some informations about selected device, like an 
 
 Clicking onto the stars you can see the [reliability_details Reliability details].
 
-http://hddguardian.googlecode.com/svn/screenshots/050/main-summary.png
+http://hddguardian.googlecode.com/svn/screenshots/050/menu.png
 
-At bottom of the top panel we have the navigation bar. All sections are available on the right of this bar.
+At bottom of the top panel we have a bar with at left the flag of loaded translation, in center the current selected section and on the right the button that display the menu when you click on it.
 
 The device's list display all local devices, and, when connected, the most commons USB external hard drives. Right clicking on this list appear a context menu where you can update the selected device or all devices listed and add or remove a virtual device. Devices are divided in three types: internal, external and virtual.
 
