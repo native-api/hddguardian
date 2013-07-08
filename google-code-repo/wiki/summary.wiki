@@ -2,18 +2,14 @@
 
 = Summary =
 
-http://hddguardian.googlecode.com/svn/screenshots/042/main.png
+http://hddguardian.googlecode.com/svn/screenshots/050/main-summary.png
 
 The summary panel displays health basics about selected device: temperature, last test result, overall health, bad sector and error information, the last update and eventual warnings about firmware updates.
 
-At panel's left bottom we have an area where you can see the OS (a) and manufacturer logos (b), plus the nationality flag of manufacturer (c); the other two icons represents respectively the operating modality of HDD Guardian (d) and the user rights (e).
+At panel's left bottom we have an area where you can see the OS (a) and manufacturer logos (b), plus the nationality flag of manufacturer (c).
 
-http://hddguardian.googlecode.com/svn/wiki/images/infobar_1.png
+http://hddguardian.googlecode.com/svn/screenshots/050/infobar.png
 
 The modality varies in base of media where HDD Guardian is stored: if is stored into a fixed device the icons is a PC tower, and all function are available; otherwise if is stored into a removable media, HDD Guardian switch automatically into portable mode, appears an USB stick and some functions are not available.
 
-The fingerprint icon varies in base of user rights: if is an administrator the program works with full functionality and the fingerprint is green; otherwise some functions are not available (like USB detection, that is disabled) and the fingerprint appear colored in red.
-
-http://hddguardian.googlecode.com/svn/wiki/images/infobar_2.png
-
-At right we have three buttons, for updating the stats of selected device, a button to show S.M.A.R.T. attributes details and the last to run the available tests for the selected device.
+At right we have three buttons, for updating the stats of selected device, a button to display S.M.A.R.T. attributes details and the last to run the available tests for the selected device.
