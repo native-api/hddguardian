@@ -2,7 +2,7 @@
 
 = Warnings =
 
-http://hddguardian.googlecode.com/svn/wiki/images/16-Settings-Warnings.png
+http://hddguardian.googlecode.com/svn/screenshots/050/settings-warnings.png
 
 Here you can set the behavior of HDD Guardian about some vital parameters of hard disk devices.
 
