@@ -10,6 +10,7 @@
    * [system System]
    * [log_events Log events]
   * [performance Performance section]
+  * [monitoring Monitoring section]
   * Advanced section
    * [smart_attributes S.M.A.R.T. attributes]
    * [device_capabilities Device capabilities]
