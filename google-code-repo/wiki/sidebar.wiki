@@ -8,7 +8,6 @@
    * [device_info Device info]
    * [enable_disable_features Enable/disable features]
    * [system System]
-   * [log_events Log events]
   * [performance Performance section]
   * [monitoring Monitoring section]
   * Advanced section
