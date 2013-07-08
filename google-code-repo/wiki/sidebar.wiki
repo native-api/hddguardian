@@ -22,6 +22,7 @@
    * [tolerance Tolerance]
    * [attributes_format Attributes format]
    * [firmware_debug Firmware debug]
+   * [power_mode Power mode]
   * Settings section
    * [startup_and_interface Startup and interface]
    * [data_update Data update]
