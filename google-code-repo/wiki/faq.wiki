@@ -1,0 +1,17 @@
+#summary HDD Guardian FAQ
+
+*My hard drive is working abnormally / my hard disk led is furiously flashing*
+
+On some systems (at least with Windows 7 and 8, under XP work normally) the routine that wait for external devices produces an abnormal activity of hard disks and case led. To avoid this issue, you have to go to "General" panel under the "Settings" section and uncheck the box "Monitor USB devices connection/disconnection".
+
+Naturally, with this box unchecked, HDD Guardian can't automatically add or remove devices from the left panel: you have to do this operation manually by left clicking on the panel and choosing "Scan for external devices".
+
+----
+
+*My (new) USB device are not recognized by HDD Guardian*
+
+It's highly probable that your device USB id are not in smartctl database.
+
+If you are experienced with smartctl, you can try to access to your device and then provide the output to Smartmontools team for the database update.
+
+Instead, if you are not experienced with smartctl, with HDD Guardian package is provided the program "USB Test Tool" that automatically try to access to your external device. Run this program, provide me his output and I can provide an _unofficial_ update of smartctl database to access to your device. Naturally I submit the results to Smartmontools team, to help also other users to access to their devices.
