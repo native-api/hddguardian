@@ -3,7 +3,7 @@
 
 = Reliability =
 
-http://hddguardian.googlecode.com/svn/screenshots/0400/reliability_setup.png
+http://hddguardian.googlecode.com/svn/screenshots/050/settings-reliability.png
 
 Here you can enable or disable the rating that appear on the bottom of disk image.
 
