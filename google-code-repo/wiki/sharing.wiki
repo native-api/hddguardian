@@ -2,7 +2,7 @@
 
 = Sharing =
 
-http://hddguardian.googlecode.com/svn/screenshots/0400/sharing.png
+http://hddguardian.googlecode.com/svn/screenshots/050/settings-sharing.png
 
 HDD Guardian can export and import smartctl devices outputs. In a context of local area network is possible for the system administrator to monitor all disks of the computers in the LAN.
 
