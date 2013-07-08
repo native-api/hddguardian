@@ -2,19 +2,19 @@
 
 = S.M.A.R.T. attributes =
 
-http://hddguardian.googlecode.com/svn/wiki/images/04.1-Advanced-SMART_attributes.png
+http://hddguardian.googlecode.com/svn/screenshots/050/advanced-smart_attributes.png
 
 The list displays the S.M.A.R.T. parameters for selected device, indicating for each attribute: 
- # if it is related to the life cycle of the disc or is an indicator of electromechanical health status through an icon; 
+ # if the value has fallen below the threshold limit value. There are three indicators: 
+  * the green bullet means that the value has never fallen below the limit; 
+  * the red bullet means that the value is now fallen below the threshold limit; 
+  * the yellow bullet means that the value has fallen below the limit in the past, but now the value is above the threshold; 
+  * the magenta bullet means that the value has never fallen below the limit, but the raw value is greater than zero (available only for critical values);
  # identification number; 
  # name; 
  # the current value; 
  # the worst ever recorded value over the life of the unit; 
  # the threshold value, beyond which is likely imminent failure; 
- # if the value has fallen below the threshold limit value. There are three indicators: 
-  # "-" means that the value has never fallen below the limit; 
-  # "FAILING NOW" means that the value is now fallen below the threshold limit; 
-  # "In the past" means that the value has fallen below the limit in the past, but now the value is above the threshold; 
  # the raw value (generally are counters).
 
 Clicking on the attributes listed you can also see the related "flags" and the comparing chart of current value, the worst and the threshold.
@@ -28,7 +28,7 @@ The "flags" values are:
 
 Each attribute can check one or more "flags".
 
-The list also, depending on the case, show different colors for the values:
+The list also, depending on the case, display different colors for the values:
  * normal (system color): the value has never fallen below the threshold and the raw value is zero; 
  * <font color="#ff1493">deep pink</font>: the current value has never fallen below the limit, but the raw value is greater than zero; 
  * <font color="#b22222">red brick</font>: the current value is currently below the limit; 
@@ -36,6 +36,6 @@ The list also, depending on the case, show different colors for the values:
 
 Clicking the link “Hide/show attribute info” you can see some informations about selected attribute, like a little description of their function, if the attribute indicates a pre-failure or a device's old aging and if it is update continuously or only during offline tests.
 
-http://hddguardian.googlecode.com/svn/wiki/images/04.2-Advanced-SMART_attributes+info.png
+http://hddguardian.googlecode.com/svn/screenshots/050/advanced-smart_attributes_with_info.png
 
 For more information on SMART parameters, you should see the [http://sourceforge.net/apps/trac/S.M.A.R.T.montools/wiki/TocDoc#S.M.A.R.T.Attributes smartctl manual].
