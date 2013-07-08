@@ -2,10 +2,8 @@
 
 = Enable/disable features =
 
-http://hddguardian.googlecode.com/svn/screenshots/042/features.png
+http://hddguardian.googlecode.com/svn/screenshots/050/main-enable_disable_features.png
 
 Here we can enable or disable the main features of device, like the S.M.A.R.T. capability, which is very useful for predict malfunctions and take appropriates countermeasures, the S.M.A.R.T. automatic offline test, which scan device every four hours for disc defects without performance impact or the S.M.A.R.T. autosave, which autosave all device's vendor-specific attributes.
-
-The monitoring features allows to place an icon into the tray area that show device health and temperature and share device output into a specified folder. This option was designed specifically for system's administrators: sharing all the outputs into a LAN folder, and adding all these outputs as virtual devices, is possible to monitor in a single workplace all these devices.
 
 All of these options are not available for virtual devices.
