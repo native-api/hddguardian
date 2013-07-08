@@ -2,7 +2,7 @@
 
 = Firmware debug =
 
-http://hddguardian.googlecode.com/svn/wiki/images/12-Smartctl-Firmware_debug.png
+http://hddguardian.googlecode.com/svn/screenshots/050/smartctl-firmware_debug.png
 
 Some units may have firmware that do not report the data correctly when queried (especially some Samsung units). From here you can change the smartctl interpretation of values.
 
