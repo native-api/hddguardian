@@ -1,0 +1,7 @@
+#summary Power mode
+
+= Power mode check =
+
+http://hddguardian.googlecode.com/svn/screenshots/050/smartctl-power_mode_check.png
+
+Here you can specify (for each device) if smartctl should exit before any checks when a device is in low-power mode.
