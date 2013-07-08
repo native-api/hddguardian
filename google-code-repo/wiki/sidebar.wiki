@@ -60,3 +60,4 @@
  * [credits_and_copyrights Credits and copyrights]
  * [http://www.gnu.org/licenses/gpl-2.0.html License]
  * [awards Awards]
+ * [faq FAQ]
