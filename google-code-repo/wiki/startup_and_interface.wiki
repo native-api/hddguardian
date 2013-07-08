@@ -2,7 +2,7 @@
 
 = Startup and interface =
 
-http://hddguardian.googlecode.com/svn/screenshots/042/settings.png
+http://hddguardian.googlecode.com/svn/screenshots/050/settings-general.png
 
 From here you can set the behavior and appearance HDD Guardian.
 
@@ -14,4 +14,5 @@ In detail, the available options are:
  * _Close on tray_: instead of closing HDD Guardian, it went minimized into the tray area;
  * _Confirm on exit_: ask a confirm when user exits the program;
  * _Check for updates_: try to find a new version of HDD Guardian;
- * _Show temperatures in Fahrenheit_: switch from Celsius to Fahrenheit temperatures displayed into the devices list, the main screen and also into the tray icons.
+ * _Show temperatures in Fahrenheit_: switch from Celsius to Fahrenheit temperatures displayed into the devices list, the main screen and also into the tray icons;
+ * _Monitor USB devices connection/disconnection_: on some systems (Windows 7, 8 but not XP) awaiting for external devices produces an abnormal activity of disks and power led. To avoid this issue you have to uncheck this box and manually add/remove external devices by right clicking on the left panel and choosing "Scan for external devices".
