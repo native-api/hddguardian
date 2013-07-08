@@ -2,7 +2,7 @@
 
 = Attributes format =
 
-http://hddguardian.googlecode.com/svn/wiki/images/11-Smartctl-Attributes_format.png
+http://hddguardian.googlecode.com/svn/screenshots/050/smartctl-attributes_format.png
 
 Normally if the drive is recognized by smartctl, the presets are used for the SMART values recorded in the database.
 
