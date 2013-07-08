@@ -2,7 +2,7 @@
 
 = Run test =
 
-http://hddguardian.googlecode.com/svn/wiki/images/08-Advanced-Run_test.png
+http://hddguardian.googlecode.com/svn/screenshots/050/advanced-run_test.png
 
 From this panel you can execute the built-in tests available on the selected device. These tests are: 
  # offline data collection; 
