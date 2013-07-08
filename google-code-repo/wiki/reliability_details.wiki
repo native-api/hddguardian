@@ -2,7 +2,7 @@
 
 = Reliability details =
 
-http://hddguardian.googlecode.com/svn/screenshots/0400/reliability_details.png
+http://hddguardian.googlecode.com/svn/screenshots/050/advanced-reliability_details.png
 
 Into this section is possible to see details about device health: they're two sections, one for hard disk and one for SSD.
 
