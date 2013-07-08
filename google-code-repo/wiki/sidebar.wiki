@@ -30,6 +30,7 @@
    * [warnings Warnings]
    * [sharing Sharing]
    * [rating Reliability]
+  * [scsi SCSI devices]
   * [virtual_devices Virtual devices]
   * [tray_icons_and_warnings Tray icons and warnings]
   * [translations Translations]
