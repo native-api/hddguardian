@@ -2,7 +2,7 @@
 
 = Monitoring =
 
-http://hddguardian.googlecode.com/svn/wiki/images/15-Settings-Monitoring.png
+http://hddguardian.googlecode.com/svn/screenshots/050/settings-monitoring.png
 
 Here is possible to select some vital parameters to monitor: generic parameters are principally for classic HDD devices, the SSD life indicators are designed specifically for SSD devices.
 
