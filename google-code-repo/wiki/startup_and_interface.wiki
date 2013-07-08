@@ -1,6 +1,6 @@
-#summary Startup and interface
+#summary General
 
-= Startup and interface =
+= General =
 
 http://hddguardian.googlecode.com/svn/screenshots/050/settings-general.png
 
