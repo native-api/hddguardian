@@ -2,6 +2,6 @@
 
 = Device capabilities =
 
-http://hddguardian.googlecode.com/svn/wiki/images/05-Advanced-Device_capabilities.png
+http://hddguardian.googlecode.com/svn/screenshots/050/advanced-device_capabilities.png
 
 This panel displays the capabilities of the selected device, as reported by smartctl in their report.
