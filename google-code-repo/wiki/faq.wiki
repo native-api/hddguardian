@@ -16,3 +16,9 @@ It's highly probable that your device USB id are not in smartctl database.
 If you are experienced with smartctl, you can try to access to your device and then provide the output to Smartmontools team for the database update.
 
 Instead, if you are not experienced with smartctl, with HDD Guardian package is provided the utility called "USB Test Tool" that automatically try to access to your external device. Run this program, provide me his output and I can provide an _unofficial_ update of smartctl database to access to your device. Naturally I submit the results to Smartmontools team, to help also other users to access to their devices.
+
+----
+
+*I have two different devices connected to a Silicon Image 3112/3114 controller, but only one are displayed*
+
+Unfortunately this is a problem of Silicon Image Windows driver that grant the access only to the SMART data of first connected device. Until Silicon Image (or a volunteer) don't provides an updated driver, is impossible to access to the second device.
