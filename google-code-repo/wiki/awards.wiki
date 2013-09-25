@@ -42,7 +42,7 @@
 <a href="http://www.windows8downloads.com/win8-hdd-guardian-clqeysbq/" target="_blank"><img src="http://www.windows8downloads.com/img/awards/award_5.png" alt="Windows 8 Downloads" border="0"/></a>
 </td>
 <td>
-<a rel="dofollow" href="http://www.programosy.pl/program,hdd-guardian.html" target="_blank"><img src="http://www.programosy.pl/img/stars.png" alt="Programosy" border="0"/></a>
+<a href="http://www.programosy.pl/program,hdd-guardian.html" target="_blank"><img src="http://www.programosy.pl/img/stars.png" alt="Programosy" border="0"/></a>
 </td>
 </tr>
 </table>
