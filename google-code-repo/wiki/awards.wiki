@@ -45,6 +45,17 @@
 <a href="http://www.programosy.pl/program,hdd-guardian.html" target="_blank"><img src="http://www.programosy.pl/img/stars.png" alt="Programosy" border="0"/></a>
 </td>
 </tr>
+<tr>
+<td align="center" width=210>
+<a href="http://www.programmigratis.org/download/utility/hdd-guardian.aspx" target="_blank"><img src="http://static.programmigratis.org/images/5star-awards.png" alt="Programmigratis.org" border="0"/></a>
+</td>
+<td align="center" width=210>
+</td>
+<td align="center" width=210>
+</td>
+<td>
+</td>
+</tr>
 </table>
 ----
 ==4 STARS AWARDS==
