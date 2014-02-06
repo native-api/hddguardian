@@ -33,9 +33,9 @@
 ||198||C6||SMART Off-Line Scan Uncorrectable Error Count||Uncorrectable errors detected during SMART off-line scan.||
 ||198||C6||SMART Off-line Scan Uncorrectable Sector Count||This value is the cumulative number of unrecoverable read errors found in a background media scan. If no background media scan has been run, a value of 0 will be returned.||
 ||199||C7||Ultra DMA CRC Error Rate||Gives the number of captured FIS (frame information structure) interface general CRC (cyclic redundancy check) errors over the life of the drive, for both reads and writes, since the most recent power cycle. If this counter ever reaches 4.294.967.295, it will wrap around.||
-||199||C7||Ultra-DMA CRC Error Count||This value is the cumulative number of FIS interface general CRC (cycle redundancy check) error counts over the life of the drive, for both reads and writes, since the most recent power cycle.||
+||199||C7||Ultra-DMA CRC Error Count||This value is the cumulative number of FIS (frame information structure) interface general CRC (cycle redundancy check) error counts over the life of the drive, for both reads and writes, since the most recent power cycle.||
 ||202||CA||Percentage Lifetime Used||The average erase count of all blocks on Channel 0 CE 0 divided by the specified !MaxEraseCount (10k for MLC or 100k for SLC), reported as a percentage from 0 to 100%.||
-||202||CA||Percent Lifetime Remaining||The raw value reports the remaining life on device, reported as a percentage from 0 to 100%.||
+||202||CA||Percent Lifetime Remaining||The normalized value reports the remaining life on device, reported as a percentage from 100 to 0%.||
 ||206||CE||Write Error Rate||Report the number of program failures divided by 60,000. If the value ever reaches 65,535, it will remain there thereafter.||
 ||210||D2||Successful RAIN Recovery Count||The total number of TUs successfully recovered by RAIN (redundant array of independent NAND).||
 ||246||F6||Total Host Sector Writes||The total number of sectors written by the host.||
