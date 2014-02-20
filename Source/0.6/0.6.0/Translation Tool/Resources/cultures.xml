@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cultures>
+  <item culture="af-ZA" zone="Afrikaans - South Africa"/>
+  <item culture="ar" zone="Generic arabic"/>
+  <item culture="ar-DZ" zone="Arabic - Algeria"/>
+  <item culture="ar-BH" zone="Arabic - Bahrain"/>
+  <item culture="ar-EG" zone="Arabic - Egypt"/>
+  <item culture="ar-IQ" zone="Arabic - Iraq"/>
+  <item culture="ar-JO" zone="Arabic - Jordan"/>
+  <item culture="ar-KW" zone="Arabic - Kuwait"/>
+  <item culture="ar-LB" zone="Arabic - Lebanon"/>
+  <item culture="ar-LY" zone="Arabic - Libya"/>
+  <item culture="ar-MA" zone="Arabic - Morocco"/>
+  <item culture="ar-OM" zone="Arabic - Oman"/>
+  <item culture="ar-QA" zone="Arabic - Qatar"/>
+  <item culture="ar-SA" zone="Arabic - Saudi Arabia"/>
+  <item culture="ar-SY" zone="Arabic - Syria"/>
+  <item culture="ar-TN" zone="Arabic - Tunisia"/>
+  <item culture="ar-AE" zone="Arabic - United Arab Emirates"/>
+  <item culture="ar-YE" zone="Arabic - Yemen"/>
+  <item culture="az" zone="Generic azeri"/>
+  <item culture="az-AZ-Cyrl" zone="Azeri (Cyrillic) - Azerbaijan"/>
+  <item culture="az-AZ-Latn" zone="Azeri (Latin) - Azerbaijan"/>
+  <item culture="be-BY" zone="Belarusian - Belarus"/>
+  <item culture="bg-BG" zone="Bulgarian - Bulgaria"/>
+  <item culture="ca-ES" zone="Catalan - Catalan"/>
+  <item culture="cs-CZ" zone="Czech - Czech Republic"/>
+  <item culture="da-DK" zone="Danish - Denmark"/>
+  <item culture="de" zone="Generic german"/>
+  <item culture="de-AT" zone="German - Austria"/>
+  <item culture="de-DE" zone="German - Germany"/>
+  <item culture="de-LI" zone="German - Liechtenstein"/>
+  <item culture="de-LU" zone="German - Luxembourg"/>
+  <item culture="de-CH" zone="German - Switzerland"/>
+  <item culture="div-MV" zone="Dhivehi - Maldives"/>
+  <item culture="el-GR" zone="Greek - Greece"/>
+  <item culture="en" zone="Generic english"/>
+  <item culture="en-AU" zone="English - Australia"/>
+  <item culture="en-BZ" zone="English - Belize"/>
+  <item culture="en-CA" zone="English - Canada"/>
+  <item culture="en-CB" zone="English - Caribbean"/>
+  <item culture="en-IE" zone="English - Ireland"/>
+  <item culture="en-JM" zone="English - Jamaica"/>
+  <item culture="en-NZ" zone="English - New Zealand"/>
+  <item culture="en-PH" zone="English - Philippines"/>
+  <item culture="en-ZA" zone="English - South Africa"/>
+  <item culture="en-TT" zone="English - Trinidad and Tobago"/>
+  <item culture="en-GB" zone="English - United Kingdom"/>
+  <item culture="en-US" zone="English - United States"/>
+  <item culture="en-ZW" zone="English - Zimbabwe"/>
+  <item culture="es" zone="Generic spanish"/>
+  <item culture="es-AR" zone="Spanish - Argentina"/>
+  <item culture="es-BO" zone="Spanish - Bolivia"/>
+  <item culture="es-CL" zone="Spanish - Chile"/>
+  <item culture="es-CO" zone="Spanish - Colombia"/>
+  <item culture="es-CR" zone="Spanish - Costa Rica"/>
+  <item culture="es-DO" zone="Spanish - Dominican Republic"/>
+  <item culture="es-EC" zone="Spanish - Ecuador"/>
+  <item culture="es-SV" zone="Spanish - El Salvador"/>
+  <item culture="es-GT" zone="Spanish - Guatemala"/>
+  <item culture="es-HN" zone="Spanish - Honduras"/>
+  <item culture="es-MX" zone="Spanish - Mexico"/>
+  <item culture="es-NI" zone="Spanish - Nicaragua"/>
+  <item culture="es-PA" zone="Spanish - Panama"/>
+  <item culture="es-PY" zone="Spanish - Paraguay"/>
+  <item culture="es-PE" zone="Spanish - Peru"/>
+  <item culture="es-PR" zone="Spanish - Puerto Rico"/>
+  <item culture="es-ES" zone="Spanish - Spain"/>
+  <item culture="es-UY" zone="Spanish - Uruguay"/>
+  <item culture="es-VE" zone="Spanish - Venezuela"/>
+  <item culture="et-EE" zone="Estonian - Estonia"/>
+  <item culture="eu-ES" zone="Basque - Basque"/>
+  <item culture="fa-IR" zone="Farsi - Iran"/>
+  <item culture="fi-FI" zone="Finnish - Finland"/>
+  <item culture="fo-FO" zone="Faroese - Faroe Islands"/>
+  <item culture="fr" zone="Generic french"/>
+  <item culture="fr-BE" zone="French - Belgium"/>
+  <item culture="fr-CA" zone="French - Canada"/>
+  <item culture="fr-FR" zone="French - France"/>
+  <item culture="fr-LU" zone="French - Luxembourg"/>
+  <item culture="fr-MC" zone="French - Monaco"/>
+  <item culture="fr-CH" zone="French - Switzerland"/>
+  <item culture="gl-ES" zone="Galician - Galician"/>
+  <item culture="gu-IN" zone="Gujarati - India"/>
+  <item culture="he-IL" zone="Hebrew - Israel"/>
+  <item culture="hi-IN" zone="Hindi - India"/>
+  <item culture="hr-HR" zone="Croatian - Croatia"/>
+  <item culture="hu-HU" zone="Hungarian - Hungary"/>
+  <item culture="hy-AM" zone="Armenian - Armenia"/>
+  <item culture="id-ID" zone="Indonesian - Indonesia"/>
+  <item culture="is-IS" zone="Icelandic - Iceland"/>
+  <item culture="it" zone="Generic italian"/>
+  <item culture="it-IT" zone="Italian - Italy"/>
+  <item culture="it-CH" zone="Italian - Switzerland"/>
+  <item culture="ja-JP" zone="Japanese - Japan"/>
+  <item culture="ka-GE" zone="Georgian - Georgia"/>
+  <item culture="kk-KZ" zone="Kazakh - Kazakhstan"/>
+  <item culture="kn-IN" zone="Kannada - India"/>
+  <item culture="kok-IN" zone="Konkani - India"/>
+  <item culture="ko-KR" zone="Korean - Korea"/>
+  <item culture="ky-KG" zone="Kyrgyz - Kyrgyzstan"/>
+  <item culture="lv-LV" zone="Latvian - Latvia"/>
+  <item culture="lt-LT" zone="Lithuanian - Lithuania"/>
+  <item culture="mk-MK" zone="Macedonian - Former Yugoslav Republic of Macedonia"/>
+  <item culture="mn-MN" zone="Mongolian - Mongolia"/>
+  <item culture="mr-IN" zone="Marathi - India"/>
+  <item culture="ms" zone="Generic malay"/>
+  <item culture="ms-BN" zone="Malay - Brunei"/>
+  <item culture="ms-MY" zone="Malay - Malaysia"/>
+  <item culture="nb-NO" zone="Norwegian (Bokmal) - Norway"/>
+  <item culture="nl" zone="Generic dutch"/>
+  <item culture="nl-BE" zone="Dutch - Belgium"/>
+  <item culture="nl-NL" zone="Dutch - The Netherlands"/>
+  <item culture="nn-NO" zone="Norwegian (Nynorsk) - Norway"/>
+  <item culture="pa-IN" zone="Punjabi - India"/>
+  <item culture="pl-PL" zone="Polish - Poland"/>
+  <item culture="pt" zone="Generic portuguese"/>
+  <item culture="pt-BR" zone="Portuguese - Brazil"/>
+  <item culture="pt-PT" zone="Portuguese - Portugal"/>
+  <item culture="ro-RO" zone="Romanian - Romania"/>
+  <item culture="ru-RU" zone="Russian - Russia"/>
+  <item culture="sa-IN" zone="Sanskrit - India"/>
+  <item culture="sk-SK" zone="Slovak - Slovakia"/>
+  <item culture="sl-SI" zone="Slovenian - Slovenia"/>
+  <item culture="sq-AL" zone="Albanian - Albania"/>
+  <item culture="sr" zone="Generic serbian"/>
+  <item culture="sr-SP-Cyrl" zone="Serbian (Cyrillic) - Serbia"/>
+  <item culture="sr-SP-Latn" zone="Serbian (Latin) - Serbia"/>
+  <item culture="sv" zone="Generic swedish"/>
+  <item culture="sv-FI" zone="Swedish - Finland"/>
+  <item culture="sv-SE" zone="Swedish - Sweden"/>
+  <item culture="sw-KE" zone="Swahili - Kenya"/>
+  <item culture="syr-SY" zone="Syriac - Syria"/>
+  <item culture="ta-IN" zone="Tamil - India"/>
+  <item culture="te-IN" zone="Telugu - India"/>
+  <item culture="th-TH" zone="Thai - Thailand"/>
+  <item culture="tr-TR" zone="Turkish - Turkey"/>
+  <item culture="tt-RU" zone="Tatar - Russia"/>
+  <item culture="uk-UA" zone="Ukrainian - Ukraine"/>
+  <item culture="ur-PK" zone="Urdu - Pakistan"/>
+  <item culture="uz" zone="Generic uzbek"/>
+  <item culture="uz-UZ-Cyrl" zone="Uzbek (Cyrillic) - Uzbekistan"/>
+  <item culture="uz-UZ-Latn" zone="Uzbek (Latin) - Uzbekistan"/>
+  <item culture="zh" zone="Generic chinese"/>
+  <item culture="zh-HK" zone="Chinese - Hong Kong SAR"/>
+  <item culture="zh-MO" zone="Chinese - Macao SAR"/>
+  <item culture="zh-CN" zone="Chinese - China"/>
+  <item culture="zh-CHS" zone="Chinese (Simplified)"/>
+  <item culture="zh-SG" zone="Chinese - Singapore"/>
+  <item culture="zh-TW" zone="Chinese - Taiwan"/>
+  <item culture="zh-CHT" zone="Chinese (Traditional)"/>
+</cultures>

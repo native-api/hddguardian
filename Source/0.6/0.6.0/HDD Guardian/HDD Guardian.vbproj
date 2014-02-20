@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{477D03F6-AE57-4B6F-8F50-685D117EAFB3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>hdd_guardian.My.MyApplication</StartupObject>
+    <RootNamespace>hdd_guardian</RootNamespace>
+    <AssemblyName>hddguardian</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationIcon>hddguardian-oxygen.ico</ApplicationIcon>
+    <GenerateManifests>false</GenerateManifests>
+    <TargetZone>Custom</TargetZone>
+    <SignManifests>false</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\Sam\Documents\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\output\</OutputPath>
+    <DocumentationFile>hddguardian.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DocumentationFile>hddguardian.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\output\</OutputPath>
+    <DocumentationFile>hddguardian.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\output\</OutputPath>
+    <DocumentationFile>hddguardian.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sam|AnyCPU'">
+    <OutputPath>bin\Sam\</OutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sam|x86'">
+    <OutputPath>bin\x86\Sam\</OutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Itanium'">
+    <PlatformTarget>Itanium</PlatformTarget>
+    <OutputPath>bin\Itanium\Debug\</OutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Itanium'">
+    <PlatformTarget>Itanium</PlatformTarget>
+    <OutputPath>bin\Itanium\Release\</OutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Sam|Itanium'">
+    <PlatformTarget>Itanium</PlatformTarget>
+    <OutputPath>bin\Itanium\Sam\</OutputPath>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7A1D1ABCB5E782F42A42AD65699057E615BF9161</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HDD Guardian_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Win32.TaskScheduler, Version=1.9.4.17032, Culture=neutral, PublicKeyToken=0d013ddd5178a2ae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Output\Microsoft.Win32.TaskScheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms.Design" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="0 - Classes\Aes.vb" />
+    <Compile Include="1 - Main form\Main form partial classes\AtaPanels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\Mail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\MultipleDock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\ScsiPanels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2 - Settings\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2 - Settings\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\DeviceInfoPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 - Classes\ScsiDevices.vb" />
+    <Compile Include="2 - Settings\TaskScheduler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3 - Tray icon info panel\TrayPanel.Designer.vb">
+      <DependentUpon>TrayPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3 - Tray icon info panel\TrayPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4 - Custom Controls\Extender.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="5 - About\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="5 - About\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6 - Add virtual devices\AddVirtual.Designer.vb">
+      <DependentUpon>AddVirtual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="6 - Add virtual devices\AddVirtual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7 - Add custom attribute\AddCustomAttribute.Designer.vb">
+      <DependentUpon>AddCustomAttribute.vb</DependentUpon>
+    </Compile>
+    <Compile Include="7 - Add custom attribute\AddCustomAttribute.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="0 - Classes\Devices.vb" />
+    <Compile Include="0 - Classes\ListViewComparer.vb" />
+    <Compile Include="0 - Classes\Console.vb" />
+    <Compile Include="4 - Custom Controls\CapabilitesList.designer.vb">
+      <DependentUpon>CapabilitesList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4 - Custom Controls\CapabilitesList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="4 - Custom Controls\CommandsPanel.designer.vb">
+      <DependentUpon>CommandsPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4 - Custom Controls\CommandsPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="4 - Custom Controls\RegistersPanel.designer.vb">
+      <DependentUpon>RegistersPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4 - Custom Controls\RegistersPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\DebugWindow.Designer.vb">
+      <DependentUpon>DebugWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1 - Main form\DebugWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\AttributesInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\Chart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\Debug.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\DeviceSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\ExportToXml.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\SystemInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\HealthCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\Icons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\Language.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\LogEvents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\Manufacturers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\Rating.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\TrayIcons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\DeviceDetection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 - Classes\Memory.vb" />
+    <Compile Include="2 - Settings\StratupLink.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\Update.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main form partial classes\RemovableDevices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1 - Main form\Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4 - Custom Controls\HeadlessTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="4 - Custom Controls\RibbonElements.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="1 - Main form\Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="2 - Settings\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3 - Tray icon info panel\TrayPanel.resx">
+      <DependentUpon>TrayPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5 - About\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6 - Add virtual devices\AddVirtual.resx">
+      <DependentUpon>AddVirtual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4 - Custom Controls\CapabilitesList.resx">
+      <DependentUpon>CapabilitesList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4 - Custom Controls\CommandsPanel.resx">
+      <DependentUpon>CommandsPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4 - Custom Controls\RegistersPanel.resx">
+      <DependentUpon>RegistersPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1 - Main form\DebugWindow.resx">
+      <DependentUpon>DebugWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1 - Main form\Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7 - Add custom attribute\AddCustomAttribute.resx">
+      <DependentUpon>AddCustomAttribute.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\License\OSI.png" />
+    <None Include="Resources\License\License.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hddguardian-oxygen.ico" />
+    <None Include="Resources\private.xml" />
+    <None Include="Resources\document_save.png" />
+    <None Include="Resources\Changelog.txt" />
+    <None Include="Resources\64.png" />
+    <None Include="Resources\loader2.gif" />
+    <None Include="Resources\loader.gif" />
+    <None Include="Resources\hdd_external_search.png" />
+    <None Include="Resources\hdd_add.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\pc-office.png" />
+    <None Include="Resources\pc-laptop.png" />
+    <None Include="Resources\pc-game.png" />
+    <None Include="Resources\device-harddisk.png" />
+    <None Include="Resources\device-partition.png" />
+    <None Include="Resources\device-folder.png" />
+    <None Include="Resources\section_marker.png" />
+    <None Include="Resources\failed_unknown.png" />
+    <None Include="Resources\border.png" />
+    <None Include="Resources\Fail\failed_warning.png" />
+    <None Include="Resources\Fail\failed_now.png" />
+    <None Include="Resources\Fail\failed_never.png" />
+    <None Include="Resources\Fail\failed_inthepast.png" />
+    <None Include="Resources\MenuImages\selected1.png" />
+    <None Include="Resources\MenuImages\separator.png" />
+    <None Include="Resources\TrayIcons\ssd_tray_icons.png" />
+    <None Include="Resources\Drives\drive_activity.png" />
+    <None Include="Resources\Drives\drive-folder.png" />
+    <None Include="Resources\Drives\drive-win.png" />
+    <None Include="Resources\TrayIcons\devices_tray_icons_F.png" />
+    <None Include="Resources\Stars\0_star.png" />
+    <None Include="Resources\Stars\5_star.png" />
+    <None Include="Resources\Stars\4_star.png" />
+    <None Include="Resources\Stars\3_star.png" />
+    <None Include="Resources\Stars\2_star.png" />
+    <None Include="Resources\Stars\1_star.png" />
+    <None Include="Resources\Icons\pie2.png" />
+    <None Include="Resources\MenuImages\selected_left.png" />
+    <None Include="Resources\MenuImages\selected.png" />
+    <None Include="Resources\MenuImages\deselected_left.png" />
+    <None Include="Resources\MenuImages\deselected.png" />
+    <None Include="Resources\TrayIcons\update-ok.png" />
+    <None Include="Resources\TrayIcons\update-ko.png" />
+    <None Include="Resources\xcraft.png" />
+    <None Include="Resources\Raptor X.png" />
+    <None Include="Resources\Drives\drive ok.png" />
+    <None Include="Resources\Drives\drive error.png" />
+    <None Include="Resources\Icons\worldflag.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\TrayIcons\some-problems.png" />
+    <None Include="Resources\TrayIcons\all-ok.png" />
+    <None Include="Resources\Patterns\right.png" />
+    <None Include="Resources\Patterns\left.png" />
+    <None Include="Resources\Patterns\pattern_metalgrid.png" />
+    <None Include="Resources\Patterns\unselect.png" />
+    <None Include="Resources\Icons\power_selected.png" />
+    <None Include="Resources\Icons\power_deselected.png" />
+    <None Include="Resources\TrayIcons\devices_tray_icons.png" />
+    <None Include="Resources\Patterns\ttbackground.png" />
+    <None Include="Resources\Patterns\header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Graphics\" />
+    <Folder Include="Resources\Others\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

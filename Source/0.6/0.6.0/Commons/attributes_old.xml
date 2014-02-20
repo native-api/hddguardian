@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<table>
+  <attribute smartctl="Dummy">
+    <name>Unknown</name>
+    <description>No informations for this attribute.</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate">
+    <name>Read Error Rate</name>
+    <description>Stores data related to the rate of hardware read errors that occurred when reading data from a disk surface. The raw value has different structure for different vendors and is often not meaningful as a decimal number.</description>
+  </attribute>
+  <attribute smartctl="Throughput_Performance">
+    <name>Throughput Performance</name>
+    <description>Overall (general) throughput performance of a hard disk drive. If the value of this attribute is decreasing there is a high probability that there is a problem with the disk.</description>
+  </attribute>
+  <attribute smartctl="Spin_Up_Time">
+    <name>Spin-Up Time</name>
+    <description>Average time of spindle spin up (from zero RPM to fully operational, measured in millisecs).</description>
+  </attribute>
+  <attribute smartctl="Start_Stop_Count">
+    <name>Start/Stop Count</name>
+    <description>A tally of spindle start/stop cycles. The spindle turns on, and hence the count is increased, both when the hard disk is turned on after having before been turned entirely off (disconnected from power source) and when the hard disk returns from having previously been put to sleep mode.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct">
+    <name>Reallocated Sectors Count</name>
+    <description>Count of reallocated sectors. When the hard drive finds a read/write/verification error, it marks that sector as "reallocated" and transfers data to a special reserved area (spare area). This process is also known as remapping, and reallocated sectors are called "remaps". The raw value normally represents a count of the bad sectors that have been found and remapped.</description>
+  </attribute>
+  <attribute smartctl="Read_Channel_Margin">
+    <name>Read Channel Margin</name>
+    <description>Margin of a channel while reading data. The function of this attribute is not specified.</description>
+  </attribute>
+  <attribute smartctl="Seek_Error_Rate">
+    <name>Seek Error Rate</name>
+    <description>Rate of seek errors of the magnetic heads. If there is a partial failure in the mechanical positioning system, then seek errors will arise. Such a failure may be due to numerous factors, such as damage to a servo, or thermal widening of the hard disk. The raw value has different structure for different vendors and is often not meaningful as a decimal number.</description>
+  </attribute>
+  <attribute smartctl="Seek_Time_Performance">
+    <name>Seek Time Performance</name>
+    <description>Average performance of seek operations of the magnetic heads. If this attribute is decreasing, it is a sign of problems in the mechanical subsystem.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours">
+    <name>Power-On Hours</name>
+    <description>Count of hours in power-on state. The raw value of this attribute shows total count of hours in power-on state.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Minutes">
+    <name>Power-On Minutes</name>
+    <description>Count of minutes in power-on state. The raw value of this attribute shows total count of minutes in power-on state.</description>
+  </attribute>
+  <attribute smartctl="Spin_Retry_Count">
+    <name>Spin Retry Count</name>
+    <description>Count of retry of spin start attempts. This attribute stores a total count of the spin start attempts to reach the fully operational speed (under the condition that the first attempt was unsuccessful). An increase of this attribute value is a sign of problems in the hard disk mechanical subsystem.</description>
+  </attribute>
+  <attribute smartctl="Calibration_Retry_Count">
+    <name>Calibration Retry Count</name>
+    <description>This attribute indicates the count that recalibration was requested (under the condition that the first attempt was unsuccessful). An increase of this attribute value is a sign of problems in the hard disk mechanical subsystem.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count">
+    <name>Power Cycle Count</name>
+    <description>This attribute indicates the count of full hard disk power on/off cycles.</description>
+  </attribute>
+  <attribute smartctl="Read_Soft_Error_Rate">
+    <name>Soft Read Error Rate</name>
+    <description>Uncorrected read errors reported to the operating system.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>SATA Downshift Error Count</name>
+    <description>Western Digital and Samsung attribute.</description>
+  </attribute>
+  <attribute smartctl="End-to-End_Error">
+    <name>End-to-End error</name>
+    <description>This attribute is a part of HP's SMART IV technology and it means that after transferring through the cache RAM data buffer the parity data between the host and the hard drive did not match.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Head Stability</name>
+    <description>Western Digital attribute.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Induced Op-Vibration Detection</name>
+    <description>Western Digital attribute.</description>
+  </attribute>
+  <attribute smartctl="Reported_Uncorrect">
+    <name>Reported Uncorrectable Errors</name>
+    <description>The count of errors that could not be recovered using hardware ECC.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Command Timeout</name>
+    <description>The count of aborted operations due to HDD timeout. Normally this attribute value should be equal to zero and if the value is far above zero, then most likely there will be some serious problems with power supply or an oxidized data cable.</description>
+  </attribute>
+  <attribute smartctl="High_Fly_Writes">
+    <name>High Fly Writes</name>
+    <description>HDD producers implement a Fly Height Monitor that attempts to provide additional protections for write operations by detecting when a recording head is flying outside its normal operating range. If an unsafe fly height condition is encountered, the write process is stopped, and the information is rewritten or reallocated to a safe region of the hard drive. This attribute indicates the count of these errors detected over the lifetime of the drive.</description>
+  </attribute>
+  <attribute smartctl="Airflow_Temperature_Cel">
+    <name>Airflow Temperature</name>
+    <description>Airflow temperature on Western Digital HDs.</description>
+  </attribute>
+  <attribute smartctl="G-Sense_Error_Rate">
+    <name>G-sense error rate</name>
+    <description>The count of errors resulting from externally-induced shock and vibration.</description>
+  </attribute>
+  <attribute smartctl="Power-Off_Retract_Count">
+    <name>Power-off Retract Count</name>
+    <description>Count of times the heads are loaded off the media. Heads can be unloaded without actually powering off.</description>
+  </attribute>
+  <attribute smartctl="Load_Cycle_Count">
+    <name>Load Cycle Count</name>
+    <description>Count of load/unload cycles into head landing zone position.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius">
+    <name>Temperature</name>
+    <description>Current internal temperature.</description>
+  </attribute>
+  <attribute smartctl="Hardware_ECC_Recovered">
+    <name>Hardware ECC Recovered</name>
+    <description>The raw value has different structure for different vendors and is often not meaningful as a decimal number.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Event_Count">
+    <name>Reallocation Event Count</name>
+    <description>Count of remap operations. The raw value of this attribute shows the total count of attempts to transfer data from reallocated sectors to a spare area. Both successful and unsuccessful attempts are counted.</description>
+  </attribute>
+  <attribute smartctl="Current_Pending_Sector">
+    <name>Current Pending Sector Count</name>
+    <description>Count of "unstable" sectors (waiting to be remapped, because of read errors). If an unstable sector is subsequently read successfully, this value is decreased and the sector is not remapped.</description>
+  </attribute>
+  <attribute smartctl="Offline_Uncorrectable">
+    <name>Uncorrectable Sector Count</name>
+    <description>The total count of uncorrectable errors when reading/writing a sector. A rise in the value of this attribute indicates defects of the disk surface and/or problems in the mechanical subsystem.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count">
+    <name>UltraDMA CRC Error Count</name>
+    <description>The count of errors in data transfer via the interface cable as determined by ICRC (Interface Cyclic Redundancy Check).</description>
+  </attribute>
+  <attribute smartctl="Multi_Zone_Error_Rate">
+    <name>Multi-Zone Error Rate</name>
+    <description>The count of errors found when writing a sector. The higher the value, the worse the disk's mechanical condition is.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Write Error Rate</name>
+    <description>The total count of errors when writing a sector.</description>
+  </attribute>
+  <attribute smartctl="Soft_Read_Error_Rate">
+    <name>Soft Read Error Rate</name>
+    <description>Count of off-track errors.</description>
+  </attribute>
+  <attribute smartctl="Data_Address_Mark_Errs">
+    <name>Data Address Mark errors</name>
+    <description>Count of Data Address Mark errors.</description>
+  </attribute>
+  <attribute smartctl="Run_Out_Cancel">
+    <name>Run Out Cancel</name>
+    <description>Count of ECC errors.</description>
+  </attribute>
+  <attribute smartctl="Soft_ECC_Correction">
+    <name>Soft ECC Correction</name>
+    <description>Count of errors corrected by software ECC.</description>
+  </attribute>
+  <attribute smartctl="Thermal_Asperity_Rate">
+    <name>Thermal Asperity Rate</name>
+    <description>Count of errors due to high temperature.</description>
+  </attribute>
+  <attribute smartctl="Flying_Height">
+    <name>Flying Height</name>
+    <description>Height of heads above the disk surface. A flying height that's too low increases the chances of a head crash while a flying height that's too high increases the chances of a read/write error.</description>
+  </attribute>
+  <attribute smartctl="Spin_High_Current">
+    <name>Spin High Current</name>
+    <description>Amount of surge current used to spin up the drive.</description>
+  </attribute>
+  <attribute smartctl="Spin_Buzz">
+    <name>Spin Buzz</name>
+    <description>Count of buzz routines needed to spin up the drive due to insufficient power.</description>
+  </attribute>
+  <attribute smartctl="Offline_Seek_Performnce">
+    <name>Offline Seek Performance</name>
+    <description>Drive’s seek performance during its internal tests.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Vibration During Write</name>
+    <description>Vibration During Write.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Shock During Write</name>
+    <description>Shock During Write.</description>
+  </attribute>
+  <attribute smartctl="Disk_Shift">
+    <name>Disk Shift</name>
+    <description>Distance the disk has shifted relative to the spindle (usually due to shock or temperature). Unit of measure is unknown.</description>
+  </attribute>
+  <attribute smartctl="G-Sense_Error_Rate">
+    <name>G-Sense Error Rate</name>
+    <description>The count of errors resulting from externally-induced shock and vibration.</description>
+  </attribute>
+  <attribute smartctl="Loaded_Hours">
+    <name>Loaded Hours</name>
+    <description>Time spent operating under data load (movement of magnetic head armature).</description>
+  </attribute>
+  <attribute smartctl="Load_Retry_Count">
+    <name>Load/Unload Retry Count</name>
+    <description>Count of times head changes position.</description>
+  </attribute>
+  <attribute smartctl="Load_Friction">
+    <name>Load Friction</name>
+    <description>Resistance caused by friction in mechanical parts while operating.</description>
+  </attribute>
+  <attribute smartctl="Load_Cycle_Count">
+    <name>Load/Unload Cycle Count</name>
+    <description>Total count of load cycles.</description>
+  </attribute>
+  <attribute smartctl="Load-in_Time">
+    <name>Load 'In'-time</name>
+    <description>Total time of loading on the magnetic heads actuator (time not spent in parking area).</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Torque Amplification Count</name>
+    <description>Count of attempts to compensate for platter speed variations.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Power-Off Retract Cycle</name>
+    <description>The count of times the magnetic armature was retracted automatically as a result of cutting power.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>GMR Head Amplitude</name>
+    <description>Amplitude of "thrashing" (distance of repetitive forward/reverse head motion).</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Temperature</name>
+    <description>Drive Temperature.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Endurance Remaining</name>
+    <description>Number of physical erase cycles completed on the drive as a percentage of the maximum physical erase cycles the drive supports.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Available Reserved Space</name>
+    <description>Intel SSD reports the number of available reseved space as a percentage of reseved space in a brand new SSD.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Power-On Hours</name>
+    <description>Number of hours elapsed in the power-on state.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Media Wearout Indicator</name>
+    <description>Intel SSD reports a normalized value of 100 (when the SSD is new) and declines to a minimum value of 1. It decreases while the NAND erase cycles increase from 0 to the maximum-rated cycles.</description>
+  </attribute>
+  <attribute smartctl="Head_Flying_Hours">
+    <name>Head Flying Hours</name>
+    <description>Time while head is positioning.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Transfer Error Rate</name>
+    <description>Count of times the link is reset during a data transfer.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Total LBAs Written</name>
+    <description>Total count of LBAs written.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Total LBAs Read</name>
+    <description>Total count of LBAs read.</description>
+  </attribute>
+  <attribute smartctl="Read_Error_Retry_Rate">
+    <name>Read Error Retry Rate</name>
+    <description>Count of errors while reading from a disk.</description>
+  </attribute>
+  <attribute smartctl="">
+    <name>Free Fall Protection</name>
+    <description>Count of "Free Fall Events" detected.</description>
+  </attribute>
+</table>
