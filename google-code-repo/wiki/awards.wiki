@@ -50,7 +50,7 @@
 <a href="http://www.programmigratis.org/download/utility/hdd-guardian.aspx" target="_blank"><img src="http://static.programmigratis.org/images/5star-awards.png" alt="Programmigratis.org" border="0"/></a>
 </td>
 <td align="center" width=210>
-<a href="http://www.instalki.pl/programy/download/Windows/testowanie_i_diagnostyka/HDD_Guardian.html"><img src="http://www.instalki.pl/img/buttons/en/Instalkipl-award2013.png" alt="LockUnlock Folder - Award" border="0"/></a>
+<a href="http://www.instalki.pl/programy/download/Windows/testowanie_i_diagnostyka/HDD_Guardian.html"><img src="http://www.instalki.pl/img/buttons/en/Instalkipl-award2013.png"  border="0"/></a>
 </td>
 <td align="center" width=210>
 </td>
