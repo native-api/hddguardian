@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<interface>
+  <!-- <string id="" text=""/> -->
+  <info language="English" translator="Parise Samuele" version="0.6.0"/>
+  <group id="00" title="Main menu">
+	  <string id="01" text="Overview"/>
+	  <string id="02" text="Manage"/>
+	  <string id="03" text="System"/>
+    <string id="04" text="Debug"/>
+	  <string id="10" text="File"/>
+	  <string id="11" text="Settings"/>
+	  <string id="12" text="About"/>
+	  <string id="13" text="Exit"/>
+    <string id="14" text="Reload devices list"/>
+  </group>
+  <group id="01" title="Device context menu">
+	  <string id="01" text="Update"/>
+	  <string id="02" text="Update all"/>
+	  <string id="03" text="Add virtual device"/>
+	  <string id="04" text="Remove virtual device"/>
+	  <string id="05" text="Rescan external devices"/>
+	  <string id="06" text="Tray icon"/>
+	  <string id="07" text="Temperature"/>
+	  <string id="08" text="Remaining life"/>
+	  <string id="09" text="Sharing"/>
+	  <string id="10" text="Share selected device"/>
+	  <string id="11" text="Set sharing folder"/>
+	  <string id="12" text="Xml report"/>
+	  <string id="13" text="Create xml report for all units"/>
+	  <string id="14" text="Set xml output folder"/>
+    <string id="15" text="Display info panel"/>
+  </group>
+  <group id="02" title="Tray icon context menu">
+	  <string id="01" text="Restore"/>
+	  <string id="02" text="Exit"/>
+  </group>
+  <group id="03" title="Manage menu items">
+	  <string id="01" text="Device health"/>
+	  <string id="02" text="Informations"/>
+	  <string id="03" text="S.M.A.R.T. attributes"/>
+	  <string id="04" text="Events log"/>
+	  <string id="05" text="Events chart"/>
+	  <string id="10" text="S.M.A.R.T. setup"/>
+	  <string id="11" text="Advanced Acoustic Management"/>
+	  <string id="12" text="Advanced Power Management"/>
+	  <string id="13" text="Standby (spindown) timer"/>
+	  <string id="14" text="Read/write options"/>
+	  <string id="20" text="Errors log"/>
+	  <string id="21" text="Self test results"/>
+	  <string id="22" text="Run test"/>
+	  <string id="30" text="Device output"/>
+	  <string id="31" text="Tolerance"/>
+	  <string id="32" text="Attributes format"/>
+	  <string id="33" text="Firmware debug"/>
+	  <string id="34" text="Power mode"/>
+	  <string id="40" text="Main"/>
+	  <string id="41" text="Setup"/>
+	  <string id="42" text="Errors and tests"/>
+	  <string id="43" text="Smartctl"/>
+    <string id="50" text="Select device"/>
+  </group>
+  <group id="04" title="Devices overview">
+	  <string id="01" text="Name"/>
+	  <string id="02" text="Temperature"/>
+	  <string id="03" text="Remaining life"/>
+	  <string id="04" text="Interface"/>
+	  <string id="05" text="Size"/>
+	  <!-- device list groups -->
+	  <string id="20" text="External devices"/>
+	  <string id="21" text="Internal devices"/>
+	  <string id="22" text="Virtual devices"/>
+  </group>
+  <group id="05" title="Bottom info panel">
+	  <string id="01" text="Manufacturer"/>
+	  <string id="02" text="Serial number"/>
+	  <string id="03" text="Firmware"/>
+	  <string id="04" text="Reliability"/>
+	  <string id="05" text="Temperature"/>
+	  <string id="06" text="Remaining life"/>
+	  <string id="07" text="Overall evaluation"/>
+	  <string id="08" text="Bad sectors"/>
+	  <string id="09" text="ATA errors"/>
+	  <string id="10" text="Non-medium errors"/>
+	  <string id="11" text="Elements in grown defect list"/>
+	  <string id="12" text="Passed"/>
+	  <string id="13" text="Some values exceed threshold"/>
+	  <string id="14" text="Unknown"/>
+	  <string id="15" text="Revision"/>
+    <string id="16" text="Working time"/>
+    <string id="17" text="year"/>
+    <string id="18" text="years"/>
+    <string id="19" text="month"/>
+    <string id="20" text="months"/>
+    <string id="21" text="day"/>
+    <string id="22" text="days"/>
+    <string id="23" text="hour"/>
+    <string id="24" text="hours"/>
+  </group>
+  <group id="06" title="Debug">
+    <string id="01" text="Save debug"/>
+    <string id="02" text="Date and time"/>
+    <string id="03" text="Event"/>
+  </group>
+  <group id="07" title="">
+
+  </group>
+  <group id="08" title="">
+
+  </group>
+  <group id="09" title="ATA: device informations">
+	  <string id="01" text="Manufacturer"/>
+	  <string id="02" text="Device"/>
+	  <string id="03" text="Serial number"/>
+	  <string id="04" text="Device World Wide Name"/>
+	  <string id="05" text="Firmware version"/>
+	  <string id="06" text="User capacity"/>
+	  <string id="07" text="Sector size"/>
+	  <string id="08" text="Rotation rate"/>
+	  <string id="09" text="ATA version is"/>
+	  <string id="10" text="Interface"/>
+	  <string id="11" text="S.M.A.R.T. status"/>
+	  <string id="21" text="Overall health status"/>
+	  <string id="22" text="Temperature"/>
+	  <string id="23" text="Remaining life"/>
+	  <string id="24" text="Last test"/>
+	  <string id="25" text="Health"/>
+	  <string id="26" text="Run test"/>
+	  <string id="27" text="Display S.M.A.R.T. attributes"/>
+	  <string id="28" text="Display errors"/>
+	  <string id="29" text="Smartctl database"/>
+	  <string id="30" text="This device is not in smartctl database"/>
+	  <string id="31" text="This device is in smartctl database"/>
+	  <string id="32" text="Update smartctl database"/>
+	  <string id="33" text="Warnings"/>
+	  <string id="34" text="No warnings to display"/>
+	  <string id="35" text="Device report is no longer available. Please, check file path."/>
+	  <string id="36" text="S.M.A.R.T. available but disabled."/>
+	  <string id="37" text="S.M.A.R.T. not available on this device."/>
+    <string id="38" text="Reliability"/>
+    <string id="39" text="Last update"/>
+	  <!--Test status-->
+	  <string id="50" text="Completed without error"/>
+	  <string id="51" text="Aborted by host"/>
+	  <string id="52" text="Interrupted (host reset)"/>
+	  <string id="53" text="Fatal or unknown error"/>
+	  <string id="54" text="Completed: unknown failure"/>
+	  <string id="55" text="Completed: electrical failure"/>
+	  <string id="56" text="Completed: servo/seek failure"/>
+	  <string id="57" text="Completed: read failure"/>
+	  <string id="58" text="Completed: handling damage"/>
+	  <string id="59" text="Self-test routine in progress"/>
+	  <string id="60" text="Unknown status"/>
+	  <string id="61" text="at"/>
+	  <!--Overall health-->
+	  <string id="70" text="No S.M.A.R.T. value have exceeded the threshold."/>
+	  <string id="71" text="Some S.M.A.R.T. values have exceeded the threshold! Drive failure excepted in less 24 hours. Save all data!"/>
+	  <string id="72" text="Unknown"/>
+	  <!--Bad sectors-->
+	  <string id="80" text="No bad sector detected."/>
+	  <string id="81" text="Detected one bad sector."/>
+	  <string id="82" text="Detected % bad sectors. Backup all data and replace the disk!"/>
+	  <string id="83" text="Detected % bad sectors."/>
+	  <!--Errors-->
+	  <string id="90" text="No ATA error detected."/>
+	  <string id="91" text="Detected one ATA error."/>
+	  <string id="92" text="Detected % ATA errors. Is suggested to replace the disk."/>
+	  <string id="93" text="Detected % ATA errors."/>
+  </group>
+  <group id="10" title="ATA: SMART settings">
+	  <string id="01" text="Enable S.M.A.R.T."/>
+	  <string id="02" text="Enable or disable Self-Monitoring, Analysis and Reporting Technology on device"/>
+	  <string id="03" text="Enable S.M.A.R.T. automatic offline test"/>
+	  <string id="04" text="Enable or disable S.M.A.R.T. offline test, which scans the device every four hours for disk defects"/>
+	  <string id="05" text="Enable S.M.A.R.T. autosave"/>
+	  <string id="06" text="Enable or disable S.M.A.R.T. autosave of device vendor-specific attributes"/>
+	  <!--Messages titles-->
+	  <string id="30" text="Message"/>
+	  <string id="31" text="Question"/>
+	  <!--Messages texts-->
+	  <string id="40" text="S.M.A.R.T. enabled on device %."/>
+	  <string id="41" text="S.M.A.R.T. not fully supported on device %."/>
+	  <string id="42" text="S.M.A.R.T. not supported on device %."/>
+	  <string id="43" text="Disable S.M.A.R.T. on device %?"/>
+	  <string id="44" text="S.M.A.R.T. disabled on device %."/>
+	  <string id="45" text="Offline data collection enabled on device %."/>
+	  <string id="46" text="Offline data collection not supported or\aborted from host on device %."/>
+	  <string id="47" text="Disable offline data collection on device %?"/>
+	  <string id="48" text="Offline data collection disabled on device %."/>
+	  <string id="49" text="Unable to disable offline data collection\on device %."/>
+  </group>
+  <group id="11" title="ATA: AAM">
+	  <string id="01" text="Advanced Acoustic Management (AAM) is a method for reducing acoustic emanations in ATA mass storage devices. A quietest value means a slow disk, a loudest value means a fast disk.\Set value to 0 to disable this feature.\\Note that the AAM feature was declared obsolete in ATA ACS-2 Revision 4a (Dec 2010)."/>
+	  <string id="02" text="Quiet (but slow)"/>
+	  <string id="03" text="Loud (but fast)"/>
+	  <string id="04" text="Set recommended value"/>
+	  <string id="05" text="Recommended value"/>
+	  <string id="06" text="Not available"/>
+	  <string id="07" text="Undo changes"/>
+	  <string id="08" text="Current value"/>
+	  <string id="09" text="Unable to determine"/>
+  </group>
+  <group id="12" title="ATA: APM">
+	  <string id="01" text="Advanced Power Management (APM) is an API (Application Programming Interface) developed by Intel and Microsoft and released in 1992 which enables an operating system running an IBM-compatible personal computer to work with the BIOS (part of the computer's firmware) to achieve power management. If a value between 1 and 254 is provided, it will attempt to enable APM and set the specified value, setting value to 0 disables APM. Values below 128 are supposed to allow drive spindown, values 128 and above adjust only head-parking frequency."/>
+	  <string id="02" text="Not available"/>
+	  <string id="03" text="Current value"/>
+	  <string id="04" text="Set value"/>
+	  <string id="05" text="Unable to determine"/>
+	  <string id="06" text="Undo changes"/>
+  </group>
+  <group id="13" title="ATA: standby">
+    <string id="01" text="Sets the standby (spindown) timer and places the drive in the IDLE mode. A value of 0 disables the standby timer. Values from 1 to 240 specify timeouts from 5 seconds to 20 minutes in 5 second increments. Values from 241 to 251 specify timeouts from 30 minutes to 330 minutes in 30 minute increments. Value 252 specifies 21 minutes. Value 253 specifies a vendor specific time between 8 and 12 hours. Value 255 specifies 21 minutes and 15 seconds."/>
+	  <string id="02" text="reserved"/>
+	  <string id="03" text="time is between 8 and 12 hours"/>
+	  <string id="04" text="off"/>
+	  <string id="05" text="Set value"/>
+	  <string id="06" text="Undo changes"/>
+  </group>
+  <group id="14" title="ATA: read/write settings">
+	  <string id="01" text="Enable volatile write cache feature"/>
+	  <string id="02" text="Enabling disk write caching may increase operating system performance. By enabling write caching file system corruption and/or data loss could occur if the machine experiences a power device or system failure and cannot be shutdown properly.\The write cache is usually enabled by default for HDD, but not always for SSD."/>
+	  <string id="03" text="Enable read look-ahead feature"/>
+	  <string id="04" text="Drives are configured with a feature called Read Look Ahead that keeps the drive reading ahead, even after execution of the current command has completed. The data is retained in the drive buffer to provide a prompt response to a system request if the ensuing command is indeed sequential.\Read look-ahead is usually enabled by default for HDD, but not always for SSD."/>
+    <string id="05" text="Enable write cache reordering"/>
+    <string id="06" text="If is disabled, disk write scheduling is executed on a first-in-first-out (FIFO) basis. If is enabled, the disk write scheduling may be reordered by the drive."/>
+  </group>
+  <group id="15" title="ATA: SMART attributes">
+	  <string id="01" text="S.M.A.R.T. attributes"/>
+	  <string id="02" text="Data structure revision number"/>
+	  <!--Attributes list-->
+	  <string id="10" text="ID"/>
+	  <string id="11" text="Attribute name"/>
+	  <string id="12" text="Current"/>
+	  <string id="13" text="Worst"/>
+	  <string id="14" text="Threshold"/>
+	  <string id="15" text="Raw values"/>
+	  <!--Side panel: attribute info-->
+    <string id="20" text="Attribute description"/>
+	  <!--Side panel: flags-->
+	  <string id="30" text="Flags"/>
+	  <string id="31" text="Prefailure warning"/>
+	  <string id="32" text="Updated online"/>
+	  <string id="33" text="Speed/performance"/>
+	  <string id="34" text="Error rating"/>
+	  <string id="35" text="Event count"/>
+	  <string id="36" text="Self-preserving"/>
+	  <!--Side panel: graph-->
+	  <string id="40" text="Graph"/>
+  </group>
+  <group id="16" title="ATA: errors">
+	  <string id="01" text="No errors logged"/>
+	  <string id="02" text="Select error to display"/>
+	  <string id="03" text="Error log version"/>
+	  <string id="04" text="Device does not support error logging."/>
+	  <!--Error texts-->
+	  <string id="10" text="Error % occurred at disk power-on lifetime"/>
+	  <string id="11" text="When commad that caused the error occurred, the device was"/>
+	  <string id="12" text="After command completion occured, register were"/>
+	  <string id="13" text="Command leading to the command that caused the error were"/>
+	  <!--Device status-->
+	  <string id="20" text="in an unknown state"/>
+	  <string id="21" text="sleeping"/>
+	  <string id="22" text="in standby mode"/>
+	  <string id="23" text="active or idle"/>
+	  <string id="24" text="doing SMART Offline or Self-test"/>
+	  <string id="25" text="in a reserved state"/>
+	  <string id="26" text="in a vendor specific state"/>
+	  <!--Tooltips-->
+	  <string id="30" text="Timestamp"/>
+	  <string id="31" text="Decimal seconds since the previous disk power-on.\Note: timestamp 'wraps' after 2^32 msec = 49.710 days."/>
+	  <string id="32" text="Powered up time"/>
+	  <string id="33" text="Measured from power on, and printed as DDd+hh:mm:SS:sss\where DD=days, hh=hours, mm=minutes, SS=sec and sss=millisec.\It 'wraps' after 49.710 days."/>
+    <!--Short codes replacement-->
+    <string id="40" text="Command Aborted"/>
+    <string id="41" text="Address Mark Not Found"/>
+    <string id="42" text="Command Completion Timed Out"/>
+    <string id="43" text="End Of Media"/>
+    <string id="44" text="Interface Cyclic Redundancy Code (CRC) error"/>
+    <string id="45" text="Identity Not Found"/>
+    <string id="46" text="Packet command-set specific"/>
+    <string id="47" text="Media Change Request"/>
+    <string id="48" text="Media Changed"/>
+    <string id="49" text="No Media"/>
+    <string id="50" text="Obsolete"/>
+    <string id="51" text="Track 0 Not Found"/>
+    <string id="52" text="Uncorrectable Error in Data"/>
+    <string id="53" text="Media is Write Protected"/>
+  </group>
+  <group id="17" title="ATA: self tests results">
+	  <string id="01" text="Device does not support self-test logging."/>
+	  <string id="02" text="Device does not support selective self-test logging."/>
+	  <string id="03" text="No self-test have been logged."/>
+	  <string id="04" text="No selective self-test have been logged."/>
+	  <!--Self tests-->
+	  <string id="10" text="Self-test log (data structure revision: %)"/>
+	  <!--Self tests column headers-->
+	  <string id="11" text="Num"/>
+	  <string id="12" text="Test description"/>
+	  <string id="13" text="Status"/>
+	  <string id="14" text="Remaining"/>
+	  <string id="15" text="Life time (h)"/>
+	  <string id="16" text="LBA of first error"/>
+	  <!--Self tests results-->
+	  <string id="30" text="Offline"/>
+	  <string id="31" text="Short offline"/>
+	  <string id="32" text="Extended offline"/>
+	  <string id="33" text="Conveyance offline"/>
+	  <string id="34" text="Abort offline test"/>
+	  <string id="35" text="Short captive"/>
+	  <string id="36" text="Extended captive"/>
+	  <string id="37" text="Conveyance captive"/>
+	  <string id="38" text="Selective captive"/>
+	  <string id="39" text="Not testing"/>
+	  <!--Selective self-test-->
+	  <string id="20" text="Selective self-test log (data structure revision: %)"/>
+	  <!--Selective self-test column headers-->
+	  <string id="21" text="Span"/>
+	  <string id="22" text="Min LBA"/>
+	  <string id="23" text="Max LBA"/>
+	  <string id="24" text="Current test status"/>
+  </group>
+  <group id="18" title="ATA: run test">
+  	<string id="01" text="Seft-tests are devices built-in tests designed to recognize device fault conditions; these tests are safe for user data. Tests can be performed during normal device use, but take a more longer time despite the extimated times reported below if device is busy.\Note that some devices can't start to register test results until a non-positive result may occur (in force of an abortion or an error is occurred)."/>
+	  <string id="02" text="Offline data collection"/>
+	  <string id="03" text="Short self-test"/>
+	  <string id="04" text="Extended self-test"/>
+	  <string id="05" text="Conveyance self-test"/>
+	  <string id="06" text="Run"/>
+	  <string id="07" text="Abort"/>
+	  <string id="08" text="Estimated test duration"/>
+	  <string id="09" text="Select test to run"/>
+	  <string id="10" text="Test not available"/>
+	  <string id="11" text="Estimated test end"/>
+	  <!--Tips-->
+	  <string id="20" text="Checks the electrical and mechanical performance as well as the read performance of the disk. Electrical tests might include a test of buffer RAM, a read/write circuitry test, or a test of the read/write head elements. Mechanical test includes seeking and servo on data tracks. Scans small parts of the drive's surface (area is vendor-specific and there is a time limit on the test). Checks the list of pending sectors that may have read errors."/>
+	  <string id="21" text="A longer and more thorough version of the short self-test, scans the entire disk surface, with no time limit."/>
+	  <string id="22" text="Intended as a quick test to identify damage incurred during transporting of the device. Only available on ATA drives."/>
+	  <string id="23" text="Start a S.M.A.R.T. offline test, updating attributes values, and if error are found they will appear into the error log."/>
+	  <!--Abort test-->
+	  <string id="30" text="Confirm"/>
+	  <string id="31" text="Abort test now?"/>
+  </group>
+  <group id="19" title="Settings: smartctl tolerance">
+	  <string id="01" text="Set tolerance"/>
+	  <string id="02" text="Normal"/>
+	  <string id="03" text="Conservative"/>
+	  <string id="04" text="Very permissive"/>
+	  <string id="10" text="Specifies how tolerant smartctl should be of ATA and S.M.A.R.T. command failures."/>
+	  <string id="20" text="Smartctl exit on failure of any mandatory S.M.A.R.T. command, and ignore all failures of optional S.M.A.R.T. commands."/>
+	  <string id="21" text="Smartctl exit on failure of any optional S.M.A.R.T. command."/>
+	  <string id="22" text="Smartctl ignore failures of any number of mandatory S.M.A.R.T. commands."/>
+  </group>
+  <group id="20" title="ATA: attributes remap">
+	  <string id="01" text="Set vendor-specific attribute display"/>
+	  <string id="02" text="Custom"/>
+	  <string id="03" text="Attribute ID"/>
+	  <string id="04" text="Format"/>
+	  <string id="05" text="Name"/>
+	  <string id="06" text="Add"/>
+	  <string id="07" text="ID"/>
+	  <string id="08" text="Format"/>
+	  <string id="09" text="Name"/>
+	  <string id="10" text="Remove"/>
+    <string id="11" text="Add vendor-specific attribute"/>
+    <string id="12" text="Cancel"/>
+	  <string id="20" text="Set a vendor-specific raw value print format, an optional byte order and an optional name for attribute ID. The attribute ID can be in range 1 to 255. If 'N' is specified as ID, the settings for all attributes are changed."/>
+	  <string id="70" text="Power-On (minutes)"/>
+	  <string id="71" text="Power-On (seconds)"/>
+	  <string id="72" text="Power-On (halfminutes)"/>
+	  <string id="73" text="Temperature"/>
+	  <string id="74" text="Emergency Retract Cycle Count"/>
+	  <string id="75" text="Load/Unload Cycle Count"/>
+	  <string id="76" text="Temperature x 10"/>
+	  <string id="77" text="Unknown"/>
+	  <string id="78" text="Total Pending Sectors"/>
+	  <string id="79" text="Total Offline Uncorrectable"/>
+	  <string id="80" text="Off-Line Scan Uncorrectable Sector Count"/>
+	  <string id="81" text="Write Error Count"/>
+	  <string id="82" text="Detected Thermal Asperity Count"/>
+	  <!--Attributes tips-->
+	  <string id="30" text="Raw attribute number '9' is power-on time in minutes."/>
+	  <string id="31" text="Raw attribute number '9' is power-on time in seconds."/>
+	  <string id="32" text="Raw attribute number '9' is power-on time, measured in units of 30 seconds."/>
+	  <string id="33" text="Raw attribute number '9' is the disk temperature in Celsius."/>
+	  <string id="34" text="Raw attribute number '192' is the Emergency Retract Cycle Count;\is used by some Fujitsu."/>
+	  <string id="35" text="Raw attribute number '193' contains two values: the first is the number of load cycle,\the second is the number of unload cycles."/>
+	  <string id="36" text="Raw attribute number '194' is ten time the disk temperature in Celsius\(this is used by some Samsung)."/>
+	  <string id="37" text="Raw attribute number '194' is NOT the disk temperature, and its interpretation is unknown."/>
+	  <string id="38" text="Raw attribute number '197' is the Total Pending Sectors."/>
+	  <string id="39" text="Raw attribute number '198' is the Total Offline Uncorrectable."/>
+	  <string id="40" text="Raw attribute number '198' is the Offline Scan Uncorrectable Sector Count."/>
+	  <string id="41" text="Raw attribute number '200' is the Write Error Count."/>
+	  <string id="42" text="Raw attribute number '201' is the Detected Thermal Asperity Count."/>
+	  <string id="43" text="Raw attribute number '220' is the disk temperature in Celsius."/>
+	  <!--Format tips-->
+	  <string id="50" text="raw8:\Print the Raw value as six 8-bit unsigned base-10 integers."/>
+	  <string id="51" text="raw16:\Print the Raw value as three 16-bit unsigned base-10 integers."/>
+	  <string id="52" text="raw16(avg16):\Raw attribute is spin-up time. It is printed as a 16-bit value and\an optional 'Average' 16-bit value if the word is nonzero.\This is the default for Attribute '3'."/>
+	  <string id="53" text="raw16(raw16):\Print the raw attribute as a 16-bit value and two optional 16-bit\values if these words are nonzero.\This is the default for Attributes '5' and '196'."/>
+	  <string id="54" text="raw24/raw24:\Raw Attribute contains two 24-bit values."/>
+	  <string id="55" text="raw48:\Print the Raw value as a 48-bit unsigned base-10 integer.\This is the default for most attributes."/>
+	  <string id="56" text="raw64:\Print the Raw value as a 64-bit unsigned base-10 integer.\This new raw format is used by some recent SSD devices."/>
+	  <string id="57" text="hex48:\Print the Raw value as a 12 digit hexadecimal number."/>
+	  <string id="58" text="hex64:\Print the Raw value as a 16 digit hexadecimal number.\This new raw format is used by some recent SSD devices."/>
+	  <string id="59" text="min2hour:\Raw Attribute is power-on time in minutes."/>
+	  <string id="60" text="sec2hour:\Raw Attribute is power-on time in seconds."/>
+	  <string id="61" text="halfmin2hour:\Raw Attribute is power-on time, measured in units of 30 seconds."/>
+	  <string id="62" text="tempminmax:\Raw Attribute is the disk temperature in Celsius.\This is the default for Attributes '190' and '194'."/>
+	  <string id="63" text="temp10x:\Raw Attribute is ten times the disk temperature in Celsius."/>
+  </group>
+  <group id="21" title="ATA: firmware debug">
+	  <string id="01" text="Set firmware debug (on most cases this is not required)"/>
+	  <string id="02" text="None"/>
+	  <string id="03" text="Fixes byte swapped"/>
+	  <string id="04" text="Suppresses read attempts of SMART or General Purpose Log Directory"/>
+	  <string id="05" text="Fixes LBA byte ordering"/>
+	  <string id="10" text="Modifies the behaviour of smartctl to compensate for some known and understood device firmware or driver bug."/>
+	  <string id="20" text="Assume that the device firmware obeys the ATA specifications."/>
+	  <string id="21" text="Enable on Samsung device in case of no self-test log printed, even though you have run self-tests, very large numbers of ATA errors reported in the ATA error log or strange and impossible values for the ATA error log timestamps."/>
+	  <string id="22" text="Your Samsung disk needs this option if the self-test log is printed correctly, but there are a very large number of errors in the SMART error log. In example, a disk with five errors (0x0005) will appear to have 20480 errors (0x5000)."/>
+	  <string id="23" text="Some Samsung disks (at least SP2514N with Firmware VF100-37) report a self-test still in progress with 0% remaining when the test was already completed."/>
+	  <string id="24" text="Fixes byte swapped ATA identify strings returned by some buggy device drivers."/>
+	  <string id="25" text="Support for all standard logs is assumed without an actual check. Some Intel SSDs may freeze if log address 0 is read."/>
+	  <string id="26" text="Fixes LBA byte ordering in Extended Comprehensive SMART error log. Some disk use little endian byte ordering instead of ATA register ordering to specifiy the LBA addresses in the log entries."/>
+  </group>
+  <group id="22" title="Settings: power mode check">
+	  <string id="01" text="Specifies if smartctl should exit before performing any checks when the device is in a low-power mode. It may be used to prevent a disk from being spun-up by smartctl. The power mode is ignored by default."/>
+	  <string id="02" text="Set power mode check"/>
+	  <string id="03" text="Never"/>
+	  <string id="04" text="Check the device always."/>
+	  <string id="05" text="Sleep"/>
+	  <string id="06" text="Check the device unless it is in sleep mode."/>
+	  <string id="07" text="Standby"/>
+	  <string id="08" text="Check the device unless it is in sleep or standby mode. In these modes most disks are not spinning, so if you want to prevent a disk from spinning up, this is probably what you want."/>
+	  <string id="09" text="Idle"/>
+	  <string id="10" text="Check the device unless it is in sleep, standby or idle mode. In the idle state, most disks are still spinning, so this is probably not what you want."/>
+  </group>
+  <group id="23" title="SCSI: device informations">
+	  <string id="01" text="Vendor"/>
+	  <string id="02" text="Product"/>
+	  <string id="03" text="Revision"/>
+	  <string id="04" text="Serial number"/>
+	  <string id="05" text="Logical unit ID"/>
+	  <string id="06" text="User capacity"/>
+	  <string id="07" text="Logical block size"/>
+	  <string id="08" text="Rotation rate"/>
+	  <string id="09" text="Transport protocol"/>
+	  <string id="10" text="S.M.A.R.T. status"/>
+	  <string id="21" text="Overall health status"/>
+	  <string id="22" text="Temperature"/>
+	  <string id="23" text="Last test"/>
+	  <string id="24" text="Health"/>
+	  <string id="25" text="Run test"/>
+	  <string id="26" text="Display errors"/>
+	  <string id="27" text="Elements in grown defect list"/>
+	  <string id="28" text="Non-medium error count"/>
+  </group>
+  <group id="24" title="SCSI: SMART settings">
+	  <string id="01" text="Enable Global Logging Target Save Disabled (GLTSD)"/>
+	  <string id="02" text="Enable or disable the value of the GLTSD in the Control Mode Page. Some disk manufacturers disable this value by default.\This prevents error counters, power-up hours and other useful data from being placed in non-volatile storage, so these values may be reset to zero the next time the device is power-cycled. If enabled, it clear the GLTSD and thus enable saving counters to non-volatile storage. For extreme streaming-video type applications you might consider to disable the GLTSD."/>
+	  <string id="03" text="Enable write cache"/>
+	  <string id="04" text="Enable or disable write cache. The write cache is usually enabled by default."/>
+	  <string id="05" text="Enable read cache"/>
+	  <string id="06" text="Enable or disable read cache. The read cache is usually enabled by default."/>
+  </group>
+  <group id="25" title="SCSI: errors">
+	  <string id="01" text="No errors detected."/>
+	  <string id="02" text="Read"/>
+	  <string id="03" text="Write"/>
+	  <string id="04" text="Verify"/>
+	  <string id="05" text="Errors corrected by ECC"/>
+	  <string id="06" text="Fast"/>
+	  <string id="07" text="Delayed"/>
+	  <string id="08" text="Rereads/rewrites"/>
+	  <string id="09" text="Total errors corrected"/>
+	  <string id="10" text="Correction algorithm invocations"/>
+	  <string id="11" text="Gigabytes processed (10^9 bytes)"/>
+	  <string id="12" text="Total uncorrected errors"/>
+  </group>
+  <group id="26" title="SCSI: tests results">
+	  <string id="01" text="No tests registered."/>
+	  <string id="02" text="Num"/>
+	  <string id="03" text="Description"/>
+	  <string id="04" text="Status"/>
+	  <string id="05" text="Segment"/>
+	  <string id="06" text="Lifetime (h)"/>
+	  <string id="07" text="LBA of first error"/>
+	  <!-- SCSI test status -->
+	  <string id="50" text="Completed"/>
+	  <string id="51" text="Aborted by user command"/>
+	  <string id="52" text="Aborted (device reset?)"/>
+	  <string id="53" text="Incomplete: unknown error"/>
+	  <string id="54" text="Completed. Segment failed"/>
+	  <string id="55" text="Failed in first segment"/>
+	  <string id="56" text="Failed in second segment"/>
+	  <string id="57" text="Failed in segment"/>
+	  <string id="58" text="Reserved"/>
+	  <string id="59" text="In progress"/>
+	  <!-- SCSI test type -->
+	  <string id="60" text ="Default"/>
+	  <string id="61" text ="Background short"/>
+	  <string id="62" text ="Background long"/>
+	  <string id="63" text ="Reserved"/>
+	  <string id="64" text ="Abort background"/>
+	  <string id="65" text ="Foreground short"/>
+	  <string id="66" text ="Foreground long"/>
+  </group>
+  <group id="27" title="SCSI: run test">
+	  <string id="01" text="Run background long test. Estimated duration: %1 seconds (%2 minutes)."/>
+	  <!--Other text strings coming from ATA test section-->
+  </group>
+  <group id="29" title="Generic: events log">
+	  <string id="01" text="Time"/>
+	  <string id="02" text="Device"/>
+	  <string id="03" text="Attribute"/>
+	  <string id="04" text="From"/>
+	  <string id="05" text="To"/>
+	  <string id="06" text="Changes"/>
+	  <string id="07" text="Delete log"/>
+	  <string id="08" text="Delete all logs"/>
+	  <string id="09" text="No events registered in this day."/>
+	  <string id="10" text="Previous day"/>
+	  <string id="11" text="Today"/>
+	  <string id="12" text="Next day"/>
+	  <string id="13" text="Reload"/>
+	  <string id="14" text="No event registered for this device."/>
+	  <string id="15" text="Copy selected event data to clipboard"/>
+	  <string id="16" text="Save log into a text file"/>
+  </group>
+  <group id="30" title="Generic: events chart">
+	  <string id="01" text="% events registered"/>
+	  <string id="02" text="Date and time"/>
+	  <string id="03" text="From"/>
+	  <string id="04" text="To"/>
+	  <string id="05" text="Variation"/>
+	  <string id="06" text="Reload"/>
+  </group>
+  <group id="31" title="Generic: smartctl output">
+    <string id="01" text="Save"/>
+  </group>
+  <group id="32" title="Windows devices">
+	  <string id="01" text="Device index"/>
+	  <string id="02" text="Partitions"/>
+	  <string id="03" text="Total size"/>
+	  <string id="04" text="Available size"/>
+	  <string id="05" text="Serial number"/>
+	  <string id="06" text="File system"/>
+	  <string id="07" text="Number of blocks"/>
+	  <string id="08" text="Block size"/>
+	  <string id="09" text="Type"/>
+	  <string id="10" text="Bootable"/>
+	  <string id="11" text="Boot partition"/>
+	  <string id="12" text="Primary partition"/>
+	  <string id="13" text="Gathering data, please wait."/>
+	  <string id="14" text="Mother board"/>
+	  <string id="15" text="Processor"/>
+	  <string id="16" text="Installed memory"/>
+	  <string id="17" text="Video card"/>
+	  <string id="18" text="Disk"/>
+	  <string id="19" text="Partition"/>
+    <string id="20" text="Yes"/>
+    <string id="21" text="No"/>
+    <string id="31" text="Professional"/>
+    <string id="32" text="Gamer"/>
+    <string id="33" text="Laptop"/>
+  </group>
+  <group id="33" title="Settings side menu">
+	  <string id="01" text="General settings"/>
+	  <string id="02" text="Device detection"/>
+	  <string id="04" text="Mail alerts"/>
+	  <string id="05" text="Languages"/>
+	  <string id="06" text="Devices update"/>
+	  <string id="07" text="Monitoring"/>
+	  <string id="08" text="Warnings"/>
+	  <string id="09" text="Output sharing"/>
+	  <string id="10" text="Device rating"/>
+    <string id="11" text="Additional devices"/>
+  </group>
+  <group id="34" title="Settings: general settings">
+	  <string id="01" text="Run with Windows"/>
+	  <string id="02" text="Start minimized"/>
+	  <string id="03" text="Minimize on tray"/>
+	  <string id="04" text="Close on tray"/>
+	  <string id="05" text="Always show tray icon"/>
+	  <string id="06" text="Confirm on exit"/>
+	  <string id="07" text="Check for updates"/>
+	  <string id="08" text="Display temperatures in Fahrenheit"/>
+    <string id="09" text="Remember window size"/>
+    <string id="10" text="Display debug events in main window"/>
+    <string id="11" text="Display tray icons info panel"/>
+	  <string id="20" text="Startup"/>
+	  <string id="21" text="Behavior"/>
+	  <string id="22" text="Updates"/>
+	  <string id="23" text="Temperatures"/>
+    <string id="24" text="Debug"/>
+  </group>
+  <group id="35" title="Settings: device detection">
+	  <string id="01" text="Monitor USB devices connection/disconnection"/>
+    <string id="03" text="Enable Intel Matrix (CSMI) support"/>
+    <string id="04" text="You need to restart HDD Guardian to make this setting work."/>
+  </group>
+  <group id="36" title="Settings: additional devices (and his dialog window)">
+    <string id="01" text="This section allow to add devices that are not detected by HDD Guardian, like devices under Areca controllers.\To add a device you have to write a descritpion for device (example: /dev/areca2) and the command that identify the device (example: -d areca,2 /dev/arcmsr0)."/>
+    <string id="02" text="Description"/>
+    <string id="03" text="Smartctl command"/>
+    <string id="04" text="Add"/>
+    <string id="05" text="Remove"/>
+    <string id="20" text="Additional device setup"/>
+    <string id="21" text="Cancel"/>
+  </group>
+  <group id="37" title="Settings: mail alerts">
+	  <string id="01" text="Enable e-mail alerts"/>
+	  <string id="02" text="E-mail destination"/>
+	  <string id="03" text="Send test mail"/>
+    <string id="04" text="Send mail on"/>
+    <string id="05" text="Device failing"/>
+    <string id="06" text="Excessive temperature"/>
+    <string id="07" text="Reliability drop down"/>
+    <string id="08" text="This mail is sent only for test purposes."/>
+    <string id="20" text="The following device(s) have failed S.M.A.R.T. overall health check"/>
+    <string id="21" text="The following device(s) have reported an excessive temperature"/>
+    <string id="22" text="The following device(s) reliability have drop down"/>
+    <string id="30" text="Set a custom mail server"/>
+    <string id="31" text="User login"/>
+    <string id="32" text="User password"/>
+    <string id="33" text="Smtp host"/>
+    <string id="34" text="Smtp port"/>
+    <string id="35" text="Use SSL"/>
+  </group>
+  <group id="38" title="Settings: devices updates">
+	  <string id="01" text="Set device data update frequency"/>
+	  <string id="02" text="minutes"/>
+	  <!--other text string are gathered from devices overview group-->
+  </group>
+  <group id="39" title="Settings: devices monitoring">
+    <string id="01" text="Keep track of these parameters"/>
+	  <string id="02" text="HDD parameters"/>
+	  <string id="03" text="SSD life indicators"/>
+	  <string id="04" text="Invert selection"/>
+    <string id="05" text="Generic parameters"/>
+    <string id="06" text="SCSI parameters"/>
+	  <string id="10" text="Reallocated sector count"/>
+	  <string id="11" text="Spin retry count"/>
+	  <string id="12" text="Temperature"/>
+	  <string id="13" text="Reallocated event count"/>
+	  <string id="14" text="Current pending sector"/>
+	  <string id="15" text="Offline uncorrectable"/>
+	  <string id="16" text="Soft read error rate"/>
+	  <string id="17" text="Disk shift"/>
+	  <string id="20" text="Remaining life percentage"/> <!--Indilinx-->
+	  <string id="21" text="Media wearout indicator"/> <!-- Intel-->
+	  <string id="22" text="Percentage lifetime used"/> <!--Micron-->
+	  <string id="23" text="Wear leveling count"/> <!--Samsung-->
+	  <string id="24" text="SSD Life Left"/> <!--SandForce-->
+    <string id="30" text="Non medium errors"/>
+    <string id="31" text="Elements in defects list"/>
+  </group>
+  <group id="40" title="Settings: warnings">
+	  <string id="01" text="Warning..."/>
+	  <string id="02" text="When change one of the following parameters"/>
+	  <string id="03" text="In case of imminent failure"/>
+	  <string id="04" text="When temperature exceed threshold"/>
+	  <string id="05" text="Custom threshold"/>
+  </group>
+  <group id="41" title="Settings: output sharing">
+	  <string id="01" text="Select folder where share devices output"/>
+	  <string id="02" text="Browse"/>
+	  <string id="03" text="No folder selected."/>
+	  <string id="10" text="Select folder where save devices Xml summary"/>
+	  <string id="11" text="Generate an Xml devices overall summary"/>
+	  <string id="20" text="Smartctl output"/>
+	  <string id="21" text="Xml overall summary"/>
+  </group>
+  <group id="42" title="Settings: device rating">
+	  <string id="01" text="Enable reliability rating"/>
+	  <string id="02" text="Change threshold values"/>
+	  <string id="03" text="Reset to default"/>
+	  <string id="04" text="ATA errors count"/>
+	  <string id="05" text="Reallocated events"/>
+	  <string id="06" text="Pending sectors"/>
+	  <string id="07" text="Offline reallocations"/>
+  </group>
+  <group id="43" title="Settings: languages">
+	  <string id="01" text="Automatic"/>
+	  <string id="02" text="Choose preferred language"/>
+	  <string id="03" text="Language"/>
+	  <string id="04" text="Version"/>
+	  <string id="05" text="Translator"/>
+  </group>
+  <group id="45" title="Messages">
+	  <string id="01" text="New HDD Guardian version available (%)!\Click on icon to go to download page."/>
+	  <string id="02" text="Applying setting, please wait."/>
+	  <string id="03" text="Alarm: device temperature"/>
+	  <string id="04" text="Device failure warning"/>
+	  <string id="05" text="%\Device failure excepted in less 24 hours.\SAVE ALL DATA!"/>
+	  <string id="06" text="Warning"/>
+    <string id="07" text="Missed administration rights!\Some functions are not available and some data could be inaccurate."/>
+  </group>
+  <group id="48" title="Common strings">
+	  <string id="01" text="bytes"/>
+	  <string id="02" text="logical"/>
+	  <string id="03" text="physical"/>
+	  <string id="04" text="Available"/>
+	  <string id="05" text="Not available"/>
+	  <string id="06" text="Ambiguous"/>
+	  <string id="07" text="and enabled"/>
+	  <string id="08" text="but disabled"/>
+	  <string id="09" text="Unknown"/>
+  </group>
+  <group id="49" title="Tray icon baloons">
+	  <string id="01" text="Alarm: device status"/>
+	  <string id="02" text="from"/>
+	  <string id="03" text="to"/>
+	  <string id="04" text="degradation"/>
+	  <string id="05" text="recovery"/>
+  </group>
+  <group id="50" title="Virtual devices window">
+	  <string id="01" text="Add virtual device"/>
+	  <string id="02" text="Description"/>
+	  <string id="03" text="File"/>
+	  <string id="04" text="Add"/>
+	  <string id="05" text="Cancel"/>
+	  <string id="06" text="Error"/>
+	  <string id="07" text="This file doesn't containt smartctl data."/>
+  </group>
+  <group id="51" title="Various messages">
+	  <!--miss smartctl-->
+	  <string id="01" text="Error"/>
+	  <string id="02" text="No devices found, exiting now."/>
+	  <string id="03" text="Unable to locate 'smartctl.exe'. Exiting now."/>
+	  <!--miss admin rights-->
+	  <string id="10" text="This section requires administrative rights."/>
+    <string id="11" text="Data not available due to missing admin rights."/>
+    <string id="12" text="This setting are safe for user data, requires administrative rights and are not available for SCSI and virtual devices."/>
+    <string id="13" text="This section requires administrative rights and are not available for virtual devices."/>
+  </group>
+  <group id="52" title="Quit confirm">
+    <string id="01" text="Confirm"/>
+	  <string id="02" text="Are you sure you want to exit?"/>
+  </group>  
+</interface>
