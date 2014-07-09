@@ -1,5 +1,4 @@
 #summary HDD Guardian 0.2.0.0 screenshots
-#labels Featured
 
 = HDD Guardian 0.2.0.0 Screenshots =
 
