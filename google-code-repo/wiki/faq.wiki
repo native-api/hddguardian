@@ -1,5 +1,4 @@
 #summary HDD Guardian FAQ
-#labels Featured
 
 *My hard drive is working abnormally / my hard disk led is furiously flashing*
 
