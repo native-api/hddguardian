@@ -1,5 +1,4 @@
 #summary HDD Guardian features
-#labels Featured
 
 =HDD Guardian features=
 
