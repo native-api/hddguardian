@@ -1,5 +1,4 @@
 #summary Changelog of HDD Guardian
-#labels Featured
 *HDD Guardian 0.5.0*
 
 _New:_
