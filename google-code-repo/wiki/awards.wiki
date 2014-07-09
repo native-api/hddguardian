@@ -1,5 +1,4 @@
 #summary HDD Guardian awards
-#labels Featured
 
 ==5 STARS AWARDS==
 <table>
