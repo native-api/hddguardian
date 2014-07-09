@@ -1,5 +1,5 @@
 #summary Home Page
-----
+
 This is the project page of HDD Guardian until version 0.5.0.<br></br>
 *Newest versions of [http://hddguardian.codeplex.com HDD Guardian] are now on Codeplex.*
 
