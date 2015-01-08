@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<interface>
+  <group id="00" title="Main menu">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="Система" />
+    <string id="04" text="" />
+    <string id="10" text="Файл" />
+    <string id="11" text="Настройки" />
+    <string id="12" text="Относно" />
+    <string id="13" text="Изход" />
+  </group>
+  <group id="01" title="Device context menu">
+    <string id="01" text="Актуализирай" />
+    <string id="02" text="Актуализирай всичко" />
+    <string id="03" text="Добави виртуални у-ва" />
+    <string id="04" text="Премахни виртуални у-ва" />
+    <string id="05" text="Повторно скан. на външни у-ва" />
+    <string id="06" text="" />
+    <string id="07" text="Температура" />
+    <string id="08" text="" />
+    <string id="09" text="" />
+    <string id="10" text="" />
+    <string id="11" text="Задай папка за споделяне" />
+    <string id="12" text="" />
+    <string id="13" text="" />
+    <string id="14" text="" />
+  </group>
+  <group id="02" title="Tray icon context menu">
+    <string id="01" text="Покажи" />
+    <string id="02" text="Изход" />
+  </group>
+  <group id="03" title="Manage menu items">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="S.M.A.R.T. атрибути" />
+    <string id="04" text="Отчет на събитията" />
+    <string id="05" text="Диаграма на събитията" />
+    <string id="10" text="" />
+    <string id="11" text="Разширено управление на звука" />
+    <string id="12" text="Разширено управление на захранването" />
+    <string id="13" text="Таймер режим на готовност (spindown)" />
+    <string id="14" text="" />
+    <string id="20" text="Отчет на грешките" />
+    <string id="21" text="Отчет от самодиагностика" />
+    <string id="22" text="Почни теста" />
+    <string id="30" text="Изход на у-вото" />
+    <string id="31" text="Толеранс" />
+    <string id="32" text="Формат на атрибутите" />
+    <string id="33" text="Дебъгване на фърмуера" />
+    <string id="34" text="" />
+    <string id="40" text="Основни данни " />
+    <string id="41" text="" />
+    <string id="42" text="" />
+    <string id="43" text="Smartctl" />
+    <string id="50" text="" />
+  </group>
+  <group id="04" title="Devices overview">
+    <string id="01" text="Име" />
+    <string id="02" text="Температура" />
+    <string id="03" text="" />
+    <string id="04" text="Тип" />
+    <string id="05" text="" />
+    <string id="06" text="" />
+    <string id="07" text="" />
+    <string id="08" text="" />
+    <string id="09" text="" />
+    <string id="10" text="Файл" />
+    <string id="20" text="Външни устройства" />
+    <string id="21" text="Вътрешни устройства" />
+    <string id="22" text="Виртуални устройства" />
+  </group>
+  <group id="05" title="Bottom info panel">
+    <string id="01" text="" />
+    <string id="02" text="Сериен номер" />
+    <string id="03" text="Версия на фърмуера" />
+    <string id="04" text="" />
+    <string id="05" text="Температура" />
+    <string id="06" text="" />
+    <string id="07" text="" />
+    <string id="08" text="" />
+    <string id="09" text="" />
+    <string id="10" text="Брой на грешките &quot;без носител&quot;" />
+    <string id="11" text="Елементи в списъка с дефекти" />
+    <string id="12" text="" />
+    <string id="13" text="" />
+    <string id="14" text="Неизвестен" />
+    <string id="15" text="Ревизия" />
+  </group>
+  <group id="06" title="Events section" />
+  <group id="07" title="Control panel main page" />
+  <group id="08" title="ATA: device reliability" />
+  <group id="09" title="ATA: device informations">
+    <string id="01" text="" />
+    <string id="02" text="Устройство" />
+    <string id="03" text="Сериен номер" />
+    <string id="04" text="World Wide Name на у-вото" />
+    <string id="05" text="Версия на фърмуера" />
+    <string id="06" text="Общ размер" />
+    <string id="07" text="Размер на секторите" />
+    <string id="08" text="Скорост на въртене" />
+    <string id="09" text="Версията на АТА е" />
+    <string id="10" text="Интерфейс" />
+    <string id="11" text="Поддръжката на S.M.A.R.T. е" />
+    <string id="21" text="" />
+    <string id="22" text="Температура" />
+    <string id="23" text="" />
+    <string id="24" text="Последен тест" />
+    <string id="25" text="Състояние" />
+    <string id="26" text="Тествай" />
+    <string id="27" text="" />
+    <string id="28" text="" />
+    <string id="29" text="" />
+    <string id="30" text="" />
+    <string id="31" text="" />
+    <string id="32" text="" />
+    <string id="33" text="Предупреждения" />
+    <string id="34" text="Няма предупреждения" />
+    <string id="35" text="Отчетът от у-вото вече не е наличен. Провери пътя до файла." />
+    <string id="36" text="S.M.A.R.T.  е налице, но е деактивирана." />
+    <string id="37" text="S.M.A.R.T. не е налична на това устройство." />
+    <string id="38" text="" />
+    <string id="39" text="Последно обновяване" />
+    <string id="50" text="Завършен без грешка" />
+    <string id="51" text="Прекъснат от системата" />
+    <string id="52" text="Прекъснат (преинициализация на с-мата)" />
+    <string id="53" text="Фатална или неизвестна грешка" />
+    <string id="54" text="Завършен: неизвестна грешка" />
+    <string id="55" text="Завършен: електрическа повреда" />
+    <string id="56" text="Завършен: серво/търси грешка" />
+    <string id="57" text="Завършен: прочети грешка" />
+    <string id="58" text="Завършен: обработка на щети" />
+    <string id="59" text="Самодиагностика в ход" />
+    <string id="60" text="Неизвестно състояние" />
+    <string id="61" text="в" />
+    <string id="70" text="Няма S.M.A.R.T. стойност превишила прага." />
+    <string id="71" text="Някои S.M.A.R.T. стойности са превишени прага! Проблем при диска с изключение на последните 24 часа. Запази всички данни!" />
+    <string id="72" text="Неизвестен" />
+    <string id="80" text="Няма открит лош сектор." />
+    <string id="81" text="" />
+    <string id="82" text="Открити % лоши сектори. Архивирай всички данни и замени диска!" />
+    <string id="83" text="Открити % лоши сектори." />
+    <string id="90" text="Няма открита грешка в АТА" />
+    <string id="91" text="" />
+    <string id="92" text="Открити % ATA грешки. Предлага се да смениш диска." />
+    <string id="93" text="Открити % ATA грешки." />
+  </group>
+  <group id="10" title="ATA: SMART settings">
+    <string id="01" text="Активирай S.M.A.R.T." />
+    <string id="02" text="Разрешава или забранява технологията S.M.A.R.T на устройството" />
+    <string id="03" text="Активирай автоматизиран тест на S.M.A.R.T. офлайн" />
+    <string id="04" text="Разрешава или забранява S.M.A.R.T. офлайн тест, който сканира у-вото на всеки 4 часа за диск. дефекти" />
+    <string id="05" text="Активирай S.M.A.R.T самозаписване" />
+    <string id="06" text="Разрешава или забранява самозаписване S.M.A.R.T. атрибутите на  конкретен доставчик" />
+    <string id="30" text="Съобщение" />
+    <string id="31" text="Въпрос" />
+    <string id="40" text="S.M.A.R.T. е активирана на у-вото %." />
+    <string id="41" text="S.M.A.R.T. не се поддръжа напълно на у-во %." />
+    <string id="42" text="S.M.A.R.T. не се поддържа на устройството %." />
+    <string id="43" text="Ще деактивираш S.M.A.R.T. у-во %?" />
+    <string id="44" text="S.M.A.R.T. е деактивирана на у-вото %." />
+    <string id="45" text="Активирано е офлайн събирането на данни за у-вото %." />
+    <string id="46" text="Офлайн събирането на данни не се поддържа или\е прекратено от хоста на у-вото %." />
+    <string id="47" text="Деактивираш офлайн събирането на данни за у-вото %?" />
+    <string id="48" text="Офлайн събирането на данни е деактивирано за у-во %." />
+    <string id="49" text="Не може да се забрани офлайн събирането на данни\на у-во %." />
+  </group>
+  <group id="11" title="ATA: AAM">
+    <string id="01" text="" />
+    <string id="02" text="Тихо (но бавно)" />
+    <string id="03" text="Шумно (но бързо)" />
+    <string id="04" text="Задай препоръчителна стойност" />
+    <string id="05" text="Препоръчителна стойност" />
+    <string id="06" text="Не е налице" />
+    <string id="07" text="Отмени промените" />
+    <string id="08" text="Текуща стойност" />
+    <string id="09" text="Не може да определи" />
+  </group>
+  <group id="12" title="ATA: APM">
+    <string id="01" text="" />
+    <string id="02" text="Не е налице" />
+    <string id="03" text="Текуща стойност" />
+    <string id="04" text="Задай стойност" />
+    <string id="05" text="Не може да определи" />
+    <string id="06" text="Отмени промените" />
+  </group>
+  <group id="13" title="ATA: standby">
+    <string id="01" text="" />
+    <string id="02" text="запазено" />
+    <string id="03" text="времето е между 8 и 12 часа" />
+    <string id="04" text="off" />
+    <string id="05" text="Задай стойност" />
+    <string id="06" text="Отмени промените" />
+  </group>
+  <group id="14" title="ATA: read/write settings">
+    <string id="01" text="Активирай променливия кеш на писане" />
+    <string id="02" text="" />
+    <string id="03" text="Активирай функцията 'look-ahead'" />
+    <string id="04" text="" />
+    <string id="05" text="" />
+    <string id="06" text="" />
+  </group>
+  <group id="15" title="ATA: SMART attributes">
+    <string id="01" text="S.M.A.R.T. атрибути" />
+    <string id="02" text="Номер на ревизията на данните" />
+    <string id="10" text="ID" />
+    <string id="11" text="Име на атрибута" />
+    <string id="12" text="Текущо" />
+    <string id="13" text="Най-лошо" />
+    <string id="14" text="Праг" />
+    <string id="15" text="Сурови стойности" />
+    <string id="20" text="" />
+    <string id="30" text="" />
+    <string id="31" text="" />
+    <string id="32" text="" />
+    <string id="33" text="" />
+    <string id="34" text="" />
+    <string id="35" text="" />
+    <string id="36" text="" />
+    <string id="40" text="" />
+  </group>
+  <group id="16" title="ATA: errors">
+    <string id="01" text="Няма отчетени грешки" />
+    <string id="02" text="Избери грешка за показване" />
+    <string id="03" text="Версия на отчета на грешките" />
+    <string id="04" text="Устройството не поддържа записване на грешки." />
+    <string id="10" text="Грешка % появила се по време на жизнения цикъл на диска" />
+    <string id="11" text="Когато командата, която е причинила грешка, устройството е" />
+    <string id="12" text="След изпълнение на командата се състоя, в регистъра са" />
+    <string id="13" text="Команда водеща до командата, която е причинила грешката" />
+    <string id="20" text="в неизвестно състояние" />
+    <string id="21" text="спящ режим" />
+    <string id="22" text="в режим на готовност" />
+    <string id="23" text="активен или неактивен" />
+    <string id="24" text="изпълнение на SMART офлайн или самодиагностика" />
+    <string id="25" text="в резервирано състояние" />
+    <string id="26" text="в зададено от доставчика състояние" />
+    <string id="30" text="Печат на времето" />
+    <string id="31" text="Десетични секунди от предишното диск. захранване.\Забележка: 'таен' вр. печат след 2 ^ 32 мсек = 49,710 дни" />
+    <string id="32" text="Време на мощност" />
+    <string id="33" text="Измерено от захранването и отпечатано като DDd+hh:mm:SS:sss\където DD = дни, hh = часове, mm = минути, SS = сек. и sss = милисек.\Това е 'тайна' след 49,710 дни." />
+    <string id="40" text="" />
+    <string id="41" text="" />
+    <string id="42" text="" />
+    <string id="43" text="" />
+    <string id="44" text="" />
+    <string id="45" text="" />
+    <string id="46" text="" />
+    <string id="47" text="" />
+    <string id="48" text="" />
+    <string id="49" text="" />
+    <string id="50" text="" />
+    <string id="51" text="" />
+    <string id="52" text="" />
+    <string id="53" text="" />
+  </group>
+  <group id="17" title="ATA: self tests results">
+    <string id="01" text="Устройството не поддържа отчитане на самодиагностика." />
+    <string id="02" text="Устройството не поддържа отчитане на селективна самодиагностика." />
+    <string id="03" text="Няма отчетена самодиагностика." />
+    <string id="04" text="Няма отчетена селективна самодиагностика." />
+    <string id="10" text="Отчет от самодиагностика (ревизия на данни: %)" />
+    <string id="11" text="Номер" />
+    <string id="12" text="Описание на теста" />
+    <string id="13" text="Състояние" />
+    <string id="14" text="Оставащо" />
+    <string id="15" text="Време на живот (ч.)" />
+    <string id="16" text="LBA на първата грешка" />
+    <string id="30" text="Офлайн" />
+    <string id="31" text="Офлайн - накратко" />
+    <string id="32" text="Офлайн - подробно" />
+    <string id="33" text="Пренасяне офлайн" />
+    <string id="34" text="Спри офлайн теста" />
+    <string id="35" text="Затворени - накратко" />
+    <string id="36" text="Затворени - разширено" />
+    <string id="37" text="Затворени при транспорта" />
+    <string id="38" text="Селективен плен" />
+    <string id="39" text="Без тестване" />
+    <string id="20" text="Отчет от селективна самодиагностика (ревизия на данни: %)" />
+    <string id="21" text="Промеждутък" />
+    <string id="22" text="Мин. LBA" />
+    <string id="23" text="Макс. LBA" />
+    <string id="24" text="Текущото състояние на теста" />
+  </group>
+  <group id="18" title="ATA: run test">
+    <string id="01" text="" />
+    <string id="02" text="Събиране на данни офлайн" />
+    <string id="03" text="Кратка самодиагностика" />
+    <string id="04" text="Разширена самодиагностика" />
+    <string id="05" text="Самодиагностика на пренасяне" />
+    <string id="06" text="Почни" />
+    <string id="07" text="Спри" />
+    <string id="08" text="Очаквана продължит. на теста" />
+    <string id="09" text="Избери тест за изпълнение" />
+    <string id="10" text="Тестът не е наличен" />
+    <string id="11" text="Очакван край на теста" />
+    <string id="20" text="" />
+    <string id="21" text="По-продъжителна и задълбочена версия на краткосрочна самодиагностика, сканира повърхността на целия диск, безсрочно." />
+    <string id="22" text="Замислен като бърз тест за идентифициране на повреди, настъпили по време на пренасяне на у-вото. Налице само при ATA дискове." />
+    <string id="23" text="Започни SMART тест офлайн, актуализиране на стойности на атрибути и ако са намерени грешки ще се появят в отчета на грешките." />
+    <string id="30" text="Потвърди" />
+    <string id="31" text="Ще спреш теста сега?" />
+  </group>
+  <group id="19" title="Settings: smartctl tolerance">
+    <string id="01" text="Задай толеранс" />
+    <string id="02" text="Нормален" />
+    <string id="03" text="Традиционен" />
+    <string id="04" text="Много толерантен" />
+    <string id="10" text="Указва колко толерантни трябва да бъдат smartctl на ATA и SMART при провали на команда." />
+    <string id="20" text="Smartctl излизане при неизправност на някоя задължителнa SMART команда и игнорира всички провали на избор при SMART команди." />
+    <string id="21" text="Smartctl излизане при повреда в някоя опция на SMART команда." />
+    <string id="22" text="Smartctl игнорира провалите на произволен брой задължителни SMART команди." />
+  </group>
+  <group id="20" title="ATA: attributes remap">
+    <string id="01" text="Задай показване на специф. атрибути на доставчика" />
+    <string id="02" text="Персонализиране" />
+    <string id="03" text="ID на атрибута" />
+    <string id="04" text="Формат" />
+    <string id="05" text="Име" />
+    <string id="06" text="Добави" />
+    <string id="07" text="ID" />
+    <string id="08" text="Формат" />
+    <string id="09" text="Име" />
+    <string id="10" text="Премахни" />
+    <string id="11" text="" />
+    <string id="12" text="" />
+    <string id="20" text="" />
+    <string id="70" text="Захранване (мин.)" />
+    <string id="71" text="Захранване (сек.)" />
+    <string id="72" text="Захранване (полумин.)" />
+    <string id="73" text="Температура" />
+    <string id="74" text="Аварийно отстраняване бр. на циклите" />
+    <string id="75" text="Зареди/разтовари броя на циклите" />
+    <string id="76" text="Температура x 10" />
+    <string id="77" text="Неизвестен" />
+    <string id="78" text="Общо чакащи сектори" />
+    <string id="79" text="Общо непоправими офлайн" />
+    <string id="80" text="Off-Line Scan Uncorrectable Sector Count" />
+    <string id="81" text="Запиши броя на грешките" />
+    <string id="82" text="Detected Thermal Asperity Count" />
+    <string id="30" text="Суров атрибут номер '9' е времето на включване в минути." />
+    <string id="31" text="Суров атрибут номер '9' е времето на включване в секунди." />
+    <string id="32" text="Суров атрибут номер '9' е времето на включване, измерва се в единици от 30 секунди." />
+    <string id="33" text="Суров атрибут номер '9' е температурата на диска в Целзий." />
+    <string id="34" text="Суров атрибут номер '192' е Emergency Retract Cycle Count;\ползва се от някои Fujitsu." />
+    <string id="35" text="Суров атрибут номер '193' е с две стойности: първата е броят на цикли на натоварване,\втората е броят на циклите на разтоварване." />
+    <string id="36" text="Суров атрибут номер '194' е Х десет температурата на диска в Целзий\(това се използва от някои Samsung)." />
+    <string id="37" text="Суров атрибут номер '194' НЕ е температура на диска и неговото тълкуване е неизвестно." />
+    <string id="38" text="Суров атрибут номер '197'е Общо чакащите сектори. " />
+    <string id="39" text="Суров атрибут номер '198' е Общо непоправими офлайн." />
+    <string id="40" text="Суров атрибут номер '198' е Offline Scan Uncorrectable Sector Count." />
+    <string id="41" text="Суров атрибут номер '200' е брой на грешките при запис." />
+    <string id="42" text="Суров атрибут номер '201' е Detected Thermal Asperity Count. " />
+    <string id="43" text="Суров атрибут номер '220' е температурата на диска по Целзий." />
+    <string id="50" text="" />
+    <string id="51" text="" />
+    <string id="52" text="" />
+    <string id="53" text="" />
+    <string id="54" text="" />
+    <string id="55" text="" />
+    <string id="56" text="" />
+    <string id="57" text="" />
+    <string id="58" text="" />
+    <string id="59" text="" />
+    <string id="60" text="" />
+    <string id="61" text="" />
+    <string id="62" text="" />
+    <string id="63" text="" />
+  </group>
+  <group id="21" title="ATA: firmware debug">
+    <string id="01" text="" />
+    <string id="02" text="Няма" />
+    <string id="03" text="Поправя заменени байтове" />
+    <string id="04" text="Подтиска опитите за четене на SMART или на директорията на отчетите за общо предназначение" />
+    <string id="05" text="Поправя реда на байтовете на LBA" />
+    <string id="10" text="Променя поведението на smartctl за компенсиране на някои известни и разбира фърмуера на у-вото или бъг на драйвера." />
+    <string id="20" text="Няма (по подразбиране):\Да предположим, че фърмуера на устройството се подчинява на ATA спецификациите." />
+    <string id="21" text="" />
+    <string id="22" text="" />
+    <string id="23" text="" />
+    <string id="24" text="Коригира заменените за идентификация ATA байтове върнати от някои устройства с дефектните драйверни." />
+    <string id="25" text="Поддръжката се приема без действителна проверка. Някои SSD дискове на Intel може да замръзнат, ако лог адресът 0 се чете." />
+    <string id="26" text="Коригира реда на LBA байта в лога на грешки Extended Comprehensive SMART. Някой диск използва поръчка &quot;малко къси&quot; байтове вместо ATA реда да се укажат LBA адресите от записите  на отчета." />
+  </group>
+  <group id="22" title="Settings: power mode check">
+    <string id="01" text="" />
+    <string id="02" text="Задай проверка в режим на захрнване" />
+    <string id="03" text="Никога" />
+    <string id="04" text="Проверявай винаги у-вото." />
+    <string id="05" text="Заспиване" />
+    <string id="06" text="Провери у-вото, освен ако не е в режим заспиване." />
+    <string id="07" text="Режим на готовност" />
+    <string id="08" text="Провери у-вото, освен ако не е в режим готовност или заспиване. В тези режими повечето дискове не се въртят, тъй че ако искаш да попречиш на диска да се върти, това е вероятно, което искаш." />
+    <string id="09" text="Покой" />
+    <string id="10" text="Провери у-вото, освен ако не е в режим готовност, заспиване или покой. При покой повечето дискове все още се въртят, тъй че може би това не е, което искаш." />
+  </group>
+  <group id="23" title="SCSI: device informations">
+    <string id="01" text="Фирма" />
+    <string id="02" text="Продукт" />
+    <string id="03" text="Ревизия" />
+    <string id="04" text="Сериен номер" />
+    <string id="05" text="ID на лог. единица" />
+    <string id="06" text="Общ размер" />
+    <string id="07" text="Размер на логич. блок" />
+    <string id="08" text="Скорост на въртене" />
+    <string id="09" text="Протокол за транспорта" />
+    <string id="10" text="Поддръжката на S.M.A.R.T. е" />
+    <string id="21" text="" />
+    <string id="22" text="Температура" />
+    <string id="23" text="Последен тест" />
+    <string id="24" text="Състояние" />
+    <string id="25" text="Тествай" />
+    <string id="26" text="" />
+    <string id="27" text="Елементи в списъка с дефекти" />
+    <string id="28" text="Брой на грешките &quot;без носител&quot;" />
+  </group>
+  <group id="24" title="SCSI: SMART settings">
+    <string id="01" text="Активирай Global Logging Target Save Disabled (GLTSD)" />
+    <string id="02" text="Разрешава или забранява стойността на GLTSD в режим контрол на страницата . Някои производители на дискове изключват тази стойност по подразбиране. Така се избягват грешки в броячите, часове мощност и други полезни данни, които са поставени в енергонезависима памет, така че тези стойности може да се нулират следващия път, когато устройството е включено. Ако е разрешено, се чисти GLTSD и по този начин позволявава запазване на броячите на енергонезависимата памет. За екстремни стрийминг-видео тип приложения може да помислиш да забраниш GLTSD." />
+    <string id="03" text="Активирай кеша за запис" />
+    <string id="04" text="Разрешава или забранява кеша за запис. Кешът за запис обикновено е активиран по подразбиране." />
+    <string id="05" text="Активирай кеша за четене" />
+    <string id="06" text="Разрешава или забранява кеша за четене. Кешът за четене обикновено е активиран по подразбиране." />
+  </group>
+  <group id="25" title="SCSI: errors">
+    <string id="01" text="Няма открити грешки." />
+    <string id="02" text="Четене" />
+    <string id="03" text="Писане" />
+    <string id="04" text="Проверяване" />
+    <string id="05" text="Грешки, поправени от ECC" />
+    <string id="06" text="Бързо" />
+    <string id="07" text="Отложено" />
+    <string id="08" text="Препрочитане/презапис" />
+    <string id="09" text="Общо поправени грешки" />
+    <string id="10" text="Извиквания на алгоритъм за корекция" />
+    <string id="11" text="Третирани гигабайта (10^9 байта)" />
+    <string id="12" text="Общо непоравени грешки" />
+  </group>
+  <group id="26" title="SCSI: tests results">
+    <string id="01" text="Няма регистрирани тестове." />
+    <string id="02" text="Номер" />
+    <string id="03" text="Описание" />
+    <string id="04" text="Състояние" />
+    <string id="05" text="Сегмент" />
+    <string id="06" text="Живот (ч.)" />
+    <string id="07" text="LBA на първата грешка" />
+    <string id="50" text="Завършен" />
+    <string id="51" text="Прекъснат от потребителя" />
+    <string id="52" text="Прекъснат (нулиране на у-вото?)" />
+    <string id="53" text="Непълен: неизвестна грешка" />
+    <string id="54" text="Завършен. Грешка в сегмент" />
+    <string id="55" text="Грешка в първия сегмент" />
+    <string id="56" text="Грешка при втория сегмент" />
+    <string id="57" text="Грешка в сегмента" />
+    <string id="58" text="Запазен" />
+    <string id="59" text="В ход" />
+    <string id="60" text="По подразбиране" />
+    <string id="61" text="Фонов режим - накратко" />
+    <string id="62" text="Фонов режим - обширно" />
+    <string id="63" text="Запазен" />
+    <string id="64" text="Прекъсни фон. режим" />
+    <string id="65" text="Преден план - накратко" />
+    <string id="66" text="Преден план - обширно" />
+  </group>
+  <group id="27" title="SCSI: run test">
+    <string id="01" text="Тествай обширно във фонов режим: %1 секунди (%2 минути)." />
+  </group>
+  <group id="29" title="Generic: events log">
+    <string id="01" text="Време" />
+    <string id="02" text="Устройство" />
+    <string id="03" text="Атрибут" />
+    <string id="04" text="От" />
+    <string id="05" text="До" />
+    <string id="06" text="Промени" />
+    <string id="07" text="Изтрий отчета" />
+    <string id="08" text="Изтрий всички отчети" />
+    <string id="09" text="Няма събития, регистрирани в този ден." />
+    <string id="10" text="Предишнен ден" />
+    <string id="11" text="Днес" />
+    <string id="12" text="Следващ ден" />
+    <string id="13" text="Опресни" />
+    <string id="14" text="Няма събития регистрирани за това у-во." />
+    <string id="15" text="Копирай избраните данни за събитията в клипборда" />
+    <string id="16" text="Запази отчета в текстов файл" />
+  </group>
+  <group id="30" title="Generic: events chart">
+    <string id="01" text="% регистрирани събития" />
+    <string id="02" text="Дата и час" />
+    <string id="03" text="От" />
+    <string id="04" text="До" />
+    <string id="05" text="Вариация" />
+    <string id="06" text="Опресни" />
+  </group>
+  <group id="31" title="Generic: smartctl output">
+    <string id="01" text="Запази" />
+  </group>
+  <group id="32" title="Windows devices">
+    <string id="01" text="Индекс на устройството" />
+    <string id="02" text="Дялове" />
+    <string id="03" text="Общ размер" />
+    <string id="04" text="Наличен размер" />
+    <string id="05" text="Сериен номер" />
+    <string id="06" text="Файлова система" />
+    <string id="07" text="Брой на блокове" />
+    <string id="08" text="Размер на блока" />
+    <string id="09" text="Тип" />
+    <string id="10" text="Стартиращ" />
+    <string id="11" text="Дял на стартиране" />
+    <string id="12" text="Основен дял" />
+    <string id="13" text="Събиране на данни, моля, изчакай." />
+    <string id="14" text="Дънна платка" />
+    <string id="15" text="Процесор" />
+    <string id="16" text="Инсталирана памет" />
+    <string id="17" text="Видео карта" />
+    <string id="18" text="Диск" />
+    <string id="19" text="Дял" />
+    <string id="20" text="Да" />
+    <string id="21" text="Не" />
+    <string id="31" text="" />
+    <string id="32" text="" />
+    <string id="33" text="" />
+  </group>
+  <group id="33" title="Settings side menu">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="04" text="" />
+    <string id="05" text="" />
+    <string id="06" text="" />
+    <string id="07" text="Наблюдение" />
+    <string id="08" text="Предупреждения" />
+    <string id="09" text="" />
+    <string id="10" text="" />
+  </group>
+  <group id="34" title="Settings: general settings">
+    <string id="01" text="Стартиране с Windows" />
+    <string id="02" text="Стартиране минимизирана" />
+    <string id="03" text="Скрий в трея" />
+    <string id="04" text="В трея при затваряне" />
+    <string id="05" text="Винаги показвай иконата в трея" />
+    <string id="06" text="Потвърждение при изход" />
+    <string id="07" text="Проверка за обновявания" />
+    <string id="08" text="Покажи температурите по Фаренхайт" />
+    <string id="09" text="" />
+    <string id="10" text="" />
+    <string id="20" text="" />
+    <string id="21" text="" />
+    <string id="22" text="" />
+    <string id="23" text="" />
+    <string id="24" text="" />
+  </group>
+  <group id="35" title="Settings: device detection">
+    <string id="01" text="Следене за свързване/прекъсване на USB устройства" />
+    <string id="02" text="" />
+    <string id="03" text="" />
+  </group>
+  <group id="36" title="Settings: message panel" />
+  <group id="37" title="Settings: mail alerts">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="" />
+    <string id="04" text="" />
+    <string id="05" text="" />
+    <string id="06" text="" />
+    <string id="07" text="" />
+    <string id="08" text="" />
+    <string id="20" text="" />
+    <string id="21" text="" />
+    <string id="22" text="" />
+    <string id="30" text="" />
+    <string id="31" text="" />
+    <string id="32" text="" />
+    <string id="33" text="" />
+    <string id="34" text="" />
+    <string id="35" text="" />
+  </group>
+  <group id="38" title="Settings: devices updates">
+    <string id="01" text="Задай честота на обновяване данните на у-вото" />
+    <string id="02" text="мин." />
+  </group>
+  <group id="39" title="Settings: devices monitoring">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="SSD показатели за живот" />
+    <string id="04" text="Обръщане на избора" />
+    <string id="05" text="Общи параметри" />
+    <string id="06" text="" />
+    <string id="10" text="Брой преразпределени сектори" />
+    <string id="11" text="Брой опити за завъртене" />
+    <string id="12" text="Температура" />
+    <string id="13" text="Брой преразпределени събития" />
+    <string id="14" text="Текущ чакащ сектор" />
+    <string id="15" text="Непоправими офлайн" />
+    <string id="16" text="Процент на грешките на четене" />
+    <string id="17" text="Изместване при диска" />
+    <string id="20" text="Проценти останал живот" />
+    <string id="21" text="Индикатор на износване" />
+    <string id="22" text="Използван процент на живот" />
+    <string id="23" text="Ниво на износване" />
+    <string id="24" text="Живот оставащ на SSD" />
+    <string id="30" text="" />
+    <string id="31" text="" />
+  </group>
+  <group id="40" title="Settings: warnings">
+    <string id="01" text="Предупреждаване..." />
+    <string id="02" text="Когато промениш един от наблюдаваните параметри" />
+    <string id="03" text="В случай на предстояща повреда" />
+    <string id="04" text="Когато температурата надвишава прага" />
+    <string id="05" text="" />
+  </group>
+  <group id="41" title="Settings: output sharing">
+    <string id="01" text="Избери папката, където се споделя изхода на у-вата" />
+    <string id="02" text="Преглед" />
+    <string id="03" text="Няма избрана папка." />
+    <string id="10" text="Избери папката, в който сe запазва Xml резюме на у-вата" />
+    <string id="11" text="Направете резюме в XML на статуса на у-вото" />
+    <string id="20" text="" />
+    <string id="21" text="" />
+  </group>
+  <group id="42" title="Settings: device rating">
+    <string id="01" text="Активирай индекса надеждност" />
+    <string id="02" text="Промяна на праговите стойности" />
+    <string id="03" text="Възстанови към по подразбиране" />
+    <string id="04" text="Брой на ATA грешките" />
+    <string id="05" text="Преразпределени събития" />
+    <string id="06" text="Чакащи сектори" />
+    <string id="07" text="Преразпределения офлайн" />
+  </group>
+  <group id="43" title="Settings: languages">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="" />
+    <string id="04" text="" />
+    <string id="05" text="" />
+  </group>
+  <group id="45" title="Messages">
+    <string id="01" text="Нова версия  е налице (%)!\Щракни тук да отидеш на стр. за изтегляне." />
+    <string id="02" text="Прилагане на настройка, изчакай." />
+    <string id="03" text="Аларма: температура на у-вото" />
+    <string id="04" text="Предупреждение за повреда на у-вото" />
+    <string id="05" text="%\Повреда на у-вото, с изключение на по-малко от 24 часа.\ЗАПАЗИ ВСИЧКИ ДАННИ!" />
+    <string id="06" text="" />
+    <string id="07" text="" />
+  </group>
+  <group id="48" title="Common strings">
+    <string id="01" text="байта" />
+    <string id="02" text="логически" />
+    <string id="03" text="физически" />
+    <string id="04" text="Налице" />
+    <string id="05" text="Не е налице" />
+    <string id="06" text="Неопределена" />
+    <string id="07" text="и активирана" />
+    <string id="08" text="но деактивирана" />
+    <string id="09" text="Неизвестен" />
+  </group>
+  <group id="49" title="Tray icon baloons">
+    <string id="01" text="Аларма: състояние на у-вото" />
+    <string id="02" text="от" />
+    <string id="03" text="до" />
+    <string id="04" text="деградация" />
+    <string id="05" text="възстановяване" />
+  </group>
+  <group id="50" title="Virtual devices window">
+    <string id="01" text="Добави виртуални у-ва" />
+    <string id="02" text="Описание" />
+    <string id="03" text="Файл" />
+    <string id="04" text="Добави" />
+    <string id="05" text="Отказ" />
+    <string id="06" text="Грешка" />
+    <string id="07" text="Този файл не съдържа smartctl данни." />
+  </group>
+  <group id="51" title="Various messages">
+    <string id="01" text="Грешка" />
+    <string id="02" text="Няма намерени устройства, излизане сега." />
+    <string id="03" text="Не може да се намери &quot;smartctl.exe&quot;. Излизане сега." />
+    <string id="10" text="Тази функция изисква административни права" />
+    <string id="11" text="" />
+    <string id="12" text="" />
+    <string id="13" text="" />
+  </group>
+  <group id="52" title="Quit confirm">
+    <string id="01" text="Потвърди" />
+    <string id="02" text="Наистина ли искаш да излезеш?" />
+  </group>
+</interface>

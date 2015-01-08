@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<interface>
+  <group id="00" title="Main menu">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="System" />
+    <string id="04" text="" />
+    <string id="10" text="" />
+    <string id="11" text="Inställningar" />
+    <string id="12" text="Om" />
+    <string id="13" text="Avsluta" />
+  </group>
+  <group id="01" title="Device context menu">
+    <string id="01" text="Uppdatera" />
+    <string id="02" text="Uppdatera alla" />
+    <string id="03" text="Lägg till virtuell enhet" />
+    <string id="04" text="Ta bort virtuell enhet" />
+    <string id="05" text="Sök igen efter externa enheter" />
+    <string id="06" text="" />
+    <string id="07" text="" />
+    <string id="08" text="" />
+    <string id="09" text="" />
+    <string id="10" text="" />
+    <string id="11" text="Ange mapp för delning" />
+    <string id="12" text="" />
+    <string id="13" text="" />
+    <string id="14" text="" />
+  </group>
+  <group id="02" title="Tray icon context menu">
+    <string id="01" text="Återställ" />
+    <string id="02" text="Avsluta" />
+  </group>
+  <group id="03" title="Manage menu items">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="S.M.A.R.T.-attribut" />
+    <string id="04" text="Logga händelser" />
+    <string id="05" text="Händelsediagram" />
+    <string id="10" text="" />
+    <string id="11" text="Advanced Acoustic Management" />
+    <string id="12" text="Advanced Power Management" />
+    <string id="13" text="Standby-timer (spindown)" />
+    <string id="14" text="" />
+    <string id="20" text="Fel-logg" />
+    <string id="21" text="" />
+    <string id="22" text="Kör test" />
+    <string id="30" text="Enhetsutdata" />
+    <string id="31" text="Tolerans" />
+    <string id="32" text="Attributformat" />
+    <string id="33" text="Firmware-debug" />
+    <string id="34" text="Kontrollera strömläge" />
+    <string id="40" text="Huvudmeny" />
+    <string id="41" text="" />
+    <string id="42" text="" />
+    <string id="43" text="Smartctl" />
+    <string id="50" text="" />
+  </group>
+  <group id="04" title="Devices overview">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="" />
+    <string id="04" text="" />
+    <string id="05" text="" />
+    <string id="06" text="" />
+    <string id="07" text="" />
+    <string id="08" text="" />
+    <string id="09" text="" />
+    <string id="10" text="" />
+    <string id="20" text="Externa enheter" />
+    <string id="21" text="Interna enheter" />
+    <string id="22" text="Virtuella enheter" />
+  </group>
+  <group id="05" title="Bottom info panel">
+    <string id="01" text="" />
+    <string id="02" text="Serienummer" />
+    <string id="03" text="Firmware-version" />
+    <string id="04" text="" />
+    <string id="05" text="Temperatur" />
+    <string id="06" text="" />
+    <string id="07" text="" />
+    <string id="08" text="" />
+    <string id="09" text="" />
+    <string id="10" text="Antal icke medium-fel" />
+    <string id="11" text="Element i grown defect list" />
+    <string id="12" text="" />
+    <string id="13" text="" />
+    <string id="14" text="Okänd" />
+    <string id="15" text="" />
+  </group>
+  <group id="06" title="Events section" />
+  <group id="07" title="Control panel main page" />
+  <group id="08" title="ATA: device reliability" />
+  <group id="09" title="ATA: device informations">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="Serienummer" />
+    <string id="04" text="Enhetens Världsnamn" />
+    <string id="05" text="Firmware-version" />
+    <string id="06" text="Användarkapacitet" />
+    <string id="07" text="Sektorstorlek" />
+    <string id="08" text="Rotationsgrad" />
+    <string id="09" text="ATA-versionen är" />
+    <string id="10" text="Gränssnitt" />
+    <string id="11" text="S.M.A.R.T.-stöd är" />
+    <string id="21" text="" />
+    <string id="22" text="Temperatur" />
+    <string id="23" text="" />
+    <string id="24" text="Senaste testet" />
+    <string id="25" text="Hälsa" />
+    <string id="26" text="Kör test" />
+    <string id="27" text="" />
+    <string id="28" text="" />
+    <string id="29" text="" />
+    <string id="30" text="" />
+    <string id="31" text="" />
+    <string id="32" text="Uppdatera databas" />
+    <string id="33" text="Varningar" />
+    <string id="34" text="Inga varningar" />
+    <string id="35" text="Rapporten för enheten är inte längre tillgänglig. Vänligen kontrollera sökvägen." />
+    <string id="36" text="S.M.A.R.T. tillgängligt men inaktiverat." />
+    <string id="37" text="S.M.A.R.T. inte tillgängligt för denna enhet." />
+    <string id="38" text="" />
+    <string id="39" text="Senaste uppdateringen" />
+    <string id="50" text="Slutförd utan fel" />
+    <string id="51" text="Avbruten av värd vid" />
+    <string id="52" text="Avbruten (återställning från värd) vid" />
+    <string id="53" text="Allvarligt eller okänt fel vid" />
+    <string id="54" text="Avslutad: okänt fel vid" />
+    <string id="55" text="Avslutad: elektriskt fel vid" />
+    <string id="56" text="Avslutad: servo/sök-fel vid" />
+    <string id="57" text="Avslutad: läsfel vid" />
+    <string id="58" text="Avslutad: hanterar skada vid" />
+    <string id="59" text="Självtest pågår vid" />
+    <string id="60" text="Okänd status" />
+    <string id="61" text="vid" />
+    <string id="70" text="Inga S.M.A.R.T.-värden har överskridit tröskelvärdena." />
+    <string id="71" text="Några S.M.A.R.T.-värden har överskridit tröskelvärdena! Diskhaveri förväntas inom 24 timmar. Spara all data!" />
+    <string id="72" text="Okänd" />
+    <string id="80" text="Inga felaktiga sektorer detekterades." />
+    <string id="81" text="" />
+    <string id="82" text="Detekterade % dåliga sektorer. Gör backup på all data och byt ut disken!" />
+    <string id="83" text="Detekterade % dåliga sektorer." />
+    <string id="90" text="Inget ATA-fel detekterat." />
+    <string id="91" text="" />
+    <string id="92" text="Detekterade % ATA-fel. Byte av disk rekommenderas." />
+    <string id="93" text="Detekterade % ATA-fel." />
+  </group>
+  <group id="10" title="ATA: SMART settings">
+    <string id="01" text="Aktivera S.M.A.R.T." />
+    <string id="02" text="Aktivera eller inaktivera själv-monitorering, analys och rapportering för enheten" />
+    <string id="03" text="Aktivera automatiskt S.M.A.R.T.-offlinetest" />
+    <string id="04" text="Aktivera eller inaktivera S.M.A.R.T.-offlinetest, vilket söker efter disk-defekter var fjärde timme" />
+    <string id="05" text="Aktivera S.M.A.R.T.-autosparande" />
+    <string id="06" text="Aktivera eller inaktivera S.M.A.R.T.-autosparande för enhetens tillverkarspecifika attribut" />
+    <string id="30" text="Meddelande" />
+    <string id="31" text="Fråga" />
+    <string id="40" text="S.M.A.R.T. aktiverat på enhet %." />
+    <string id="41" text="S.M.A.R.T. stöds inte fullt ut av enhet %." />
+    <string id="42" text="S.M.A.R.T. stöds inte av enhet %." />
+    <string id="43" text="Inaktivera S.M.A.R.T. på enhet %?" />
+    <string id="44" text="S.M.A.R.T. inaktiverat på enhet %." />
+    <string id="45" text="Offline-datainhämtning aktiverad på enhet %." />
+    <string id="46" text="Offline-datainhämtning stöds inte eller\avbruten av värd på enhet %." />
+    <string id="47" text="Inaktivera offline-datainhämtning på enhet %?" />
+    <string id="48" text="Offline-datainhämtning inaktiverad på enhet %." />
+    <string id="49" text="Kunde inte inaktivera offline-datainhämtning\på enhet %." />
+  </group>
+  <group id="11" title="ATA: AAM">
+    <string id="01" text="Advanced Acoustic Management (AAM) är en metod för att minska buller från ATA-masslagringsenheter.\Tystaste inställningen ger en långsam disk, mest högljudda inställningen ger en snabb disk.\Sätt värdet till 0 för att inaktivera den här funktionen.\\Observera att AAM-funktionen deklarerades föråldrad i ATA ACS-2 Revision 4a (dec 2010)." />
+    <string id="02" text="Tyst (men långsam)" />
+    <string id="03" text="Högljudd (men snabb)" />
+    <string id="04" text="Välj rekommenderat värde" />
+    <string id="05" text="Rekommenderat värde" />
+    <string id="06" text="Inte tillgänglig" />
+    <string id="07" text="Ångra ändringar" />
+    <string id="08" text="Aktuellt värde" />
+    <string id="09" text="" />
+  </group>
+  <group id="12" title="ATA: APM">
+    <string id="01" text="Advanced Power Management (APM) är ett API (Application Programming Interface) utvecklat av Intel och Microsoft, släppt 1992, som möjliggör för ett operativsystem som körs på IBM-kompatibel dator att arbeta med BIOS (en del av datorns fasta programvara) för att uppnå effekthantering. Om ett värde mellan 1 och 254 finns kommer den att försöka aktivera APM och sätta det angivna värdet; värde 0 inaktiverar APM. Värden under 128 är tänkta att tillåta spindown och värden på 128 och uppåt justerar endast huvud-parkeringsfrekvens." />
+    <string id="02" text="Inte tillgänglig" />
+    <string id="03" text="Aktuellt värde" />
+    <string id="04" text="Ange värde" />
+    <string id="05" text="Kunde inte avgöra" />
+    <string id="06" text="Ångra ändringar" />
+  </group>
+  <group id="13" title="ATA: standby">
+    <string id="01" text="Ställer standby-timern (för spindown) och placerar enheten i viloläge (IDLE). Värd 0 inaktiverar standby-timern. Värden från 1 till 240 ange timeout från 5 sekunder till 20 minuter i steg om 5 sekunder. Värden från 241 till 251 anger timeout från 30 minuter till 330 minuter i steg om 30 minuter. Värde 252 anger 21 minuter. Värde 253 specificerar en tillverkarspecifik tid mellan 8 och 12 timmar. Värde 255 anger 21 minuter och 15 sekunder." />
+    <string id="02" text="reserverad" />
+    <string id="03" text="tiden är mellan 8 och 12 timmar" />
+    <string id="04" text="av" />
+    <string id="05" text="Ange värde" />
+    <string id="06" text="Ångra ändringar" />
+  </group>
+  <group id="14" title="ATA: read/write settings">
+    <string id="01" text="Aktivera flyktig cache-skrivningsfunktion" />
+    <string id="02" text="Aktivera skrivcachning kan öka operativsystemets prestanda. Med skrivcache aktiverad kan filsystemskorruption och/eller dataförlust uppstå i händelse av strömavbrott eller systemfel där maskinen inte kan stänga ner på rätt sätt.\Skrivcachen brukar vara aktiverad som standard." />
+    <string id="03" text="Aktivera funktion för läs-look ahead" />
+    <string id="04" text="Enheter har en funktion som kallas Read Look-ahead som gör att enheten läser vidare även efter att det aktuella kommandot har exekverat klart. Data hålls kvar i enhetens buffert för att ge snabb respons om det efterföljande kommandot är sekventiellt.\Read Look-ahead är vanligtvis aktiverat som standard." />
+    <string id="05" text="" />
+    <string id="06" text="" />
+  </group>
+  <group id="15" title="ATA: SMART attributes">
+    <string id="01" text="S.M.A.R.T.-attribut" />
+    <string id="02" text="Revisionsnummer för datastruktur" />
+    <string id="10" text="ID" />
+    <string id="11" text="Attributnamn" />
+    <string id="12" text="Nuvarande" />
+    <string id="13" text="Värsta" />
+    <string id="14" text="Tröskelvärde" />
+    <string id="15" text="Råvärden" />
+    <string id="20" text="" />
+    <string id="30" text="" />
+    <string id="31" text="" />
+    <string id="32" text="" />
+    <string id="33" text="" />
+    <string id="34" text="" />
+    <string id="35" text="" />
+    <string id="36" text="" />
+    <string id="40" text="" />
+  </group>
+  <group id="16" title="ATA: errors">
+    <string id="01" text="Inga fel har loggats" />
+    <string id="02" text="Väl fel att visa" />
+    <string id="03" text="Fel-loggsversion" />
+    <string id="04" text="Enheten har inte stöd för fel-loggning." />
+    <string id="10" text="Fel % uppstod vid diskens påslagna livslängd" />
+    <string id="11" text="När kommandot som orsakade felet uppstod var enheten" />
+    <string id="12" text="Efter att kommandot avslutats var registret" />
+    <string id="13" text="Kommando som ledde till kommandot som orsakade felet var" />
+    <string id="20" text="i ett okänt tillstånd" />
+    <string id="21" text="sovande" />
+    <string id="22" text="i standby-läge" />
+    <string id="23" text="aktiv eller inaktiv" />
+    <string id="24" text="gör SMART offline- eller själv-test" />
+    <string id="25" text="i ett reserverat tillstånd" />
+    <string id="26" text="i ett tillverkarspecifikt tillstånd" />
+    <string id="30" text="Tidsstämpel" />
+    <string id="31" text="Decimala sekunder sedan disken startades senast.\OBS! tidsstämpeln börjar om på 0 efter 2^32 msec = 49,710 dagar." />
+    <string id="32" text="Tid igång" />
+    <string id="33" text="Mätt från start, och utskrivet som DDd+hh:mm:SS:sss\där DD=dagar, hh=timmar, mm=minuter, SS=sek and sss=millisek.\Den börjar om på 0 efter 49,710 dagar." />
+    <string id="40" text="" />
+    <string id="41" text="" />
+    <string id="42" text="" />
+    <string id="43" text="" />
+    <string id="44" text="" />
+    <string id="45" text="" />
+    <string id="46" text="" />
+    <string id="47" text="" />
+    <string id="48" text="" />
+    <string id="49" text="" />
+    <string id="50" text="" />
+    <string id="51" text="" />
+    <string id="52" text="" />
+    <string id="53" text="" />
+  </group>
+  <group id="17" title="ATA: self tests results">
+    <string id="01" text="Enheten har inte stöd för självtest-loggning." />
+    <string id="02" text="Enheten har inte stöd för selektiv självtest-loggning." />
+    <string id="03" text="Inget självtest har loggats." />
+    <string id="04" text="Inget selektivt självtest har loggats." />
+    <string id="10" text="Självtest-logg (datastrukturrevision: %)" />
+    <string id="11" text="Num" />
+    <string id="12" text="Testbeskrivning" />
+    <string id="13" text="Status" />
+    <string id="14" text="Återstående" />
+    <string id="15" text="Livstid (h)" />
+    <string id="16" text="LBA för första fel" />
+    <string id="30" text="Offline" />
+    <string id="31" text="Kort offline" />
+    <string id="32" text="Utökad offline" />
+    <string id="33" text="Conveyance offline" />
+    <string id="34" text="Avbryt offline-test" />
+    <string id="35" text="Kort captive" />
+    <string id="36" text="Utökad captive" />
+    <string id="37" text="Conveyance captive" />
+    <string id="38" text="Selektiv captive" />
+    <string id="39" text="Testar inte" />
+    <string id="20" text="Selektiv självtestlogg (datastrukturrevision: %)" />
+    <string id="21" text="Spännvidd" />
+    <string id="22" text="Min LBA" />
+    <string id="23" text="Max LBA" />
+    <string id="24" text="Nuvarande teststatus" />
+  </group>
+  <group id="18" title="ATA: run test">
+    <string id="01" text="Självtest är enheternas inbyggda tester, designade för att känna igen fel på enheten. Dessa tester är säkra för användardata. Testerna kan genomföras under normal användning av enheten, men tar längre tid än de ungefärliga tiderna nedan om enheten är upptagen.\Observera att vissa enheter inte kan börja registrera testresultat förrän ett icke-positivt resultat förekommer (orsakat av ett avbrott eller om ett fel har inträffat)." />
+    <string id="02" text="Offline-datainsamling" />
+    <string id="03" text="Kort självtest" />
+    <string id="04" text="Utökat självtest" />
+    <string id="05" text="Överförningssjälvtest" />
+    <string id="06" text="Kör" />
+    <string id="07" text="Avbryt" />
+    <string id="08" text="Beräknad testtid" />
+    <string id="09" text="Välj test att köra" />
+    <string id="10" text="Test ej tillgängligt" />
+    <string id="11" text="Beräknat testslut" />
+    <string id="20" text="Kontrollerar elektriska och mekaniska prestanda såväl som diskens läsprestanda. Elektriska test kan inkludera test av buffer-RAM, test av läs/skriv-kretsar, eller ett test av läs/skriv-huvuddelar. Mekaniska tester inkluderar sökning och servo på dataspår. Skannar små delar av diskens yta (området är tillverkarspecifikt och det finns en tidsgräns på testet). Kontrollerar listan över aktuella sektorer som kan ha läsfel." />
+    <string id="21" text="En längre och mer grundlig version av det korta självtestet; skannar hela diskens yta utan tidsbegränsning." />
+    <string id="22" text="Tänkt som ett snabbt test för att identifiera skador som har uppstått under transport av enheten. Endast tillgängligt på ATA-enheter." />
+    <string id="23" text="Starta ett S.M.A.R.T.-offlinetest som uppdaterar attributvärden, och om fel hittas kommer de att dyka upp i fel-loggen." />
+    <string id="30" text="Bekräfta" />
+    <string id="31" text="Avbryt test nu?" />
+  </group>
+  <group id="19" title="Settings: smartctl tolerance">
+    <string id="01" text="Välj tolerans" />
+    <string id="02" text="Normal" />
+    <string id="03" text="Konservativ" />
+    <string id="04" text="Väldigt tillåtande" />
+    <string id="10" text="Anger hur tolerant smartctl bör vara mot ATA- och S.M.A.R.T.-kommandon som misslyckas." />
+    <string id="20" text="Smartctl avslutar vid fel från något obligatoriskt S.M.A.R.T.-kommando, och ignorerar alla fel från valfria S.M.A.R.T.-kommandon." />
+    <string id="21" text="Smartctl avslutar vid fel på något valfritt S.M.A.R.T.-kommando." />
+    <string id="22" text="Smartctl ignorerar fel från de obligatoriska S.M.A.R.T.-kommandona." />
+  </group>
+  <group id="20" title="ATA: attributes remap">
+    <string id="01" text="Välj visning av tillverkarspecifika attribut" />
+    <string id="02" text="Anpassad" />
+    <string id="03" text="Attribut-ID" />
+    <string id="04" text="Format" />
+    <string id="05" text="Namn" />
+    <string id="06" text="Lägg till" />
+    <string id="07" text="ID" />
+    <string id="08" text="Format" />
+    <string id="09" text="Namn" />
+    <string id="10" text="Ta bort" />
+    <string id="11" text="" />
+    <string id="12" text="" />
+    <string id="20" text="Välj utskriftsformat för tillverkarspecifik rådata, en valfri byteordning och ett valfritt namn för attribut-ID. Attribut-ID kan vara i intervallet 1 till 255. Om 'N' anges som ID ändras inställningarna för alla attribut." />
+    <string id="70" text="Ström på (minuter)" />
+    <string id="71" text="Ström på (sekunder)" />
+    <string id="72" text="Ström på (halvminuter)" />
+    <string id="73" text="Temperatur" />
+    <string id="74" text="Antal Emergency Retract-cykler" />
+    <string id="75" text="Antal Ladda/Lossa-cykler" />
+    <string id="76" text="Temperatur x 10" />
+    <string id="77" text="Okänd" />
+    <string id="78" text="Totalt antal avvaktande sektorer" />
+    <string id="79" text="Totalt antal okorrigerbara offline" />
+    <string id="80" text="Antal okorrigerbara sektorer från offline-skanning" />
+    <string id="81" text="Antal skrivfel" />
+    <string id="82" text="Antal fel p.g.a. hög temperatur (TAR)" />
+    <string id="30" text="Rådataattribut nummer '9' är påslagen tid i minuter." />
+    <string id="31" text="Rådataattribut nummer '9' är påslagen tid i sekunder." />
+    <string id="32" text="Rådataattribut nummer '9' är påslagen tid, mätt i enheter om 30 sekunder." />
+    <string id="33" text="Rådataattribut nummer '9' är disktemperaturen i Celsius." />
+    <string id="34" text="Rådataattribut nummer '192' är Emergency Retract Cycle Count;\används av vissa Fujitsu-enheter." />
+    <string id="35" text="Rådataattribut nummer '193' innehåller två numeriska värden: det första är load cycle,\det andra är unload cycles." />
+    <string id="36" text="Rådataattribut nummer '194' är tio gånger disktemperaturen i Celsius\(används av vissa Samsung-enheter)." />
+    <string id="37" text="Rådataattribut nummer '194' är INTE disktemperaturen, och dess tolkning är okänd." />
+    <string id="38" text="Rådataattribut nummer '197' är det totala antalet väntande sektorer." />
+    <string id="39" text="Rådataattribut nummer '198' är det totala antalet offline-okorrigerbara." />
+    <string id="40" text="Rådataattribut nummer '198' är offlinesökningens antal okorrigerbara sektorer." />
+    <string id="41" text="Rådataattribut nummer '200' är antalet skrivfel." />
+    <string id="42" text="Rådataattribut nummer '201' är det detekterade antalet TA." />
+    <string id="43" text="Rådataattribut nummer '220' är det disktemperaturen i Celsius." />
+    <string id="50" text="raw8:\Skriv ut råvärdet som sex 8-bitars bas 10-heltal utan tecken." />
+    <string id="51" text="raw16:\Skriv ut råvärdet som tre 16-bitars bas 10-heltal utan tecken." />
+    <string id="52" text="raw16(avg16):\Råvärdet är spinn upp-tid. Det skrivs ut som ett 16-bitarsvärde och\ett valfritt 'medel'-16-bitarsvärde om ordet inte är noll.\Detta är standardvärdet för Attribut '3'." />
+    <string id="53" text="raw16(raw16):\Skriver ut råvärdet som ett 16-bitarsvärde och två valfria 16-\bitarsvärden om orden inte är noll.\Detta är standardvärdet för Attribut '3' och '196'." />
+    <string id="54" text="raw24/raw24:\Råvärdet innehåller två 24-bitarsvärden." />
+    <string id="55" text="raw48:\Skriver ut råvärdet som ett 48-bitars bas 10-heltal utan tecken.\Detta är standard för de flesta attribut." />
+    <string id="56" text="raw48:\Skriver ut råvärdet som ett 64-bitars bas 10-heltal utan tecken.\Detta nya råformat används av en del nya SSD-enheter." />
+    <string id="57" text="hex48:\Skriv ut råvärdet som ett tolvsiffrigt hexadecimalt nummer." />
+    <string id="58" text="hex64:\Skriv ut råvärdet som ett sextonsiffrigt hexadecimalt nummer.\Detta nya råformat används av en del nya SSD-enheter." />
+    <string id="59" text="min2hour:\Råvärdet är påslagen tid i minuter." />
+    <string id="60" text="sec2hour:\Råvärdet är påslagen tid i sekunder." />
+    <string id="61" text="halfmin2hour:\Råvärdet är påslagen tid i enheter om 30 sekunder." />
+    <string id="62" text="tempminmax:\Råvärdet är disktemperaturen i Celsius.\Detta är standard för Attribut '190' och '194'." />
+    <string id="63" text="temp10x:\Råvärdet är tio gånger disktemperaturen i Celsius." />
+  </group>
+  <group id="21" title="ATA: firmware debug">
+    <string id="01" text="" />
+    <string id="02" text="Inget" />
+    <string id="03" text="Fixar omkastade bytes" />
+    <string id="04" text="Kuvar läsförsök i SMART- eller allmän loggmapp" />
+    <string id="05" text="Fixar byte-ordning för LBA" />
+    <string id="10" text="Ändrar smartctls beteende för att kompensera för vissa kända och förstådda buggar i enhetens firmware eller drivrutin." />
+    <string id="20" text="Antag att enhetens firmware följer ATA-specifikationerna." />
+    <string id="21" text="Aktivera på Samsung-enhet om ingen självtest-logg skrivs ut, även om du har kört självtester, om ett stort antal ATA-fel har rapporterats i ATA-felloggen eller om tidsstämplarna i ATA-felloggen har konstiga och omöjliga värden." />
+    <string id="22" text="Din Samsung-disk behöver det här alternativet om självtest-loggen skrivs ut korrekt, men antalet fel i SMART-felloggen är mycket stort. T.ex. kommer en skiva med fem fel (0x0005) att verka ha 20480 fel (0x5000)." />
+    <string id="23" text="Vissa Samsung-diskar (åtminstone SP2514N med Firmware VF100-37) rapporterar att ett självtest fortfarande pågår med 0% kvar när testet redan har avslutats." />
+    <string id="24" text="Fixar ATA-identitetssträngar som returneras i omkastad byte-ordning av vissa buggiga drivrutiner" />
+    <string id="25" text="Stöd för alla standardloggar antas utan en faktisk kontroll. Vissa Intel-SSD:ar kan frysa om logg-adressen 0 läses." />
+    <string id="26" text="Fixar byte-ordning för LBA i den utökade omfattande SMART-felloggen. Vissa diskar använder little endian-byteordning i stället för ATA-registerordning för att specificera LBA-adresser i loggposterna." />
+  </group>
+  <group id="22" title="Settings: power mode check">
+    <string id="01" text="Anger om smartctl ska avsluta utan att utföra några kontroller när enheten är i ett strömsparläge. Kan användas för att förhindra en hårddisk från att spinnas upp av smartctl. Strömläget ignoreras som standard." />
+    <string id="02" text="Ange strömlägeskontroll" />
+    <string id="03" text="Aldrig" />
+    <string id="04" text="Kontrollera alltid enhet." />
+    <string id="05" text="Sleep-läge" />
+    <string id="06" text="Kontrollera enhet förutom när den är i sleep-läge." />
+    <string id="07" text="Standby" />
+    <string id="08" text="Kontrollera enheten förutom när den är i sleep- eller standby-läge. I dessa lägen spinner de flesta diskar inte, så om du vill förhindra en disk från att spinna upp är denna inställning troligtvis vad du vill ha." />
+    <string id="09" text="Idle" />
+    <string id="10" text="Kontrollera enheten förutom när den är i sleep-, standby- eller idle-läge. I idle-läget spinner de flesta diskar fortfarande, så du vill förmodligen inte använda den här inställningen." />
+  </group>
+  <group id="23" title="SCSI: device informations">
+    <string id="01" text="Tillverkare" />
+    <string id="02" text="Produkt" />
+    <string id="03" text="Revision" />
+    <string id="04" text="Serienummer" />
+    <string id="05" text="ID för logisk enhet" />
+    <string id="06" text="Användarkapacitet" />
+    <string id="07" text="Logisk blockstorlek" />
+    <string id="08" text="Rotationsgrad" />
+    <string id="09" text="Transportprotokoll" />
+    <string id="10" text="" />
+    <string id="21" text="" />
+    <string id="22" text="Temperatur" />
+    <string id="23" text="Senaste testet" />
+    <string id="24" text="Hälsa" />
+    <string id="25" text="" />
+    <string id="26" text="" />
+    <string id="27" text="Element i grown defect list (GLIST)" />
+    <string id="28" text="Antal icke medium-fel" />
+  </group>
+  <group id="24" title="SCSI: SMART settings">
+    <string id="01" text="Aktivera Global Logging Target Save Disabled (GLTSD)" />
+    <string id="02" text="Aktivera eller inaktivera värdet för GLTSD i Control Mode Page. Vissa disktillverkare inaktiverar detta värde som standard.\Detta förhindrar felräknarna, power up-timmar och andra användbara data från att placeras i icke-flyktigt minne, så dessa värden kan nollställas nästa gång enheten startas om. Om aktiverad, så rensar det GLTSD och gör det därmed möjligt att spara räknare till icke-flyktigt minne. För användare av program som extrema videoströmningsprogram bör kanske överväga att inaktivera GLTSD." />
+    <string id="03" text="Aktivera skrivcache" />
+    <string id="04" text="Aktivera eller avaktivera skrivcache. Skrivcachen är vanligtvis aktiverad som standard." />
+    <string id="05" text="Aktivera läscache" />
+    <string id="06" text="Aktivera eller avaktivera läscache. Läscachen är vanligtvis aktiverad som standard." />
+  </group>
+  <group id="25" title="SCSI: errors">
+    <string id="01" text="Inga fel detekterade." />
+    <string id="02" text="Läs" />
+    <string id="03" text="Skriv" />
+    <string id="04" text="Verifiera" />
+    <string id="05" text="Fel korrigerade av ECC" />
+    <string id="06" text="Snabb" />
+    <string id="07" text="Försenad" />
+    <string id="08" text="Omläsningar/omskrivningar" />
+    <string id="09" text="Totalt antal korrigerade fel" />
+    <string id="10" text="Anrop av korrigeringsalgoritm" />
+    <string id="11" text="Processade Gigabyte (10^9 bytes)" />
+    <string id="12" text="Totalt antal okorrigerade fel" />
+  </group>
+  <group id="26" title="SCSI: tests results">
+    <string id="01" text="Inga tester registrerade." />
+    <string id="02" text="Num" />
+    <string id="03" text="Beskrivning" />
+    <string id="04" text="Status" />
+    <string id="05" text="Segment" />
+    <string id="06" text="Livstid (h)" />
+    <string id="07" text="LBS för första fel" />
+    <string id="50" text="Klar" />
+    <string id="51" text="Avbruten av användarkommando" />
+    <string id="52" text="Avbruten (enhetsnollställning?)" />
+    <string id="53" text="Ofullständig: okänt fel" />
+    <string id="54" text="Klar. Segment misslyckades" />
+    <string id="55" text="Misslyckades i första segmentet" />
+    <string id="56" text="Misslyckades i andra segmentet" />
+    <string id="57" text="Misslyckades i segment" />
+    <string id="58" text="Reserverad" />
+    <string id="59" text="Pågår" />
+    <string id="60" text="Standard" />
+    <string id="61" text="Bakgrund kort" />
+    <string id="62" text="Bakgrund lång" />
+    <string id="63" text="Reserverad" />
+    <string id="64" text="Avbryt bakgrund" />
+    <string id="65" text="Förgrund kort" />
+    <string id="66" text="Förgrund lång" />
+  </group>
+  <group id="27" title="SCSI: run test">
+    <string id="01" text="Kör långt bakgrundstest. Estimerad varaktighet: %1 sekunder (%2 minuter)." />
+  </group>
+  <group id="29" title="Generic: events log">
+    <string id="01" text="Tid" />
+    <string id="02" text="Enhet" />
+    <string id="03" text="Attribut" />
+    <string id="04" text="Från" />
+    <string id="05" text="Till" />
+    <string id="06" text="Förändringar" />
+    <string id="07" text="Radera logg" />
+    <string id="08" text="Radera alla loggar" />
+    <string id="09" text="Inga händelser registrerades denna dag." />
+    <string id="10" text="Föregående dag" />
+    <string id="11" text="I dag" />
+    <string id="12" text="Nästa dag" />
+    <string id="13" text="Ladda om" />
+    <string id="14" text="Inga händelser registrerade för denna enhet." />
+    <string id="15" text="Kopiera vald händelsedata till urklipp" />
+    <string id="16" text="Spara logg i en textfil" />
+  </group>
+  <group id="30" title="Generic: events chart">
+    <string id="01" text="% händelser registrerade" />
+    <string id="02" text="Datum och tid" />
+    <string id="03" text="Från" />
+    <string id="04" text="Till" />
+    <string id="05" text="Variation" />
+    <string id="06" text="Ladda om" />
+  </group>
+  <group id="31" title="Generic: smartctl output">
+    <string id="01" text="Spara" />
+  </group>
+  <group id="32" title="Windows devices">
+    <string id="01" text="Enhets-index" />
+    <string id="02" text="Partitioner" />
+    <string id="03" text="Total storlek" />
+    <string id="04" text="Tillgänglig storlek" />
+    <string id="05" text="Serienummer" />
+    <string id="06" text="Filsystem" />
+    <string id="07" text="Antal block" />
+    <string id="08" text="Blockstorlek" />
+    <string id="09" text="Typ" />
+    <string id="10" text="Bootbar" />
+    <string id="11" text="Bootpartition" />
+    <string id="12" text="Primär partition" />
+    <string id="13" text="Samlar in data, vänligen vänta." />
+    <string id="14" text="Moderkort" />
+    <string id="15" text="Processor" />
+    <string id="16" text="Installerat minne" />
+    <string id="17" text="Grafikkort" />
+    <string id="18" text="Disk" />
+    <string id="19" text="Partition" />
+    <string id="20" text="Ja" />
+    <string id="21" text="Nej" />
+    <string id="31" text="" />
+    <string id="32" text="" />
+    <string id="33" text="" />
+  </group>
+  <group id="33" title="Settings side menu">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="04" text="" />
+    <string id="05" text="" />
+    <string id="06" text="" />
+    <string id="07" text="Monitorering" />
+    <string id="08" text="Varningar" />
+    <string id="09" text="" />
+    <string id="10" text="" />
+  </group>
+  <group id="34" title="Settings: general settings">
+    <string id="01" text="Kör med Windows" />
+    <string id="02" text="Starta minimerad" />
+    <string id="03" text="Minimera till aktivitetsfältet" />
+    <string id="04" text="Stäng på aktivitetsfältet" />
+    <string id="05" text="Visa alltid ikon i aktivitetsfältet" />
+    <string id="06" text="Bekräfta vid avslut" />
+    <string id="07" text="Sök efter uppdateringar" />
+    <string id="08" text="Visa temperaturer i Fahrenheit" />
+    <string id="09" text="" />
+    <string id="10" text="" />
+    <string id="20" text="" />
+    <string id="21" text="" />
+    <string id="22" text="" />
+    <string id="23" text="" />
+    <string id="24" text="" />
+  </group>
+  <group id="35" title="Settings: device detection">
+    <string id="01" text="Monitorera anslutning/frånkoppling av USB-enheter" />
+    <string id="02" text="" />
+    <string id="03" text="" />
+  </group>
+  <group id="36" title="Settings: message panel" />
+  <group id="37" title="Settings: mail alerts">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="" />
+    <string id="04" text="" />
+    <string id="05" text="" />
+    <string id="06" text="" />
+    <string id="07" text="" />
+    <string id="08" text="" />
+    <string id="20" text="" />
+    <string id="21" text="" />
+    <string id="22" text="" />
+    <string id="30" text="" />
+    <string id="31" text="" />
+    <string id="32" text="" />
+    <string id="33" text="" />
+    <string id="34" text="" />
+    <string id="35" text="" />
+  </group>
+  <group id="38" title="Settings: devices updates">
+    <string id="01" text="Ställ in enhetens datauppdateringsfrekvens" />
+    <string id="02" text="minuter" />
+  </group>
+  <group id="39" title="Settings: devices monitoring">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="SSD-livsindikatorer" />
+    <string id="04" text="Invertera markering" />
+    <string id="05" text="Generiska parametrar" />
+    <string id="06" text="" />
+    <string id="10" text="Antal omallokerade sektorer" />
+    <string id="11" text="Antal spinn-omförsök" />
+    <string id="12" text="Temperatur" />
+    <string id="13" text="Antal omallokerade händelser" />
+    <string id="14" text="Aktuell avvaktande sektor" />
+    <string id="15" text="Offline okorrigerbara" />
+    <string id="16" text="Värde mjukt läsfel" />
+    <string id="17" text="Diskskifte" />
+    <string id="20" text="Återstående liv-procentsats" />
+    <string id="21" text="Media-utslitningsindikator" />
+    <string id="22" text="Procentsats livstid använd" />
+    <string id="23" text="(Ut)slitningsnivåräknare" />
+    <string id="24" text="SSD-liv kvar" />
+    <string id="30" text="" />
+    <string id="31" text="" />
+  </group>
+  <group id="40" title="Settings: warnings">
+    <string id="01" text="Varning..." />
+    <string id="02" text="När ändra en av de monitorerade parametrarna" />
+    <string id="03" text="Vid överhängande fel" />
+    <string id="04" text="När temperatur överskrider tröskelvärde" />
+    <string id="05" text="" />
+  </group>
+  <group id="41" title="Settings: output sharing">
+    <string id="01" text="Välj mapp för att dela enhets-utdata" />
+    <string id="02" text="Bläddra" />
+    <string id="03" text="Ingen mapp vald." />
+    <string id="10" text="Välj mapp för att spara enheters XML-sammanfattning" />
+    <string id="11" text="Generera en total enhetssammanfattning i XML" />
+    <string id="20" text="" />
+    <string id="21" text="" />
+  </group>
+  <group id="42" title="Settings: device rating">
+    <string id="01" text="Aktivera tillförlitlighetsbetyg" />
+    <string id="02" text="Ändra tröskelvärden" />
+    <string id="03" text="Återställ till standard" />
+    <string id="04" text="Antal ATA-fel" />
+    <string id="05" text="Omallokerade händelser" />
+    <string id="06" text="Avvaktande sektorer" />
+    <string id="07" text="Offline-omallokeringar" />
+  </group>
+  <group id="43" title="Settings: languages">
+    <string id="01" text="" />
+    <string id="02" text="" />
+    <string id="03" text="" />
+    <string id="04" text="" />
+    <string id="05" text="" />
+  </group>
+  <group id="45" title="Messages">
+    <string id="01" text="Ny version tillgänglig (%)!\Klicka här för att gå till nerladdningssidan." />
+    <string id="02" text="Tillämpar inställning, vänligen vänta." />
+    <string id="03" text="Alarm: enhetens temperatur" />
+    <string id="04" text="Varning för enhetsfel" />
+    <string id="05" text="%\Enhetshaveri förväntas inom 24 timmar.\SPARA ALL DATA!" />
+    <string id="06" text="" />
+    <string id="07" text="" />
+  </group>
+  <group id="48" title="Common strings">
+    <string id="01" text="bytes" />
+    <string id="02" text="logiska" />
+    <string id="03" text="fysiska" />
+    <string id="04" text="Tillgänglig" />
+    <string id="05" text="Inte tillgänglig" />
+    <string id="06" text="Tvetydig" />
+    <string id="07" text="och aktiverad" />
+    <string id="08" text="men inaktiverad" />
+    <string id="09" text="Okänd" />
+  </group>
+  <group id="49" title="Tray icon baloons">
+    <string id="01" text="Alarm: enhetsstatus" />
+    <string id="02" text="från" />
+    <string id="03" text="till" />
+    <string id="04" text="degradering" />
+    <string id="05" text="återhämtning" />
+  </group>
+  <group id="50" title="Virtual devices window">
+    <string id="01" text="Lägg till virtuell enhet" />
+    <string id="02" text="Beskrivning" />
+    <string id="03" text="Fil" />
+    <string id="04" text="Lägg till" />
+    <string id="05" text="Avbryt" />
+    <string id="06" text="Fel" />
+    <string id="07" text="Denna fil innehåller inte smartctl-data." />
+  </group>
+  <group id="51" title="Various messages">
+    <string id="01" text="Fel" />
+    <string id="02" text="Inga enheter funna, avslutar nu." />
+    <string id="03" text="Kunde inte hitta 'smartctl.exe'. Avslutar nu." />
+    <string id="10" text="Denna funktion kräver administrativa rättigheter" />
+    <string id="11" text="" />
+    <string id="12" text="Denna inställning är säker för användardata, kräver administrativa rättigheter och är inte tillgängliga för virtuella- eller SCSI-enheter." />
+    <string id="13" text="" />
+  </group>
+  <group id="52" title="Quit confirm">
+    <string id="01" text="Bekräfta" />
+    <string id="02" text="Är du säker på att du vill avsluta?" />
+  </group>
+</interface>

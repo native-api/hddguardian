@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+  <attribute smartctl="Dummy" group="Generic">
+    <name>Unknown</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Not_Supported" group="Generic">
+    <name>Attribute not supported</name>
+    <description>Dieses Attribut wird von diesem Gerät nicht unterstützt.</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="Generic">
+    <name>Read Error Rate</name>
+    <description>Zähler der Rate von Fehlern die beim Lesen von der Datenträgeroberfläche auftraten. Der Raw Wert hat verschiedene Strukturen bei verschiedenen Geräteherstellern und ist oft nicht aussagekräftig als Dezimalzahl.</description>
+  </attribute>
+  <attribute smartctl="Throughput_Performance" group="Generic">
+    <name>Throughput Performance</name>
+    <description>Globaler Datendurchsatz des Datenträgers. Wenn der Wert dieses Attributs sinkt steigt die Wahrscheinlichkeit für ein Problem mit dem Laufwerk.</description>
+  </attribute>
+  <attribute smartctl="Spin_Up_Time" group="Generic">
+    <name>Spin-Up Time</name>
+    <description>Durchschnittliche Zeit (in Millisekunden oder Sekunden) des Datenträgers um vom Stillstand bis zur Betriebsgeschwindigkeit zu beschleunigen (Null RPM bis Betriebs RPM).</description>
+  </attribute>
+  <attribute smartctl="Start_Stop_Count" group="Generic">
+    <name>Start/Stop Count</name>
+    <description>Zähler der Anzahl von Start/Stop Zyklen des Laufwerks.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="Generic">
+    <name>Reallocated Sectors Count</name>
+    <description>Zähler neuzugewiesener Sektoren (1 Sektor = 512 bytes). Wenn das Laufwerk einen Lese/Schreibfehler des Dätenträger feststellt markiert er den Sektor als 'neuzuzuweisen' und verschiebt die Daten in einen reservierten Bereich des Datenträgers. Dieser Prozess ist wird als 'remapping' bezeichnet und neuzugewiesene Sktoren werden 'remaps' genannt. Mehr neu zugewiesene Sektoren bedeuten eine langsamere Lese/Schreibgeschwingigkeit.</description>
+  </attribute>
+  <attribute smartctl="Read_Channel_Margin" group="Generic">
+    <name>Read Channel Margin</name>
+    <description>Bandbreite eines Kanals beim Datenlesen. Normalerweise wird dieser Parameter von Geräteherstellern nicht genutzt.</description>
+  </attribute>
+  <attribute smartctl="Seek_Error_Rate" group="Generic">
+    <name>Seek Error Rate</name>
+    <description>Zähler von Suchfehlern der Magnetköpfe. Wenn ein Fehler im mechanischen Positionierungssystem, eine Servobeschädigung oder eine thermische Erweiterung des Datenträgers auftritt steigt die Anzahl der Suchfehler. Ein Anstieg von Suchfehlern ist ein Zeichen für einen sich verschlechternden Zustand der Datenträgeroberfläche und des mechanischen Subsystems.</description>
+  </attribute>
+  <attribute smartctl="Seek_Time_Performance" group="Generic">
+    <name>Seek Time Performance</name>
+    <description>Durchschnittliche Leistung von Suchoperationen der magnetischen Köpfe. Ein Absinken dieses Werts ist ein Zeichen von Problemen des mechanischen Subsystems.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Generic">
+    <name>Power-On Hours</name>
+    <description>Zähler der Laufwerks Betriebszeit in Stunden. Ein sinken diese Attributs gegen den kritischen Wert (Grenzwert) bedeutet die Möglichkeit häufiger auftretender Fehler.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Minutes" group="Generic">
+    <name>Power-On Minutes</name>
+    <description>Zähler der Laufwerks Betriebszeit in Minuten. Ein sinken diese Attributs gegen den kritischen Wert (Grenzwert) bedeutet die Möglichkeit häufiger auftretender Fehler.</description>
+  </attribute>
+  <attribute smartctl="Spin_Retry_Count" group="Generic">
+    <name>Spin Retry Count</name>
+    <description>Zähler von Neuversuchen den Datenträger auf Betriebsgeschwindigkeit zu beschleunigen falls der erste Versuch nicht erfolgreich war. Ein Anstieg dieses Werts ist ein Zeichen von Problemen im mechanischen Subsystem.</description>
+  </attribute>
+  <attribute smartctl="Calibration_Retry_Count" group="Generic">
+    <name>Calibration Retry Count</name>
+    <description>Zähler von Neuversuchen die Positionierung der Magnetköpfe zu kalibrieren falls der erste Versuch nicht erfolgreich war. Ein Absinken dieses Werts ist ein Zeichen für Probleme des mechanischen Subsystems.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Generic">
+    <name>Power Cycle Count</name>
+    <description>Zähler von Ein/Ausschaltzyklen des Laufwerks mit nur informellem Wert.</description>
+  </attribute>
+  <attribute smartctl="Read_Soft_Error_Rate" group="Generic">
+    <name>Soft Read Error Rate</name>
+    <description>Zähler von dem Betriebssystem gemeldeten unkorrigierten Lesefehlern. Wenn dieser Wert nicht Null ist sollten Sie Ihre Daten sichern.</description>
+  </attribute>
+  <attribute smartctl="Soft_Read_Error_Rate" group="Generic">
+    <name>Soft Read Error Rate</name>
+    <description>Dieser Parameter zeigt die Anzahl von unkorrigierbaren Software Lesefehlern.</description>
+  </attribute>
+  <attribute smartctl="SATA_Downshift_Count" group="Generic">
+    <name>SATA Downshift Error Count</name>
+    <description>Western Digital and Samsung Attribute.</description>
+  </attribute>
+  <attribute smartctl="End-to-End_Error" group="Generic">
+    <name>End-to-End error</name>
+    <description>Dieser Parameter ist Teil von HP's SMART IV Technologie. Er bedeutet dass nach einer Datenübertragung durch den Zwischenspeicher RAM die Parität der geschriebenen Daten mit den gelesenen nicht gegeben ist. Für detaillierte Informationen sehen Sie bitte die SMART IV Dokumentation von HP.</description>
+  </attribute>
+  <attribute smartctl="Reported_Uncorrect" group="Generic">
+    <name>Uncorrectable Error Count</name>
+    <description>Zähler von Fehlern die durch die Geräte Fehlerbehandlung nicht korrigiert werden konnten (Hardware ECC error correting code).</description>
+  </attribute>
+  <attribute smartctl="Command_Timeout" group="Generic">
+    <name>Command Timeout</name>
+    <description>Zähler von abgebrochenen Operationen wegen Datenträger Zeitüberschreitung. Normal ist der Wert Null. Grosse Werte bedeuten dass wahrscheinlich die Stromversorgung defekt ist oder ein Datenkabel beschädigt oder oxydiert ist.</description>
+  </attribute>
+  <attribute smartctl="High_Fly_Writes" group="Generic">
+    <name>High Fly Writes</name>
+    <description>Laufwerkshersteller bauen als zusätzlichen Schutz einen Monitor zur Überwachung des Abstands der Magnetköpfe von der Datenträgeroberfläche bei Schreibzugriffen in ihre Geräte ein. Wenn sich die Magnetköpfe ausserhalb der normalen Position befinden wird der Schreibvorgang abgebrochen und die Daten werden in einen reservierten Bereich auf dem Datenträger geschrieben. Der Wert zeigt die Fehler der gesamten Betriebszeit des Laufwerks.</description>
+  </attribute>
+  <attribute smartctl="Airflow_Temperature_Cel" group="Generic">
+    <name>Airflow Temperature</name>
+    <description>Kühlluft Temperatur von Western Digital Laufwerken (Gleicher Wert wie Attribut '194' aber der aktuelle Wert ist 50 weniger).</description>
+  </attribute>
+  <attribute smartctl="G-Sense_Error_Rate" group="Generic">
+    <name>G-sense/shock error rate</name>
+    <description>Diese Attribut zeigt die Anzahl von durch Schlagbelastung verursachten Fehlern die von einem internen Sensor gespeichert werden.</description>
+  </attribute>
+  <attribute smartctl="Power-Off_Retract_Count" group="Generic">
+    <name>Power-off Retract Count</name>
+    <description>Zähler von Magnetkopf Rücksetzungen die durch Stromausfall verursacht wurden.</description>
+  </attribute>
+  <attribute smartctl="Load_Cycle_Count" group="Generic">
+    <name>Load Cycle Count</name>
+    <description>Nutzung der Magnetköpfe durch zahlreiche Operationen wie Lesen, Aufzeichnen. Positionierung der Magnetköpfe usw. Nur die Zeit während der die Magnetköpfe in Arbeitsstellung waren wird gezählt.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="Generic">
+    <name>Hard Disk Assembly Temperature</name>
+    <description>Dieser Parameter zeigt die Laufwerkstemperatur.</description>
+  </attribute>
+  <attribute smartctl="Hardware_ECC_Recovered" group="Generic">
+    <name>Hardware ECC Recovered</name>
+    <description>Dieser Parameter zeigt die Zeit zwischen Fehlern die durch die Geräte Fehlerbehandlung  korrigiert werden konnten (Hardware ECC error correting code).</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Event_Count" group="Generic">
+    <name>Reallocation Event Count</name>
+    <description>Zähler von Operationen von durch Lese/Schreibfehler des Dätenträgers verursachte Verschiebungen von Daten in einen reservierten Bereich des Datenträgers. Der RAW Wert zeigt die totale Anzahl von erfolgreichen und nicht erfolgreichen Versuchen. Da dies ein Zählwert ist kann er nur ansteigen.</description>
+  </attribute>
+  <attribute smartctl="Current_Pending_Sector" group="Generic">
+    <name>Current Pending Sector Count</name>
+    <description>Dieser Parameter ist kritisch und zeigt die aktuelle Anzahl der unstabilen Sektoren die neu zugewiesen werden sollen. Der RAW Wert zeigt die totale Anzahl dieser Sektoren. Wenn ein Sektor bei der Neuzuweisung erfolgreich gelesen werden kann sinkt diese Zahl. Wenn ein Sektor wieder Fehler aufweist werden die Daten in einen reservierten Bereich des Datenträgers geschrieben und dieser Sektor als neuzugewiesen markiert.</description>
+  </attribute>
+  <attribute smartctl="Offline_Uncorrectable" group="Generic">
+    <name>Uncorrectable Sector Count </name>
+    <description>Dieser Parameter ist kritisch und zeigt die aktuelle Anzahl der unkorrigierbaren Fehler. Der RAW Wert zeigt die totale Anzahl der unkorrigierbaren Fehler beim Lesen/Schreiben von Sektoren. Ein Anstieg des Werts deutet auf Fehler der Datenträgeroberfläche oder auf Probleme des mechanischen Subsystems.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Generic">
+    <name>UltraDMA CRC Error Count</name>
+    <description>Dieser Parameter zeigt die totale Anzahl von CRC (Cyclic Redundancy Check) Fehlern im UltraDMA Modus. Der RAW Wert zeigt die Anzahl gefundener Fehler im UltraDMA Modus.</description>
+  </attribute>
+  <attribute smartctl="Write_Error_Rate" group="Generic">
+    <name>Write Error Rate</name>
+    <description>Dieser Parameter zeigt die totale Anzahl von Fehlern die beim Speichern von Daten auf den Datenträger auftraten. Diese können durch Probleme der Datenträgeroberfläche oder der Lese/Schreibköpfe verursacht werden.</description>
+  </attribute>
+  <attribute smartctl="Multi_Zone_Error_Rate" group="Generic">
+    <name>Multi-Zone Error Rate</name>
+    <description>Dieser Parameter zeigt die totale Anzahl von Fehlern die beim Speichern von Daten auf den Datenträger auftraten. Diese können durch Probleme der Datenträgeroberfläche oder der Lese/Schreibköpfe verursacht werden.</description>
+  </attribute>
+  <attribute smartctl="Soft_Read_Error_Rate" group="Generic">
+    <name>Soft Read Error Rate</name>
+    <description>Dieser Parameter zeigt die Anzahl von unkorrigierbaren Software Lesefehlern.</description>
+  </attribute>
+  <attribute smartctl="Data_Address_Mark_Errs" group="Generic">
+    <name>Data Address Mark errors</name>
+    <description>Dieser Parameter zeigt die Anzahl von nicht korrekten oder ungültigen Adressmarkern.</description>
+  </attribute>
+  <attribute smartctl="Run_Out_Cancel" group="Generic">
+    <name>Run Out Cancel</name>
+    <description>Dieser Parameter zeigt dass bei der Fehlerkorrektur eine ungültige Korrektur Prüfsumme  gefunden wurde.</description>
+  </attribute>
+  <attribute smartctl="Soft_ECC_Correction" group="Generic">
+    <name>Soft ECC Correction</name>
+    <description>Dieser Parameter zeigt die Anzahl von durch den internen Fehlerkorrektur Mechanismus korrigierten Fehlern.</description>
+  </attribute>
+  <attribute smartctl="Thermal_Asperity_Rate" group="Generic">
+    <name>Thermal Asperity Rate</name>
+    <description>Dieser Parameter zeigt die totale Anzahl von durch hohe Temperatur verursachten Problemen.</description>
+  </attribute>
+  <attribute smartctl="Flying_Height" group="Generic">
+    <name>Flying Height</name>
+    <description>Dieser Parameter zeigt die Höhe der Magnetköpfe über der Datenträgeroberfläche. Bei niederigen Werten können Beschädigungen der Datenträgeroberfläche und die Zerstörung der Magnetköpfe, bei hohen Werten mehr Lese/Schreibfehler auftreten.</description>
+  </attribute>
+  <attribute smartctl="Spin_High_Current" group="Generic">
+    <name>Spin High Current</name>
+    <description>Dieser Parameter zeigt den Stromverbrauch zum Beschleunigen des Datenträgers auf die Betriebsgeschwindigkeit.</description>
+  </attribute>
+  <attribute smartctl="Spin_Buzz" group="Generic">
+    <name>Spin Buzz</name>
+    <description>Dieser Parameter zeigt die Anzahl Versuche zum Beschleunigen des Datenträgers auf die Betriebsgeschwindigkeit bei zu niederiger Stromversorgung.</description>
+  </attribute>
+  <attribute smartctl="Offline_Seek_Performnce" group="Generic">
+    <name>Offline Seek Performance</name>
+    <description>Dieser Parameter zeigt die Suchleistung des Laufwerks bei den internen Selbsttests.</description>
+  </attribute>
+  <attribute smartctl="Disk_Shift" group="Generic">
+    <name>Disk Shift</name>
+    <description>Dieser Parameter zeigt die Distanz des Datenträgers relativ zu seiner Achse was durch einen mechanischen Schock oder hohe Temperatur verusacht werden könnte. Die Einheit des Wertes ist nicht bekannt.</description>
+  </attribute>
+  <attribute smartctl="G-Sense_Error_Rate" group="Generic">
+    <name>G-Sense Error Rate</name>
+    <description>Diese Attribut zeigt die Anzahl von durch Schlagbelastung verursachten Fehlern die von einem internen Sensor gespeichert werden.</description>
+  </attribute>
+  <attribute smartctl="Loaded_Hours" group="Generic">
+    <name>Loaded Hours</name>
+    <description>Zeit während der die Magnetkopfarmaturen mit Datenübertragung beschäftigt waren. Dieser Wert steigt jede Stunde um den Wert 1.</description>
+  </attribute>
+  <attribute smartctl="Load_Retry_Count" group="Generic">
+    <name>Load/Unload Retry Count</name>
+    <description>Dieser Parameter zeigt die Anzahl von Bewegungen der Magnetköpfe in die/aus der Datenzone.</description>
+  </attribute>
+  <attribute smartctl="Load_Friction" group="Generic">
+    <name>Load Friction</name>
+    <description>Dieser Parameter zeigt einen Wert für die Reibung zwischen der mechanischen Teilen des Laufwerks. Ein Anstieg des Wertes deutet auf ein Problem des mechanischen Subsystems.</description>
+  </attribute>
+  <attribute smartctl="Load_Cycle_Count" group="Generic">
+    <name>Load/Unload Cycle Count</name>
+    <description>Nutzung der Magnetköpfe durch zahlreiche Operationen wie Lesen, Aufzeichnen. Positionierung der Magnetköpfe usw. Nur die Zeit während der die Magnetköpfe in Arbeitsstellung waren wird gezählt.</description>
+  </attribute>
+  <attribute smartctl="Load-in_Time" group="Generic">
+    <name>Load 'In'-time</name>
+    <description>Totale Zeit der Nutzung der Magnetköpfe in Arbeitsstellung (nicht in Ruhestellung).</description>
+  </attribute>
+  <attribute smartctl="Torq-amp_Count" group="Generic">
+    <name>Torque Amplification Count</name>
+    <description>Anzahl von Versuchen die Datenträgergeschwindigkeit zu stabilisieren.</description>
+  </attribute>
+  <attribute smartctl="Power-off_Retract_Count" group="Generic">
+    <name>Power-Off Retract Cycle</name>
+    <description>Dieser Parameter zeigt die Anzahl von Rückzügen der Magnetköpfe wegen Stromausfall.</description>
+  </attribute>
+  <attribute smartctl="Head_Amplitude" group="Generic">
+    <name>GMR Head Amplitude</name>
+    <description>Amplitude der Magnetkopf Vibrationen im Betrieb (Giant MagnetoResistive-head).</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="Generic">
+    <name>Temperature</name>
+    <description>Dieser Parameter zeigt die Laufwerkstemperatur.</description>
+  </attribute>
+  <attribute smartctl="Head_Flying_Hours" group="Generic">
+    <name>Head Flying Hours</name>
+    <description>Dieser Parameter zeigt die Zeit die zur Positionierung der Magnetköpfe verwendet  wurde.</description>
+  </attribute>
+  <attribute smartctl="Transfer_Error_Rate" group="Generic">
+    <name>Transfer Error Rate</name>
+    <description>Wenn das Laufwerk während der Datenübertragung einen Resetbefehl erhält wird der Wert dieses Zählers erhöht.</description>
+  </attribute>
+  <attribute smartctl="Read_Error_Retry_Rate" group="Generic">
+    <name>Read Error Retry Rate</name>
+    <description>Dieser Parameter zeigt die Anzahl von Lesefehlern in einem Sektor.</description>
+  </attribute>
+  <attribute smartctl="Free_Fall_Sensor" group="Generic">
+    <name>Free Fall Sensor</name>
+    <description>Dieser Parameter zeigt die Anzahl von Ereignissen freien Falls die durch den Beschleunigungsmesser registriert wurden.</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="Micron">
+    <name>Raw Read Error Rate</name>
+    <description>Dieses Datenfeld enthält die Summe der geräteinternen Fehrlerbehandlung  ECC (error-correcting code) korrigierbarer/unkorrigierbarer Ereignisse der bisherigen Lebensdauer. Wenn diese den Wert 4.294.967.295 überschreitet wird er 'verpackt'.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="Micron">
+    <name>Re-Allocated Block Count</name>
+    <description>Dieser Wert zeigt die totale Anzahl schlechter Blöcke des Datenträgers minus die Anzahl einmal programmierbarer (OTP) schlechter Blöcke.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Micron">
+    <name>Power-On Hours Count</name>
+    <description>Dieser Wert zeigt den RAW Wert der Onlinezeit der bisherigen Lebensdauer des Geräts.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Micron">
+    <name>Power Cycle Count</name>
+    <description>Dieser Wert zeigt die Anzahl der bisherigen Ein/Ausschaltzyklen des Geräts.</description>
+  </attribute>
+  <attribute smartctl="Grown_Failing_Clock_Ct" group="Micron">
+    <name>Grown Failing Block Count</name>
+    <description>Dieser Wert zeigt die totale Anzahl schlechter Blöcke minus die Anzahl einmal programmierbarer (OTP) schlechter Blöcke.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count" group="Micron">
+    <name>Program Fail Count</name>
+    <description>Dieser Wert enthält den RAW Wert von Flash Programm Fehlerereignissen. Wenn dieser den Wert von 65,535 überschreitet bleibt er bei 65,535 stehen.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count" group="Micron">
+    <name>Erase Fail Count</name>
+    <description>Dieser Wert enthält den RAW Wert von Flash Löschfehlerereignissen. Wenn dieser den Wert von 65,535 überschreitet bleibt er bei 65,535 stehen.</description>
+  </attribute>
+  <attribute smartctl="Wear_Levelling_Count" group="Micron">
+    <name>Block Wear Leveling Count</name>
+    <description>Durchschnittlicher Löschwert aller guten Blöcke.</description>
+  </attribute>
+  <attribute smartctl="Unexpect_Power_Loss_Ct" group="Micron">
+    <name>Unexpected Power Loss Count</name>
+    <description>Totale Anzahl unerwarteter Ausschaltungen des Geräts.</description>
+  </attribute>
+  <attribute smartctl="Non4k_Aligned_Access" group="Micron">
+    <name>Non 4k Aligned Access</name>
+    <description>Dieses Attribut zeigt zwei Werte: Die unteren 16 bit der RAW Daten enthalten das Total der nichtlinearen Lesevorgänge, geteilt durch 60,000, mit einem Maximum von 65,535. Die oberen 16 bit  der RAW Daten enthalten das Total der nichtlinearen Schreibvorgänge, geteilt durch 60,000, mit einem Maximum von 65,535.</description>
+  </attribute>
+  <attribute smartctl="SATA_Iface_Downshift" group="Micron">
+    <name>SATA Interface Downshift</name>
+    <description>Eine Darstellung der Geschwindigkeits Verhandlungen zwischen Betriebssystem und Gerät, die Firmware speichert den zuletzt ausgehandelten Wert. Dieser wird mit dem früher ausgehandelten Wert verglichen. Wenn der neue Wert niedriger ist als der frühere hat eine Verlangsamung stattgefunden und der Verlangsmungszähler wird erhöht.</description>
+  </attribute>
+  <attribute smartctl="Reported_Uncorrect" group="Micron">
+    <name>Reported Uncorrectable Errors</name>
+    <description>Dieser Wert zeigt das Total von Korrekturfehlern der geräteinternen Fehlerbehandlung ECC (error-correcting code).</description>
+  </attribute>
+  <attribute smartctl="Command_Timeout" group="Micron">
+    <name>Command Timeouts</name>
+    <description>Dieser Zähler wird erhöht durch die Anzahl ausstehender Kommandos wenn das Betriebssystem einen Softwarereset, Systemreset oder Comreset ausführt. Der RAW Wert enthält diesen Zähler. Wenn der Wert 4.294.967.295 übersteigt wird er 'verpackt'.</description>
+  </attribute>
+  <attribute smartctl="Factory_Bad_Block_Ct" group="Micron">
+    <name>Factory Bad Block Count</name>
+    <description>Einmal programmierbarer (OTP) Zähler schlechter Blöcke.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Event_Count" group="Micron">
+    <name>Reallocation Event Count</name>
+    <description>Dieser Wert zeigt die totale Anzahl schlechter Blöcke des Datenträgers minus die Anzahl einmal programmierbarer (OTP) schlechter Blöcke.</description>
+  </attribute>
+  <attribute smartctl="Current_Pending_Sector" group="Micron">
+    <name>Current Pending Sector Count</name>
+    <description>Ist immer Null weil die Neuzuweisung laufend ausgeführt wird.</description>
+  </attribute>
+  <attribute smartctl="Offline_Uncorrectable" group="Micron">
+    <name>SMART Off-Line Scan Uncorrectable Error Count</name>
+    <description>Unkorrigierbare Fehler die bei einer offline S.M.A.R.T. Überprüfung gefunden wurden.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Micron">
+    <name>Ultra DMA CRC Error Rate</name>
+    <description>Zeigt die Anzahl erfasster 'FIS interface general CRC (cyclic redundancy code)' Fehler der bisherigen Lebensdauer des Geräts, für Lesen und Schreiben seit dem letzten Einschalten. Wenn dieserZähler den Wert 4.294.967.295 überschreitet wird er 'verpackt'.</description>
+  </attribute>
+  <attribute smartctl="Perc_Rated_Life_Used" group="Micron">
+    <name>Percentage Rated Life Used</name>
+    <description>Der durchschnittle Löschzähler aller Blöcke auf Kanal 0 CE 0 geteilt durch den 'MaxEraseCount' (10k für MLC oder 100k für SLC), als Prozente von 0 bis 100%.</description>
+  </attribute>
+  <attribute smartctl="Write_Error_Rate" group="Micron">
+    <name>Write Error Rate</name>
+    <description>Zeigt die Anzahl von Programmfehlern geteilt durch 60,000. Wenn der Zähler den Wert 65,535 übersteigt bleibte er bei 65,535 stehen.</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="Indilinx">
+    <name>Raw Read Error Rate</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Indilinx">
+    <name>Power-On Hours</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Indilinx">
+    <name>Power Cycle Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Initial_Bad_Block_Count" group="Indilinx">
+    <name>Initial Bad Block Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Program_Failure_Blk_Ct" group="Indilinx">
+    <name>Program Failure Block Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Erase_Failure_Blk_Ct" group="Indilinx">
+    <name>Erase Failure Block Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Read_Failure_Blk_Ct" group="Indilinx">
+    <name>Read Failure Block Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Read_Sectors_Tot_Ct" group="Indilinx">
+    <name>Read Sectors Total Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Write_Sectors_Tot_Ct" group="Indilinx">
+    <name>Write Sectors Total Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Read_Command_Tot_Ct" group="Indilinx">
+    <name>Read Commands Total Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Write_Commands_Tot_Ct" group="Indilinx">
+    <name>Write Commands Total Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Error_Bits_Flash_Tot_Ct" group="Indilinx">
+    <name>Total Count of Read Sectors with Correctable Bits Errors</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Corr_Read_Errors_Tot_Ct" group="Indilinx">
+    <name>Correction Read Errors Total Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Bad_Block_Full_Flag" group="Indilinx">
+    <name>Bad Block Full Flag</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="MAX_PE_Count_Spec" group="Indilinx">
+    <name>Maximum PE Count Specification</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Min_Erase_Count" group="Indilinx">
+    <name>Minimum Erase Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Max_Erase_Count" group="Indilinx">
+    <name>Maximum Erase Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Average_Erase_Count" group="Indilinx">
+    <name>Average Erase Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Remaining_Lifetime_Perc" group="Indilinx">
+    <name>Remaining Lifetime Percentage</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Indilinx_Internal" group="Indilinx">
+    <name>Indilinx Internal</name>
+    <description>Indilinx reserviertes Attribut.</description>
+  </attribute>
+  <attribute smartctl="SATA_Error_Ct_CRC" group="Indilinx">
+    <name>SATA Error Count CRC</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="SATA_Error_Ct_Handshake" group="Indilinx">
+    <name>SATA Error Count Handshake</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Spin_Up_Time" group="Intel">
+    <name>Spin Up Time</name>
+    <description>Durchschnittliche Zeit um den Dateträger auf Betriebsgeschwindigkeit zu beschleunigen. Da eine SSD keine beweglichen Teile hat zeigt dieses Attribut einen festen RAW Wert von Null (0) und einen festen Normalwert von 100.</description>
+  </attribute>
+  <attribute smartctl="Start_Stop_Count" group="Intel">
+    <name>Start/Stop Count</name>
+    <description>Dieser Typ von Ereignis ist für SSDs nicht relevant. Dieses Attribut zeigt einen festen Wert von Null (0) und einen festen Normalwert von 100. Festplatten Laufwerke können aber nur eine begrenzte Anzahl dieser Ereignisse überleben und sollten deshalb überwacht werden.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="Intel">
+    <name>Re-Allocated Sector Count</name>
+    <description>Dieses Attribut zeigt die Anzahl zurückgezogener Blöcke seit Auslieferung durch den Hersteller (grown defect count). Bei 50nm Geräten ist der Normalwert 100, zählt aber von 1 aufwärts. Der normalisierte Wert ist 1 bei 4, 2 bei 8 Defekten usw. Bei 34nm Geräten steigt der RAW Wert bei jedem Defekt.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Intel">
+    <name>Power-On Hours Count</name>
+    <description>Dieses Attribut zeigt die totale Anzahl Betriebsstunden in der bisherigen Lebenszeit.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Intel">
+    <name>Power Cycle Count</name>
+    <description>Dieses Attribut zeigt die totale Anzahl Ein/Ausschaltvorgänge in der bisherigen Lebenszeit.</description>
+  </attribute>
+  <attribute smartctl="Reserve_Block_Count" group="Intel">
+    <name>Available Reserved Space</name>
+    <description>Dieses Attribut zeigt die Anzahl verbleibender reservierter Blöcke. Der Zähler beginnt bei 100 entsprechend 100%. Der Grenzwert ist 10%. Er bedeutet dass das Gerät sich dem Ende seiner Lebensdauer nähert.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count" group="Intel">
+    <name>Program Fail Block Count</name>
+    <description>Prozentsatz von NAND Programmfehlern.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count" group="Intel">
+    <name>Erase Fail Count</name>
+    <description>Prozentsatz von NAND Löschfehlern.</description>
+  </attribute>
+  <attribute smartctl="SATA_Downshift_Count" group="Intel">
+    <name>SATA Downshift Count</name>
+    <description>Zähler von Ereignissen von langsameren Datendurchsatz wegen SATA Fehlern.</description>
+  </attribute>
+  <attribute smartctl="End-to-End_Error" group="Intel">
+    <name>End to End Error Detection Count</name>
+    <description>Dieses Attribut ist nur bei 34nm Geräten verfügbar. Es zeigt die Anzahl Fehler bei LBA Tag Prüfoperationen im Datenpfad des Speichermediums.</description>
+  </attribute>
+  <attribute smartctl="Reported_Uncorrect" group="Intel">
+    <name>Uncorrectable Error Count</name>
+    <description>Der RAW Wert zeigt die Anzahl der von der internen Fehlerbehandlung (ECC) nicht korrigierbaren Fehler.</description>
+  </attribute>
+  <attribute smartctl="Airflow_Temperature_Cel" group="Intel">
+    <name>Temperature - Airflow Temperature (Case)</name>
+    <description>Zeigt die Kühlluft Temperatur des Gehäuses. Der RAW Wert ist 100 minus Gehäuse Temperatur in Celsius.</description>
+  </attribute>
+  <attribute smartctl="Unsafe_Shutdown_Count" group="Intel">
+    <name>Unsafe Shutdown Count</name>
+    <description>Dieses Attribut zeigt die totale Anzahl von unsicheren Ausschaltvorgängen in der bisherigen Lebenszeit des Geräts. Ein unsicherer Ausschaltvorgang ist immer dann gegeben wenn der letzte Befehl nicht 'standby immediate' war.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="Intel">
+    <name>Device Internal Temperature</name>
+    <description>Zeigt die Innentemperatur der SSD. Die Temperatur ist der direkte Wert des Sensors auf der gedruckten Schaltplatine.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Intel">
+    <name>CRC Error Count </name>
+    <description>Die totale Anzahl Fehler der SATA Schnittstelle Prüfung 'cyclic redundancy check' (CRC).</description>
+  </attribute>
+  <attribute smartctl="Host_Writes_32MiB" group="Intel">
+    <name>Host Writes</name>
+    <description>Dieses Attribut zeigt die totale Anzahl vom Betriebssystem geschriebener Sektoren. Der RAW Wert steigt um 1 für 65,536 vom Betriebssystem geschriebene Sektoren.</description>
+  </attribute>
+  <attribute smartctl="Intel_Internal" group="Intel">
+    <name>Intel Internal</name>
+    <description>Internes Attribut von Intel SSDs der ersten Generation.</description>
+  </attribute>
+  <attribute smartctl="Workld_Media_Wear_Indic" group="Intel">
+    <name>Timed Workload Media Wear Indicator</name>
+    <description>Dieses Attribut überwacht die Alterung der SSD über die Alterungszeitgeber Zeitspanne als Prozentwert der maximal bewerteten Zyklen. Der RAW Wert überwacht den Prozentwert bis zu drei Kommastellen. Dieser Wert sollte durch 1024 geteilt werden um den Prozentwert zu erhalten, z.B. RAW Wert Prozentsatz ist 4450/1024=4.345%. Der RAW Wert wird bei 65,535 gehalten bis der Alterungszeitgeber (Attribut 228) 60 erreicht.</description>
+  </attribute>
+  <attribute smartctl="Workld_Host_Reads_Perc" group="Intel">
+    <name>Timed Workload Host Reads Percentage</name>
+    <description>Dieses Attribut zeigt den Prozentsatz der I/O Operationen des letzten Alterungszyklus die Leseoperationen waren. Der RAW Wert überwacht diesen Prozentsatz und hält ihn bei 65,535 bis der Alterungszeitgeber (Attribut 228) 60 erreicht. Der normalisierte Wert wird immer auf 100 gesetzt und sollte ignoriert werden.</description>
+  </attribute>
+  <attribute smartctl="Workload_Minutes" group="Intel">
+    <name>Workload Timer</name>
+    <description>Dieses Attribut zeigt die vergangene Zeit des gegenwärtigen Alterungszyklus. Das Attribut wird zurückgesetzt wenn ein 'SMART execute offline immediate' Kommando auf der SSD ausgeführt wird. Der RAW Wert überwacht die Zeit in Minuten und hat einen Maximalwert von 232=4,294,967,296 (8,171 Jahre). Der normalisierte Wert wird immer auf 100 gesetzt und sollte ignoriert werden.</description>
+  </attribute>
+  <attribute smartctl="Available_Reservd_Space" group="Intel">
+    <name>Available Reserved Space</name>
+    <description>Dieses Attribut zeigt die Anzahl verbleibender reservierter Blöcke. Der Zähler beginnt bei 100 entsprechend 100% verfügbaren Blöcken. Der Grenzwert ist 10% und er bedeutet dass sich die Lebensdauer des Geräts seinem Ende nähert.</description>
+  </attribute>
+  <attribute smartctl="Media_Wearout_Indicator" group="Intel">
+    <name>Media Wearout Indicator</name>
+    <description>Dieses Attribut zeigt die Anzahle Zyklen die das NAND Medium durchlaufen hat. Der normalisierte Wert sinkt linear von 100 auf 1 während der Zähler der durchschnittlichen Löschzyklen von 0 bis zum Maximum der bewerteten Zyklen steigt. Wenn der normalisierte Wert 1 erreicht wird er nicht weiter verkleinert, es ist aber Wahrscheinlich, dass noch deutlich mehr Zyklen auf dem Gerät ausgeführt werden können.</description>
+  </attribute>
+  <attribute smartctl="Host_Writes_32_MiB" group="Intel">
+    <name>Total LBAs Written</name>
+    <description>Zählt vom Betriebssystem beschriebene Sektoren (1 Sektor=512 bytes).</description>
+  </attribute>
+  <attribute smartctl="Host_Reads_32MiB" group="Intel">
+    <name>Total LBAs Read</name>
+    <description>Zählt vom Betriebssystem gelesene Sektoren (1 Sektor=512 bytes).</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="JMicron">
+    <name>Read Error Rate</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Throughput_Performance" group="JMicron">
+    <name>Throughput Performance</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="JMicron">
+    <name>Reallocated Sector Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="JMicron">
+    <name>Power-On hours Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="JMicron">
+    <name>Drive Power Cycle Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="SATA_Phy_Error_Count" group="JMicron">
+    <name>SATA Phy Error Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Bad_Block_Count" group="JMicron">
+    <name>Bad Block Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Erase_Count" group="JMicron">
+    <name>Erase Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Bad_Cluster_Table_Count" group="JMicron">
+    <name>Bad Cluster Table Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Unexpect_Power_Loss_Ct" group="JMicron">
+    <name>Unexpected Power Loss Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="JMicron">
+    <name>Temperature</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Current_Pending_Sector" group="JMicron">
+    <name>Current Pending Sector Counter</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Halt_System/Flash_ID" group="JMicron">
+    <name>Halt, Flash</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Firmware_Version_Info" group="JMicron">
+    <name>Firmware Version Information</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="ECC_Fail_Record" group="JMicron">
+    <name>ECC Fail Record</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Avg/Max_Erase_Ct" group="JMicron">
+    <name>Average/Max Erase Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Good/Sys_Block_Ct" group="JMicron">
+    <name>Good/System Block Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Samsung">
+    <name>Power-on Hours</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Samsung">
+    <name>Power-on Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count_Chip" group="Samsung">
+    <name>Program Fail Count Chip</name>
+    <description>Zeigt eine Zahl vom Flash Programmfehlern.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count_Chip" group="Samsung">
+    <name>Erase Fail Count Chip</name>
+    <description>Zeigt eine Zahl von Flash Löschbefehl Fehlern.</description>
+  </attribute>
+  <attribute smartctl="Wear_Leveling_Count_Wear" group="Samsung">
+    <name>Wear Leveling Count</name>
+    <description>Zeigt den schlechtesten Löschwert.</description>
+  </attribute>
+  <attribute smartctl="Used_Rsvd_Blk_Cnt_Chip" group="Samsung">
+    <name>Used Reserved Block Count Chip</name>
+    <description>Zeigt die Anzahl der benutzten reservierten Blöcke auf einem Speicherchip.</description>
+  </attribute>
+  <attribute smartctl="Used_Rsvd_Blk_Cnt_Tot" group="Samsung">
+    <name>Used Reserved Block Count Total</name>
+    <description>Zeigt die totale Anzahl der benutzten reservierten Blöcke.</description>
+  </attribute>
+  <attribute smartctl="Unused_Rsvd_Blk_Cnt_Tot" group="Samsung">
+    <name>Unused Reserved Block Count Total</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Cnt_Total" group="Samsung">
+    <name>Program Fail Count Total</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count_Total" group="Samsung">
+    <name>Erase Fail Count Total</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Runtime_Bad_Block" group="Samsung">
+    <name>Runtime Bad Block</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Uncorrectable_Error_Cnt" group="Samsung">
+    <name>Uncorrectable Error Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Exceed_Cnt" group="Samsung">
+    <name>Temperature Exceed Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Airflow_Temperature" group="Samsung">
+    <name>Airflow Temperature</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="ECC_Rate" group="Samsung">
+    <name>ECC Rate</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="CRC_Error_Count" group="Samsung">
+    <name>CRC Error Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Supercap_Status" group="Samsung">
+    <name>Supercap Status</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Exception_Mode_status" group="Samsung">
+    <name>Exception Mode Status</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="SandForce">
+    <name>Raw Read Error Rate</name>
+    <description>RAW Fehler bezüglich ECC Fehlern. Korrigierbare und unkorrigierbare RAISE (Redundant Array of Independent Silicon Elements) Fehler sind im Zähler enthalten.</description>
+  </attribute>
+  <attribute smartctl="Retired_Block_Count" group="SandForce">
+    <name>Retired Block Count</name>
+    <description>Überwacht die totale Anzahl verworfener Blöcke. Der Wert ist 100-(100*RCB/MRB), RCB ist die Anzahl verworfener Blöcke und MRB das Minimum erforderlicher Blöcke. Der Wert ist auch ein Indikator für die verbleibende Lebensdauer des Geräts.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours_and_Msec" group="SandForce">
+    <name>Power-On Hours and Milliseconds</name>
+    <description>Betriebszeit in Minuten und Millisekunden. Der RAW Wert dieses Attributes zeigt den Totalwert der Betriebszeit in Minuten und Millisekunden.</description>
+  </attribute>
+  <attribute smartctl="Gigabytes_Erased" group="SandForce">
+    <name>Program/Erase Cycles </name>
+    <description>Dieses Attribut zeigt die Nummer des Flash Programms und alle Löschzyklen auf dem Gerät in der bisherigen Lebensdauer.</description>
+  </attribute>
+  <attribute smartctl="Reserve_Block_Count" group="SandForce">
+    <name>Reserved Block Count</name>
+    <description>Anzahl reservierter Blöcke für die Fehlerbehandlung schlechter Blöcke.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count" group="SandForce">
+    <name>Program Fail Block Count</name>
+    <description>Vier bytes um die Programmfehler anzuzeigen.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count" group="SandForce">
+    <name>Erase Fail Block Count</name>
+    <description>Vier bytes um Block Löschfehler anzuzeigen.</description>
+  </attribute>
+  <attribute smartctl="Unexpect_Power_Loss_Ct" group="SandForce">
+    <name>Unexpected Power Loss Count</name>
+    <description>Totale Anzahl unerwarteter Ausschaltungen des Geräts.</description>
+  </attribute>
+  <attribute smartctl="Wear_Range_Delta" group="SandForce">
+    <name>Wear Range Delta</name>
+    <description>Prozentualer Unterschied zwischen dem am meisten und dem am wenigsten benutzten Block.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count" group="SandForce">
+    <name>Program Fail Count</name>
+    <description>Vier bytes um die Programmfehler anzuzeigen.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count" group="SandForce">
+    <name>Erase Fail Count</name>
+    <description>Vier bytes um Block Löschfehler anzuzeigen.</description>
+  </attribute>
+  <attribute smartctl="IO_Error_Detect_Code_Ct" group="SandForce">
+    <name>Reported I/O Error Detection Code Rate</name>
+    <description>I/O Fehlerüberwachungs Rate. Dieses Attribut überwacht die Anzahl 'end-to-end CRC' Fehler während Lese/Schreibzugriffen durch das Betriebssystem.</description>
+  </attribute>
+  <attribute smartctl="Reported_Uncorrect" group="SandForce">
+    <name>Reported Uncorrectable Errors</name>
+    <description>Dieses Attribut überwacht die Anzahl von unkorrigierbaren RAISE (Redundant Array of Independent Silicon Elements) Fehlern die dem Betriebssystem für alle Datenzugriffe Kommandos übermittelt werden.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="SandForce">
+    <name>Temperature</name>
+    <description>Temperaturangabe des Boardsensors.</description>
+  </attribute>
+  <attribute smartctl="ECC_Uncorr_Error_Count" group="SandForce">
+    <name>On the fly ECC Uncorrectable Error Count</name>
+    <description>Dieses Attribut überwacht die Anzahl unkorrigierbarer Fehler.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Event_Count" group="SandForce">
+    <name>Reallocation Event Count</name>
+    <description>Dieses Attribut überwacht die Anzahl von fehlerhaften, neu zugewiesenen Blöcken.</description>
+  </attribute>
+  <attribute smartctl="Uncorrectable_Sector_Ct" group="SandForce">
+    <name>Uncorrectable Sector Count</name>
+    <description>Zähler unkorrigierbarer Sektoren relativ zur Anzahl der im aktuellen Betriebszyklus gelesenen Sektoren. Der normalisierte Wert wird nur berechnet wenn die Anzahl bits grösser ist als 10^10. Der Zähler wird beim Ausschalten auf Null gesetzt im Wert 10^10 'verpackt' wenn er den Wert 10^12 überschreitet.</description>
+  </attribute>
+  <attribute smartctl="SATA_CRC_Error_Count" group="SandForce">
+    <name>SATA CRC Error Count</name>
+    <description>SATA R-Fehler (CRC) Zähler.</description>
+  </attribute>
+  <attribute smartctl="Unc_Soft_Read_Err_Rate" group="SandForce">
+    <name>Uncorrectable Soft Read Error Rate</name>
+    <description>Anzahl Lesefehler die nicht sofort korrigiert werden können und eine Wiederherstellung durch das RAISE (Redundant Array of Independent Silicon Elements) erfordern.</description>
+  </attribute>
+  <attribute smartctl="Soft_ECC_Correct_Rate" group="SandForce">
+    <name>Soft ECC Correction</name>
+    <description>Anzahl vom RAISE (Redundant Array of Independent Silicon Elements) behandelter Fehler die nicht sofort korrigiert werden können und eine ECC (multilevel) Korrektur erfordern.</description>
+  </attribute>
+  <attribute smartctl="Life_Curve_Status" group="SandForce">
+    <name>Life Curve Status</name>
+    <description>Kurve der Lebenserwartung des Geräts auf Basis der Schreibzugriffe auf Flash.</description>
+  </attribute>
+  <attribute smartctl="SSD_Life_Left" group="SandForce">
+    <name>SSD Life Left</name>
+    <description>Eine Messung der voraussichtlich verbleibenden Lebensdauer, eine Kombination von Programmier/Löschzyklen und verfügbaren Reserveblocks. Der Wert 100 bedeutet neuwertig, 10 bedeutet dass das Medium ersetzt werden muss, es sind noch Reserveblocks verfügbar aber die Programmier/Löschzyklen sind verbraucht, 0 bedeutet Reserveblocks nicht verfügbar, nur noch Lesezugriff zur Datensicherung möglich.</description>
+  </attribute>
+  <attribute smartctl="Available_Reservd_Space" group="SandForce">
+    <name>Available Reserved Space</name>
+    <description>Anzahl verbleibender reservierter Blöcke.</description>
+  </attribute>
+  <attribute smartctl="SandForce_Internal" group="SandForce">
+    <name>SandForce Internal</name>
+    <description>Sandforce reservierter Wert.</description>
+  </attribute>
+  <attribute smartctl="SuperCap_Health" group="SandForce">
+    <name>Power Fail Backup Health</name>
+    <description>Der Energieverlust Sicherheitstest überwacht ob bei Stromausfall die Entladespannung den Spannungsgrenzwert früher erreicht als den Ausfallzeit Grenzwert. Dies deutet auf eine gealterte Energiebank die SSD Daten nicht mehr zuverlässig schützt. Wenn für eine SSD nie ein 'SuperCapacitor Test' ausgeführt wurde bleibt der normalisierte Wert bei 100.</description>
+  </attribute>
+  <attribute smartctl="Lifetime_Writes_GiB" group="SandForce">
+    <name>Lifetime Writes from Host</name>
+    <description>Zeigt die totale vom Betriebssystem geschrieben Datenmenge in der bisherigen Lebensdauer. Der Wert zeigt die Anzahl geschriebenr bytes in 64 GB Schritten.</description>
+  </attribute>
+  <attribute smartctl="Lifetime_Reads_GiB" group="SandForce">
+    <name>Lifetime Reads from host</name>
+    <description>Zeigt die totale vom Betriebssystem gelesenen Datenmenge in der bisherigen Lebensdauer. Der Wert zeigt die Anzahl gelesener bytes in 64 GB Schritten.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Smart">
+    <name>Power-On Hours</name>
+    <description>Das 'Power-On Hours' Attribut zeigt die totale Anzahl Stunden der Betriebszeit des Geräts. Der Zähler startet bei der Inbetriebnahme des Geräts und zählt bei jedem erneuten Einschalten weiter.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Smart">
+    <name>Power Cycle Count</name>
+    <description>Das 'Power Cycle Count' Attribut zeigt die totale Anzahl von Ein/Ausschaltzyklen des Geräts.</description>
+  </attribute>
+  <attribute smartctl="Power-Off_Retract_Count" group="Smart">
+    <name>Power-Off Retract Count</name>
+    <description>Das 'Power-Off Retract Count' Attribut zeigt die Anzahl der Ausschaltprozesse des Geräts. Dieser Wert ist 1 weniger als der des 'Power-Cycle Count' Attributs.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="Smart">
+    <name>Temperature</name>
+    <description>Das 'Temperature' Attribut zeigt die aktuelle Gerätetemperatur in Celsius.</description>
+  </attribute>
+  <attribute smartctl="ECC_Error_Count" group="Smart">
+    <name>Number of ECC Errors</name>
+    <description>Das 'Number of ECC Errors' Attribut zeigt die Anzahl Sektoren die nach einem ECC Fehler wiederhegestellt wurden.</description>
+  </attribute>
+  <attribute smartctl="Offline_Uncorrectable" group="Smart">
+    <name>Uncorrectable Errors Count</name>
+    <description>Das 'Uncorrectable Errors Count' Attribut zeigt die Anzahl unkorrigierbarer ECC Fehler. Der Wert steigt wenn mehr als 4 bits in einem Sektor unkorrigierbar sind.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Smart">
+    <name>UDMA CRC Error Count</name>
+    <description>Das 'UDMA CRC Error Count' Attribut zeigt die Anzahl Sektoren mit CRC Fehlern im UDMA Modus.</description>
+  </attribute>
+  <attribute smartctl="Min_Spares_Remain_Perc" group="Smart">
+    <name>Minimum Spares Remaining</name>
+    <description>Das 'Minimum Spares Remaining' Attribut zeigt die Anzahl verbleibender reservierter Blöcke in Prozent der totalen Anzahl verfügbarer reservierter Blöcke.</description>
+  </attribute>
+  <attribute smartctl="Added_Bad_Flash_Blk_Ct" group="Smart">
+    <name>Newly Added Flash Block</name>
+    <description>Das 'Newly Added Bad Flash Block' Attribut zeigt die totale Anzahl schlechter Flash Blöcke die auf dem Gerät in der bisherigen Lebenszeit gefunden wurden.</description>
+  </attribute>
+  <attribute smartctl="Total_Erase_Blocks_Ct" group="Smart">
+    <name>Total Erase Block Count</name>
+    <description>Das 'Total Erase Blocks' Attribut zeigt die Anzahl von Löschoperationen in gelöschten Blöcken. Da sicheres Löschen alle Blöcke löscht erhöht sich dieser Wert deutlich durch solche Operationen.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="SanDisk">
+    <name>Reallocated Sector Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="SanDisk">
+    <name>Power On Hours</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="SanDisk">
+    <name>Power Cycle Count</name>
+    <description>Keine Informationen für dieses Attribut verfügbar.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Adtron">
+    <name>Power-On Time</name>
+    <description>Das Attribut zeigt die totale Anzahl Stunden der Betriebszeit des Geräts. Der Zähler startet bei der Inbetriebnahme des Geräts und zählt bei jedem erneuten Einschalten weiter.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Adtron">
+    <name>Power Cycle Count</name>
+    <description>Das Attribut zeigt die totale Anzahl von Ein/Ausschaltzyklen des Geräts.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HWC" group="Adtron">
+    <name>Hardware configuration </name>
+    <description>Das Attribut erkennt RAID-1 Konfigurationen und deren Geräteschnittstellen.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_MP" group="Adtron">
+    <name>Media presence</name>
+    <description>Das Attribut erkennt ob beim letzten Einschalten ein Medium an diesen Schnittstellen vorhanden war.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_RtR" group="Adtron">
+    <name>Reset to Ready Timer</name>
+    <description>Das Attribut misst die Zeit in Millisekunden dieser logische Einheit vom Einschalten bis zur Signalisierung der Betriebsbereitschaft.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_RR" group="Adtron">
+    <name>Rebuild Activity Completion Estimate</name>
+    <description>Das Attribut zeigt eine Schätzung der verbleibenden Zeit der aktuellen Wiederherstellungs Aktivität in Prozenten.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HFAll" group="Adtron">
+    <name>Hard fault (all media)</name>
+    <description>Das Attribut erkennt alle Medien die einen schweren Fehler hatten.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HF1st" group="Adtron">
+    <name>Hard Fault - Bank 0</name>
+    <description>Das Attribut erkennt das Bank 0 Medium das einen schweren Fehler hatte.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HF2nd" group="Adtron">
+    <name>Hard Fault - Bank 1</name>
+    <description>Das Attribut erkennt das Bank 1 Medium das einen schweren Fehler hatte.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HF3rd" group="Adtron">
+    <name>Hard Fault - Bank 2</name>
+    <description>Das Attribut erkennt das Bank 2 Medium das einen schweren Fehler hatte.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_SFAll" group="Adtron">
+    <name>Soft fault (all media)</name>
+    <description>Das Attribut erkennt alle Medien die einen Programmfehler hatten.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_SF1st" group="Adtron">
+    <name>Soft Fault - Bank 0</name>
+    <description>Das Attribut erkennt das Bank 0 Medium das einen Programmfehler hatte.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_SF2nd" group="Adtron">
+    <name>Soft Fault - Bank 1</name>
+    <description>Das Attribut erkennt das Bank 1 Medium das einen Programmfehler hatte.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_SF3rd" group="Adtron">
+    <name>Soft Fault - Bank 2</name>
+    <description>Das Attribut erkennt das Bank 2 Medium das einen Programmfehler hatte.</description>
+  </attribute>
+  <attribute smartctl="Minimum_Spares_All_Zs" group="Adtron">
+    <name>Minimum Spares</name>
+    <description>Das Attribut die Anzahl verbleibeder reservierter Blöcke in Prozent der total verfügbaren reservierten Blöcke in der am meisten gealterten Zone.</description>
+  </attribute>
+  <attribute smartctl="Power-Off_Retract_Count" group="Adtron">
+    <name>Power-Off Retract Count</name>
+    <description>Das Attribut zeigt die Anzahl der Ausschaltprozesse des Geräts. Dieser Wert ist 1 weniger als der des 'Power-Cycle Count' Attributs.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius " group="Adtron">
+    <name>Temperature</name>
+    <description>Das Attribut zeigt die aktuelle Gerätetemperatur in Celsius.</description>
+  </attribute>
+  <attribute smartctl="Fract_Temperature" group="Adtron">
+    <name>Temperature</name>
+    <description>Adtron kann negative Werte ausgeben, andere Hersteller nicht. Der Wert ist in Celsius und das erste byte der RAW Werte sind Bruchteile, z.B. Wert=0x20 und RAW [0]=0x80 heisst 0x20.80 (hexadezimal), oder 32.5 dezimal.</description>
+  </attribute>
+  <attribute smartctl="ECC_Error_Count" group="Adtron">
+    <name>Number of ECC Errors</name>
+    <description>Das Attribut zeigt die Anzahl Sektoren die nach einem ECC Fehler wiederhergestellt wurden.</description>
+  </attribute>
+  <attribute smartctl="Offline_Uncorrectable" group="Adtron">
+    <name>Uncorrectable Errors Count</name>
+    <description>Das Attribut zeigt die Anzahl unkorrigierbarer ECC Fehler. Der Wert steigt wenn mehr als vier bits in einem Sektor unkorrigierbar sind.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Adtron">
+    <name>UDMA CRC Error Count</name>
+    <description>Das Attribut zeigt die Anzahl Sektoren mit CRC Fehlern im UDMA Modus.</description>
+  </attribute>
+</table>

@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface>
+  <group id="00" title="Main menu">
+    <string id="01" text="Général" />
+    <string id="02" text="Gestion" />
+    <string id="03" text="Système" />
+    <string id="04" text="Débogage" />
+    <string id="10" text="Fichier" />
+    <string id="11" text="Réglages" />
+    <string id="12" text="À propos" />
+    <string id="13" text="Quitter" />
+    <string id="14" text="Recharger la liste des périphériques" />
+  </group>
+  <group id="01" title="Device context menu">
+    <string id="01" text="Actualiser" />
+    <string id="02" text="Tout actualiser" />
+    <string id="03" text="Ajouter un périphérique virtuel" />
+    <string id="04" text="Retirer le périphérique virtuel" />
+    <string id="05" text="Rechercher les périphériques externes" />
+    <string id="06" text="Icône dans la barre de tâches" />
+    <string id="07" text="Température" />
+    <string id="08" text="Durée de vie restante" />
+    <string id="09" text="Partage" />
+    <string id="10" text="Partager le périphérique sélectionné" />
+    <string id="11" text="Définir le dossier de partage" />
+    <string id="12" text="Rapport XML" />
+    <string id="13" text="Créer un rapport XML pour toutes les unités" />
+    <string id="14" text="Définir le dossier de sauvegarde du rapport XML" />
+    <string id="15" text="Afficher le panneau d'information" />
+  </group>
+  <group id="02" title="Tray icon context menu">
+    <string id="01" text="Restaurer" />
+    <string id="02" text="Quitter" />
+  </group>
+  <group id="03" title="Manage menu items">
+    <string id="01" text="État du périphérique" />
+    <string id="02" text="Informations" />
+    <string id="03" text="Attributs S.M.A.R.T." />
+    <string id="04" text="Journal des événements" />
+    <string id="05" text="Graphique des événements" />
+    <string id="10" text="Réglages de S.M.A.R.T." />
+    <string id="11" text="Gestion acoustique avancée" />
+    <string id="12" text="Gestion d'alimentation avancée" />
+    <string id="13" text="Temporisateur de mise en veille" />
+    <string id="14" text="Options de lecture/écriture" />
+    <string id="20" text="Journal des erreurs" />
+    <string id="21" text="Résultats des auto-tests" />
+    <string id="22" text="Exécuter le test" />
+    <string id="30" text="Sortie du périphérique" />
+    <string id="31" text="Tolérance" />
+    <string id="32" text="Format des attributs" />
+    <string id="33" text="Débogage du micrologiciel" />
+    <string id="34" text="Mode d'alimentation" />
+    <string id="40" text="Principal" />
+    <string id="41" text="Réglage" />
+    <string id="42" text="Erreurs et tests" />
+    <string id="43" text="SmartCtl" />
+    <string id="50" text="Sélectionner un périphérique" />
+  </group>
+  <group id="04" title="Devices overview">
+    <string id="01" text="Nom" />
+    <string id="02" text="Température" />
+    <string id="03" text="Durée de vie restante" />
+    <string id="04" text="Interface" />
+    <string id="05" text="Taille" />
+    <string id="20" text="Périphériques externes " />
+    <string id="21" text="Périphériques internes " />
+    <string id="22" text="Périphériques virtuels " />
+  </group>
+  <group id="05" title="Bottom info panel">
+    <string id="01" text="Fabricant " />
+    <string id="02" text="Numéro de série " />
+    <string id="03" text="Micrologiciel " />
+    <string id="04" text="Fiabilité " />
+    <string id="05" text="Température " />
+    <string id="06" text="Durée de vie restante " />
+    <string id="07" text="Évaluation globale " />
+    <string id="08" text="Secteurs endommagés " />
+    <string id="09" text="Erreurs ATA " />
+    <string id="10" text="Erreurs non médium " />
+    <string id="11" text="Éléments de la liste des défauts" />
+    <string id="12" text="Passée" />
+    <string id="13" text="Certaines valeurs sont hors limite" />
+    <string id="14" text="Inconnu" />
+    <string id="15" text="Révision" />
+    <string id="16" text="Temps d'utilisation " />
+    <string id="17" text="an" />
+    <string id="18" text="ans" />
+    <string id="19" text="mois" />
+    <string id="20" text="mois" />
+    <string id="21" text="jour" />
+    <string id="22" text="jours" />
+    <string id="23" text="heure" />
+    <string id="24" text="heures" />
+  </group>
+  <group id="06" title="Debug">
+    <string id="01" text="Sauver les informations de débogage" />
+    <string id="02" text="Date et heure" />
+    <string id="03" text="Événement" />
+  </group>
+  <group id="07" title="" />
+  <group id="08" title="" />
+  <group id="09" title="ATA: device informations">
+    <string id="01" text="Fabricant " />
+    <string id="02" text="Périphérique" />
+    <string id="03" text="Numéro de série " />
+    <string id="04" text="Nom générique du périphérique " />
+    <string id="05" text="Version du micrologiciel " />
+    <string id="06" text="Taille utilisable " />
+    <string id="07" text="Taille des secteurs " />
+    <string id="08" text="Vitesse de rotation " />
+    <string id="09" text="Version ATA " />
+    <string id="10" text="Interface " />
+    <string id="11" text="Statut S.M.A.R.T. " />
+    <string id="21" text="Statut global de l'état" />
+    <string id="22" text="Température " />
+    <string id="23" text="Durée de vie restante " />
+    <string id="24" text="Dernier test " />
+    <string id="25" text="État " />
+    <string id="26" text="Exécuter le test" />
+    <string id="27" text="Afficher les attributs S.M.A.R.T." />
+    <string id="28" text="Afficher les erreurs" />
+    <string id="29" text="Base de données SmartCtl" />
+    <string id="30" text="Ce périphérique ne figure pas dans la base de données SmartCtl." />
+    <string id="31" text="Ce périphérique figure dans la base de données SmartCtl." />
+    <string id="32" text="Mettre à jour de la base de données SmartCtl..." />
+    <string id="33" text="Avertissements" />
+    <string id="34" text="Aucun avertissement" />
+    <string id="35" text="Le rapport relatif au périphérique n'est plus disponible. Vérifier le chemin d'accès au fichier." />
+    <string id="36" text="S.M.A.R.T. disponible mais désactivé." />
+    <string id="37" text="S.M.A.R.T. non disponible sur ce périphérique." />
+    <string id="38" text="Fiabilité " />
+    <string id="39" text="Dernière mise à jour " />
+    <string id="50" text="Terminé sans erreur" />
+    <string id="51" text="Interrompu par le système" />
+    <string id="52" text="Interrompu (réinitialisation système)" />
+    <string id="53" text="Erreur fatale ou inconnue" />
+    <string id="54" text="Terminé : échec inconnu" />
+    <string id="55" text="Terminé : panne électrique" />
+    <string id="56" text="Terminé : échec de l'asservissement/positionnement" />
+    <string id="57" text="Terminé : échec de lecture" />
+    <string id="58" text="Terminé : dommage de manipulation" />
+    <string id="59" text="Routine d'auto-test en cours" />
+    <string id="60" text="Statut inconnu" />
+    <string id="61" text="à/au" />
+    <string id="70" text="Aucune valeur S.M.A.R.T. n'est hors limite." />
+    <string id="71" text="Certaines valeurs S.M.A.R.T. sont hors limite ! Défaillance probable du dispositif dans les 24 h. Sauvegarder toutes les données !" />
+    <string id="72" text="Inconnu" />
+    <string id="80" text="Aucun secteur défectueux détecté." />
+    <string id="81" text="Un secteur défecteux détecté." />
+    <string id="82" text="% secteurs défectueux détectés. Sauvegarder les données et remplacer ce disque !" />
+    <string id="83" text="% secteurs défectueux détectés." />
+    <string id="90" text="Aucune erreur ATA détectée." />
+    <string id="91" text="Une erreur ATA détectée." />
+    <string id="92" text="% erreurs ATA détectées. Il est conseillé de remplacer ce disque." />
+    <string id="93" text="% erreurs ATA détectées." />
+  </group>
+  <group id="10" title="ATA: SMART settings">
+    <string id="01" text="Activer S.M.A.R.T." />
+    <string id="02" text="Active ou désactive S.M.A.R.T. (Self-Monitoring, Analysis and Reporting Technology) sur le périphérique" />
+    <string id="03" text="Activer le test hors ligne automatique S.M.A.R.T." />
+    <string id="04" text="Active ou désactive le test hors ligne automatique S.M.A.R.T., qui recherche toutes les 4 h des défauts sur le périphérique" />
+    <string id="05" text="Activer l'enregistrement automatique S.M.A.R.T." />
+    <string id="06" text="Active ou désactive l'enregistrement automatique S.M.A.R.T. des attributs du périphérique spécifiques au fournisseur" />
+    <string id="30" text="Message" />
+    <string id="31" text="Question" />
+    <string id="40" text="S.M.A.R.T. activé sur le périphérique %." />
+    <string id="41" text="S.M.A.R.T. non entièrement géré sur le périphérique %." />
+    <string id="42" text="S.M.A.R.T. non géré sur le périphérique %." />
+    <string id="43" text="Faut-il désactiver S.M.A.R.T. sur le périphérique % ?" />
+    <string id="44" text="S.M.A.R.T. désactivé sur le périphérique %." />
+    <string id="45" text="Collecte des données hors ligne activée sur le périphérique %." />
+    <string id="46" text="Collecte des données hors ligne non gérée ou &#xD;&#xA;annulée par le systéme sur le périphérique %." />
+    <string id="47" text="Faut-il désactiver la collecte des données hors ligne sur le périphérique % ?" />
+    <string id="48" text="Collecte des données hors ligne désactivée sur le périphérique %." />
+    <string id="49" text="Impossible de désactiver la collecte des données &#xD;&#xA;hors ligne sur le périphérique %." />
+  </group>
+  <group id="11" title="ATA: AAM">
+    <string id="01" text="La gestion acoustique avancée (AAM - Advanced Acoustic Management) est une méthode pour réduire les émissions sonores des périphériques ATA. Une valeur plus calme signifie un disque plus lent, une valeur plus bruyante signifie un disque plus rapide.&#xD;&#xA;Fixer la valeur à 0 pour désactiver cette fonctionnalité.&#xD;&#xA;&#xD;&#xA;Noter que la fonction AAM a été déclarée obsolète avec le document ATA ACS-2 Révision 4a (décembre 2010)." />
+    <string id="02" text="Silencieux (mais lent)" />
+    <string id="03" text="Bruyant (mais rapide)" />
+    <string id="04" text="Définir à la valeur recommandée" />
+    <string id="05" text="Valeur recommandée" />
+    <string id="06" text="Indisponible" />
+    <string id="07" text="Défaire modifications" />
+    <string id="08" text="Valeur courante" />
+    <string id="09" text="Impossible de déterminer" />
+  </group>
+  <group id="12" title="ATA: APM">
+    <string id="01" text="La gestion d'alimentation avancée (APM - Advanced Power Management) est une API (Application Programming Interface) développée par Intel et Microsoft et publiée en 1992, qui permet à un système d'exploitation exécuté sur un ordinateur personnel compatible IBM de communiquer avec le BIOS pour effectuer la gestion de l'alimentation. Si une valeur comprise entre 1 et 254 est fournie, il va tenter d'activer à l'APM et de définir la valeur spécifiée (la mise en valeur à 0 désactive l'APM). Les valeurs inférieures à 128 sont supposées permettre la baisse de vitesse de rotation du disque ; les valeurs supérieures hautes de 128 réglent uniquement la fréquence de parcage de la tête de lecture." />
+    <string id="02" text="Indisponible" />
+    <string id="03" text="Valeur courante" />
+    <string id="04" text="Définir valeur" />
+    <string id="05" text="Impossible de déterminer" />
+    <string id="06" text="Défaire modifications" />
+  </group>
+  <group id="13" title="ATA: standby">
+    <string id="01" text="Définit le temporisateur de veille et met le disque en mode attente (IDLE). Une valeur de 0 désactive le temporisateur. Les valeurs de 1 à 240 précisent des temporisations de 5 secondes à 20 minutes par incrément de 5 secondes. Les valeurs de 241 à 251 spécifient des temporisations de 30 minutes à 330 minutes par incrément de 30 minutes. La valeur 252 spécifie 21 minutes. La valeur 253 définit un temps spécifique au vendeur entre 8 et 12 heures. La valeur 255 spécifie 21 minutes et 15 secondes." />
+    <string id="02" text="réservé" />
+    <string id="03" text="le temps est entre 8 et 12 heures" />
+    <string id="04" text="désactivé" />
+    <string id="05" text="Définir valeur" />
+    <string id="06" text="Défaire modifications" />
+  </group>
+  <group id="14" title="ATA: read/write settings">
+    <string id="01" text="Activer la fonction de cache volatile en écriture" />
+    <string id="02" text="Activer le cache d'écriture disque peut augmenter les performances du système. En activant le cache d'écriture, une corruption du système de fichiers et/ou la perte de données peuvent survenir si l'ordinateur subit une défaillance d'alimentation du périphérique ou du système et ne peut pas être arrêté correctement.&#xD;&#xA;Le cache d'écriture est généralement activé par défaut pour les HDD, mais pas toujours pour les SSD." />
+    <string id="03" text="Activer la fonction de lecture en continu (Look-Ahead)" />
+    <string id="04" text="Les dispositifs sont configurés avec une fonctionnalité de lecture en continu appelée 'Read Look Ahead' qui maintient le dispositif en lecture, même quand l'exécution de la commande en cours est terminée. Les données sont conservées dans la mémoire tampon du dispositif afin de fournir une réponse rapide à une demande du système si la commande suivante est effectivement séquentielle.&#xD;&#xA;La fonction 'Read Look Ahead' est généralement activée par défaut pour les HDD, mais pas toujours pour les SSD." />
+    <string id="05" text="Activer la réorganisation du cache d'écriture" />
+    <string id="06" text="Si désactivée, l'ordre d'écriture du disque est exécuté sur la base du premier entré premier sorti (FIFO, first-in-first-out). Si activée, l'ordre d'écriture peut être réordonné par le disque." />
+  </group>
+  <group id="15" title="ATA: SMART attributes">
+    <string id="01" text="Attributs S.M.A.R.T." />
+    <string id="02" text="Nombre de révision de la structure des données " />
+    <string id="10" text="ID" />
+    <string id="11" text="Nom de l'attribut" />
+    <string id="12" text="Actuel" />
+    <string id="13" text="Pire" />
+    <string id="14" text="Seuil" />
+    <string id="15" text="Valeurs brutes" />
+    <string id="20" text="Description de l'attribut" />
+    <string id="30" text="Indicateurs" />
+    <string id="31" text="Préavis de défaillance" />
+    <string id="32" text="Mis à jour en ligne" />
+    <string id="33" text="Vitesse/performance" />
+    <string id="34" text="Evaluation d'erreur" />
+    <string id="35" text="Nombre d'événement" />
+    <string id="36" text="Auto-préservation" />
+    <string id="40" text="Graphique" />
+  </group>
+  <group id="16" title="ATA: errors">
+    <string id="01" text="Aucune erreur journalisée" />
+    <string id="02" text="Sélectionner l'erreur à afficher" />
+    <string id="03" text="Version du journal des erreurs " />
+    <string id="04" text="Le périphérique ne gère pas la journalisation des erreurs." />
+    <string id="10" text="L'erreur % a eu lieu à la mise sous tension du disque" />
+    <string id="11" text="Quand la commande qui a causé l'erreur est survenue, le périphérique était" />
+    <string id="12" text="Après que l'exécution de la commande ait eu lieu, le registre était" />
+    <string id="13" text="La commande conduisant à la commande qui a causé l'erreur était" />
+    <string id="20" text="dans un état inconnu" />
+    <string id="21" text="endormi" />
+    <string id="22" text="en mode veille" />
+    <string id="23" text="actif ou en attente" />
+    <string id="24" text="en exécution du test S.M.A.R.T. hors ligne ou de l'auto-test" />
+    <string id="25" text="dans un état réservé" />
+    <string id="26" text="dans un état spécifique au vendeur" />
+    <string id="30" text="Horodatage" />
+    <string id="31" text="Secondes décimales depuis la précédente mise sous tension du disque.&#xD;&#xA;Note : l'horodatage s'écrase après 2^32 msec = 49.710 jours." />
+    <string id="32" text="Temps de mise sous tension" />
+    <string id="33" text="Mesuré à partir de la mise sous tension, et imprimé en DDd+hh:mm:SS:sss&#xD;&#xA;où DD=jour, hh=heures, mm=minutes, SS=secondes et sss=millisecondes.&#xD;&#xA;Il reprend à zéro après 49.710 jours." />
+    <string id="40" text="Commande annulée" />
+    <string id="41" text="Marque d'adresse introuvable" />
+    <string id="42" text="Temps d'exécution de la commande dépassé" />
+    <string id="43" text="Fin du média" />
+    <string id="44" text="Erreur de Code de Redondance Cyclique (CRC) de l'interface" />
+    <string id="45" text="Identité introuvable" />
+    <string id="46" text="Jeu de commande paquet spécifique" />
+    <string id="47" text="Demande de changement du média" />
+    <string id="48" text="Média changé" />
+    <string id="49" text="Aucun média" />
+    <string id="50" text="Obsolète" />
+    <string id="51" text="Piste 0 introuvable" />
+    <string id="52" text="Erreur de données incorrigible" />
+    <string id="53" text="Le média est protégé en écriture" />
+  </group>
+  <group id="17" title="ATA: self tests results">
+    <string id="01" text="Le périphérique ne gère pas la journalisation de l'auto-test." />
+    <string id="02" text="Le périphérique ne gère pas la journalisation de l'auto-test sélectif." />
+    <string id="03" text="Aucun d'auto-test n'a été journalisé." />
+    <string id="04" text="Aucun d'auto-test sélectif n'a été journalisé." />
+    <string id="10" text="Journal de l'auto-test (révision de la structure des données : %)" />
+    <string id="11" text="Num." />
+    <string id="12" text="Description du test" />
+    <string id="13" text="Statut" />
+    <string id="14" text="Restant" />
+    <string id="15" text="Sous tension (h)" />
+    <string id="16" text="LBA de la première erreur" />
+    <string id="30" text="Hors ligne" />
+    <string id="31" text="Hors ligne court" />
+    <string id="32" text="Hors ligne étendu" />
+    <string id="33" text="Hors ligne transport" />
+    <string id="34" text="Interrompre le test hors ligne" />
+    <string id="35" text="Partiel court" />
+    <string id="36" text="Partiel étendu" />
+    <string id="37" text="Partiel transport" />
+    <string id="38" text="Partiel sélectif" />
+    <string id="39" text="Non testé" />
+    <string id="20" text="Journal de l'auto-test sélectif (révision de la structure des données : %)" />
+    <string id="21" text="Durée" />
+    <string id="22" text="LBA min." />
+    <string id="23" text="LBA max." />
+    <string id="24" text="Statut actuel du test" />
+  </group>
+  <group id="18" title="ATA: run test">
+    <string id="01" text="Les auto-tests sont des tests intégrés dans les périphériques et visant à reconnaître des conditions de défaut ; ces tests sont sans danger pour les données utilisateur. Les tests peuvent être effectués en cours d'utilisation normal du périphérique, mais peuvent prendre un temps plus long, malgré les temps indiqués ci-dessous, si le périphérique est occupé.&#xD;&#xA;Noter que certains périphériques ne commencent pas à enregistrer les résultats des tests avant qu'il y ait un résultat positif (ou par abandon ou par une erreur)." />
+    <string id="02" text="Collecte des données hors ligne" />
+    <string id="03" text="Auto-test court" />
+    <string id="04" text="Auto-test étendu" />
+    <string id="05" text="Auto-test transport" />
+    <string id="06" text="Exécuter" />
+    <string id="07" text="Interrompre" />
+    <string id="08" text="Durée estimée du test " />
+    <string id="09" text="Sélectionner le test à exécuter " />
+    <string id="10" text="Test non disponible" />
+    <string id="11" text="Fin estimée du test " />
+    <string id="20" text="Vérifie les performances électriques et mécaniques ainsi que les performances en lecture du disque. Les tests électriques peuvent inclure un test du tampon RAM, un test du circuit de lecture/écriture, ou un test des éléments de la tête de lecture/écriture. Le test mécanique comprend le positionnement et l'asservissement sur les pistes de données. Analyse de petites parties de la surface du disque (la zone est spécifique au vendeur et il existe une limite de temps pour le test). Vérifie la liste des secteurs en attente qui pourraient contenir des erreurs de lecture." />
+    <string id="21" text="Une version plus longue et plus approfondie de l'auto-test court parcourt la surface du disque entier, sans limite de temps." />
+    <string id="22" text="Prévu pour un test rapide afin d'identifier les dommages subis pendant le transport du périphérique. Uniquement disponible sur les disques ATA." />
+    <string id="23" text="Démarre un test S.M.A.R.T. hors ligne, en mettant à jour les valeurs des attributs, qui en cas d'erreur apparaîtront dans le journal des erreurs." />
+    <string id="30" text="Confirmation" />
+    <string id="31" text="Faut-il interrompre le test maintenant ?" />
+  </group>
+  <group id="19" title="Settings: smartctl tolerance">
+    <string id="01" text="Définir la tolérance" />
+    <string id="02" text="Normale" />
+    <string id="03" text="Conservatrice" />
+    <string id="04" text="Très permissive" />
+    <string id="10" text="Cette section spécifie la tolérance de SmartCtl lors des défaillances de commande ATA et S.M.A.R.T." />
+    <string id="20" text="SmartCtl se termine en cas d'échec d'une commande obligatoire S.M.A.R.T., et ignore tous les échecs des commandes optionnelles S.M.A.R.T." />
+    <string id="21" text="SmartCtl se termine en cas d'échec d'une commande optionnelle S.M.A.R.T." />
+    <string id="22" text="SmartCtl ignore les défaillances de toutes les commandes obligatiores S.M.A.R.T." />
+  </group>
+  <group id="20" title="ATA: attributes remap">
+    <string id="01" text="Définir l'affichage d'attribut spécifique au vendeur" />
+    <string id="02" text="Personnalisé" />
+    <string id="03" text="ID d'attribut" />
+    <string id="04" text="Format" />
+    <string id="05" text="Nom" />
+    <string id="06" text="Ajouter" />
+    <string id="07" text="ID" />
+    <string id="08" text="Format" />
+    <string id="09" text="Nom" />
+    <string id="10" text="Enlever" />
+    <string id="11" text="Ajouter un attribut spécifique du vendeur" />
+    <string id="12" text="Annuler" />
+    <string id="20" text="Définit un format d'édition de valeur brute spécifique au vendeur, un ordre d'octet optionnel et un nom facultatif pour l'ID d'attribut. L'ID d'attribut peut être compris entre 1 et 255. Si 'N' est spécifié comme ID, les réglages pour tous les attributs sont modifiés." />
+    <string id="70" text="Mise sous tension (minutes)" />
+    <string id="71" text="Mise sous tension (secondes)" />
+    <string id="72" text="Mise sous tension (demi-minutes)" />
+    <string id="73" text="Température" />
+    <string id="74" text="Nombre de cycle de rétractation d'urgence" />
+    <string id="75" text="Nombre de cycle de chargement/déchargement" />
+    <string id="76" text="Température x 10" />
+    <string id="77" text="Inconnu" />
+    <string id="78" text="Total de secteurs en attente" />
+    <string id="79" text="Total incorrigible hors ligne" />
+    <string id="80" text="Nombre de secteurs incorrigibles en parcours hors ligne" />
+    <string id="81" text="Nombre d'erreur de lecture" />
+    <string id="82" text="Nombre de pic thermique détecté" />
+    <string id="30" text="L'attribut brut numéro '9' est le temps de mise sous tension en minutes." />
+    <string id="31" text="L'attribut brut numéro '9' est le temps de mise sous tension en secondes." />
+    <string id="32" text="L'attribut brut numéro '9' est le temps de mise sous tension en unité de 30 secondes." />
+    <string id="33" text="L'attribut brut numéro '9' est la température du disque en degré Celsius." />
+    <string id="34" text="L'attribut brut numéro '192' est le nombre de cycle de rétractation d'urgence ; &#xD;&#xA;est utilisé par certains Fujitsu." />
+    <string id="35" text="L'attribut brut numéro '193' contient deux valeurs : la première est le nombre de cycles de chargement,&#xD;&#xA;la second est le nombre de cycles de déchargement." />
+    <string id="36" text="L'attribut brut numéro '194' est dix fois la température du disque en degré Celsius&#xD;&#xA;(ce qui est utilisé par certains Samsung)." />
+    <string id="37" text="L'attribut brut numéro '194' N'EST PAS la température du disque, et son interprétation est inconnue." />
+    <string id="38" text="L'attribut brut numéro '197' est le total de secteurs en attente." />
+    <string id="39" text="L'attribut brut numéro '198' est le total incorrigible hors ligne." />
+    <string id="40" text="L'attribut brut numéro '198' est le nombre de secteurs incorrigibles en parcours hors ligne." />
+    <string id="41" text="L'attribut brut numéro '200' est le nombre d'erreur de lecture." />
+    <string id="42" text="L'attribut brut numéro '201' est le nombre de pic thermique détecté." />
+    <string id="43" text="L'attribut brut numéro '220' est la température du disque en degré Celsius." />
+    <string id="50" text="raw8 :&#xD;&#xA;Affiche la valeur brute comme six entiers décimaux 8-bit non signés." />
+    <string id="51" text="raw 16 :&#xD;&#xA;Edite la valeur brute comme trois entiers décimaux non signés 16-bit." />
+    <string id="52" text="raw16(avg16) :&#xD;&#xA;La valeur brute est le temps de mise sous tension. Il est édité comme valeur&#xD;&#xA;16-bit et une valeur optionnelle de 'Moyenne' 16-bit si le 'word' n'est pas nul.&#xD;&#xA;C'est le défaut pour l'Attribut '3'." />
+    <string id="53" text="raw16(raw16) :&#xD;&#xA;Affiche l'attribut brut comme une valeur 16-bit et deux valeurs 16-bit&#xD;&#xA;optionnelles si les words ne sont pas nuls.&#xD;&#xA;C'est le défaut pour les Attributs '5 'et '196'." />
+    <string id="54" text="raw24/raw24 :&#xD;&#xA;L'attribut brut contient deux valeurs 24-bit." />
+    <string id="55" text="raw48 :&#xD;&#xA;Affiche la valeur brute comme un 48-bit en entiers décimaux.&#xD;&#xA;C'est le défaut pour la plupart des attributs." />
+    <string id="56" text="raw64 :&#xD;&#xA;Affiche la valeur brute comme un 64-bit en entiers décimaux.&#xD;&#xA;Ce nouveau format brut est utilisé par certains SSD récents." />
+    <string id="57" text="hex48 :&#xD;&#xA;Affiche la valeur brute comme un numéro à 12 chiffres hexadécimaux." />
+    <string id="58" text="hex64 :&#xD;&#xA;Edite la valeur brute comme un nombre de 16 chiffres hexadécimaux.&#xD;&#xA;Ce nouveau format brut est utilisé par certains SSD récents." />
+    <string id="59" text="min2hour :&#xD;&#xA;L'attribut brut est le temps de mise sous tension en minutes." />
+    <string id="60" text="sec2hour :&#xD;&#xA;L'attribut brut est le temps de mise sous tension en secondes." />
+    <string id="61" text="halfmin2hour :&#xD;&#xA;L'attribut brut est le temps de mise sous tension en unités de 30 secondes." />
+    <string id="62" text="tempminmax :&#xD;&#xA;L'attribut brut est la température du disque en degré Celsius.&#xD;&#xA;C'est le défaut pour les Attributs '190' et '194'." />
+    <string id="63" text="temp10x :&#xD;&#xA;L'attribut brut est dix fois la température du disque en degré Celsius." />
+  </group>
+  <group id="21" title="ATA: firmware debug">
+    <string id="01" text="Activer le débogage du micrologiciel (le plus souvent non nécessaire)" />
+    <string id="02" text="Aucun" />
+    <string id="03" text="Corriger l'octet interverti" />
+    <string id="04" text="Supprimer les tentatives de lire SMART ou le General Purpose Log Directory" />
+    <string id="05" text="Corriger l'ordre des octets LBA" />
+    <string id="10" text="Modifie le comportement de SmartCtl pour compenser certains problèmes connus et compris du micrologiciel/pilote du périphérique." />
+    <string id="20" text="Suppose que le micrologiciel du périphérique obéit aux spécifications ATA." />
+    <string id="21" text="Activé sur périphérique Samsung dans le cas où aucun journal d'auto-test est édité, même si les auto-tests ont été excécuté, un grand nombre d'erreurs ATA signalées dans le journal d'erreur ATA ou des valeurs étranges et impossibles pour les horodateurs du journal d'erreurs ATA." />
+    <string id="22" text="Le disque Samsung a besoin de cette option si le journal d'auto-test est édité correctement, mais qu'il y a un grand nombre d'erreurs dans le journal d'erreurs S.M.A.R.T.. Par exemple, un disque avec cinq erreurs (0x0005) apparaîtra avec 20480 erreurs (0x5000)." />
+    <string id="23" text="Certains disques Samsung (au moins le modèle SP2514N avec le micrologiciel VF100-37) signale un auto-test encore en cours avec 0% restant lorsque le test a déjà été complété." />
+    <string id="24" text="Corrige les chaines d'identification ATA d'octet interverti retournées par certains pilotes de périphérique défecteux." />
+    <string id="25" text="La gestion de tous les journaux standards est supposée existante sans aucune vérification. Quelques SSD Intel pourraient planter en cas de lecture de l'adresse journal 0." />
+    <string id="26" text="Corrige l'ordre des octets LBA dans le journal d'erreur d'Extended Comprehensive S.M.A.R.T.. Certain disque utilise un ordre d'octet little endian à la place de l'ordre du registre ATA pour spécifier les adresses LBA dans les entrées du journal." />
+  </group>
+  <group id="22" title="Settings: power mode check">
+    <string id="01" text="Cette section indique si SmartCtl devrait terminer avant d'effectuer des vérifications lorsque le périphérique est en mode économie d'énergie. Cela peut être utilisé pour éviter à un disque d'être bloqué par SmartCtl. Le mode d'alimentation est ignorée par défaut." />
+    <string id="02" text="Définir la vérification du mode d'alimentation" />
+    <string id="03" text="Jamais" />
+    <string id="04" text="Vérifie toujours le périphérique." />
+    <string id="05" text="Sommeil" />
+    <string id="06" text="Vérifie le périphérique sauf en mode sommeil" />
+    <string id="07" text="Veille" />
+    <string id="08" text="Vérifie le périphérique sauf en mode sommeil ou attente. Dans ces modes la plupart des disques ne tournent pas, donc à utiliser pour éviter qu'un disque tourne." />
+    <string id="09" text="Attente" />
+    <string id="10" text="Vérifie le périphérique sauf en mode sommeil, veille ou attente. En état d'attente, la plupart des disques tournent encore, donc ce n'est probablement pas ce qui est recherché." />
+  </group>
+  <group id="23" title="SCSI: device informations">
+    <string id="01" text="Vendeur" />
+    <string id="02" text="Produit" />
+    <string id="03" text="Révision" />
+    <string id="04" text="Numéro de série " />
+    <string id="05" text="ID unité logique" />
+    <string id="06" text="Taille utilisable" />
+    <string id="07" text="Taille du bloc logique" />
+    <string id="08" text="Vitesse de rotation " />
+    <string id="09" text="Protocole de transport" />
+    <string id="10" text="Statut S.M.A.R.T." />
+    <string id="21" text="Statut global de l'état" />
+    <string id="22" text="Température" />
+    <string id="23" text="Dernier test" />
+    <string id="24" text="État" />
+    <string id="25" text="Exécuter le test" />
+    <string id="26" text="Afficher les erreurs" />
+    <string id="27" text="Éléments de la liste des défauts" />
+    <string id="28" text="Nombre d'erreurs non médium" />
+  </group>
+  <group id="24" title="SCSI: SMART settings">
+    <string id="01" text="Activer 'Global Logging Target Save Disabled' (GLTSD)" />
+    <string id="02" text="Active ou désactive la valeur de la GLTSD dans la page du mode de contrôle. Certains fabricants de disques désactivent cette valeur par défaut.&#xD;&#xA;Cela évite que les compteurs d'erreurs, d'heures de mise sous tension et d'autres données utiles soient placées dans une mémoire non volatile, de sorte que ces valeurs puissent être remises à zéro à la prochaine mise sous tension du dispositif. S'il est activé, il écrase le GLTSD et donc active l'enregistrement des compteurs dans la mémoire non-volatile. Pour les applications intensives de type diffusion vidéo, il est conseillé de désactiver le GLTSD." />
+    <string id="03" text="Activer le cache d'écriture" />
+    <string id="04" text="Active ou désactive le cache en écriture. Le cache d'écriture est généralement activé par défaut." />
+    <string id="05" text="Activer le cache de lecture" />
+    <string id="06" text="Active ou désactive le cache en lecture. Le cache de lecture est généralement activé par défaut." />
+  </group>
+  <group id="25" title="SCSI: errors">
+    <string id="01" text="Aucune erreur détectée." />
+    <string id="02" text="Lire" />
+    <string id="03" text="Écrire" />
+    <string id="04" text="Vérifier" />
+    <string id="05" text="Erreurs corrigées par ECC" />
+    <string id="06" text="Rapide" />
+    <string id="07" text="Différé" />
+    <string id="08" text="Relectures/réécritures" />
+    <string id="09" text="Total d'erreurs corrigées" />
+    <string id="10" text="Invocations de l'algorithme de correction" />
+    <string id="11" text="Gigaoctets traités (10^9 octets)" />
+    <string id="12" text="Total d'erreurs incorrigibles" />
+  </group>
+  <group id="26" title="SCSI: tests results">
+    <string id="01" text="Aucun test enregistré." />
+    <string id="02" text="Num." />
+    <string id="03" text="Description" />
+    <string id="04" text="Statut" />
+    <string id="05" text="Segment" />
+    <string id="06" text="Durée de vie (h)" />
+    <string id="07" text="LBA de la première erreur" />
+    <string id="50" text="Terminé" />
+    <string id="51" text="Interrompu par commande de l'utilisateur" />
+    <string id="52" text="Interrompu (réinitialisation du périphérique ?)" />
+    <string id="53" text="Iincomplet : erreur inconnue" />
+    <string id="54" text="Terminé. Segment échoué" />
+    <string id="55" text="Échec dans le premier segment" />
+    <string id="56" text="Échec dans le second segment" />
+    <string id="57" text="Échec dans le segment" />
+    <string id="58" text="Réservé" />
+    <string id="59" text="En cours" />
+    <string id="60" text="Par défaut" />
+    <string id="61" text="Arrière-plan court" />
+    <string id="62" text="Arrière-plan long" />
+    <string id="63" text="Réservé" />
+    <string id="64" text="Arrière-plan interrompu" />
+    <string id="65" text="Avant-plan court" />
+    <string id="66" text="Avant-plan long" />
+  </group>
+  <group id="27" title="SCSI: run test">
+    <string id="01" text="Exécute le test en arrière-plan long. Durée estimée : %1 secondes (%2 minutes)." />
+  </group>
+  <group id="29" title="Generic: events log">
+    <string id="01" text="Heure" />
+    <string id="02" text="Périphérique" />
+    <string id="03" text="Attribut" />
+    <string id="04" text="De" />
+    <string id="05" text="À" />
+    <string id="06" text="Changements" />
+    <string id="07" text="Supprime le journal" />
+    <string id="08" text="Supprime tous les journaux" />
+    <string id="09" text="Aucun événement enregistré ce jour." />
+    <string id="10" text="Jour précédent" />
+    <string id="11" text="Aujourd'hui" />
+    <string id="12" text="Jour suivant" />
+    <string id="13" text="Recharger" />
+    <string id="14" text="Aucun événement enregistré pour ce périphérique" />
+    <string id="15" text="Copier les données d'événements dans le presse-papiers" />
+    <string id="16" text="Sauvegarder le journal en fichier texte" />
+  </group>
+  <group id="30" title="Generic: events chart">
+    <string id="01" text="% événements enregistrés" />
+    <string id="02" text="Date et heure" />
+    <string id="03" text="De" />
+    <string id="04" text="À" />
+    <string id="05" text="Variation" />
+    <string id="06" text="Recharger" />
+  </group>
+  <group id="31" title="Generic: smartctl output">
+    <string id="01" text="Sauver" />
+  </group>
+  <group id="32" title="Windows devices">
+    <string id="01" text="Index du périphérique " />
+    <string id="02" text="Partitions " />
+    <string id="03" text="Taille totale " />
+    <string id="04" text="Taille disponible " />
+    <string id="05" text="Numéro de série " />
+    <string id="06" text="Système de fichiers " />
+    <string id="07" text="Nombre de blocs " />
+    <string id="08" text="Taille de blocs " />
+    <string id="09" text="Type " />
+    <string id="10" text="Démarrable " />
+    <string id="11" text="Partition de démarrage " />
+    <string id="12" text="Partition primaire " />
+    <string id="13" text="Collecte des données en cours..." />
+    <string id="14" text="Carte mère " />
+    <string id="15" text="Processeur " />
+    <string id="16" text="Mémoire installée " />
+    <string id="17" text="Carte graphique " />
+    <string id="18" text="Disque " />
+    <string id="19" text="Partition " />
+    <string id="20" text="Oui" />
+    <string id="21" text="Non" />
+    <string id="31" text="Professionnel" />
+    <string id="32" text="Joueur" />
+    <string id="33" text="Portable" />
+  </group>
+  <group id="33" title="Settings side menu">
+    <string id="01" text="Réglages généraux" />
+    <string id="02" text="Détection des périphériques" />
+    <string id="04" text="Alertes par e-mail" />
+    <string id="05" text="Langues" />
+    <string id="06" text="Mise à jour des périphériques" />
+    <string id="07" text="Surveillance" />
+    <string id="08" text="Avertissements" />
+    <string id="09" text="Partage de sortie" />
+    <string id="10" text="Notation du périphérique" />
+    <string id="11" text="Périphériques additionnels" />
+  </group>
+  <group id="34" title="Settings: general settings">
+    <string id="01" text="Exécuter avec Windows" />
+    <string id="02" text="Démarrer minimisé" />
+    <string id="03" text="Réduire dans la barre de tâches" />
+    <string id="04" text="Fermer dans la barre de tâches" />
+    <string id="05" text="Toujours afficher l'icône dans la barre de tâches" />
+    <string id="06" text="Confirmer à la fermeture" />
+    <string id="07" text="Rechercher les mises à jour" />
+    <string id="08" text="Afficher températures en Fahrenheit" />
+    <string id="09" text="Mémoriser la taille de la fenêtre" />
+    <string id="10" text="Afficher les événements de débogage dans la fenêtre principale" />
+    <string id="11" text="Afficher le panneau d'information des icônes" />
+    <string id="20" text="Démarrage" />
+    <string id="21" text="Comportement" />
+    <string id="22" text="Mises à jour" />
+    <string id="23" text="Températures" />
+    <string id="24" text="Débogage" />
+  </group>
+  <group id="35" title="Settings: device detection">
+    <string id="01" text="Suivre la connexion/déconnexion des périphériques USB" />
+    <string id="03" text="Activer la gestion d'Intel Matrix (CSMI)" />
+    <string id="04" text="HDD Guardian doit être redémarré pour activer ce réglage." />
+  </group>
+  <group id="36" title="Settings: additional devices (and his dialog window)">
+    <string id="01" text="Cette section permet d'ajouter des périphériques non détectés par HDD Guardian, comme les périphériques sous contrôleurs Areca.&#xD;&#xA;Pour ajouter un périphérique, il faut saisir sa description (exemple : /dev/areca2) et la commande qui identifie le périphérique (exemple : -d areca,2 /dev/arcmsr0)." />
+    <string id="02" text="Description" />
+    <string id="03" text="Commande SmartCtl" />
+    <string id="04" text="Ajouter" />
+    <string id="05" text="Enlever" />
+    <string id="20" text="Réglage additionnel du périphérique" />
+    <string id="21" text="Annuler" />
+  </group>
+  <group id="37" title="Settings: mail alerts">
+    <string id="01" text="Activer les alertes par e-mails" />
+    <string id="02" text="E-mail de destination" />
+    <string id="03" text="Envoyer un e-mail de test" />
+    <string id="04" text="Envoyer un e-mail sur" />
+    <string id="05" text="Périphérique défaillant" />
+    <string id="06" text="Température excessive" />
+    <string id="07" text="Fiabilité en baisse" />
+    <string id="08" text="Ce message est envoyé uniquement à des fins de test." />
+    <string id="20" text="Le(s) périphérique(s) suivant(s) n'a(ont) pas passé le contrôle global d'état S.M.A.R.T." />
+    <string id="21" text="Le(s) périphérique(s) suivant(s) a(ont) signalé une température excessive" />
+    <string id="22" text="Le(s) périphérique(s) suivant(s) a(ont) une fiabilité en baisse" />
+    <string id="31" text="Identifiant utilisateur" />
+    <string id="32" text="Mot de passe utilisateur" />
+    <string id="33" text="Hôte SMTP" />
+    <string id="34" text="Port SMTP" />
+    <string id="35" text="Utiliser SSL" />
+    <string id="40" text="Définir le serveur de messagerie" />
+  </group>
+  <group id="38" title="Settings: devices updates">
+    <string id="01" text="Régler la fréquence de mise à jour des données de périphérique" />
+    <string id="02" text="minutes" />
+  </group>
+  <group id="39" title="Settings: devices monitoring">
+    <string id="01" text="Suivre ces paramètres" />
+    <string id="02" text="Paramètres des HDD" />
+    <string id="03" text="Indicateurs de vie de SSD" />
+    <string id="04" text="Inverser la sélection" />
+    <string id="05" text="Paramètres génériques" />
+    <string id="06" text="Paramètres des SCSI" />
+    <string id="10" text="Nombre de secteur réalloué" />
+    <string id="11" text="Nombre de tentative de rotation" />
+    <string id="12" text="Température" />
+    <string id="13" text="Nombre d'événement réalloué" />
+    <string id="14" text="Secteur actuel en attente" />
+    <string id="15" text="Hors ligne incorrigible" />
+    <string id="16" text="Taux d'erreur de lecture" />
+    <string id="17" text="Décalage disque" />
+    <string id="20" text="Pourcentage de vie restante" />
+    <string id="21" text="Indicateur d'usure de média" />
+    <string id="22" text="Pourcentage utilisé de vie" />
+    <string id="23" text="Niveau d'usure de l'unité" />
+    <string id="24" text="Vie restante SSD" />
+    <string id="30" text="Erreurs hors surface" />
+    <string id="31" text="Éléments dans la liste des défauts" />
+  </group>
+  <group id="40" title="Settings: warnings">
+    <string id="01" text="Attention..." />
+    <string id="02" text="En cas de modification d'un de ces paramètres" />
+    <string id="03" text="En cas de défaillance imminente" />
+    <string id="04" text="Lorsque la température dépasse le seuil" />
+    <string id="05" text="Seuil personnalisé" />
+  </group>
+  <group id="41" title="Settings: output sharing">
+    <string id="01" text="Sélectionner le dossier où partager la sortie des périphériques" />
+    <string id="02" text="Parcourir" />
+    <string id="03" text="Aucun dossier sélectionné." />
+    <string id="10" text="Sélectionner le dossier où sauvegarder le rapport XML des périphériques" />
+    <string id="11" text="Générer un rapport XML de l'état des périphériques" />
+    <string id="20" text="Sortie de SmartCtl" />
+    <string id="21" text="Rapport global XML" />
+  </group>
+  <group id="42" title="Settings: device rating">
+    <string id="01" text="Activer l'indice de fiabilité" />
+    <string id="02" text="Modifier les valeurs de seuil" />
+    <string id="03" text="Réinitialiser aux valeurs par défaut" />
+    <string id="04" text="Nombre d'erreurs ATA " />
+    <string id="05" text="Événements réalloués " />
+    <string id="06" text="Secteurs en attente " />
+    <string id="07" text="Réallocations hors ligne " />
+  </group>
+  <group id="43" title="Settings: languages">
+    <string id="01" text="Automatique" />
+    <string id="02" text="Choisir la langue préférée" />
+    <string id="03" text="Langue" />
+    <string id="04" text="Version" />
+    <string id="05" text="Traducteur" />
+  </group>
+  <group id="45" title="Messages">
+    <string id="01" text="Nouvelle version de HDD Guardian disponible (%) !&#xD;&#xA;Cliquer sur l'icône pour aller à la page de téléchargement." />
+    <string id="02" text="Prise en compte du réglage en cours" />
+    <string id="03" text="Alarme : température du périphérique" />
+    <string id="04" text="Alarme de défaillance du périphérique" />
+    <string id="05" text="%&#xD;&#xA;Défaillance du périphérique prévue dans les 24 h.&#xD;&#xA;SAUVEGARDER TOUTES LES DONNÉES !" />
+    <string id="06" text="Avertissement" />
+    <string id="07" text="Absence de droits administrateur !&#xD;&#xA;Certaines fonctions ne sont pas disponibles et certaines données peuvent être inexactes." />
+  </group>
+  <group id="48" title="Common strings">
+    <string id="01" text="octets" />
+    <string id="02" text="logiques" />
+    <string id="03" text="physiques" />
+    <string id="04" text="Disponible" />
+    <string id="05" text="Indisponible" />
+    <string id="06" text="Ambigu" />
+    <string id="07" text="et activé" />
+    <string id="08" text="mais désactivé" />
+    <string id="09" text="Inconnu" />
+  </group>
+  <group id="49" title="Tray icon baloons">
+    <string id="01" text="Alarme : état du périphérique" />
+    <string id="02" text="de" />
+    <string id="03" text="à" />
+    <string id="04" text="dégradation" />
+    <string id="05" text="récupération" />
+  </group>
+  <group id="50" title="Virtual devices window">
+    <string id="01" text="Ajouter un périphérique virtuel" />
+    <string id="02" text="Description" />
+    <string id="03" text="Fichier" />
+    <string id="04" text="Ajouter" />
+    <string id="05" text="Annuler" />
+    <string id="06" text="Erreur" />
+    <string id="07" text="Ce fichier ne contient pas de données SmartCtl." />
+  </group>
+  <group id="51" title="Various messages">
+    <string id="01" text="Erreur" />
+    <string id="02" text="Aucun périphérique trouvé, fermeture du programme." />
+    <string id="03" text="Impossible de localiser 'smartctl.exe', fermeture du programme." />
+    <string id="10" text="Cette section nécessite les droits administrateur." />
+    <string id="11" text="Données non disponibles en raison de l'absence des droits administrateur." />
+    <string id="12" text="Ce paramètre est sans danger pour les données utilisateur, nécessite les droits administrateur et n'est pas disponible pour les périphériques virtuels et SCSI." />
+    <string id="13" text="Cette section nécessite les droits administrateur et n'est pas disponible pour les périphériques virtuels." />
+  </group>
+  <group id="52" title="Quit confirm">
+    <string id="01" text="Confirmation" />
+    <string id="02" text="Faut-il vraiment quitter HDD Guardian ?" />
+  </group>
+</interface>

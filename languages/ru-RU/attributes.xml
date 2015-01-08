@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+  <attribute smartctl="Dummy" group="Generic">
+    <name>Unknown</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Not_Supported" group="Generic">
+    <name>Attribute not supported</name>
+    <description>Атрибут не поддерживается этим устройством</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="Generic">
+    <name>Read Error Rate</name>
+    <description>Показывает частоту ошибок чтения данных с поверхности диска. Исходное значение имеет различную структуру у разных производителей и часто как десятичное число не имеет смысла.</description>
+  </attribute>
+  <attribute smartctl="Throughput_Performance" group="Generic">
+    <name>Throughput Performance</name>
+    <description>Сквозная (общая) производительность жесткого диска. Если значение атрибута уменьшается, то велика вероятность, что с диском есть проблемы.</description>
+  </attribute>
+  <attribute smartctl="Spin_Up_Time" group="Generic">
+    <name>Spin-Up Time</name>
+    <description>Среднее время (в секундах или миллисекундах) раскрутки шпинделя (от нуля оборотов в минуту до рабочей скорости).</description>
+  </attribute>
+  <attribute smartctl="Start_Stop_Count" group="Generic">
+    <name>Start/Stop Count</name>
+    <description>Показывает число циклов запуска/остановки шпинделя жесткого диска.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="Generic">
+    <name>Reallocated Sectors Count</name>
+    <description>Число переназначенных секторов (1 сектор = 512 байт). Когда жесткий диск обнаруживает ошибку чтения/записи/проверки, он помечает сектор как "переназначенный" и перемещает данные в специально отведеную резервную область. Этот процесс называют "remapping", а переназначенный сектор "remap". Чем больше секторов переназначено, тем больше падение скорости чтения/записи.</description>
+  </attribute>
+  <attribute smartctl="Read_Channel_Margin" group="Generic">
+    <name>Read Channel Margin</name>
+    <description>Показывает запас канала при чтении данных. Большинством производителей параметр не используется.</description>
+  </attribute>
+  <attribute smartctl="Seek_Error_Rate" group="Generic">
+    <name>Seek Error Rate</name>
+    <description>Число ошибок поиска дорожки магнитными головками. В случае сбоя в механической системе позиционирования, повреждения сервопривода или теплового расширения жесткого диска, число ошибок поиска растет. Большое число ошибок поиска указывает на ухудшение состояния поверхности диска и механической подсистемы.</description>
+  </attribute>
+  <attribute smartctl="Seek_Time_Performance" group="Generic">
+    <name>Seek Time Performance</name>
+    <description>Средняя производительность операций поиска магнитными головками. Если этот атрибут уменьшается, это является признаком проблем в механической подсистеме.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Generic">
+    <name>Power-On Hours</name>
+    <description>Показывает количество часов во включенном состоянии. Значение этого атрибута показывает общее количество часов во включенном состоянии. Уменьшение значения атрибута до критического (порогового) уровня указывает на снижение MTBF (среднее время наработки на отказ).</description>
+  </attribute>
+  <attribute smartctl="Power_On_Minutes" group="Generic">
+    <name>Power-On Minutes</name>
+    <description>Показывает количество минут во включенном состоянии. Значение этого атрибута показывает общее количество минут во включенном состоянии. Уменьшение значения атрибута до критического (порогового) уровня указывает на снижение MTBF (среднее время наработки на отказ).</description>
+  </attribute>
+  <attribute smartctl="Spin_Retry_Count" group="Generic">
+    <name>Spin Retry Count</name>
+    <description>Количество попыток начала раскрутки. Этот атрибут хранит общее число попыток достичь полной рабочей скорости (при условии, что первая попытка была неудачной). Увеличение значения этого атрибута сигнализирует о проблемах в механической части жесткого диска.</description>
+  </attribute>
+  <attribute smartctl="Calibration_Retry_Count" group="Generic">
+    <name>Calibration Retry Count</name>
+    <description>Этот атрибут указывает сколько раз потребовалась повторная калибровка (при условии, что первая попытка была неудачной). Увеличение значения этого атрибута является признаком проблем с механической частью жесткого диска.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Generic">
+    <name>Power Cycle Count</name>
+    <description>Это информационный параметр и указывает на количество полных циклов включения/выключения жесткого диска.</description>
+  </attribute>
+  <attribute smartctl="Read_Soft_Error_Rate" group="Generic">
+    <name>Soft Read Error Rate</name>
+    <description>Нескорректированные ошибки чтения, переданные в операционную систему. Если значение не равно нулю, следует сохранить резервную копию данных.</description>
+  </attribute>
+  <attribute smartctl="Soft_Read_Error_Rate" group="Generic">
+    <name>Soft Read Error Rate</name>
+    <description>Этот параметр показывает количество нескорректированных программных ошибок чтения.</description>
+  </attribute>
+  <attribute smartctl="SATA_Downshift_Count" group="Generic">
+    <name>SATA Downshift Error Count</name>
+    <description>Атрибут используется в некоторых дисках Western Digital и Samsung.</description>
+  </attribute>
+  <attribute smartctl="End-to-End_Error" group="Generic">
+    <name>End-to-End error</name>
+    <description>Этот параметр - часть принадлежащей HP технологии SMART IV - означает, что после передачи через кэш данных буфера, четность между хостом и жестким диском не совпадает. Для получения более подробной информации см. документацию по SMART IV от HP.</description>
+  </attribute>
+  <attribute smartctl="Reported_Uncorrect" group="Generic">
+    <name>Uncorrectable Error Count</name>
+    <description>Этот параметр показывает количество ошибок, которые не могут быть исправлены аппаратными средствами корректировки ошибок (ECC).</description>
+  </attribute>
+  <attribute smartctl="Command_Timeout" group="Generic">
+    <name>Command Timeout</name>
+    <description>Количество прерванных операций в связи с превышением времени отклика HDD. В нормальных условиях этот атрибут равен нулю и если его значение значительно превышает ноль, то, скорее всего, есть серьезные проблемы с питанием диска или окислением контактов кабеля данных.</description>
+  </attribute>
+  <attribute smartctl="High_Fly_Writes" group="Generic">
+    <name>High Fly Writes</name>
+    <description>Производители HDD реализовали Fly Height Monitor (монитор высоты полета) в попытке обеспечить защиту операций записи обнаружением выхода головки за нормальный рабочий диапазон высот. При достижении небезопасной высоты полета, процесс записи останавливается и информация переписывается или перемещается в безопасную область жесткого диска. Атрибут показывает число таких ошибок в течение всего времени эксплуатации диска.</description>
+  </attribute>
+  <attribute smartctl="Airflow_Temperature_Cel" group="Generic">
+    <name>Airflow Temperature</name>
+    <description>Температура воздушного потока внутри дисков Western Digital (то же самое, что Temperature (194), но текущее значение меньше на 50).</description>
+  </attribute>
+  <attribute smartctl="G-Sense_Error_Rate" group="Generic">
+    <name>G-sense/shock error rate</name>
+    <description>Количество ошибок, возникающих в результате ударных нагрузок. Атрибут сохраняет показания датчика акселерометра, то есть общее количество ошибок, вызванных внутренними ударными нагрузками.</description>
+  </attribute>
+  <attribute smartctl="Power-Off_Retract_Count" group="Generic">
+    <name>Power-off Retract Count</name>
+    <description>Этот атрибут указывает на количество возвратов головок в результате потери питания.</description>
+  </attribute>
+  <attribute smartctl="Load_Cycle_Count" group="Generic">
+    <name>Load Cycle Count</name>
+    <description>Нагрузка на магнитный привод головок, вызванная многочисленными повторными операциями: чтение, запись, позиционирование головок и т.п. Учитываются только достижения головками рабочей позиции.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="Generic">
+    <name>Hard Disk Assembly Temperature</name>
+    <description>Этот параметр показывает температуру диска.</description>
+  </attribute>
+  <attribute smartctl="Hardware_ECC_Recovered" group="Generic">
+    <name>Hardware ECC Recovered</name>
+    <description>Время между событиями корректировки ошибок при помощи ECC (код с коррекцией ошибок).</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Event_Count" group="Generic">
+    <name>Reallocation Event Count</name>
+    <description>Параметр показывает число операций переназначения (перемещение данных из плохого сектора в специально выделенную область диска - резервную область). Исходное значение этого атрибута показывает общее количество попыток переноса данных из переназначенных секторов в резервную область. Неудачные попытки учитываются так же, как успешные.  Поскольку это значение накапливающееся, оно может только расти.</description>
+  </attribute>
+  <attribute smartctl="Current_Pending_Sector" group="Generic">
+    <name>Current Pending Sector Count</name>
+    <description>Это критический параметр и указывает на текущее число нестабильных секторов (ожидающих переназначения). Исходное значение атрибута показывает общее количество ожидающих переназначения секторов. В дальнейшем, когда некоторые из этих секторов будут считаны успешно, значение уменьшится. Если же ошибки чтения повторятся, устройство попытается восстановить данные, переместит их в резервную область и пометит эти сектора как переназначенные.</description>
+  </attribute>
+  <attribute smartctl="Offline_Uncorrectable" group="Generic">
+    <name>Uncorrectable Sector Count </name>
+    <description>Параметр является критическим и указывает на количество некорректируемых ошибок. Исходное значение атрибута показывает общее число некорректируемых ошибок чтения/записи секторов. Рост значения атрибута может означать дефекты поверхности диска и/или проблемы в механической части.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Generic">
+    <name>UltraDMA CRC Error Count</name>
+    <description>Этот параметр показывает общее количество ошибок CRC (циклический избыточный код) в режиме UltraDMA. Исходное значение атрибута показывает число ошибок, обнаруженных при передаче данных в режиме UltraDMA посредством ICRC (интерфейсный циклический избыточный код).</description>
+  </attribute>
+  <attribute smartctl="Write_Error_Rate" group="Generic">
+    <name>Write Error Rate</name>
+    <description>Этот параметр показывает общее количество ошибок, возникших во время записи данных на жесткий диск. Это может быть вызвано проблемами с головками чтения/записи или поверхностью диска.</description>
+  </attribute>
+  <attribute smartctl="Multi_Zone_Error_Rate" group="Generic">
+    <name>Multi-Zone Error Rate</name>
+    <description>Этот параметр показывает общее количество ошибок, возникших во время записи данных на жесткий диск. Это может быть вызвано проблемами с головками чтения/записи или поверхностью диска.</description>
+  </attribute>
+  <attribute smartctl="Soft_Read_Error_Rate" group="Generic">
+    <name>Soft Read Error Rate</name>
+    <description>Этот параметр показывает количество нескорректированных программных ошибок чтения.</description>
+  </attribute>
+  <attribute smartctl="Data_Address_Mark_Errs" group="Generic">
+    <name>Data Address Mark errors</name>
+    <description>Этот параметр показывает количество неправильных или ошибочных меток адреса.</description>
+  </attribute>
+  <attribute smartctl="Run_Out_Cancel" group="Generic">
+    <name>Run Out Cancel</name>
+    <description>Этот параметр показывает, что во время коррекции ошибки была обнаружена неправильная контрольная сумма (ECC).</description>
+  </attribute>
+  <attribute smartctl="Soft_ECC_Correction" group="Generic">
+    <name>Soft ECC Correction</name>
+    <description>Этот параметр показывает количество ошибок, исправленных внутренним механизмом коррекции.</description>
+  </attribute>
+  <attribute smartctl="Thermal_Asperity_Rate" group="Generic">
+    <name>Thermal Asperity Rate</name>
+    <description>Этот параметр показывает общее количество ошибок, вызванных перегревом.</description>
+  </attribute>
+  <attribute smartctl="Flying_Height" group="Generic">
+    <name>Flying Height</name>
+    <description>Этот параметр показывает высоту головок над поверхностью диска. Малое значение параметра увеличивает вероятность повреждения головки, а большое - ошибки чтения/записи.</description>
+  </attribute>
+  <attribute smartctl="Spin_High_Current" group="Generic">
+    <name>Spin High Current</name>
+    <description>Этот параметр показывает величину силы тока, необходимую для раскрутки диска.</description>
+  </attribute>
+  <attribute smartctl="Spin_Buzz" group="Generic">
+    <name>Spin Buzz</name>
+    <description>Этот параметр показывает число попыток раскрутки диска, вызванных недостаточной величиной тока.</description>
+  </attribute>
+  <attribute smartctl="Offline_Seek_Performnce" group="Generic">
+    <name>Offline Seek Performance</name>
+    <description>Этот параметр показывает эффективность позиционирования жесткого диска во время внутреннего самотестирования.</description>
+  </attribute>
+  <attribute smartctl="Disk_Shift" group="Generic">
+    <name>Disk Shift</name>
+    <description>Этот параметр показывает величину смещения диска относительно шпинделя, что может быть вызвано механическим ударом или высокой температурой. Единица измерения неизвестна.</description>
+  </attribute>
+  <attribute smartctl="G-Sense_Error_Rate" group="Generic">
+    <name>G-Sense Error Rate</name>
+    <description>Количество ошибок, возникающих в результате ударных нагрузок. Атрибут сохраняет показания датчика акселерометра, то есть общее количество ошибок, вызванных внутренними ударными нагрузками.</description>
+  </attribute>
+  <attribute smartctl="Loaded_Hours" group="Generic">
+    <name>Loaded Hours</name>
+    <description>Время под рабочей нагрузкой (движение якоря магнитных головок). Это значение постоянно растет (на единицу в час).</description>
+  </attribute>
+  <attribute smartctl="Load_Retry_Count" group="Generic">
+    <name>Load/Unload Retry Count</name>
+    <description>Этот параметр показывает количество входов/выходов головок в рабочую зону диска.</description>
+  </attribute>
+  <attribute smartctl="Load_Friction" group="Generic">
+    <name>Load Friction</name>
+    <description>Этот параметр показывает величину трения между механическими элементами диска. Растущее значение показывает наличие проблем в механической подсистеме.</description>
+  </attribute>
+  <attribute smartctl="Load_Cycle_Count" group="Generic">
+    <name>Load/Unload Cycle Count</name>
+    <description>Нагрузка на магнитный привод головок, вызванная многочисленными повторными операциями: чтение, запись, позиционирование головок и т.п. Учитываются только достижения головками рабочей позиции.</description>
+  </attribute>
+  <attribute smartctl="Load-in_Time" group="Generic">
+    <name>Load 'In'-time</name>
+    <description>Общее время нагрузки на якорь магнитных головок (время нахождения вне парковочной зоны).</description>
+  </attribute>
+  <attribute smartctl="Torq-amp_Count" group="Generic">
+    <name>Torque Amplification Count</name>
+    <description>Количество попыток скомпенсировать изменения скорости пластин.</description>
+  </attribute>
+  <attribute smartctl="Power-off_Retract_Count" group="Generic">
+    <name>Power-Off Retract Cycle</name>
+    <description>Этот параметр показывает количество возвратов головок в результате внезапного отключения  питания.</description>
+  </attribute>
+  <attribute smartctl="Head_Amplitude" group="Generic">
+    <name>GMR Head Amplitude</name>
+    <description>Амплитуда "дрожания" головок (GMR head - головка со сверхбольшим магнитным сопротивлением) в рабочем режиме.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="Generic">
+    <name>Temperature</name>
+    <description>Этот параметр показывает температуру диска.</description>
+  </attribute>
+  <attribute smartctl="Head_Flying_Hours" group="Generic">
+    <name>Head Flying Hours</name>
+    <description>Этот параметр показывает общее время позиционирования головок диска.</description>
+  </attribute>
+  <attribute smartctl="Transfer_Error_Rate" group="Generic">
+    <name>Transfer Error Rate</name>
+    <description>Если устройство принимает команду сброса во время передачи данных, этот параметр (счетчик ошибок передачи данных) увеличивается.</description>
+  </attribute>
+  <attribute smartctl="Read_Error_Retry_Rate" group="Generic">
+    <name>Read Error Retry Rate</name>
+    <description>Этот параметр показывает количество ошибок, обнаруженных во время чтения сектора с поверхности диска.</description>
+  </attribute>
+  <attribute smartctl="Free_Fall_Sensor" group="Generic">
+    <name>Free Fall Sensor</name>
+    <description>Этот параметр показывает количество свободных падений зафиксированных датчиком акселерометра.</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="Micron">
+    <name>Raw Read Error Rate</name>
+    <description>Поле данных содержит исходное значение суммы исправленных и неисправленных с применением кода ECC (корректирующий код) ошибок за всю жизнь диска. При достижении значения 4.294.967.295, происходит возврат к началу.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="Micron">
+    <name>Re-Allocated Block Count</name>
+    <description>Это значение показывает общее число плохих блоков минус число однократно программируемых (OTP) плохих блоков.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Micron">
+    <name>Power-On Hours Count</name>
+    <description>Это значение показывает исходное число часов, в течении которых устройство было включено.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Micron">
+    <name>Power Cycle Count</name>
+    <description>Это значение показывает исходное число включений, зарегистрированных диском.</description>
+  </attribute>
+  <attribute smartctl="Grown_Failing_Clock_Ct" group="Micron">
+    <name>Grown Failing Block Count</name>
+    <description>Это значение показывает общее число плохих блоков минус число однократно программируемых (OTP) плохих блоков.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count" group="Micron">
+    <name>Program Fail Count</name>
+    <description>Это значение содержит исходное число ошибок программирования. При достижении значения 65535 больше не увеличивается.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count" group="Micron">
+    <name>Erase Fail Count</name>
+    <description>Это значение содержит исходное число ошибок стирания. При достижении значения 65535 больше не увеличивается.</description>
+  </attribute>
+  <attribute smartctl="Wear_Levelling_Count" group="Micron">
+    <name>Block Wear Leveling Count</name>
+    <description>Среднее число стираний всех хороших блоков.</description>
+  </attribute>
+  <attribute smartctl="Unexpect_Power_Loss_Ct" group="Micron">
+    <name>Unexpected Power Loss Count</name>
+    <description>Общее количество случаев неожиданного отключения питания.</description>
+  </attribute>
+  <attribute smartctl="Non4k_Aligned_Access" group="Micron">
+    <name>Non 4k Aligned Access</name>
+    <description>Этот атрибут содержит два исходных значения: младшие 16 бит данных представляют собой счетчик общего количества чтений с невыравненных блоков разделенное на 60000 с верхним значением 65535; старшие 16 бит - общее количество невыравненных записей, также поделенное на 60000 и с потолком 65535.</description>
+  </attribute>
+  <attribute smartctl="SATA_Iface_Downshift" group="Micron">
+    <name>SATA Interface Downshift</name>
+    <description>По завершении согласования скорости обмена между хостом и устройством, микропрограмма записывает новое согласованное значение скорости. Это значение сравнивается с ранее записанным, и если новое значение оказывается ниже, значит произошло снижение скорости обмена, что приводит к увеличению счетчика.</description>
+  </attribute>
+  <attribute smartctl="Reported_Uncorrect" group="Micron">
+    <name>Reported Uncorrectable Errors</name>
+    <description>Это значение показывает общее число неудачных корректировок при помощи ECC (корректирующий код), отмеченных секвенсором.</description>
+  </attribute>
+  <attribute smartctl="Command_Timeout" group="Micron">
+    <name>Command Timeouts</name>
+    <description>Этот счетчик увеличивается на число невыполненных команд, когда хост инициирует перезагрузку, выключение или сброс соединения. Данные содержат исходное значение этого счетчика. Если оно достигает 4.294.967.295, происходит возврат к началу.</description>
+  </attribute>
+  <attribute smartctl="Factory_Bad_Block_Ct" group="Micron">
+    <name>Factory Bad Block Count</name>
+    <description>Количество однократно программируемых (OTP) плохих блоков.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Event_Count" group="Micron">
+    <name>Reallocation Event Count</name>
+    <description>Это значение показывает общее число плохих блоков минус число однократно программируемых (OTP) плохих блоков.</description>
+  </attribute>
+  <attribute smartctl="Current_Pending_Sector" group="Micron">
+    <name>Current Pending Sector Count</name>
+    <description>Будет всегда равен 0, так как переназначение осуществляется в ходе нормальной работы, на лету.</description>
+  </attribute>
+  <attribute smartctl="Offline_Uncorrectable" group="Micron">
+    <name>SMART Off-Line Scan Uncorrectable Error Count</name>
+    <description>Некорректируемые ошибки, обнаруженные в ходе автономного сканирования.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Micron">
+    <name>Ultra DMA CRC Error Rate</name>
+    <description>Показывает количество зарегистрированных FIS (контрольно-измерительная система) интерфейса основных ошибок CRC (циклический избыточный код) в течении срока службы устройства. Если значение счетчика достигает 4.294.967.295, происходит возврат к началу.</description>
+  </attribute>
+  <attribute smartctl="Perc_Rated_Life_Used" group="Micron">
+    <name>Percentage Rated Life Used</name>
+    <description>Среднее количество стираний всех блоков поделенное на максимальное количество стираний (10 тыс. для MLC или 100 тыс. для SLC) в виде процента использованного ресурса (от 0 до 100%).</description>
+  </attribute>
+  <attribute smartctl="Write_Error_Rate" group="Micron">
+    <name>Write Error Rate</name>
+    <description>Показывает количество ошибок программирования деленное на 60000. Значение достигшее 65535 дальше не увеличивается.</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="Indilinx">
+    <name>Raw Read Error Rate</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Indilinx">
+    <name>Power-On Hours</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Indilinx">
+    <name>Power Cycle Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Initial_Bad_Block_Count" group="Indilinx">
+    <name>Initial Bad Block Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Program_Failure_Blk_Ct" group="Indilinx">
+    <name>Program Failure Block Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Erase_Failure_Blk_Ct" group="Indilinx">
+    <name>Erase Failure Block Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Read_Failure_Blk_Ct" group="Indilinx">
+    <name>Read Failure Block Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Read_Sectors_Tot_Ct" group="Indilinx">
+    <name>Read Sectors Total Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Write_Sectors_Tot_Ct" group="Indilinx">
+    <name>Write Sectors Total Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Read_Command_Tot_Ct" group="Indilinx">
+    <name>Read Commands Total Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Write_Commands_Tot_Ct" group="Indilinx">
+    <name>Write Commands Total Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Error_Bits_Flash_Tot_Ct" group="Indilinx">
+    <name>Total Count of Read Sectors with Correctable Bits Errors</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Corr_Read_Errors_Tot_Ct" group="Indilinx">
+    <name>Correction Read Errors Total Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Bad_Block_Full_Flag" group="Indilinx">
+    <name>Bad Block Full Flag</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="MAX_PE_Count_Spec" group="Indilinx">
+    <name>Maximum PE Count Specification</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Min_Erase_Count" group="Indilinx">
+    <name>Minimum Erase Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Max_Erase_Count" group="Indilinx">
+    <name>Maximum Erase Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Average_Erase_Count" group="Indilinx">
+    <name>Average Erase Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Remaining_Lifetime_Perc" group="Indilinx">
+    <name>Remaining Lifetime Percentage</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Indilinx_Internal" group="Indilinx">
+    <name>Indilinx Internal</name>
+    <description>Атрибут зарезервированный Indilinx.</description>
+  </attribute>
+  <attribute smartctl="SATA_Error_Ct_CRC" group="Indilinx">
+    <name>SATA Error Count CRC</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="SATA_Error_Ct_Handshake" group="Indilinx">
+    <name>SATA Error Count Handshake</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Spin_Up_Time" group="Intel">
+    <name>Spin Up Time</name>
+    <description>Среднее время раскрутки шпинделя. Поскольку SSD не имеют движущихся частей, этот атрибут показывает фиксированное нулевое исходное значение (0) и фиксированное нормализованное значение 100.</description>
+  </attribute>
+  <attribute smartctl="Start_Stop_Count" group="Intel">
+    <name>Start/Stop Count</name>
+    <description>Этот тип события не является важным для SSD. Однако, жесткие диски рассчитаны на ограниченное количество этих событий, которые, поэтому, должны отслеживаться. Атрибут сохраняет фиксированное значение нуля (0) и фиксированное нормализованное значение 100.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="Intel">
+    <name>Re-Allocated Sector Count</name>
+    <description>Этот атрибут показывает количество вышедших из строя блоков с момента выпуска устройства (известен также как растущий список дефектов). Для устройств с 50 нм технологией нормализованное значение имеет начальную величину 100 и увеличивается на 1 после каждых 4 дефектов. Нормализованная величина этого атрибута становится 1 после первых 4 дефектов, затем 2 - после 8 дефектов, и т.д. Для 34 нм накопителей исходное значение увеличивается после каждого дефекта.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Intel">
+    <name>Power-On Hours Count</name>
+    <description>Этот атрибут показывает общее количество рабочих часов за весь срок службы устройства.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Intel">
+    <name>Power Cycle Count</name>
+    <description>Этот атрибут показывает общее количество циклов включения устройства (циклов вкл/выкл) за весь срок службы устройства.</description>
+  </attribute>
+  <attribute smartctl="Reserve_Block_Count" group="Intel">
+    <name>Available Reserved Space</name>
+    <description>Этот атрибут показывает количество оставшихся резервных блоков. Начальное значение атрибута 100 означает стопроцентную доступность резервной области. Пороговое значение атрибута - 10% доступности, что указывает на близость окончания срока службы носителя.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count" group="Intel">
+    <name>Program Fail Block Count</name>
+    <description>Процент ошибок NAND-программирований.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count" group="Intel">
+    <name>Erase Fail Count</name>
+    <description>Процент ошибок NAND-стираний.</description>
+  </attribute>
+  <attribute smartctl="SATA_Downshift_Count" group="Intel">
+    <name>SATA Downshift Count</name>
+    <description>Счетчик количества событий, когда SATA-интерфейс уменьшил скорость передачи данных из-за ошибки.</description>
+  </attribute>
+  <attribute smartctl="End-to-End_Error" group="Intel">
+    <name>End to End Error Detection Count</name>
+    <description>Этот атрибут доступен только в 34 нм устройствах и содержит количество ошибок, возникших при проверке метки логической адресации блоков (LBA) во время перемещения данных внутри устройства.</description>
+  </attribute>
+  <attribute smartctl="Reported_Uncorrect" group="Intel">
+    <name>Uncorrectable Error Count</name>
+    <description>Исходное значение атрибута показывает число ошибок, которые не могут быть исправлены при помощи корректирующего кода (ECC).</description>
+  </attribute>
+  <attribute smartctl="Airflow_Temperature_Cel" group="Intel">
+    <name>Temperature - Airflow Temperature (Case)</name>
+    <description>Показывает температуру корпуса SSD. Исходное значение равно 100 - температура корпуса в градусах Цельсия.</description>
+  </attribute>
+  <attribute smartctl="Unsafe_Shutdown_Count" group="Intel">
+    <name>Unsafe Shutdown Count</name>
+    <description>Этот атрибут сообщает об общем количестве событий небезопасного (нештатного) выключения устройства за весь срок его службы. Небезопасное выключение происходит, когда выключенное устройство не получило команду "standby immediate" (немедленная остановка) как последнюю команду.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="Intel">
+    <name>Device Internal Temperature</name>
+    <description>Сообщает внутреннюю температуру SSD. Значение температуры считывается непосредственно с датчика печатной платы (PCB) без смещения.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Intel">
+    <name>CRC Error Count </name>
+    <description>Общее количество ошибок циклического избыточного кода (CRC), произошедших в SATA-интерфейсе.</description>
+  </attribute>
+  <attribute smartctl="Host_Writes_32MiB" group="Intel">
+    <name>Host Writes</name>
+    <description>Атрибут показывает общее количество записанных хостом секторов. Исходное значение увеличивается на 1 после каждых 65536 секторов, записанных хостом.</description>
+  </attribute>
+  <attribute smartctl="Intel_Internal" group="Intel">
+    <name>Intel Internal</name>
+    <description>Внутренний атрибут первого поколения SSD Intel.</description>
+  </attribute>
+  <attribute smartctl="Workld_Media_Wear_Indic" group="Intel">
+    <name>Timed Workload Media Wear Indicator</name>
+    <description>Этот атрибут отслеживает износ устройства за последний измеренный промежуток времени как процент от максимального рассчитанного количества циклов. Исходное значение учитывает процент до 3 знаков после запятой. Чтобы получить процент, значение делится на 1024. Например: исходное значение равно 4450, процент износа будет 4450/1024 = 4.345%. Исходное значение останавливается на 65535 и сохраняется до достижения таймером нагрузки (атрибут 228) значения 60 (минут).</description>
+  </attribute>
+  <attribute smartctl="Workld_Host_Reads_Perc" group="Intel">
+    <name>Timed Workload Host Reads Percentage</name>
+    <description>Этот атрибут показывает процент операций ввода/вывода за последний измеренный таймером нагрузки промежуток времени. Исходное значение отслеживает этот процент и при достижении значения 65535 удерживает его до достижения таймером нагрузки (атрибут 228) 60 (минут). Нормализованное значение всегда равно 100 и не должно учитываться.</description>
+  </attribute>
+  <attribute smartctl="Workload_Minutes" group="Intel">
+    <name>Workload Timer</name>
+    <description>Этот атрибут используется для измерения времени, прошедшего с момента включения. Атрибут сбрасывается при получении устройством команды "SMART execute offline immediate" (немедленное выключение). Исходное значение отслеживает время работы в минутах и имеет максимальное значение атрибута 232 = 4,294,967,296 минут (8,171 года). Нормализованное значение всегда равно 100 и не должно учитываться.</description>
+  </attribute>
+  <attribute smartctl="Available_Reservd_Space" group="Intel">
+    <name>Available Reserved Space</name>
+    <description>Этот атрибут показывает количество оставшихся резервных блоков. Начальное значение атрибута 100 означает стопроцентную доступность резервной области. Пороговое значение атрибута - 10% доступности, что указывает на близость окончания срока службы носителя.</description>
+  </attribute>
+  <attribute smartctl="Media_Wearout_Indicator" group="Intel">
+    <name>Media Wearout Indicator</name>
+    <description>Этот атрибут сообщает количество циклов перезаписи NAND-памяти. Нормализованное значение линейно снижается со 100 до 1, в то время как счетчик циклов стирания увеличивается с 0 до максимального рассчитанного количества. Как только нормализованное значение достигает 1, число дальше не уменьшается, хотя вероятнее всего устройство выдержит еще значительный дополнительный износ.</description>
+  </attribute>
+  <attribute smartctl="Host_Writes_32_MiB" group="Intel">
+    <name>Total LBAs Written</name>
+    <description>Счетчик секторов записанных хостом (1 сектор = 512 байт).</description>
+  </attribute>
+  <attribute smartctl="Host_Reads_32MiB" group="Intel">
+    <name>Total LBAs Read</name>
+    <description>Счетчик секторов прочитанных хостом (1 сектор = 512 байт).</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="JMicron">
+    <name>Read Error Rate</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Throughput_Performance" group="JMicron">
+    <name>Throughput Performance</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="JMicron">
+    <name>Reallocated Sector Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="JMicron">
+    <name>Power-On hours Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="JMicron">
+    <name>Drive Power Cycle Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="SATA_Phy_Error_Count" group="JMicron">
+    <name>SATA Phy Error Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Bad_Block_Count" group="JMicron">
+    <name>Bad Block Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Erase_Count" group="JMicron">
+    <name>Erase Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Bad_Cluster_Table_Count" group="JMicron">
+    <name>Bad Cluster Table Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Unexpect_Power_Loss_Ct" group="JMicron">
+    <name>Unexpected Power Loss Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="JMicron">
+    <name>Temperature</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Current_Pending_Sector" group="JMicron">
+    <name>Current Pending Sector Counter</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Halt_System/Flash_ID" group="JMicron">
+    <name>Halt, Flash</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Firmware_Version_Info" group="JMicron">
+    <name>Firmware Version Information</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="ECC_Fail_Record" group="JMicron">
+    <name>ECC Fail Record</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Avg/Max_Erase_Ct" group="JMicron">
+    <name>Average/Max Erase Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Good/Sys_Block_Ct" group="JMicron">
+    <name>Good/System Block Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Samsung">
+    <name>Power-on Hours</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Samsung">
+    <name>Power-on Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count_Chip" group="Samsung">
+    <name>Program Fail Count Chip</name>
+    <description>Указывает на количество ошибок флэш-программирования.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count_Chip" group="Samsung">
+    <name>Erase Fail Count Chip</name>
+    <description>Указывает на количество ошибок стирания.</description>
+  </attribute>
+  <attribute smartctl="Wear_Leveling_Count_Wear" group="Samsung">
+    <name>Wear Leveling Count</name>
+    <description>Указывает на количество полных стираний.</description>
+  </attribute>
+  <attribute smartctl="Used_Rsvd_Blk_Cnt_Chip" group="Samsung">
+    <name>Used Reserved Block Count Chip</name>
+    <description>Укеазывает на количество использованных резервных блоков чипа.</description>
+  </attribute>
+  <attribute smartctl="Used_Rsvd_Blk_Cnt_Tot" group="Samsung">
+    <name>Used Reserved Block Count Total</name>
+    <description>Укеазывает на общее количество использованных резервных блоков.</description>
+  </attribute>
+  <attribute smartctl="Unused_Rsvd_Blk_Cnt_Tot" group="Samsung">
+    <name>Unused Reserved Block Count Total</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Cnt_Total" group="Samsung">
+    <name>Program Fail Count Total</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count_Total" group="Samsung">
+    <name>Erase Fail Count Total</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Runtime_Bad_Block" group="Samsung">
+    <name>Runtime Bad Block</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Uncorrectable_Error_Cnt" group="Samsung">
+    <name>Uncorrectable Error Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Exceed_Cnt" group="Samsung">
+    <name>Temperature Exceed Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Airflow_Temperature" group="Samsung">
+    <name>Airflow Temperature</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="ECC_Rate" group="Samsung">
+    <name>ECC Rate</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="CRC_Error_Count" group="Samsung">
+    <name>CRC Error Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Supercap_Status" group="Samsung">
+    <name>Supercap Status</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Exception_Mode_status" group="Samsung">
+    <name>Exception Mode Status</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Raw_Read_Error_Rate" group="SandForce">
+    <name>Raw Read Error Rate</name>
+    <description>Исходное значение ошибки относится к ECC-ошибкам. Корректируемые и некоррректируемые ошибки RAISE (избыточный массив независимых кремниевых элементов) включаются в подсчет ошибок.</description>
+  </attribute>
+  <attribute smartctl="Retired_Block_Count" group="SandForce">
+    <name>Retired Block Count</name>
+    <description>Отслеживает общее количество вышедших из строя блоков. Рассчитывается по формуле 100-(100*RCB/MRB), где RCB - количество вышедших из строя блоков и MRB - минимально необходимое количество блоков. Является также индикатором оставшейся жизни.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours_and_Msec" group="SandForce">
+    <name>Power-On Hours and Milliseconds</name>
+    <description>Счетчик минут и миллисекунд во включенном состоянии. Исходное значение атрибута показывает общее число минут и миллисекунд во включенном состоянии.</description>
+  </attribute>
+  <attribute smartctl="Gigabytes_Erased" group="SandForce">
+    <name>Program/Erase Cycles </name>
+    <description>Этот атрибут подсчитывает число флэш-программирований и циклов стирания в течении всего срока службы устройства.</description>
+  </attribute>
+  <attribute smartctl="Reserve_Block_Count" group="SandForce">
+    <name>Reserved Block Count</name>
+    <description>Количество резервных блоков для переноса плохих.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count" group="SandForce">
+    <name>Program Fail Block Count</name>
+    <description>Четыре байта, показывающие ошибки программирования с начала эксплуатации устройства.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count" group="SandForce">
+    <name>Erase Fail Block Count</name>
+    <description>Четыре байта, показывающие ошибки стирания с начала эксплуатации устройства.</description>
+  </attribute>
+  <attribute smartctl="Unexpect_Power_Loss_Ct" group="SandForce">
+    <name>Unexpected Power Loss Count</name>
+    <description>Подсчитывает число внезапных отключений питания во время использования устройства.</description>
+  </attribute>
+  <attribute smartctl="Wear_Range_Delta" group="SandForce">
+    <name>Wear Range Delta</name>
+    <description>Показывает разницу в процентах между наиболее и наимение изношенными блоками.</description>
+  </attribute>
+  <attribute smartctl="Program_Fail_Count" group="SandForce">
+    <name>Program Fail Count</name>
+    <description>Четыре байта, показывающие ошибки программирования с начала эксплуатации устройства.</description>
+  </attribute>
+  <attribute smartctl="Erase_Fail_Count" group="SandForce">
+    <name>Erase Fail Count</name>
+    <description>Четыре байта, показывающие ошибки стирания с начала эксплуатации устройства.</description>
+  </attribute>
+  <attribute smartctl="IO_Error_Detect_Code_Ct" group="SandForce">
+    <name>Reported I/O Error Detection Code Rate</name>
+    <description>Частота обнаружения ошибок ввода/вывода. Этот атрибут отслеживает количество CRC-ошибок возникших в ходе чтения и записи, инициированных хостом.</description>
+  </attribute>
+  <attribute smartctl="Reported_Uncorrect" group="SandForce">
+    <name>Reported Uncorrectable Errors</name>
+    <description>Этот атрибут отслеживает количество некорретируемых ошибок RAISE (избыточный массив независимых кремниевых элементов), сообщенных хосту после всех команд доступа к данным.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="SandForce">
+    <name>Temperature</name>
+    <description>Температура, измеренная встроенным датчиком.</description>
+  </attribute>
+  <attribute smartctl="ECC_Uncorr_Error_Count" group="SandForce">
+    <name>On the fly ECC Uncorrectable Error Count</name>
+    <description>Этот атрибут отслеживает количество некорректируемых ошибок.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Event_Count" group="SandForce">
+    <name>Reallocation Event Count</name>
+    <description>Этот атрибут отслеживает количество блоков, переназначенных в результате невозможности программирования.</description>
+  </attribute>
+  <attribute smartctl="Uncorrectable_Sector_Ct" group="SandForce">
+    <name>Uncorrectable Sector Count</name>
+    <description>Число некорректируемых секторов по отношению к числу чтений секторов в этом рабочем цикле. Нормализованное значение рассчитывается только при достижении числа битов более 10^10. Счетчик сбрасывается при выключении и переводится к 10^10 при превышении значения 10^12.</description>
+  </attribute>
+  <attribute smartctl="SATA_CRC_Error_Count" group="SandForce">
+    <name>SATA CRC Error Count</name>
+    <description>Счетчик ошибок (CRC) передачи по SATA.</description>
+  </attribute>
+  <attribute smartctl="Unc_Soft_Read_Err_Rate" group="SandForce">
+    <name>Uncorrectable Soft Read Error Rate</name>
+    <description>Количество программных ошибок чтения, которые не могут быть исправлены оперативно и требуют серьезного восстановления посредством RAISE (избыточный массив независимых кремниевых элементов).</description>
+  </attribute>
+  <attribute smartctl="Soft_ECC_Correct_Rate" group="SandForce">
+    <name>Soft ECC Correction</name>
+    <description>Количество ошибок исправленных при помощи RAISE (избыточный массив независимых кремниевых элементов), которые не могли быть исправлены оперативно, что потребовало применения многоуровневого ECC (код коррекции ошибок).</description>
+  </attribute>
+  <attribute smartctl="Life_Curve_Status" group="SandForce">
+    <name>Life Curve Status</name>
+    <description>Состояние кривой срока службы, помогающей прогнозировать время жизни устройства с точки зрения выносливости в зависимости от количества флэш-программирований.</description>
+  </attribute>
+  <attribute smartctl="SSD_Life_Left" group="SandForce">
+    <name>SSD Life Left</name>
+    <description>Количественный показатель ожидаемого срока службы, основанный на числе циклов записи/стирания и количестве доступных резервных блоков. Равен 100 у нового диска, 10 - требует замены, так как хотя имеет достаточно резервных блоков, циклы записи/стирания использованы, 0 - недостаточно резервных блоков, диск поддерживает только чтение для восстановления данных.</description>
+  </attribute>
+  <attribute smartctl="Available_Reservd_Space" group="SandForce">
+    <name>Available Reserved Space</name>
+    <description>Количество оставшихся резервных блоков.</description>
+  </attribute>
+  <attribute smartctl="SandForce_Internal" group="SandForce">
+    <name>SandForce Internal</name>
+    <description>Зарезервировано SandForce.</description>
+  </attribute>
+  <attribute smartctl="SuperCap_Health" group="SandForce">
+    <name>Power Fail Backup Health</name>
+    <description>Рассчитанное значение способности сохранять емкость, основанное на синхронном тесте разряда, где разряд (ниже установленного порогового значения напряжения) быстрее, чем установлено временным пороговым значением, указывает на снижение емкости батареи конденсаторов ниже точки надежности, необходимой для безопасности данных на SSD. Если SSD никогда не подвергался "тесту суперконденсатора", нормализованное значение атрибута равно 100.</description>
+  </attribute>
+  <attribute smartctl="Lifetime_Writes_GiB" group="SandForce">
+    <name>Lifetime Writes from Host</name>
+    <description>Показывает общий объем данных записанных хостом с начала эксплуатации устройства. Накопленное число означает число байт записанных хостом на диск, увеличивается с шагом 64 ГБ.</description>
+  </attribute>
+  <attribute smartctl="Lifetime_Reads_GiB" group="SandForce">
+    <name>Lifetime Reads from host</name>
+    <description>Показывает общий объем данных прочитанных хостом с начала эксплуатации устройства. Накопленное число означает число байт прочитанных хостом с диска, увеличивается с шагом 64 ГБ.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Smart">
+    <name>Power-On Hours</name>
+    <description>Этот атрибут показывает общее число часов работы устройства. Счетчик включается при выпуске устройства и продолжает работу при каждом включении.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Smart">
+    <name>Power Cycle Count</name>
+    <description>Этот атрибут показывает общее число включений питания устройства.</description>
+  </attribute>
+  <attribute smartctl="Power-Off_Retract_Count" group="Smart">
+    <name>Power-Off Retract Count</name>
+    <description>Этот атрибут показывает число выключений питания устройства. Его значение на один меньше значения атрибута счетчика включений.</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius" group="Smart">
+    <name>Temperature</name>
+    <description>Этот атрибут показывает текущую температуру устройства в градусах Цельсия.</description>
+  </attribute>
+  <attribute smartctl="ECC_Error_Count" group="Smart">
+    <name>Number of ECC Errors</name>
+    <description>Этот атрибут показывает количество секторов с ошибками, восстановленных при помощи ECC.</description>
+  </attribute>
+  <attribute smartctl="Offline_Uncorrectable" group="Smart">
+    <name>Uncorrectable Errors Count</name>
+    <description>Этот атрибут показывает количество обнаруженных некорректируемых ECC-ошибок. Счетчик увеличивается, если более четырех бит в секторе некорректируемы.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Smart">
+    <name>UDMA CRC Error Count</name>
+    <description>Этот атрибут показывает количество секторов с CRC-ошибками, обнаруженными в режиме UDMA.</description>
+  </attribute>
+  <attribute smartctl="Min_Spares_Remain_Perc" group="Smart">
+    <name>Minimum Spares Remaining</name>
+    <description>Этот атрибут показывает число оставшихся резервных блоков как процент от общего количества резервных блоков.</description>
+  </attribute>
+  <attribute smartctl="Added_Bad_Flash_Blk_Ct" group="Smart">
+    <name>Newly Added Flash Block</name>
+    <description>Этот атрибут показывает общее количество плохих блоков, обнаруженных с момента первого включения на производстве.</description>
+  </attribute>
+  <attribute smartctl="Total_Erase_Blocks_Ct" group="Smart">
+    <name>Total Erase Block Count</name>
+    <description>Этот атрибут показывает общее число стираний блоков, осуществленных диском. Так как при безопасном стирании стирается каждый блок, это число значительно увеличивается при операциях безопасного стирания.</description>
+  </attribute>
+  <attribute smartctl="Reallocated_Sector_Ct" group="SanDisk">
+    <name>Reallocated Sector Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="SanDisk">
+    <name>Power On Hours</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="SanDisk">
+    <name>Power Cycle Count</name>
+    <description>Нет информации об атрибуте.</description>
+  </attribute>
+  <attribute smartctl="Power_On_Hours" group="Adtron">
+    <name>Power-On Time</name>
+    <description>Этот атрибут показывает общее число часов работы устройства. Счетчик времени включается при выпуске устройства и продолжает работу при каждом его включении.</description>
+  </attribute>
+  <attribute smartctl="Power_Cycle_Count" group="Adtron">
+    <name>Power Cycle Count</name>
+    <description>Этот атрибут показывает общее число включений питания устройства.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HWC" group="Adtron">
+    <name>Hardware configuration </name>
+    <description>Этот атрибут идентифицирует конфигурацию RAID-1 и определяет интерфейсы банков памяти.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_MP" group="Adtron">
+    <name>Media presence</name>
+    <description>Этот атрибут показывает наличие банков памяти на интерфейсах во время последнего включения.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_RtR" group="Adtron">
+    <name>Reset to Ready Timer</name>
+    <description>Этот атрибут показывает время в миллисекундах с момента включения, когда логический модуль сообщил о своей готовности.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_RR" group="Adtron">
+    <name>Rebuild Activity Completion Estimate</name>
+    <description>Этот атрибут сообщает приблизительный процент времени, оставшегося до завершения восстановления активности.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HFAll" group="Adtron">
+    <name>Hard fault (all media)</name>
+    <description>Этот атрибут определяет все банки памяти носителя, имевшие аппаратные ошибки.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HF1st" group="Adtron">
+    <name>Hard Fault - Bank 0</name>
+    <description>Этот атрибут определяет банк 0 носителя, имевший аппаратные ошибки.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HF2nd" group="Adtron">
+    <name>Hard Fault - Bank 1</name>
+    <description>Этот атрибут определяет банк 1 носителя, имевший аппаратные ошибки.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_HF3rd" group="Adtron">
+    <name>Hard Fault - Bank 2</name>
+    <description>Этот атрибут определяет банк 2 носителя, имевший аппаратные ошибки.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_SFAll" group="Adtron">
+    <name>Soft fault (all media)</name>
+    <description>Этот атрибут определяет все банки памяти носителя, имевшие программные ошибки.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_SF1st" group="Adtron">
+    <name>Soft Fault - Bank 0</name>
+    <description>Этот атрибут определяет банк 0 носителя, имевший программные ошибки.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_SF2nd" group="Adtron">
+    <name>Soft Fault - Bank 1</name>
+    <description>Этот атрибут определяет банк 1 носителя, имевший программные ошибки.</description>
+  </attribute>
+  <attribute smartctl="Proprietary_SF3rd" group="Adtron">
+    <name>Soft Fault - Bank 2</name>
+    <description>Этот атрибут определяет банк 2 носителя, имевший программные ошибки.</description>
+  </attribute>
+  <attribute smartctl="Minimum_Spares_All_Zs" group="Adtron">
+    <name>Minimum Spares</name>
+    <description>Этот атрибут показывает процент оставшихся резервных блоков в наиболее изношенной зоне.</description>
+  </attribute>
+  <attribute smartctl="Power-Off_Retract_Count" group="Adtron">
+    <name>Power-Off Retract Count</name>
+    <description>Этот атрибут показывает число выключений устройства. Его значение на единицу меньше атрибута числа включений</description>
+  </attribute>
+  <attribute smartctl="Temperature_Celsius " group="Adtron">
+    <name>Temperature</name>
+    <description>Этот атрибут показывает текущую температуру устройства в градусах Цельсия.</description>
+  </attribute>
+  <attribute smartctl="Fract_Temperature" group="Adtron">
+    <name>Temperature</name>
+    <description>Температура Adtron может сообщать отрицательные значения, а аналогичный атрибут других производителей - нет. Значение атрибута сохраняется в градусах Цельсия, причем первый байт исходных данных является дробной частью градуса. Например, значение = 0x20 и исходное [0] = 0x80 это шестнадцатеричное 0x20.80, или десятичное 32.5.</description>
+  </attribute>
+  <attribute smartctl="ECC_Error_Count" group="Adtron">
+    <name>Number of ECC Errors</name>
+    <description>Этот атрибут показывает количество секторов с ошибками, восстановленных при помощи ECC.</description>
+  </attribute>
+  <attribute smartctl="Offline_Uncorrectable" group="Adtron">
+    <name>Uncorrectable Errors Count</name>
+    <description>Этот атрибут показывает количество обнаруженных некорректируемых ECC-ошибок. Счетчик увеличивается, если более четырех бит в секторе некорректируемы.</description>
+  </attribute>
+  <attribute smartctl="UDMA_CRC_Error_Count" group="Adtron">
+    <name>UDMA CRC Error Count</name>
+    <description>Этот атрибут показывает количество секторов с CRC-ошибками, обнаруженными в режиме UDMA.</description>
+  </attribute>
+</table>

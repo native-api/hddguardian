@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cultures>
+	<culture name="bg-BG" version="1.0.0"/>
+	<culture name="de" version="1.6.15"/>
+	<culture name="fi-Fi" version="1.9.0"/>
+	<culture name="fr" version="0.6.1"/>
+	<culture name="hu-HU" version="0.6.1"/>
+	<culture name="it" version="0.6.2"/>
+	<culture name="ru-RU" version="1.5.0"/>
+	<culture name="sv" version="0.2.0"/>
+</cultures>
