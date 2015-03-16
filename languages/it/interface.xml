@@ -116,7 +116,7 @@
     <string id="23" text="Visualizza le temperature limite che l'unità non dovrebbe oltrepassare quando è operativa." />
     <string id="24" text="Visualizza le temperature limite dell'ambiente che non dovrebbero essere oltrepassate quando l'unità non è operativa." />
   </group>
-  <group id="09" title="ATA: device informations">
+  <group id="09" title="ATA: device information">
     <string id="01" text="Produttore" />
     <string id="02" text="Unità" />
     <string id="03" text="Numero seriale" />
@@ -176,8 +176,8 @@
     <string id="02" text="Attiva o disattiva la tecnologia S.M.A.R.T. (Self-Monitoring, Analysis and Reporting Technology) sull'unità" />
     <string id="03" text="Attiva test automatico offline S.M.A.R.T." />
     <string id="04" text="Attiva o disattiva il test automatico offline S.M.A.R.T., che ricerca problemi sull'unità scansionandola ogni quattro ore" />
-    <string id="05" text="Attiva autosalvataggio S.M.A.R.T." />
-    <string id="06" text="Attiva o disattiva l'autosalvataggio S.M.A.R.T. degli attributi specifici del costruttore" />
+    <string id="05" text="Attiva salvataggio automatico S.M.A.R.T." />
+    <string id="06" text="Attiva o disattiva il salvataggio automatico degli attributi S.M.A.R.T. specifici del costruttore" />
     <string id="30" text="Messaggio" />
     <string id="31" text="Conferma" />
     <string id="40" text="S.M.A.R.T. attivato sull'unità %." />
@@ -256,7 +256,7 @@
     <string id="11" text="Quando è avvenuto il comando che ha causato l'errore, l'unità era" />
     <string id="12" text="Dopo il completamento del comando, i registri erano" />
     <string id="13" text="Le impostazioni di comando che hanno generato l'errore erano" />
-    <string id="20" text="in uno stato sconosiuto" />
+    <string id="20" text="in uno stato sconosciuto" />
     <string id="21" text="in sospensione" />
     <string id="22" text="in modalità di attesa" />
     <string id="23" text="attiva o inattiva" />
@@ -305,7 +305,7 @@
   </group>
   <group id="17" title="ATA: self tests results">
     <string id="01" text="L'unità non supporta la registrazione dei self-test." />
-    <string id="02" text="L'untà non supporta la registrazione dei self-test selettivi." />
+    <string id="02" text="L'unità non supporta la registrazione dei self-test selettivi." />
     <string id="03" text="Nessun self-test registrato." />
     <string id="04" text="Nessun self-test selettivo registrato." />
     <string id="10" text="Registro self-test (revisione struttura dati: %)" />
@@ -422,7 +422,7 @@
     <string id="03" text="Aggiusta i byte invertiti" />
     <string id="04" text="Sopprimi tentativi di lettura di SMART o della General Purpose Log Directory" />
     <string id="05" text="Aggiusta l'ordinamento dei byte LBA" />
-    <string id="10" text="Modifica il comportamento di smartcl per compensare alcuni problemi noti e compresi di driver o firmware su alcune unità." />
+    <string id="10" text="Modifica il comportamento di smartctl per compensare alcuni problemi noti e compresi di driver o firmware su alcune unità." />
     <string id="20" text="Presume che l'unità risponda alle specifiche ATA." />
     <string id="21" text="Da attivare su unità Samsung nel caso che non sia riportato nessun self-test (nemmeno se è stato avviato manualmente), vi sia un grande quantitativo di errori oppure dei valori strani o impossibili nella tempistica dell'elenco errori ATA." />
     <string id="22" text="Attivare nel caso l'unità Samsung riporti un numero errato di errori nell'elenco errori SMART. Per esempio, un'unità con 5 errori (0x0005) potrebbe riportarne 20480 (0x5000)." />
@@ -443,7 +443,7 @@
     <string id="09" text="Inattivo" />
     <string id="10" text="Controlla l'unità a meno che non sia in modalità riposo, standby o inattiva. Nella modalità d'inattività molte unità sono ancora in movimento, quindi probabilmente questa non è l'opzione giusta." />
   </group>
-  <group id="23" title="SCSI: device informations">
+  <group id="23" title="SCSI: device information">
     <string id="01" text="Produttore" />
     <string id="02" text="Prodotto" />
     <string id="03" text="Revisione" />
@@ -587,7 +587,7 @@
     <string id="02" text="Avvia minimizzato" />
     <string id="03" text="Minimizza nella tray" />
     <string id="04" text="Chiudi nella tray" />
-    <string id="05" text="Mostra sempe l'icona nella tray" />
+    <string id="05" text="Mostra sempre l'icona nella tray" />
     <string id="06" text="Chiedi conferma quando esci" />
     <string id="07" text="Controlla aggiornamenti" />
     <string id="08" text="Mostra temperature in Fahrenheit" />
@@ -733,13 +733,13 @@
     <string id="21" text="Smartctl non è stato rilevato in questa cartella!" />
   </group>
   <group id="45" title="Messages">
-    <string id="01" text="Nuova versione di HDD Guardian disponibile (%)!\Clicca sull'icon per andare alla pagina di scaricamento." />
+    <string id="01" text="Nuova versione di HDD Guardian disponibile (%)!&#xD;&#xA;Clicca sull'icona per andare alla pagina di scaricamento." />
     <string id="02" text="Applicazione impostazioni, attendere, prego." />
     <string id="03" text="Allarme: temperatura unità" />
     <string id="04" text="Avviso guasto" />
     <string id="05" text="%\Guasto previsto in meno di 24 ore.\SALVARE TUTTI I DATI!" />
     <string id="06" text="Attenzione" />
-    <string id="07" text="Diritti di amminstrazione mancanti!\Alcune funzioni non sono disponibili ed alcuni dati potrebbero essere non accurati." />
+    <string id="07" text="Diritti di amministrazione mancanti!&#xD;&#xA;Alcune funzioni non sono disponibili ed alcuni dati potrebbero essere non accurati." />
   </group>
   <group id="48" title="Common strings">
     <string id="01" text="bytes" />
@@ -752,7 +752,7 @@
     <string id="08" text="ma disattivato" />
     <string id="09" text="Sconosciuto" />
   </group>
-  <group id="49" title="Tray icon baloons">
+  <group id="49" title="Tray icon balloons">
     <string id="01" text="Allarme: stato unità" />
     <string id="02" text="da" />
     <string id="03" text="a" />

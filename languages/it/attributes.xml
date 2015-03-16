@@ -42,11 +42,11 @@
   </attribute>
   <attribute smartctl="Power_On_Hours" group="Generic">
     <name>Power-On Hours</name>
-    <description>Conteggio delle ore in cui il disco è rimasto acceso. Il valore grezzo di questo attributo riporta il conteggio totoale delle ore di accensione. Un calo del valore normalizzato verso il valore soglia indica un avvicinarsi dell'unità al MTBF (Mean Time Between Failures), ovvero alla fine del suo ciclo vitale.</description>
+    <description>Conteggio delle ore in cui il disco è rimasto acceso. Il valore grezzo di questo attributo riporta il conteggio totale delle ore di accensione. Un calo del valore normalizzato verso il valore soglia indica un avvicinarsi dell'unità al MTBF (Mean Time Between Failures), ovvero alla fine del suo ciclo vitale.</description>
   </attribute>
   <attribute smartctl="Power_On_Minutes" group="Generic">
     <name>Power-On Minutes</name>
-    <description>Conteggio dei minuti in cui il disco è rimasto acceso. Il valore grezzo di questo attributo riporta il conteggio totoale dei minuti di accensione. Un calo del valore normalizzato verso il valore soglia indica un avvicinarsi dell'unità al MTBF (Mean Time Between Failures), ovvero alla fine del suo ciclo vitale.</description>
+    <description>Conteggio dei minuti in cui il disco è rimasto acceso. Il valore grezzo di questo attributo riporta il conteggio totale dei minuti di accensione. Un calo del valore normalizzato verso il valore soglia indica un avvicinarsi dell'unità al MTBF (Mean Time Between Failures), ovvero alla fine del suo ciclo vitale.</description>
   </attribute>
   <attribute smartctl="Spin_Retry_Count" group="Generic">
     <name>Spin Retry Count</name>
@@ -118,7 +118,7 @@
   </attribute>
   <attribute smartctl="Current_Pending_Sector" group="Generic">
     <name>Current Pending Sector Count</name>
-    <description>Parametro critico che indica il conteggio dei settori instabili (in attesa di essere rimappati). Il valroe grezzo indica il numetro totale di questi settori. Se il settore instabile è successivamente letto o scritto con successo, il valore di questo attributo diminuirà. Se si verificano ulteriori errori leggendo alcuni settori, l'unità proverà a ripristinare i dati, trasferendo i dati nell'area di riserva e marcando il settore come rimappato.</description>
+    <description>Parametro critico che indica il conteggio dei settori instabili (in attesa di essere rimappati). Il valore grezzo indica il numero totale di questi settori. Se il settore instabile è successivamente letto o scritto con successo, il valore di questo attributo diminuirà. Se si verificano ulteriori errori leggendo alcuni settori, l'unità proverà a ripristinare i dati, trasferendo i dati nell'area di riserva e marcando il settore come rimappato.</description>
   </attribute>
   <attribute smartctl="Offline_Uncorrectable" group="Generic">
     <name>Uncorrectable Sector Count </name>
@@ -130,11 +130,11 @@
   </attribute>
   <attribute smartctl="Write_Error_Rate" group="Generic">
     <name>Write Error Rate</name>
-    <description>Questo parametro indica il numero totale di errori apparsi durante la registrazioni di dati sul disco. Questi errori potrebber oessere causati da problemi con la superficie del disco o con le testine di lettura / scrittura.</description>
+    <description>Questo parametro indica il numero totale di errori apparsi durante la registrazioni di dati sul disco. Questi errori potrebbero essere causati da problemi con la superficie del disco o con le testine di lettura / scrittura.</description>
   </attribute>
   <attribute smartctl="Multi_Zone_Error_Rate" group="Generic">
     <name>Multi-Zone Error Rate</name>
-    <description>Questo parametro indica il numero totale di errori apparsi durante la registrazioni di dati sul disco. Questi errori potrebber oessere causati da problemi con la superficie del disco o con le testine di lettura / scrittura.</description>
+    <description>Questo parametro indica il numero totale di errori apparsi durante la registrazioni di dati sul disco. Questi errori potrebbero essere causati da problemi con la superficie del disco o con le testine di lettura / scrittura.</description>
   </attribute>
   <attribute smartctl="Soft_Read_Error_Rate" group="Generic">
     <name>Soft Read Error Rate</name>
@@ -222,7 +222,7 @@
   </attribute>
   <attribute smartctl="Transfer_Error_Rate" group="Generic">
     <name>Transfer Error Rate</name>
-    <description>Questo parametro indica le volte in cui l'unità è stata riavvita durante il trasferimento di dati.</description>
+    <description>Questo parametro indica le volte in cui l'unità è stata riavviata durante il trasferimento di dati.</description>
   </attribute>
   <attribute smartctl="Read_Error_Retry_Rate" group="Generic">
     <name>Read Error Retry Rate</name>
@@ -286,7 +286,7 @@
   </attribute>
   <attribute smartctl="Factory_Bad_Block_Ct" group="Micron">
     <name>Factory Bad Block Count</name>
-    <description>Conteggio dei blocchi danneggati programmabili una sola volta (OTP, One-Time Programmable).</description>
+    <description>Conteggio dei blocchi danneggiati programmabili una sola volta (OTP, One-Time Programmable).</description>
   </attribute>
   <attribute smartctl="Reallocated_Event_Count" group="Micron">
     <name>Reallocation Event Count</name>
@@ -294,7 +294,7 @@
   </attribute>
   <attribute smartctl="Current_Pending_Sector" group="Micron">
     <name>Current Pending Sector Count</name>
-    <description>Il valore è sempre a zero perchè le riallocazioni vengono eseguite immediatamente.</description>
+    <description>Il valore è sempre a zero perché le riallocazioni vengono eseguite immediatamente.</description>
   </attribute>
   <attribute smartctl="Offline_Uncorrectable" group="Micron">
     <name>SMART Off-Line Scan Uncorrectable Error Count</name>
@@ -302,7 +302,7 @@
   </attribute>
   <attribute smartctl="UDMA_CRC_Error_Count" group="Micron">
     <name>Ultra DMA CRC Error Rate</name>
-    <description>Riporta il numero degli errori CRC (Cyclic Redundancy Check) indiviuati dall'interfaccia FIS durante l'arco vitale dell'unità, sia per le letture che per le scritture, fino al più recente ciclo d'accensione. Il conteggio riparte da zero se raggiunge 4.294.967.295.</description>
+    <description>Riporta il numero degli errori CRC (Cyclic Redundancy Check) individuati dall'interfaccia FIS durante l'arco vitale dell'unità, sia per le letture che per le scritture, fino al più recente ciclo d'accensione. Il conteggio riparte da zero se raggiunge 4.294.967.295.</description>
   </attribute>
   <attribute smartctl="Perc_Rated_Life_Used" group="Micron">
     <name>Percentage Rated Life Used</name>
@@ -310,7 +310,7 @@
   </attribute>
   <attribute smartctl="Write_Error_Rate" group="Micron">
     <name>Write Error Rate</name>
-    <description>Riporta il numero d'errori di programmazionie diviso per 60.000. Il valore massimo raggiungibile è 65.535.</description>
+    <description>Riporta il numero di errori di programmazione diviso per 60.000. Il valore massimo raggiungibile è 65.535.</description>
   </attribute>
   <attribute smartctl="Raw_Read_Error_Rate" group="Indilinx">
     <name>Raw Read Error Rate</name>
@@ -402,11 +402,11 @@
   </attribute>
   <attribute smartctl="Spin_Up_Time" group="Intel">
     <name>Spin Up Time</name>
-    <description>Riporta il tempo medio che l'unità necessita per avviarsi. Poiché le SSD non hanno meccanismi i movimento, questo attributo riporta un valore grezzo fisso pari a 0 ed un valore normallizzato pari a 100.</description>
+    <description>Riporta il tempo medio che l'unità necessita per avviarsi. Poiché le SSD non hanno meccanismi i movimento, questo attributo riporta un valore grezzo fisso pari a 0 ed un valore normalizzato pari a 100.</description>
   </attribute>
   <attribute smartctl="Start_Stop_Count" group="Intel">
     <name>Start/Stop Count</name>
-    <description>Questi eventi non sono un problema per le SSD. Comunque i dischi disici possono sperimentare solo un numero finito di questi eventi che possono essere tracciati. Questo attributo riporta un valore grezzo fisso pari a 0 ed un valore normalizzato fisso pari a 100.</description>
+    <description>Questi eventi non sono un problema per le SSD. Comunque i dischi fisici possono sperimentare solo un numero finito di questi eventi che possono essere tracciati. Questo attributo riporta un valore grezzo fisso pari a 0 ed un valore normalizzato fisso pari a 100.</description>
   </attribute>
   <attribute smartctl="Reallocated_Sector_Ct" group="Intel">
     <name>Re-Allocated Sector Count</name>
@@ -422,7 +422,7 @@
   </attribute>
   <attribute smartctl="Reserve_Block_Count" group="Intel">
     <name>Available Reserved Space</name>
-    <description>Questo attributo riporta il numero dei blocchi di riserva rimanenti. Il valore dell'attributo inizia da 100, che indica che lo spazio di riserva è disponibile al 100%. Il valroe soglia per questo attributo è il 10%, che indica che l'unità è vicina alla fine del suo ciclo vitale.</description>
+    <description>Questo attributo riporta il numero dei blocchi di riserva rimanenti. Il valore dell'attributo inizia da 100, che indica che lo spazio di riserva è disponibile al 100%. Il valore soglia per questo attributo è il 10%, che indica che l'unità è vicina alla fine del suo ciclo vitale.</description>
   </attribute>
   <attribute smartctl="Program_Fail_Count" group="Intel">
     <name>Program Fail Block Count</name>
@@ -470,7 +470,7 @@
   </attribute>
   <attribute smartctl="Workld_Media_Wear_Indic" group="Intel">
     <name>Timed Workload Media Wear Indicator</name>
-    <description>Questo valore traccia l'usura riportato dell'unità durante l'ultimo ciclo d'usura come percentuale del massimo numero di cicli. Il valore grezzo traccia la percentuale fino a 3 punti decimali. Questo valore dev'essere diviso per 1024 per ottenre la percentuale. Per esempio: se il valore grezzo è 4450, la percentuale è 4450/1024 = 4.345%. Il valore grezzo è limitato a 65.535 finche il timer dell'usura (attributo 228) raggiunge 60 (minuti).</description>
+    <description>Questo valore traccia l'usura riportato dell'unità durante l'ultimo ciclo d'usura come percentuale del massimo numero di cicli. Il valore grezzo traccia la percentuale fino a 3 punti decimali. Questo valore dev'essere diviso per 1024 per ottenere la percentuale. Per esempio: se il valore grezzo è 4450, la percentuale è 4450/1024 = 4.345%. Il valore grezzo è limitato a 65.535 finché il timer dell'usura (attributo 228) raggiunge 60 (minuti).</description>
   </attribute>
   <attribute smartctl="Workld_Host_Reads_Perc" group="Intel">
     <name>Timed Workload Host Reads Percentage</name>
@@ -482,7 +482,7 @@
   </attribute>
   <attribute smartctl="Available_Reservd_Space" group="Intel">
     <name>Available Reserved Space</name>
-    <description>Questo attributo riporta il numero dei blocchi di riserva rimanenti. Il valore dell'attributo inizia da 100, che indica che lo spazio di riserva è disponibile al 100%. Il valroe soglia per questo attributo è il 10%, che indica che l'unità è vicina alla fine del suo ciclo vitale.</description>
+    <description>Questo attributo riporta il numero dei blocchi di riserva rimanenti. Il valore dell'attributo inizia da 100, che indica che lo spazio di riserva è disponibile al 100%. Il valore soglia per questo attributo è il 10%, che indica che l'unità è vicina alla fine del suo ciclo vitale.</description>
   </attribute>
   <attribute smartctl="Media_Wearout_Indicator" group="Intel">
     <name>Media Wearout Indicator</name>
@@ -538,7 +538,7 @@
   </attribute>
   <attribute smartctl="Temperature_Celsius" group="JMicron">
     <name>Temperature</name>
-    <description>Nessuna informazione per questo attributo.l</description>
+    <description>Nessuna informazione per questo attributo.</description>
   </attribute>
   <attribute smartctl="Current_Pending_Sector" group="JMicron">
     <name>Current Pending Sector Counter</name>
@@ -654,7 +654,7 @@
   </attribute>
   <attribute smartctl="Reserve_Block_Count" group="SandForce">
     <name>Reserved Block Count</name>
-    <description>Numero die blocchi di riserva per sostituire i blocchi difettosi.</description>
+    <description>Numero dei blocchi di riserva per sostituire i blocchi difettosi.</description>
   </attribute>
   <attribute smartctl="Program_Fail_Count" group="SandForce">
     <name>Program Fail Block Count</name>
@@ -682,7 +682,7 @@
   </attribute>
   <attribute smartctl="IO_Error_Detect_Code_Ct" group="SandForce">
     <name>Reported I/O Error Detection Code Rate</name>
-    <description>Conteggio delgi errori di input/output. Questo attributo traccia il numero degli errori CRC (Cyclic Redundancy Check) incontrati da quando il sistema ha cominciato a leggere/scrivere.</description>
+    <description>Conteggio degli errori di input/output. Questo attributo traccia il numero degli errori CRC (Cyclic Redundancy Check) incontrati da quando il sistema ha cominciato a leggere/scrivere.</description>
   </attribute>
   <attribute smartctl="Reported_Uncorrect" group="SandForce">
     <name>Reported Uncorrectable Errors</name>
@@ -718,7 +718,7 @@
   </attribute>
   <attribute smartctl="Life_Curve_Status" group="SandForce">
     <name>Life Curve Status</name>
-    <description>Una curva vitale per aiutare a predirre il ciclo vitale in termini di durata basata sul numero delle scritture della memoria.</description>
+    <description>Una curva vitale per aiutare a predire il ciclo vitale in termini di durata basata sul numero delle scritture della memoria.</description>
   </attribute>
   <attribute smartctl="SSD_Life_Left" group="SandForce">
     <name>SSD Life Left</name>
@@ -734,7 +734,7 @@
   </attribute>
   <attribute smartctl="SuperCap_Health" group="SandForce">
     <name>Power Fail Backup Health</name>
-    <description>E' una stima della capacità di trattenuta bsata su un test di scarico, quando uno scarico (più basso del voltaggio limite predefinito) è più veloce di una tempistica predefinita indica che un "capacitor bank" è degradato oltre il punto d'affidabilità per proteggere i dati della SSD.Se una SSD non ha mai eseguito un "SuperCapator Test", il valore normalizzato di questo attributo rimane fisso a 100.</description>
+    <description>E' una stima della capacità di trattenuta basata su un test di scarico, quando uno scarico (più basso del voltaggio limite predefinito) è più veloce di una tempistica predefinita indica che un "capacitor bank" è degradato oltre il punto d'affidabilità per proteggere i dati della SSD. Se una SSD non ha mai eseguito un "SuperCapacitor Test", il valore normalizzato di questo attributo rimane fisso a 100.</description>
   </attribute>
   <attribute smartctl="Lifetime_Writes_GiB" group="SandForce">
     <name>Lifetime Writes from Host</name>

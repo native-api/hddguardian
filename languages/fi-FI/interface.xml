@@ -38,6 +38,7 @@
     <string id="03" text="S.M.A.R.T.-tiedot" />
     <string id="04" text="Tapahtumaloki" />
     <string id="05" text="Tapahtumaluettelo" />
+    <string id="06" text="Lämpötilat" />
     <string id="10" text="S.M.A.R.T.-asetukset" />
     <string id="11" text="Äänitason hallinta (AAM)" />
     <string id="12" text="Automaattinen virranhallinta (APM)" />
@@ -51,6 +52,7 @@
     <string id="32" text="Määritteiden muoto" />
     <string id="33" text="Laiteohjelmiston virheenjäljitys" />
     <string id="34" text="Virrankäyttötila" />
+    <string id="35" text="Lisätiedot" />
     <string id="40" text="Yleistä" />
     <string id="41" text="Asetukset" />
     <string id="42" text="Virheet ja testit" />
@@ -97,10 +99,24 @@
     <string id="01" text="Tallenna virheenjäljitys" />
     <string id="02" text="Aikaleima" />
     <string id="03" text="Tapahtuma" />
+    <string id="04" text="Tyhjennä virheenjäljitystiedot" />
   </group>
   <group id="07" title="" />
-  <group id="08" title="" />
-  <group id="09" title="ATA: device informations">
+  <group id="08" title="ATA: temperatures panel">
+    <string id="01" text="Nykyinen" />
+    <string id="02" text="Minimi" />
+    <string id="03" text="Maksimi" />
+    <string id="04" text="Nykyinen käyttökerta" />
+    <string id="05" text="Kaikki käyttökerrat" />
+    <string id="06" text="Käytönaikainen" />
+    <string id="07" text="Säilytys" />
+    <string id="20" text="Merkitys" />
+    <string id="21" text="Nykyisen käyttökerran aikaiset laitteen minimi- ja maksimilämpötilat." />
+    <string id="22" text="Laitteen minimi- ja maksimilämpötilat kaikkien käyttökertojen ajalta." />
+    <string id="23" text="Lämpötilarajat joita ei tulisi ylittää laitetta käynnistettäessä." />
+    <string id="24" text="Lämpötilarajat joita ei tulisi ylittää laitteen ollessa sammutettuna." />
+  </group>
+  <group id="09" title="ATA: device information">
     <string id="01" text="Valmistaja" />
     <string id="02" text="Laite" />
     <string id="03" text="Sarjanumero" />
@@ -112,6 +128,7 @@
     <string id="09" text="ATA versio" />
     <string id="10" text="Liityntä" />
     <string id="11" text="S.M.A.R.T. -tila" />
+    <string id="12" text="Muototekijä" />
     <string id="21" text="Kunnon kokonaistila" />
     <string id="22" text="Lämpötila" />
     <string id="23" text="Jäljelläoleva elinaika" />
@@ -152,7 +169,6 @@
     <string id="83" text="Havaittu % virheellistä sektoria." />
     <string id="90" text="ATA-virheitä ei havaittu." />
     <string id="91" text="Havaittu yksi ATA-virhe." />
-    <string id="92" text="Havaittu % ATA-virhettä. Kiintolevyn vaihto on suositeltavaa." />
     <string id="93" text="Havaittu % ATA-virhettä." />
   </group>
   <group id="10" title="ATA: SMART settings">
@@ -234,6 +250,8 @@
     <string id="02" text="Valitse näytettävä virhe" />
     <string id="03" text="Testituloksien versio" />
     <string id="04" text="Laite ei tue testitulosten tallentamista." />
+    <string id="05" text="Virhekuvaus" />
+    <string id="06" text="Yksityiskohdat" />
     <string id="10" text="Virhe % levyä käynnistettäessä käyttötuntimäärällä " />
     <string id="11" text="Virheen syntyhetkellä laite oli" />
     <string id="12" text="Komennon suorituksen päättyessä rekisteriarvo oli" />
@@ -260,9 +278,30 @@
     <string id="48" text="Tietoväline vaihtunut" />
     <string id="49" text="Ei tietovälinettä" />
     <string id="50" text="Vanhentunut" />
-    <string id="51" text="Raitaa 0 ei löydetty" />
+    <string id="51" text="Nollaraitaa ei löydetty" />
     <string id="52" text="Tiedoissa on korjauskelvotonta sisältöä" />
     <string id="53" text="Tietoväline on kirjoitusssuojattu" />
+    <string id="60" text="Virhenumero" />
+    <string id="61" text="Viive virheestä" />
+    <string id="62" text="Käyttöaika" />
+    <string id="63" text="Virheitä" />
+    <string id="64" text="Sektoreita" />
+    <string id="65" text="Ensimmäisen sektorin LBA-indeksi" />
+    <string id="66" text="Laitteen tila" />
+    <string id="70" text="Ilmaisee että suoritettava komento keskeytettiin joko levyn tilavirheen (ei valmis, kirjoitusvirhe jne) tai komennon väärän syntaksin takia." />
+    <string id="71" text="Ilmaisee että tiedon osoitemerkkiä ei löydetty oikean tunnistekentän löytymisen jälkeen." />
+    <string id="72" text="Ilmaisee että suoritettava komento keskeytettiin aikakatkaisun takia." />
+    <string id="73" text="Ilmaisee että tietovälineen loppu saavutettiin." />
+    <string id="74" text="Ilmaisee että UltraDMA -tiedonsiirron aikana ilmeni CRC-virhe." />
+    <string id="75" text="Ilmaisee että pyydetyn sektorin tunnistekenttää ei löytynyt." />
+    <string id="76" text="Tämä liittyy eräissä ATAPI-laitteissa (esim. nauhavarmistusasemat) käytettyihin SCSI-komentoihin." />
+    <string id="77" text="Ilmaisee että tietovälineen tila on muuttunut tilasta ei-valmis tilaan valmis." />
+    <string id="78" text="Siirrettävän aseman luukunaukaisupainiketta on painettu tietovälineen poistamiseksi. Poistamisen loppuunsaattaminen voi vaatia ohjelman suorituksen tai luukun lukituksen vapautuskomennon." />
+    <string id="79" text="Ilmaisee että siirrettävässä asemassa ei ole tietovälinettä." />
+    <string id="80" text="Ilmaisee että pyydetty komento on jonkin vanhemman ATA-määrittelyn mukainen, mutta ei ole käytettävissä tässä laitteessa." />
+    <string id="81" text="Ilmaisee että uudelleenkalibronnin aikana ei löytynyt nollauraa." />
+    <string id="82" text="Ilmaisee että havaittiin tietovirhe, jota ei pystytty korjaamaan." />
+    <string id="83" text="Ilmaisee että siirrettävässä asemassa oleva tietoväline on kirjoitussuojattu." />
   </group>
   <group id="17" title="ATA: self tests results">
     <string id="01" text="Laite ei tue itsetestituloksien tallentamista." />
@@ -316,7 +355,7 @@
     <string id="02" text="Normaali" />
     <string id="03" text="Tiukka" />
     <string id="04" text="Salliva" />
-    <string id="10" text="Määrittää miten tiukasti Smartctl tulkitsee ATA- ja S.M.A.R.T.-komentojen epäonnistumisia.\Kaikki asetusarvot ovat turvallisia käyttäjän tiedoille. Toiminto vaatii järjestelmänvalvojan oikeudet eikä ole käytettävissä virtuaalilaitteille." />
+    <string id="10" text="Määrittää miten tiukasti ATA- ja S.M.A.R.T.-komentojen epäonnistumisia tulkitaan." />
     <string id="20" text="Smartctl keskeytetään havaittaessa virhe pakollisten S.M.A.R.T.-komentojen suorituksessa, muut jätetään huomioimatta." />
     <string id="21" text="Smartctl keskeytetään havaittaessa virhe valinnaisten S.M.A.R.T.-komentojen suorituksessa." />
     <string id="22" text="S.M.A.R.T.-komentojen suorituksessa havaittavat virheet jätetään huomioimatta." />
@@ -392,19 +431,19 @@
     <string id="25" text="Laitteen oletetaan tukevan kaikkia vakioituja itsetestejä, ilman että tuen olemassaolo tarkistetaan laitteelta. Eräät Intelin SSD-laitteet jumiutuvat luettaessa testituloksia osoitteesta 0." />
     <string id="26" text="Korjaa laajoissa itsetesteissä käytettyjen testitulosten LBA tavujärjestyksen. Eräät kiintolevyt käyttävät LBA-osoitteiden testituloksissa ATA-määrityksistä poiketen tavujärjestystä 'Little Endian' (Merkitsevin ensin)." />
   </group>
-  <group id="22" title="Settings: power mode check">
+  <group id="22" title="ATA: power mode check">
     <string id="01" text="Määrittää lopetetaanko Smartctl ennen tarkistusten suorittamista virransäästötilassa. Toiminnolla voidaan varmistaa että Smartctl ei käynnistä kiintolevyn pyöritystä. Kaikki asetusarvot ovat turvallisia käyttäjän tiedoille." />
     <string id="02" text="Virrankäyttötilan tarkastus" />
     <string id="03" text="Ei käytössä" />
     <string id="04" text="Testit suoritetaan aina." />
     <string id="05" text="Lepotilassa" />
-    <string id="06" text="Testit suoritetaan aina paitsi laitteen ollessa lepotilassa" />
+    <string id="06" text="Testit suoritetaan aina paitsi laitteen ollessa lepotilassa." />
     <string id="07" text="Virransäästötilassa" />
     <string id="08" text="Tarkastus suoritetaan jollei laite ole lepo- tai valmiustilassa. Näissä tiloissa useimmat kiintolevyt eivät oletusarvoisesti pyöri, joten aktivoi tämä valinta mikäli halutaan ettei kiintolevyn pyöritystä aloiteta vain tarkastusta varten." />
     <string id="09" text="Joutokäynti" />
     <string id="10" text="Tarkastus suoritetaan jollei jos laite ole lepo-, valmius- tai joutokäyntitilassa. Joutokäyntitilassa useimmat kiintolevyt pyörivät edelleenkin, joten tämän valinnan aktivointi ei ole paras vaihtoehto, mikäli halutaan ettei kiintolevyn pyöritystä aloiteta vain tarkastusta varten." />
   </group>
-  <group id="23" title="SCSI: device informations">
+  <group id="23" title="SCSI: device information">
     <string id="01" text="Valmistaja" />
     <string id="02" text="Tuote" />
     <string id="03" text="Versio" />
@@ -479,8 +518,8 @@
     <string id="01" text="Aika" />
     <string id="02" text="Laite" />
     <string id="03" text="Määrite" />
-    <string id="04" text="Alkaen" />
-    <string id="05" text="Päättyen" />
+    <string id="04" text="Lähettäjä" />
+    <string id="05" text="Vastaanottaja" />
     <string id="06" text="Muutokset" />
     <string id="07" text="Poista testitulokset" />
     <string id="08" text="Poista kaikki testitulokset" />
@@ -496,13 +535,13 @@
   <group id="30" title="Generic: events chart">
     <string id="01" text="% kirjattua tapahtumaa" />
     <string id="02" text="Aikaleima" />
-    <string id="03" text="Alkaen" />
-    <string id="04" text="Päättyen" />
+    <string id="03" text="Lähettäjä" />
+    <string id="04" text="Vastaanottaja" />
     <string id="05" text="Muutos" />
     <string id="06" text="Uudelleenlataus" />
   </group>
   <group id="31" title="Generic: smartctl output">
-    <string id="01" text="Tallennus" />
+    <string id="01" text="Tallenna" />
   </group>
   <group id="32" title="Windows devices">
     <string id="01" text="Laite" />
@@ -540,7 +579,8 @@
     <string id="08" text="Varoitukset" />
     <string id="09" text="Tulosteen jakaminen" />
     <string id="10" text="Laitteen pisteytys" />
-    <string id="11" text="Lisälaitteet" />
+    <string id="12" text="Smartctl-versio" />
+    <string id="13" text="RAID-ohjaimet" />
   </group>
   <group id="34" title="Settings: general settings">
     <string id="01" text="Käyttöjärjestelmän käynnistyessä" />
@@ -554,6 +594,7 @@
     <string id="09" text="Muista ikkunakoko" />
     <string id="10" text="Näytä virheenjäljitystapahtumat pääikkunassa" />
     <string id="11" text="Näytä tehtäväpalkin kuvakkeet" />
+    <string id="12" text="Tarkista kielipäivitykset" />
     <string id="20" text="Ohjelman käynnistys" />
     <string id="21" text="Toiminta" />
     <string id="22" text="Päivitykset" />
@@ -563,22 +604,36 @@
   <group id="35" title="Settings: device detection">
     <string id="01" text="Valvo USB-laitteiden liittämistä/irroittamista" />
     <string id="03" text="Ota käyttöön Intel Matrix (CSMI) -tuki" />
-    <string id="04" text="Asetus otetaan käyttöön ohjelman uudelleenkäynnistyksen jälkeen." />
+    <string id="04" text="Asetus otetaan käyttöön sovelluksen uudelleenkäynnistyksen jälkeen." />
+    <string id="05" text="Lisää leikepöytälaite 3ware-lähdöille" />
   </group>
-  <group id="36" title="Settings: additional devices (and his dialog window)">
-    <string id="01" text="Tässä osioissa voidaan lisätä laitteita, joita ohjelma ei ole tunnistanut automaattisesti. Tälläisia laitteita ovat mm. Areca-ohjaimet.&#xD;&#xA;Laitteen lisäämiseksi pitää antaa sen kuvaus (esim. /dev/areca2) ja komento jolla laite tunnistetaan (esim -d areca,2 /dev/arcmsr0)." />
-    <string id="02" text="Kuvaus" />
-    <string id="03" text="Smartl-komento" />
-    <string id="04" text="Lisää" />
-    <string id="05" text="Poista" />
-    <string id="20" text="Lisälaitteiden hallinta" />
-    <string id="21" text="Peruuta" />
+  <group id="46" title="Settings: RAID controllers">
+    <string id="01" text="Ohjainten hallinta" />
+    <string id="02" text="Areca-ohjaimet" />
+    <string id="03" text="Muutetut asetusarvot otetaan käyttöön sovelluksen uudelleenkäynnistyksen jälkeen." />
+    <string id="10" text="Ohjaimen nimi" />
+    <string id="11" text="Smartctl-tyyppi" />
+    <string id="12" text="SATA" />
+    <string id="13" text="SCSI" />
+    <string id="14" text="Testaaja" />
+    <string id="20" text="Lisää" />
+    <string id="21" text="Muokkaa" />
+    <string id="22" text="Poista" />
+    <string id="30" text="Areca SATA RAID-ohjain" />
+    <string id="31" text="Ohjaimeen liitettyjä levyjä" />
+    <string id="32" text="Areca SAS RAID-ohjain" />
+    <string id="33" text="Sisällytä %1 aktiivista kanavaa" />
+    <string id="40" text="Uusi ohjain" />
+    <string id="41" text="Muokkaa ohjainta" />
+    <string id="42" text="Sallitut laitteet" />
+    <string id="43" text="Tallenna" />
+    <string id="44" text="Peruuta" />
+    <string id="50" text="Poistetaanko ohjain?" />
   </group>
   <group id="37" title="Settings: mail alerts">
-    <string id="01" text="Ota käyttöön sähköpostihälytykset" />
-    <string id="02" text="Sähköpostien vastaanottaja" />
+    <string id="01" text="Sähköpostihälytykset käytössä" />
     <string id="03" text="Lähetä testisanoma" />
-    <string id="04" text="Läheta sähköpostia seuraavissa häiriötapauksissa" />
+    <string id="04" text="Läheta sähköposti seuraavissa häiriötapauksissa:" />
     <string id="05" text="Laiterikko" />
     <string id="06" text="Korkea lämpötila" />
     <string id="07" text="Luotettavuuden romahtaminen" />
@@ -591,7 +646,19 @@
     <string id="33" text="SMTP-isäntä" />
     <string id="34" text="SMTP-portti" />
     <string id="35" text="Käytä SSL:ää" />
+    <string id="36" text="Lähettäjä" />
+    <string id="37" text="Vastaanottaja" />
     <string id="40" text="Postipalvelimen asetukset" />
+    <string id="50" text="Raportointi" />
+    <string id="51" text="Ei raportointia" />
+    <string id="52" text="Päivittäin, kello" />
+    <string id="53" text="Kerran viikossa," />
+    <string id="54" text="Lähetä heti" />
+    <string id="60" text="Otsikko" />
+    <string id="61" text="Viesti" />
+    <string id="70" text="Palvelin" />
+    <string id="71" text="Viesti" />
+    <string id="72" text="Laukaisimet" />
   </group>
   <group id="38" title="Settings: devices updates">
     <string id="01" text="Kiintolevyjen kuntotietojen päivitysväli" />
@@ -622,14 +689,17 @@
   </group>
   <group id="40" title="Settings: warnings">
     <string id="01" text="Esitetään varoitus" />
-    <string id="02" text="Havaittaessa valvottujen määritteiden muutos" />
     <string id="03" text="Toimintavirheen uhatessa" />
     <string id="04" text="Lämpötilan ylittäessä kynnysarvon" />
     <string id="05" text="Mukautettu kynnysarvo" />
+    <string id="10" text="Vähintään yhden kriittisen arvon muuttuessa" />
+    <string id="11" text="Määritä arvot" />
+    <string id="12" text="Valitse kriittiset arvot" />
+    <string id="13" text="Takaisin" />
   </group>
   <group id="41" title="Settings: output sharing">
     <string id="01" text="Valitse kansio laitteiden raporttitiedoille" />
-    <string id="02" text="Selaa..." />
+    <string id="02" text="Selaa" />
     <string id="03" text="Kansiota ei ole valittu." />
     <string id="10" text="Valitse kansio laitetietojen XML-koosteelle" />
     <string id="11" text="Luo laitetietojen XML-kooste" />
@@ -651,6 +721,16 @@
     <string id="03" text="Kieli" />
     <string id="04" text="Versio" />
     <string id="05" text="Kääntäjä" />
+    <string id="06" text="Tietoja nykyisestä kielestä" />
+  </group>
+  <group id="44" title="Settings: smartctl alternative version">
+    <string id="01" text="Käytä  Smartctl:n vaihtoehtoista versiota" />
+    <string id="02" text="Valitse kansio jossa sijaitsee Smartctl-sovellus" />
+    <string id="03" text="Selaa" />
+    <string id="10" text="Versiotietoja" />
+    <string id="11" text="Löydettiin vanha Smartctl-versio, joka pitää päivittää." />
+    <string id="20" text="Virhe" />
+    <string id="21" text="Kansiosta ei löydy tiedostoa 'smartctl.exe'." />
   </group>
   <group id="45" title="Messages">
     <string id="01" text="Ohjelmasta on saatavilla uudempi versio (%).\Napsauta siirtyäksesi lataussivustolle." />
@@ -672,7 +752,7 @@
     <string id="08" text="mutta ei käytössä" />
     <string id="09" text="Tuntematon" />
   </group>
-  <group id="49" title="Tray icon baloons">
+  <group id="49" title="Tray icon balloons">
     <string id="01" text="Hälytys: laitteen tila" />
     <string id="02" text="alkaen" />
     <string id="03" text="päättyen" />
@@ -694,8 +774,10 @@
     <string id="03" text="Tiedostoa 'smartctl.exe' ei löydy, suljetaan." />
     <string id="10" text="Toiminto vaatii järjestelmänvalvojan oikeudet" />
     <string id="11" text="Tiedot eivät ole käytettävissä puuttuvien järjestelmänvalvojaoikeuksien johdosta." />
-    <string id="12" text="Asetus on turvallinen käyttäjän tiedoille ja vaatii järjestelmänvalvojan oikeudet. \Asetus ei ole käytettävissä SCSI- ja virtuaalilaitteille." />
-    <string id="13" text="Toiminto vaatii järjestelmänvalvojan oikeudet. \Asetus ei ole käytettävissä SCSI- ja virtuaalilaitteille." />
+    <string id="12" text="Asetus on turvallinen käyttäjän tiedoille ja vaatii järjestelmänvalvojan oikeudet. &#xD;&#xA;Asetus ei ole käytettävissä SCSI- ja virtuaalilaitteille." />
+    <string id="13" text="Toiminto vaatii järjestelmänvalvojan oikeudet. &#xD;&#xA;Asetus ei ole käytettävissä SCSI- ja virtuaalilaitteille." />
+    <string id="20" text="Asetus on turvallinen käyttäjän tiedoille.&#xD;&#xA;Asetus ei ole käytettävissä SCSI- ja virtuaalilaitteille." />
+    <string id="21" text="Asetus ei ole käytettävissä virtuaalilaitteille." />
   </group>
   <group id="52" title="Quit confirm">
     <string id="01" text="Vahvistus" />

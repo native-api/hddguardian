@@ -38,6 +38,7 @@
     <string id="03" text="S.M.A.R.T. attribútumok" />
     <string id="04" text="Eseménynapló" />
     <string id="05" text="Eseménydiagram" />
+    <string id="06" text="Hőmérsékletek" />
     <string id="10" text="S.M.A.R.T. beállítások" />
     <string id="11" text="Fejlett hangi beállítások" />
     <string id="12" text="Fejlett energiahasználati beállítások" />
@@ -51,6 +52,7 @@
     <string id="32" text="Attribútumok formátuma" />
     <string id="33" text="Firmware hibakeresése" />
     <string id="34" text="Energiahasználati mód" />
+    <string id="35" text="Továbbfejlesztett" />
     <string id="40" text="Legfőbb" />
     <string id="41" text="Beállítások" />
     <string id="42" text="Hibák és tesztek" />
@@ -97,10 +99,24 @@
     <string id="01" text="Hibakeresés mentése" />
     <string id="02" text="Dátum és idő" />
     <string id="03" text="Esemény" />
+    <string id="04" text="Hibakeresés törlése" />
   </group>
   <group id="07" title="" />
-  <group id="08" title="" />
-  <group id="09" title="ATA: device informations">
+  <group id="08" title="ATA: temperatures panel">
+    <string id="01" text="Jelenlegi" />
+    <string id="02" text="Munimum" />
+    <string id="03" text="Maximum" />
+    <string id="04" text="Jelenlegi session" />
+    <string id="05" text="Összes session" />
+    <string id="06" text="Működőképes" />
+    <string id="07" text="Nem működőképes" />
+    <string id="20" text="Jelentése" />
+    <string id="21" text="Jelenlegi munkamenet alatti legalacsonyabb és legmagasabb hőmérséklet megjelenítése." />
+    <string id="22" text="Teljes életidő alatti legalacsonyabb és legmagasabb hőmérséklet megjelenítése." />
+    <string id="23" text="Működés közben elérhető hőmérséklet határának megjelenítése." />
+    <string id="24" text="Kikapcsolt állapotban elérhető hőmérséklet határának megjelenítése." />
+  </group>
+  <group id="09" title="ATA: device information">
     <string id="01" text="Gyártó" />
     <string id="02" text="Eszköz" />
     <string id="03" text="Sorozatszám" />
@@ -112,6 +128,7 @@
     <string id="09" text="ATA verzió" />
     <string id="10" text="Interfész" />
     <string id="11" text="S.M.A.R.T. állapot" />
+    <string id="12" text="Űrlapfaktor" />
     <string id="21" text="Összesített egészségi állapot" />
     <string id="22" text="Hőmérséklet" />
     <string id="23" text="Hátralévő életidő" />
@@ -152,7 +169,6 @@
     <string id="83" text="% szektor hibás." />
     <string id="90" text="Egy ATA hiba sincs." />
     <string id="91" text="Egy ATA hiba létezik." />
-    <string id="92" text="% ATA hiba létezik. Javasolt a lemez cseréje. " />
     <string id="93" text="% ATA hiba létezik." />
   </group>
   <group id="10" title="ATA: SMART settings">
@@ -234,6 +250,8 @@
     <string id="02" text="Válassza ki a megjelenítendő hibát" />
     <string id="03" text="Hibanapló verziója" />
     <string id="04" text="Az eszköz nem támogatja a hibanaplózást." />
+    <string id="05" text="Hiba leírása" />
+    <string id="06" text="Részletek" />
     <string id="10" text="% hiba a lemez Bekapcsolva töltött időtartamánál" />
     <string id="11" text="Amikor a parancs a hibát okozta, az eszköz" />
     <string id="12" text="Parancs befejezése után a regiszterek állása" />
@@ -263,6 +281,27 @@
     <string id="51" text="Track 0 nem található" />
     <string id="52" text="Javíthatatlan hiba az adatban" />
     <string id="53" text="A média írásvédett" />
+    <string id="60" text="Hibaszám" />
+    <string id="61" text="Hiba bekövetkezése óta eltelt idő" />
+    <string id="62" text="Bekapcsolat állapotban eltelt életidő" />
+    <string id="63" text="Tapasztalható hibák" />
+    <string id="64" text="Szektorok száma" />
+    <string id="65" text="LBA index első szektora" />
+    <string id="66" text="Eszköz állapota" />
+    <string id="70" text="A kiadott parancs az lemez állapothibája (nincs készen, írási hiba, stb.) miatt megszakadt vagy a parancskód nem érvényes." />
+    <string id="71" text="Azt jelzi, hogy az adatcím jelét nem találták a helyes azonosító mező megállapítása után." />
+    <string id="72" text="Azt jelzi, hogy a kiadott parancs futása befejezése előtt elérte az időkorlátját." />
+    <string id="73" text="Azt jelzi, hogy a média a végére ért." />
+    <string id="74" text="Azt jelzi, hogy CRC (Cyclic Redundancy Code) interfész hiba keletkezett egy Ultra DMA (Direct Memory Access) adatátvitel alatt." />
+    <string id="75" text="Azt jelzi, hogy az adott szektor azonosító mezője nem található." />
+    <string id="76" text="Kifejezetten ATAPI eszközök (pl: szalag) által végrehajtható SCSI parancsok. " />
+    <string id="77" text="Azt jelzi, hogy a médiát kicserélték. A átállás a médiára még nem nem áll készen." />
+    <string id="78" text="A ccserélhető adathordozó eszköz nyitó gombját megnyomták, ami azt jelzi, hogy el kívánják távolítani a médiát. Ehhez szükség lehet néhány programra, ami kiadja a médiát kiadó vagy egy ajtót kinyitó parancsot." />
+    <string id="79" text="Azt jelzi, hogy a média jelen van egy cserélhető adathordozó eszközben." />
+    <string id="80" text="Azt jelzi, hogy a kiadott parancsot korábbi ATA szabványok alapján meghatározták meg, viszont elavultnak mínősíthető ezen készülék szabványai alapján." />
+    <string id="81" text="Azt jelzi, hogy a rekalibrációs parancs során nem találták a track 0-t." />
+    <string id="82" text="Azt jelzi, hogy helyreállíthatatlan adat hiba lépett fel." />
+    <string id="83" text="Azt jelzi, hogy a média egy cserélhető adathordozó eszközben írásvédett." />
   </group>
   <group id="17" title="ATA: self tests results">
     <string id="01" text="Az eszköz nem támogatja az önteszt naplózást." />
@@ -352,7 +391,7 @@
     <string id="31" text="9. nyers attribútum: bekapcsolva töltött idő másodpercben." />
     <string id="32" text="9. nyers attribútum: bekapcsolva töltött idő 30 másodpercben." />
     <string id="33" text="9. nyers attribútum: a lemez hőmérséklete Celsius fokban." />
-    <string id="34" text="192. nyers attribútum: vészhelyzeti visszavont ütemek száma;\néhány Fujitsu használja." />
+    <string id="34" text="192. nyers attribútum: vészhelyzeti visszavont ütemek száma;&#xD;&#xA;néhány Fujitsu használja." />
     <string id="35" text="193. nyers attribútum: két értéket tartalmaz: az első a betöltési ütemek száma,&#xD;&#xA;a második a kiürítési ütemek száma." />
     <string id="36" text="194. nyers attribútum: 10x a lemez hőmérséklete Celsius fokban&#xD;&#xA;(néhány Samsung használja)." />
     <string id="37" text="194. nyers attribútum: NEM a lemez hőmérséklete, értelmezése ismeretlen." />
@@ -365,16 +404,16 @@
     <string id="50" text="raw8:&#xD;&#xA;6x8 bit feldolgozatlan, előjel nélküli decimális egész szám." />
     <string id="51" text="raw16:&#xD;&#xA;3x16 bit feldolgozatlan, előjel nélküli decimális egész szám." />
     <string id="52" text="raw16(avg16):&#xD;&#xA;&quot;felpörgési idő&quot; nyers attribútumhoz. Egy 16 bites érték és&#xD;&#xA;egy opcionális &quot;átlag&quot; 16 bites érték ha az érték nem nulla.&#xD;&#xA;Ez az alapértelmezett a 3. változóhoz." />
-    <string id="53" text="raw16(raw16):\egy 16 bites érték és két opcionális 16 bites\érték ha ezek az értékek nem nullák.\Ez az alapértelmezett a 5. és a 196. változóhoz." />
-    <string id="54" text="raw24/raw24:\Két 24 bites feldolgozatlan érték." />
-    <string id="55" text="raw48:\48 bit feldolgozatlan, előjel nélküli decimális egész szám.\Ez az alapértelmezett a legtöbb változónál." />
-    <string id="56" text="raw64:\64 bit feldolgozatlan, előjel nélküli decimális egész szám.\Új formátum, és néhány SSD eszköz használja." />
-    <string id="57" text="hex48:\12 számjegyű hexadecimális érték." />
+    <string id="53" text="raw16(raw16):&#xD;&#xA;egy 16 bites érték és két opcionális 16 bites&#xD;&#xA;érték ha ezek az értékek nem nullák.&#xD;&#xA;Ez az alapértelmezett a 5. és a 196. változóhoz." />
+    <string id="54" text="raw24/raw24:&#xD;&#xA;Két 24 bites feldolgozatlan érték." />
+    <string id="55" text="raw48:&#xD;&#xA;48 bit feldolgozatlan, előjel nélküli decimális egész szám.&#xD;&#xA;Ez az alapértelmezett a legtöbb változónál." />
+    <string id="56" text="raw64:&#xD;&#xA;64 bit feldolgozatlan, előjel nélküli decimális egész szám.&#xD;&#xA;Új formátum, és néhány SSD eszköz használja." />
+    <string id="57" text="hex48:&#xD;&#xA;12 számjegyű hexadecimális érték." />
     <string id="58" text="hex64:&#xD;&#xA;16 számjegyű hexadecimális érték.&#xD;&#xA;Új formátum, és néhány SSD eszköz használja." />
-    <string id="59" text="min2hour:\&quot;bekapcsolva töltött idő percben&quot; nyers attribútumhoz." />
-    <string id="60" text="sec2hour:\&quot;bekapcsolva töltött idő másodpercben&quot; nyers attribútumhoz." />
+    <string id="59" text="min2hour:&#xD;&#xA;&quot;bekapcsolva töltött idő percben&quot; nyers attribútumhoz." />
+    <string id="60" text="sec2hour:&#xD;&#xA;&quot;bekapcsolva töltött idő másodpercben&quot; nyers attribútumhoz." />
     <string id="61" text="halfmin2hour:&#xD;&#xA;&quot;bekapcsolva töltött idő 30 másodpercben&quot; nyers attribútumhoz." />
-    <string id="62" text="tempminmax:\&quot;a lemez hőmérséklete Celsius fokban&quot; nyers attribútumhoz.\Ez az alapértelmezett a 190. és a 194. változóhoz." />
+    <string id="62" text="tempminmax:&#xD;&#xA;&quot;a lemez hőmérséklete Celsius fokban&quot; nyers attribútumhoz.&#xD;&#xA;Ez az alapértelmezett a 190. és a 194. változóhoz." />
     <string id="63" text="temp10x:&#xD;&#xA;&quot;10x a lemez hőmérséklete Celsius fokban&quot; nyers attribútumhoz." />
   </group>
   <group id="21" title="ATA: firmware debug">
@@ -392,7 +431,7 @@
     <string id="25" text="Az összes szabványos naplózás támogatásának feltételezése tényleges ellenőrzés megléte nélkül. Néhány Intel SSD lefagyhat a 0 naplózási cím olvasásakor." />
     <string id="26" text="LBA bájtsorrend javítása a Kiterjesztett teljes körű S.M.A.R.T. hibanaplóban. Néhány lemez a kicsi elől bájtsorrendet használja az ATA regisztersorrend helyett az LBA címek meghatározására a naplóbejegyzésekben." />
   </group>
-  <group id="22" title="Settings: power mode check">
+  <group id="22" title="ATA: power mode check">
     <string id="01" text="Annak meghatározása, hogy a smartctl bezáródjon-e ellenőrzés nélkül amikor a lemez alacsony energiafelhasználásban van. Ez megakadályozhatja a lemez smartctl miatti felpörgését. Az energiahasználat módja alapértelmezetten nincs figyelembe véve." />
     <string id="02" text="Energiahasználati mód ellenőrzése" />
     <string id="03" text="Soha" />
@@ -404,7 +443,7 @@
     <string id="09" text="Tétlenség" />
     <string id="10" text="Eszköz ellenőrzése, ha az nincs alvó, készenléti vagy tételen módban. Célszerű nem ezt választani, mert így elkerülhető a lemez felesleges felpörgetése, hiszen tétlen módban a legtöbb lemez forog." />
   </group>
-  <group id="23" title="SCSI: device informations">
+  <group id="23" title="SCSI: device information">
     <string id="01" text="Gyártó" />
     <string id="02" text="Termék" />
     <string id="03" text="Revízió" />
@@ -479,8 +518,8 @@
     <string id="01" text="Időpont" />
     <string id="02" text="Eszköz" />
     <string id="03" text="Attribútum" />
-    <string id="04" text="Mettől" />
-    <string id="05" text="Meddig" />
+    <string id="04" text="Kitől" />
+    <string id="05" text="Kinek" />
     <string id="06" text="Változás" />
     <string id="07" text="Bejegyzés törlése" />
     <string id="08" text="Összes bejegyzés törlése" />
@@ -496,8 +535,8 @@
   <group id="30" title="Generic: events chart">
     <string id="01" text="% esemény történt" />
     <string id="02" text="Dátum és idő" />
-    <string id="03" text="Mettől" />
-    <string id="04" text="Meddig" />
+    <string id="03" text="Kitől" />
+    <string id="04" text="Kinek" />
     <string id="05" text="Változás" />
     <string id="06" text="Újratöltés" />
   </group>
@@ -540,7 +579,8 @@
     <string id="08" text="Figyelmeztetések" />
     <string id="09" text="Kimeneti megosztás" />
     <string id="10" text="Eszköz értékelése" />
-    <string id="11" text="További eszközök" />
+    <string id="12" text="Smartctl verzió" />
+    <string id="13" text="RAID vezérlők" />
   </group>
   <group id="34" title="Settings: general settings">
     <string id="01" text="Automatikus indítás bejelentkezéskor" />
@@ -554,29 +594,44 @@
     <string id="09" text="Emlékezzen az ablakméretre" />
     <string id="10" text="Hibakeresési események megjelenítése a főmenüben" />
     <string id="11" text="Tálcaikon infopanel megjelenítése" />
+    <string id="12" text="Nyelvi frissítések keresése" />
     <string id="20" text="Indulás" />
     <string id="21" text="Viselkedés" />
     <string id="22" text="Frissítések" />
-    <string id="23" text="Hőmérséklet" />
+    <string id="23" text="Hőmérsékletek" />
     <string id="24" text="Hibakeresés" />
   </group>
   <group id="35" title="Settings: device detection">
     <string id="01" text="USB eszközök csatlakoztatásának/leválasztásának figyelése" />
     <string id="03" text="Intel Matrix (CSMI) támogatás engedélyezése" />
     <string id="04" text="A beállítás alkalmazásához a HDD Guardian újraindítása szükséges." />
+    <string id="05" text="Vágólapi eszköz hozzáadása 3ware kimenetekhez" />
   </group>
-  <group id="36" title="Settings: additional devices (and his dialog window)">
-    <string id="01" text="Ebben a szakaszban a HDD Guardian által nem észlelt eszközöket adhat hozzá, ilyenek például az Areca vezérlők alatt lévő eszközök.&#xD;&#xA;Az eszköz hozzáadásához szükséges annak leírása (például: /dev/ areca2), és a parancs, amivel azonosítható az eszköz (például: -d areca,2 /dev/arcmsr0).&#xD;&#xA;" />
-    <string id="02" text="Leírás" />
-    <string id="03" text="Smartctl parancs" />
-    <string id="04" text="Hozzáadás" />
-    <string id="05" text="Eltávolítás" />
-    <string id="20" text="További eszközbeállítások" />
-    <string id="21" text="Mégsem" />
+  <group id="46" title="Settings: RAID controllers">
+    <string id="01" text="Vezérlők kezelése" />
+    <string id="02" text="Areca vezérlők" />
+    <string id="03" text="A beállítások módosítása után a HDD Guardian újraindítása szükséges." />
+    <string id="10" text="Vezérlő megnevezése" />
+    <string id="11" text="Smartctl típusa" />
+    <string id="12" text="SATA" />
+    <string id="13" text="SCSI" />
+    <string id="14" text="Tesztelő" />
+    <string id="20" text="Hozzáadás" />
+    <string id="21" text="Szerkesztés" />
+    <string id="22" text="Eltávolítás" />
+    <string id="30" text="Areca SATA RAID vezérlő" />
+    <string id="31" text="A vezérlőhöz csatolt lemezek száma." />
+    <string id="32" text="Areca SAS RAID vezérlő" />
+    <string id="33" text="Burkolat %1 aktív csatornák" />
+    <string id="40" text="Új vezérlő" />
+    <string id="41" text="Vezérlő szerkesztése" />
+    <string id="42" text="Eszköz engedélyezése" />
+    <string id="43" text="Mentés" />
+    <string id="44" text="Mégsem" />
+    <string id="50" text="Biztos, hogy eltávolítja  ezt a vezérlőt?" />
   </group>
   <group id="37" title="Settings: mail alerts">
     <string id="01" text="E-mail figyelmeztetés engedélyezése" />
-    <string id="02" text="E-mail címzettje" />
     <string id="03" text="Teszt e-mail küldése" />
     <string id="04" text="E-mail küldés bekapcsolása" />
     <string id="05" text="Hiányzó eszköz" />
@@ -591,7 +646,19 @@
     <string id="33" text="SMTP kiszolgáló" />
     <string id="34" text="SMTP port" />
     <string id="35" text="SSL használata" />
+    <string id="36" text="Kitől" />
+    <string id="37" text="Kinek" />
     <string id="40" text="E-mail szerver beállításai" />
+    <string id="50" text="Jelenlegi állapotjelentése" />
+    <string id="51" text="Nincs jelentése" />
+    <string id="52" text="Naponta, ebben az órában" />
+    <string id="53" text="Hetente, ezen a napon" />
+    <string id="54" text="Jelentés küldése most" />
+    <string id="60" text="Tárgy" />
+    <string id="61" text="Törzs" />
+    <string id="70" text="Szerver" />
+    <string id="71" text="Üzenet" />
+    <string id="72" text="Trigger" />
   </group>
   <group id="38" title="Settings: devices updates">
     <string id="01" text="Eszköz adatainak frissítése" />
@@ -622,10 +689,13 @@
   </group>
   <group id="40" title="Settings: warnings">
     <string id="01" text="Figyelmeztetés..." />
-    <string id="02" text="Amikor az alábbi paraméterek egyike megváltozik" />
     <string id="03" text="Közelgő meghibásodás esetén" />
     <string id="04" text="Amikor a hőmérséklet eléri a határértéket" />
     <string id="05" text="Egyéni határérték" />
+    <string id="10" text="Amikor egy létfontosságú paraméter megváltozik" />
+    <string id="11" text="Válaszzon paramétereket" />
+    <string id="12" text="Létfontosságú paraméterek" />
+    <string id="13" text="Vissza a figyelmezetésekhez" />
   </group>
   <group id="41" title="Settings: output sharing">
     <string id="01" text="Megosztott könyvtár kiválasztása" />
@@ -651,6 +721,16 @@
     <string id="03" text="Nyelv" />
     <string id="04" text="Verzió" />
     <string id="05" text="Fordító" />
+    <string id="06" text="Jelenlegi nyelvi információk" />
+  </group>
+  <group id="44" title="Settings: smartctl alternative version">
+    <string id="01" text="Alternatív smartcrl használata" />
+    <string id="02" text="Válassza ki a futtatható smartctl könyvtárát" />
+    <string id="03" text="Tallózás" />
+    <string id="10" text="Verzió információ" />
+    <string id="11" text="Elavult a smartctl. Használjon újabbat!" />
+    <string id="20" text="Hiba" />
+    <string id="21" text="Smartctl nem található ebben a könyvtárban." />
   </group>
   <group id="45" title="Messages">
     <string id="01" text="Új HDD Guardian verzió érhető el (%)!&#xD;&#xA;A letöltési oldalra ugráshoz kattintson az ikonra ." />
@@ -672,7 +752,7 @@
     <string id="08" text="de le van tiltva" />
     <string id="09" text="Ismeretlen" />
   </group>
-  <group id="49" title="Tray icon baloons">
+  <group id="49" title="Tray icon balloons">
     <string id="01" text="Riasztás: eszköz állapota" />
     <string id="02" text="miről" />
     <string id="03" text="mire" />
@@ -694,8 +774,10 @@
     <string id="03" text="Nem található a 'smartctl.exe'. Kilépek." />
     <string id="10" text="Ehhez a részhez rendszergazdai jogosultság szükséges." />
     <string id="11" text="Rendszergazdai jogok hiánya miatt adatok nem érhetőek el." />
-    <string id="12" text="Ez a beállítás biztonságos felhasználói adatok részére, rendszergazdai jogosultság szükséges hozzá és nem érhető el SCSI és virtuális eszközök számára." />
+    <string id="12" text="Ez a beállítás felhasználói adatok szempontjából biztonságos, rendszergazdai jogosultság szükséges hozzá és nem érhető el SCSI és virtuális eszközök számára." />
     <string id="13" text="Ehhez a részhez rendszergazdai jogosultság szükséges és nem érhető el virtuális eszközök számára." />
+    <string id="20" text="Ez a beállítás felhasználói adatok szempontjából biztonságos és nem érhető el SCSI és virtuális eszközök számára." />
+    <string id="21" text="Ez a rész nem érhető el virtuális eszközök számára." />
   </group>
   <group id="52" title="Quit confirm">
     <string id="01" text="Megerősítés" />
