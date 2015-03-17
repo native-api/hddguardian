@@ -17,7 +17,7 @@
     <string id="03" text="Virtuelles Gerät hinzufügen" />
     <string id="04" text="Virtuelles Gerät entfernen" />
     <string id="05" text="Externe Geräte neu überprüfen" />
-    <string id="06" text="Tay Icon" />
+    <string id="06" text="Infobereich Icon" />
     <string id="07" text="Temperatur" />
     <string id="08" text="Verbleibende Lebensdauer" />
     <string id="09" text="Veröffentlichung" />
@@ -38,6 +38,7 @@
     <string id="03" text="S.M.A.R.T. Attribute" />
     <string id="04" text="Ereignis Log" />
     <string id="05" text="Ereignis Statistik" />
+    <string id="06" text="Temperaturen" />
     <string id="10" text="S.M.A.R.T. Setup" />
     <string id="11" text="Erweiterte Akkustik Verwaltung" />
     <string id="12" text="Erweiterte Energie Verwaltung" />
@@ -50,7 +51,8 @@
     <string id="31" text="Toleranz" />
     <string id="32" text="Attribute Format" />
     <string id="33" text="Firmware Fehlerkorrektur" />
-    <string id="34" text="Power Modus" />
+    <string id="34" text="Energie Modus" />
+    <string id="35" text="Erweitert" />
     <string id="40" text="Übersicht" />
     <string id="41" text="Setup" />
     <string id="42" text="Fehler und Tests" />
@@ -83,7 +85,7 @@
     <string id="13" text="Einige Werte überschreiten Grenzwert" />
     <string id="14" text="Unbekannt" />
     <string id="15" text="Revision" />
-    <string id="16" text="Betriebszeit" />
+    <string id="16" text="Betriebsdauer" />
     <string id="17" text="Jahr" />
     <string id="18" text="Jahre" />
     <string id="19" text="Monat" />
@@ -94,13 +96,27 @@
     <string id="24" text="Stunden" />
   </group>
   <group id="06" title="Debug">
-    <string id="01" text="Fehlerkorrektur speichern" />
+    <string id="01" text="Fehlerprüfung speichern" />
     <string id="02" text="Datum und Zeit" />
     <string id="03" text="Ereignis" />
+    <string id="04" text="Fehlerprüfung zurücksetzen" />
   </group>
   <group id="07" title="" />
-  <group id="08" title="" />
-  <group id="09" title="ATA: device informations">
+  <group id="08" title="ATA: temperatures panel">
+    <string id="01" text="Aktuell" />
+    <string id="02" text="Minimum" />
+    <string id="03" text="Maximum" />
+    <string id="04" text="Aktuelle Session" />
+    <string id="05" text="Alle Sessionen" />
+    <string id="06" text="Operationell" />
+    <string id="07" text="Nicht operationell" />
+    <string id="20" text="Bedeutung" />
+    <string id="21" text="Anzeige der tiefsten und höchsten erreichten Temperatur der aktuellen Session dieses Gerätes." />
+    <string id="22" text="Anzeige der tiefsten und höchsten erreichten Temperatur der bisherigen Lebensdauer dieses Gerätes." />
+    <string id="23" text="Anzeige der Temperaturlimiten innerhalb derer dieses Geräte bleiben sollte wenn es angeschaltet ist." />
+    <string id="24" text="Anzeige der Umgebungstemperaturlimiten innerhalb derer dieses Geräte bleiben sollte wenn es ausgeschaltet ist." />
+  </group>
+  <group id="09" title="ATA: device information">
     <string id="01" text="Hersteller" />
     <string id="02" text="Gerät" />
     <string id="03" text="Serien Nummer" />
@@ -112,6 +128,7 @@
     <string id="09" text="ATA Version ist" />
     <string id="10" text="Schnittstelle" />
     <string id="11" text="S.M.A.R.T. Status" />
+    <string id="12" text="Formfaktor" />
     <string id="21" text="Globaler Gesundheitszustand" />
     <string id="22" text="Temperatur" />
     <string id="23" text="Verbleibende Lebensdauer" />
@@ -133,7 +150,7 @@
     <string id="39" text="Letzte Aktualisierung" />
     <string id="50" text="Vollständig ausgeführt ohne Fehler" />
     <string id="51" text="Abgebrochen durch Speicherdienst" />
-    <string id="52" text="Unterbrochen (Speicherdienst Neustart)" />
+    <string id="52" text="Unterbrochen durch Speicherdienst Neustart" />
     <string id="53" text="Schwerer oder unbekannter Fehler" />
     <string id="54" text="Vollständig ausgeführt: Unbekannte Fehlfunktion" />
     <string id="55" text="Vollständig ausgeführt: Elektrischer Fehler" />
@@ -152,7 +169,6 @@
     <string id="83" text="% fehlerhafte Sektoren gefunden." />
     <string id="90" text="Keinen ATA Fehler gefunden." />
     <string id="91" text="1 ATA Fehler gefunden." />
-    <string id="92" text="% ATA Fehler gefunden. Es wird empfohlen das Laufwerk zu ersetzen." />
     <string id="93" text="% ATA Fehler gefunden." />
   </group>
   <group id="10" title="ATA: SMART settings">
@@ -184,14 +200,14 @@
     <string id="06" text="Nicht verfügbar" />
     <string id="07" text="Änderungen rückgängig machen" />
     <string id="08" text="Aktueller Wert" />
-    <string id="09" text="Determinieren nicht möglich" />
+    <string id="09" text="Bestimmung nicht möglich" />
   </group>
   <group id="12" title="ATA: APM">
     <string id="01" text="Erweiterte Energieverwaltung ist eine Anwendung entwickelt von Intel und Microsoft und veröffentlicht 1992, welches IBM kompatiblen Computern ermöglicht, über das BIOS Energieeinstellungen zu verwalten. Wenn ein Wert zwischen 1 und 254 gegeben ist kann die Energieverwaltung verwndet werden, beim Wert 0 ist diese deaktiviert. Werte unter 128 ermöglichen eine Drehzahlregelung der Festplatte, Werte 128 und mehr können nur die Häufigkeit für das Parkieren der Lese/Schreibköpfen anpassen." />
     <string id="02" text="Nicht verfügbar" />
     <string id="03" text="Aktueller Wert" />
     <string id="04" text="Wert festlegen" />
-    <string id="05" text="Determinieren nicht möglich" />
+    <string id="05" text="Bestimmung nicht möglich" />
     <string id="06" text="Änderungen rückgängig machen" />
   </group>
   <group id="13" title="ATA: standby">
@@ -234,15 +250,17 @@
     <string id="02" text="Wählen Sie den anzuzeigenden Fehler" />
     <string id="03" text="Fehlerbericht Version" />
     <string id="04" text="Das Gerät unterstützt die Fehler Berichterstattung nicht." />
-    <string id="10" text="Fehler % aufgetreten in Disk Einschaltzeit-Lebenszeit" />
+    <string id="05" text="Fehlerbeschreibung" />
+    <string id="06" text="Details" />
+    <string id="10" text="Fehler % aufgetreten in Disk Einschaltzeit Lebensdauer" />
     <string id="11" text="Beim Auftreten des Fehlers beim Aufruf des Befehls war das Gerät" />
     <string id="12" text="Nach Beenden der Befehle waren die Register" />
     <string id="13" text="Zum fehlerverursachenden Befehl führende Befehle waren" />
     <string id="20" text="In unbekanntem Status" />
     <string id="21" text="Im Schlafmodus" />
-    <string id="22" text="Im Standby Modus" />
+    <string id="22" text="Im Standbymodus" />
     <string id="23" text="Beschäftigt oder im Leerlauf" />
-    <string id="24" text="S.M.A.R.T. Offline oder Selbsttest in Prozess" />
+    <string id="24" text="S.M.A.R.T. Offline oder Selbsttest in Ausführung" />
     <string id="25" text="In reserviertem Status" />
     <string id="26" text="In herstellerspezifischem Status" />
     <string id="30" text="Zeitstempel" />
@@ -263,6 +281,27 @@
     <string id="51" text="Track 0 nicht gefunden" />
     <string id="52" text="Unkorrigierbarer Fehler in Daten" />
     <string id="53" text="Medium ist schreibgeschützt" />
+    <string id="60" text="Fehlernummer" />
+    <string id="61" text="Vergangene Zeit seit Fehler" />
+    <string id="62" text="Einschaltzeit Lebensdauer" />
+    <string id="63" text="Aufgetretene Fehler" />
+    <string id="64" text="Sektoren Zähler" />
+    <string id="65" text="LBA Index des ersten Sektors" />
+    <string id="66" text="Gerätestatus" />
+    <string id="70" text="Zeigt dass der auszuführende Befehl abgebrochen wurde wegen Gerätestatus Fehler (nicht bereit, Schreibfehler etc.) oder ungültigem Befehlscode." />
+    <string id="71" text="Zeigt dass nach Auffindung des korrekten Identifikationsfeldes die Datenadresse Markierung nicht gefunden wurde. " />
+    <string id="72" text="Zeigt dass der auszufürende Befehl das Zeitlimit vor der vollständigen Ausführung erreicht hat." />
+    <string id="73" text="Zeigt dass das Ende des Mediums erreicht wurde." />
+    <string id="74" text="Zeigt dass ein Schnittstellen CRC (Cyclic Redundancy Code) Fehler während einer Ultra DMA (Direct Memory Access) Datenübertragung aufgetreten ist." />
+    <string id="75" text="Zeigt dass das Identifikations Feld des angeforderten Sektors nicht gefunden wurde." />
+    <string id="76" text="Ist spezifisch für den SCSI Befehl von ATAPI Geräten (z.B. Magnetbänder)." />
+    <string id="77" text="Zeigt dass das Medium gewechselt wurde. Der Status des Mediums ist nicht bereit zum Wechsel." />
+    <string id="78" text="Der Öffnungsknopf eines externen Gerätes wurde gedrückt um das Medium zu wechseln. Dies könnte ein Programm erfordern das einen Auswerf oder Öffnungsbefehl ausführt." />
+    <string id="79" text="Zeigt dass in einem externen Gerät kein Medium vorhanden ist." />
+    <string id="80" text="Zeigt dass der angeforderte Befehl in einem veralteten ATA Standard ausgeführt wurde der von diesem Gerät nicht unterstützt wird." />
+    <string id="81" text="Zeigt dass Track 0 während eines Rekalibrations Befehls nicht gefunden wurde." />
+    <string id="82" text="Zeigt dass ein unkorrigierbarer Datenfehler aufgetreten ist." />
+    <string id="83" text="Zeigt dass das Medium eines externen Gerätes schreibgeschützt ist." />
   </group>
   <group id="17" title="ATA: self tests results">
     <string id="01" text="Das Gerät unterstützt die Selbsttest Berichterstattung nicht." />
@@ -274,7 +313,7 @@
     <string id="12" text="Test Beschreibung" />
     <string id="13" text="Status" />
     <string id="14" text="Verbleibend" />
-    <string id="15" text="Lebenszeit (h)" />
+    <string id="15" text="Lebensdauer (h)" />
     <string id="16" text="LBA des ersten Fehlers" />
     <string id="30" text="Offline" />
     <string id="31" text="Kurz offline" />
@@ -392,7 +431,7 @@
     <string id="25" text="Unterstützung für alle Standard Berichte wird vorausgesetzt ohne aktuelle Prüfung. Einige Intel SSDs können 'einfrieren' falls die Berichtsadresse 0 gelesen wird." />
     <string id="26" text="Korrigiert LBA Bytes Ordnung im erweiterten umfassenden S.M.A.R.T. Fehlerbericht. Einige Laufwerke verwenden die 'kleine Endian' anstelle der ATA Byte Ordnung für LBA Adressen." />
   </group>
-  <group id="22" title="Settings: power mode check">
+  <group id="22" title="ATA: power mode check">
     <string id="01" text="Definiert ob smartctl geschlossen werden soll bevor eine Überprüfung gestartet wird falls sich das Gerät in einem Energiesparmodus befindet. Dies kann verhindern dass das Gerät durch smartctl hochgefahren wird. Der Energiemodus wird normalerweise ignoriert." />
     <string id="02" text="Einstellung Power Modus Überprüfung" />
     <string id="03" text="Nie" />
@@ -404,7 +443,7 @@
     <string id="09" text="In Ruhezustand" />
     <string id="10" text="Laufwerk prüfen ausser wenn es sich im Schlafzustand, Standby oder Ruhezustand befindet. Im Ruhezustand drehen die meisten Laufwerke noch. Wahrscheinlich ist dies nicht die Einstellung die Sie wünschen." />
   </group>
-  <group id="23" title="SCSI: device informations">
+  <group id="23" title="SCSI: device information">
     <string id="01" text="Verkäufer" />
     <string id="02" text="Produkt" />
     <string id="03" text="Revision" />
@@ -452,7 +491,7 @@
     <string id="03" text="Beschreibung" />
     <string id="04" text="Status" />
     <string id="05" text="Segment" />
-    <string id="06" text="Lebenszeit (h)" />
+    <string id="06" text="Lebensdauer (h)" />
     <string id="07" text="LBA des ersten Fehlers" />
     <string id="50" text="Vollständig ausgeführt" />
     <string id="51" text="Abgebrochen durch Benutzerbefehl" />
@@ -540,7 +579,8 @@
     <string id="08" text="Warnungen" />
     <string id="09" text="Ausgabe Veröffentlichung" />
     <string id="10" text="Geräte Bewertung" />
-    <string id="11" text="" />
+    <string id="12" text="Smartctl Version" />
+    <string id="13" text="RAID Kontroller" />
   </group>
   <group id="34" title="Settings: general settings">
     <string id="01" text="Mit Windows starten" />
@@ -554,6 +594,7 @@
     <string id="09" text="Fenstergrösse speichern" />
     <string id="10" text="Fehlerkorrektur Ereignisse im Hauptfenster anzeigen" />
     <string id="11" text="Tray Icon Informationsfeld anzeigen" />
+    <string id="12" text="Auf Sprachupdates prüfen" />
     <string id="20" text="Programmstart" />
     <string id="21" text="Verhalten" />
     <string id="22" text="Aktualisierungen" />
@@ -564,19 +605,33 @@
     <string id="01" text="Verbindung/Trennung von USB Geräten überwachen" />
     <string id="03" text="Intel Matrix (CSMI) Unterstützung aktivieren" />
     <string id="04" text="Sie müssen HDD Guardian neu starten um die Einstellungen zu übernehmen." />
+    <string id="05" text="Zwischenspeicher hinzufügen für 3ware Ausgaben" />
   </group>
-  <group id="36" title="Settings: additional devices (and his dialog window)">
-    <string id="01" text="" />
-    <string id="02" text="" />
-    <string id="03" text="" />
-    <string id="04" text="" />
-    <string id="05" text="" />
-    <string id="20" text="" />
-    <string id="21" text="" />
+  <group id="46" title="Settings: RAID controllers">
+    <string id="01" text="Kontroller Verwaltung" />
+    <string id="02" text="Areca Kontroller" />
+    <string id="03" text="Zur Übernahme von Änderungen dieser Einstellungen muss HDD Guardian neu gestartet werden." />
+    <string id="10" text="Kontroller Name" />
+    <string id="11" text="Smartctl Typ" />
+    <string id="12" text="SATA" />
+    <string id="13" text="SCSI" />
+    <string id="14" text="Tester" />
+    <string id="20" text="Hinzufügen" />
+    <string id="21" text="Bearbeiten" />
+    <string id="22" text="Entfernen" />
+    <string id="30" text="Areca SATA RAID Kontroller" />
+    <string id="31" text="Anzahl der mit dem Kontroller verbundenen Festplatten" />
+    <string id="32" text="Areca SAS RAID Kontroller" />
+    <string id="33" text="Einbezug %1 aktive Kanäle" />
+    <string id="40" text="Neuer Kontroller" />
+    <string id="41" text="Kontroller bearbeiten" />
+    <string id="42" text="Erlaubte Geräte" />
+    <string id="43" text="Speichern" />
+    <string id="44" text="Abbrechen" />
+    <string id="50" text="Sind Sie sicher dass Sie diesen Kontroller entfernen möchten?" />
   </group>
   <group id="37" title="Settings: mail alerts">
     <string id="01" text="Email Alarme aktivieren" />
-    <string id="02" text="Email Destination" />
     <string id="03" text="Test Email senden" />
     <string id="04" text="Email senden bei" />
     <string id="05" text="Geräte Ausfall" />
@@ -586,12 +641,24 @@
     <string id="20" text="Folgende Geräte haben den S.M.A.R.T. Gesundheitstest nicht bestanden" />
     <string id="21" text="Folgende Geräte haben eine Temperatur Überschreitung gemeldet" />
     <string id="22" text="Folgende Geräte haben einen Zuverlässigkeits Verlust gemeldet" />
-    <string id="30" text="Benutzer Mailserver hinzufügen" />
     <string id="31" text="Benutzer Login" />
     <string id="32" text="Benutzer Passwort" />
     <string id="33" text="SMTP Host" />
     <string id="34" text="SMTP Port" />
     <string id="35" text="SSL benutzen" />
+    <string id="36" text="Von" />
+    <string id="37" text="An" />
+    <string id="40" text="Mail Server" />
+    <string id="50" text="Aktueller Statusbericht" />
+    <string id="51" text="Kein Bericht" />
+    <string id="52" text="Täglich, bei Uhrzeit" />
+    <string id="53" text="Wöchentlich, an Wochentag" />
+    <string id="54" text="Bericht jetzt senden" />
+    <string id="60" text="Betreff" />
+    <string id="61" text="Inhalt" />
+    <string id="70" text="Server" />
+    <string id="71" text="Mitteilung" />
+    <string id="72" text="Auslöser" />
   </group>
   <group id="38" title="Settings: devices updates">
     <string id="01" text="Einstellung der Häufigkeit der Gerätedaten Aktualisierung" />
@@ -622,10 +689,13 @@
   </group>
   <group id="40" title="Settings: warnings">
     <string id="01" text="Warnung..." />
-    <string id="02" text="Bei Änderung eines überwachten Parameters" />
     <string id="03" text="Bei bevorstehender Fehlfunktion" />
     <string id="04" text="Bei Überschreitung des Temperatur Grenzwerts" />
     <string id="05" text="Benutzerdefinierter Grenzwert" />
+    <string id="10" text="Bei Änderung eines vitalen Parameters" />
+    <string id="11" text="Parameter auswählen" />
+    <string id="12" text="Vitale Parameter" />
+    <string id="13" text="Zurück zu Warnungen" />
   </group>
   <group id="41" title="Settings: output sharing">
     <string id="01" text="Ordner für veröffentlichte Inhalte wählen" />
@@ -651,6 +721,16 @@
     <string id="03" text="Sprache" />
     <string id="04" text="Version" />
     <string id="05" text="Übersetzer" />
+    <string id="06" text="Aktuelle Sprache Information" />
+  </group>
+  <group id="44" title="Settings: smartctl alternative version">
+    <string id="01" text="Eine alternative smartctl Version verwenden" />
+    <string id="02" text="Verzeichnis der smartctl Datei auswählen" />
+    <string id="03" text="Durchsuchen" />
+    <string id="10" text="Versions Information" />
+    <string id="11" text="Alte smartctl Version gefunden. Sie müssen eine neuere Version verwenden!" />
+    <string id="20" text="Fehler" />
+    <string id="21" text="Smartctl in diesem Verzeichnis nicht gefunden!" />
   </group>
   <group id="45" title="Messages">
     <string id="01" text="Neue HDD Guardian Version verfügbar (%)!\Hier klicken um zur Downloadseite zu gelangen." />
@@ -672,7 +752,7 @@
     <string id="08" text="aber deaktiviert" />
     <string id="09" text="Unbekannt" />
   </group>
-  <group id="49" title="Tray icon baloons">
+  <group id="49" title="Tray icon balloons">
     <string id="01" text="Alarm: Gerätestatus" />
     <string id="02" text="Von" />
     <string id="03" text="An" />
@@ -694,8 +774,10 @@
     <string id="03" text="smartctl.exe nicht nicht gefunden, wird geschlossen. " />
     <string id="10" text="Diese Sektion verlangt Administrator Rechte." />
     <string id="11" text="Daten nicht verfügbar wegen fehlenden Administrator Rechten." />
-    <string id="12" text="Dies ist sicher bezüglich Ihrer Benutzerdaten. Muss mit Administrator Rechten ausgeführt werden. Ist für SCSI und virtuelle Laufwerke nicht verfügbar." />
-    <string id="13" text="Diese Sektion verlangt Administrator Rechte und ist für virtuelle Laufwerke nicht verfügbar." />
+    <string id="12" text="Dies ist sicher bezüglich Ihrer Benutzerdaten. Muss mit Administrator Rechten ausgeführt werden und ist nicht verfübar für SCSI und virtuelle Geräte." />
+    <string id="13" text="Diese Sektion verlangt Administrator Rechte und ist nicht verfügbar für virtuelle Geräte." />
+    <string id="20" text="Dies ist sicher bezüglich Ihrer Benutzerdaten und nicht verfügbar für SCSI und virtuelle Geräte." />
+    <string id="21" text="Diese Sektion ist nicht verfügbar für virtuelle Geräte." />
   </group>
   <group id="52" title="Quit confirm">
     <string id="01" text="Bestätigen" />

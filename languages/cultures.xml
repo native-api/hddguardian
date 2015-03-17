@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cultures>
 	<culture name="bg-BG" version="1.0.0"/>
-	<culture name="de" version="1.6.15"/>
+	<culture name="de" version="1.6.20"/>
 	<culture name="fi-Fi" version="2.0.0"/>
 	<culture name="fr" version="0.6.1"/>
 	<culture name="hu-HU" version="0.6.2"/>
