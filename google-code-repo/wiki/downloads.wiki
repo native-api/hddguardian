@@ -1,3 +1,3 @@
 From version 0.6.0 you can get downloads on the new home of [http://hddguardian.codeplex.com HDD Guardian].
 
-For previous releases click [http://code.google.com/p/hddguardian/downloads/list here].
+For previous releases click [https://code.google.com/p/hddguardian/downloads/list?can=1&q=&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount here].
