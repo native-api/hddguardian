@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+translationtool
+</name>
+</assembly>
+<members>
+<member name="P:translationtool.My.Resources.Resources.ResourceManager">
+	<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member><member name="P:translationtool.My.Resources.Resources.Culture">
+	<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member><member name="P:translationtool.My.Resources.Resources.cultures">
+	<summary>
+  Cerca una stringa localizzata simile a &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;cultures&gt;
+  &lt;item culture="af-ZA" zone="Afrikaans - South Africa"/&gt;
+  &lt;item culture="ar" zone="Generic arabic"/&gt;
+  &lt;item culture="ar-DZ" zone="Arabic - Algeria"/&gt;
+  &lt;item culture="ar-BH" zone="Arabic - Bahrain"/&gt;
+  &lt;item culture="ar-EG" zone="Arabic - Egypt"/&gt;
+  &lt;item culture="ar-IQ" zone="Arabic - Iraq"/&gt;
+  &lt;item culture="ar-JO" zone="Arabic - Jordan"/&gt;
+  &lt;item culture="ar-KW" zone="Arabic - Kuwait"/&gt;
+  &lt;item culture="ar-LB" zone="Arabic - Lebanon"/&gt;
+  &lt;i [stringa troncata]";.
+</summary>
+</member><member name="P:translationtool.My.Resources.Resources.default_attributes">
+	<summary>
+  Cerca una stringa localizzata simile a &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;table&gt;
+  &lt;attribute smartctl="Dummy"&gt;
+    &lt;name&gt;Unknown&lt;/name&gt;
+    &lt;description&gt;No informations for this attribute.&lt;/description&gt;
+  &lt;/attribute&gt;
+  &lt;attribute smartctl="Raw_Read_Error_Rate"&gt;
+    &lt;name&gt;Read Error Rate&lt;/name&gt;
+    &lt;description&gt;Stores data related to the rate of hardware read errors that occurred when reading data from a disk surface. The raw value has different structure for different vendors and is often not meaningful as a decimal number.&lt;/desc [stringa troncata]";.
+</summary>
+</member><member name="P:translationtool.My.Resources.Resources.default_interface">
+	<summary>
+  Cerca una stringa localizzata simile a &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;interface&gt;
+  &lt;info language="English" translator="Parise Samuele" version="2.0"/&gt;
+  &lt;!-- ///// Main window \\\\\ --&gt;
+  &lt;!-- Device context menu --&gt;
+  &lt;string id="0001" text="Update"/&gt;
+  &lt;string id="0002" text="Update all"/&gt;
+  &lt;string id="0003" text="Add virtual device"/&gt;
+  &lt;string id="0004" text="Remove virtual device"/&gt;
+  &lt;!-- Trayicon context menu --&gt;
+  &lt;string id="0005" text="Restore"/&gt;
+  &lt;string id="0006" text="Exit"/&gt;
+  &lt;string id="0007" text="New ve [stringa troncata]";.
+</summary>
+</member><member name="T:translationtool.My.Resources.Resources">
+	<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+</members>
+</doc>

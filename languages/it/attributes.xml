@@ -316,6 +316,10 @@
     <name>Raw Read Error Rate</name>
     <description>Nessuna informazione per questo attributo.</description>
   </attribute>
+  <attribute smartctl="Runtime_Bad_Block" group="Indilinx">
+    <name>Accumulated Runtime Bad Blocks</name>
+    <description>Numero cumulativo dei blocchi ritirati dal momento in cui l'unità ha lasciato la fabbrica.</description>
+  </attribute>
   <attribute smartctl="Power_On_Hours" group="Indilinx">
     <name>Power-On Hours</name>
     <description>Nessuna informazione per questo attributo.</description>
@@ -323,6 +327,14 @@
   <attribute smartctl="Power_Cycle_Count" group="Indilinx">
     <name>Power Cycle Count</name>
     <description>Nessuna informazione per questo attributo.</description>
+  </attribute>
+  <attribute smartctl="Avail_OP_Block_Count" group="Indilinx">
+    <name>Available OP Sector Count</name>
+    <description>Numero dei blocchi "Over Provision" ancora disponibili.</description>
+  </attribute>
+  <attribute smartctl="Pwr_Cycle_Ct_Unplanned" group="Indilinx">
+    <name>Power Cycle Count (unplanned)</name>
+    <description>Numero dei cicli di avvio non pianificati.</description>
   </attribute>
   <attribute smartctl="Initial_Bad_Block_Count" group="Indilinx">
     <name>Initial Bad Block Count</name>
@@ -332,13 +344,25 @@
     <name>Program Failure Block Count</name>
     <description>Nessuna informazione per questo attributo.</description>
   </attribute>
+  <attribute smartctl="Total_Prog_Failures" group="Indilinx">
+    <name>Total programming failures</name>
+    <description>Numero degli errori di programmazione.</description>
+  </attribute>
   <attribute smartctl="Erase_Failure_Blk_Ct" group="Indilinx">
     <name>Erase Failure Block Count</name>
     <description>Nessuna informazione per questo attributo.</description>
   </attribute>
+  <attribute smartctl="Total_Erase_Failures" group="Indilinx">
+    <name>Total Erase Failures</name>
+    <description>Totale degli errori di cancellazione.</description>
+  </attribute>
   <attribute smartctl="Read_Failure_Blk_Ct" group="Indilinx">
     <name>Read Failure Block Count</name>
     <description>Nessuna informazione per questo attributo.</description>
+  </attribute>
+  <attribute smartctl="Total_Unc_Read_Failures" group="Indilinx">
+    <name>Total Read Failures (uncorrectable)</name>
+    <description>Numero complessivo degli errori di lettura non correggibili.</description>
   </attribute>
   <attribute smartctl="Read_Sectors_Tot_Ct" group="Indilinx">
     <name>Read Sectors Total Count</name>
@@ -392,6 +416,10 @@
     <name>Indilinx Internal</name>
     <description>Attributo riservato della Indilinx.</description>
   </attribute>
+  <attribute smartctl="In_Warranty" group="Indilinx">
+    <name>In Warranty</name>
+    <description>Il valore grezzovisualizza se la SSD è in garanzia (0=falso, 1=vero).</description>
+  </attribute>
   <attribute smartctl="SATA_Error_Ct_CRC" group="Indilinx">
     <name>SATA Error Count CRC</name>
     <description>Nessuna informazione per questo attributo.</description>
@@ -399,6 +427,26 @@
   <attribute smartctl="SATA_Error_Ct_Handshake" group="Indilinx">
     <name>SATA Error Count Handshake</name>
     <description>Nessuna informazione per questo attributo.</description>
+  </attribute>
+  <attribute smartctl="DAS_Polarity" group="Indilinx">
+    <name>DAS Polarity</name>
+    <description>Il valore grezzo visualizza la polarità del segnale di attività dell'unità (0=normale; 1=invertito).</description>
+  </attribute>
+  <attribute smartctl="Remaining_Lifetime_Perc" group="Indilinx">
+    <name>Lifetime Remaining</name>
+    <description>Nessuna informazione per questo attributo.</description>
+  </attribute>
+  <attribute smartctl="Host_Writes_GiB" group="Indilinx">
+    <name>Host Writes (GB)</name>
+    <description>Numero complessivo dei GB scritti.</description>
+  </attribute>
+  <attribute smartctl="Host_Reads_GiB" group="Indilinx">
+    <name>Host Reads (GB)</name>
+    <description>Numero complessivo dei GB letti.</description>
+  </attribute>
+  <attribute smartctl="Total_NAND_Prog_Ct_GiB" group="Indilinx">
+    <name>Total NAND Programming Count (pages)</name>
+    <description>Numero complessivo (pagine) della programmazione della NAND.</description>
   </attribute>
   <attribute smartctl="Spin_Up_Time" group="Intel">
     <name>Spin Up Time</name>

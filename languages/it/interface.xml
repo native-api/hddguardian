@@ -5,6 +5,7 @@
     <string id="02" text="Gestione" />
     <string id="03" text="Sistema" />
     <string id="04" text="Debug" />
+    <string id="05" text="Pianificatore test" />
     <string id="10" text="File" />
     <string id="11" text="Impostazioni" />
     <string id="12" text="About" />
@@ -36,9 +37,8 @@
     <string id="01" text="Salute dell'unità" />
     <string id="02" text="Informazioni" />
     <string id="03" text="Attributi S.M.A.R.T." />
-    <string id="04" text="Registro eventi" />
-    <string id="05" text="Grafico eventi" />
     <string id="06" text="Temperature" />
+    <string id="07" text="Eventi" />
     <string id="10" text="Impostazioni S.M.A.R.T." />
     <string id="11" text="Gestione avanzata acustica" />
     <string id="12" text="Gestione avanzata alimentazione" />
@@ -47,17 +47,18 @@
     <string id="20" text="Registro errori" />
     <string id="21" text="Risultati self-test" />
     <string id="22" text="Avvia test" />
+    <string id="23" text="Versione" />
     <string id="30" text="Output unità" />
     <string id="31" text="Tolleranza" />
     <string id="32" text="Formato attributi" />
     <string id="33" text="Debug firmware" />
     <string id="34" text="Modalità d'alimentazione" />
     <string id="35" text="Avanzate" />
+    <string id="36" text="ASMedia" />
     <string id="40" text="Principale" />
     <string id="41" text="Impostazioni" />
     <string id="42" text="Errori e test" />
     <string id="43" text="Smartctl" />
-    <string id="50" text="Seleziona unità" />
   </group>
   <group id="04" title="Devices overview">
     <string id="01" text="Nome" />
@@ -65,11 +66,33 @@
     <string id="03" text="Vita residua" />
     <string id="04" text="Interfaccia" />
     <string id="05" text="Dimensione" />
+    <string id="06" text="Aggiornato" />
+    <string id="07" text="Settori danneggiati" />
+    <string id="08" text="Errori ATA" />
+    <string id="09" text="Controllo S.M.A.R.T." />
+    <string id="10" text="Ultimo test" />
+    <string id="11" text="Numero difetti" />
+    <string id="12" text="Errori 'non medium'" />
+    <string id="13" text="Ultimo aggiornamento" />
+    <string id="30" text="Superato" />
+    <string id="31" text="Annullato" />
+    <string id="32" text="Computer riavviato" />
+    <string id="33" text="Errore sconosciouto" />
+    <string id="34" text="Guasto sconosciuto" />
+    <string id="35" text="Guasto elettrico" />
+    <string id="36" text="Guasto al servo" />
+    <string id="37" text="Guasto in lettura" />
+    <string id="38" text="Unità danneggiata" />
+    <string id="39" text="Sconosciuto" />
+    <string id="40" text="In corso" />
+    <string id="41" text="Riservato" />
+    <string id="42" text="Incompleto" />
+    <string id="43" text="Fallito" />
     <string id="20" text="Unità esterne" />
     <string id="21" text="Unità interne" />
     <string id="22" text="Unità virtuali" />
   </group>
-  <group id="05" title="Bottom info panel">
+  <group id="05" title="Side panel">
     <string id="01" text="Produttore" />
     <string id="02" text="Numero seriale" />
     <string id="03" text="Firmware" />
@@ -101,7 +124,48 @@
     <string id="03" text="Evento" />
     <string id="04" text="Pulisci debug" />
   </group>
-  <group id="07" title="" />
+  <group id="07" title="Overview side panel">
+    <string id="01" text="Generale" />
+    <string id="02" text="Salute" />
+    <string id="10" text="Informazioni" />
+    <string id="11" text="Produttore" />
+    <string id="12" text="Modello" />
+    <string id="13" text="Numero seriale" />
+    <string id="14" text="World Wide Name" />
+    <string id="15" text="ID unità logica" />
+    <string id="16" text="Firmware" />
+    <string id="17" text="Revisione" />
+    <string id="18" text="Dimensione" />
+    <string id="19" text="Dimensione settori" />
+    <string id="20" text="Dimensione blocco logico" />
+    <string id="21" text="Velocità di rotazione" />
+    <string id="22" text="Rapporto di forma" />
+    <string id="23" text="Interfaccia" />
+    <string id="24" text="Posizione" />
+    <string id="30" text="S.M.A.R.T." />
+    <string id="40" text="Database di smartctl" />
+    <string id="41" text="Questa unità non è nel database di smartctl" />
+    <string id="42" text="Questa unità è nel database di smartctl" />
+    <string id="50" text="Avvisi" />
+    <string id="60" text="Sommario" />
+    <string id="61" text="Temperatura" />
+    <string id="62" text="Vita residua" />
+    <string id="63" text="Ultimo test" />
+    <string id="64" text="Verifica S.M.A.R.T." />
+    <string id="65" text="Settori danneggiati" />
+    <string id="66" text="Numero difetti" />
+    <string id="67" text="Errori ATA" />
+    <string id="68" text="Errori 'non medium'" />
+    <string id="69" text="Tempo d'utilizzo" />
+    <string id="70" text="Ultimo aggiornamento" />
+    <string id="80" text="Affidabilità" />
+    <string id="81" text="Vita residua (SSD)" />
+    <string id="82" text="Settori riallocati" />
+    <string id="83" text="Eventi di riallocazione" />
+    <string id="84" text="Settori in attesa" />
+    <string id="85" text="Errori non correggibili" />
+    <string id="86" text="Complessiva" />
+  </group>
   <group id="08" title="ATA: temperatures panel">
     <string id="01" text="Attuale" />
     <string id="02" text="Minima" />
@@ -313,8 +377,8 @@
     <string id="12" text="Descrizione" />
     <string id="13" text="Stato" />
     <string id="14" text="Rimanente" />
-    <string id="15" text="Età unità (h)" />
     <string id="16" text="LBA del primo errore" />
+    <string id="17" text="Tempo trascorso dal test" />
     <string id="30" text="Offline" />
     <string id="31" text="Corto offline" />
     <string id="32" text="Esteso offline" />
@@ -514,31 +578,31 @@
   <group id="27" title="SCSI: run test">
     <string id="01" text="Avvia un test esteso in background. Durata stimata: %1 secondi (%2 minuti)." />
   </group>
-  <group id="29" title="Generic: events log">
-    <string id="01" text="Ora" />
-    <string id="02" text="Unità" />
-    <string id="03" text="Attributo" />
-    <string id="04" text="Da" />
-    <string id="05" text="A" />
-    <string id="06" text="Variazioni" />
-    <string id="07" text="Cancella registro" />
-    <string id="08" text="Cancella tutti i registri" />
-    <string id="09" text="Nessun evento registrato nella data selezionata." />
-    <string id="10" text="Giorno precedente" />
-    <string id="11" text="Oggi" />
-    <string id="12" text="Giorno seguente" />
-    <string id="13" text="Ricarica" />
-    <string id="14" text="Nessun evento registrato per questa unità." />
-    <string id="15" text="Copia l'evento selezionato nel blocco note" />
-    <string id="16" text="Salva il registro in un file di testo" />
+  <group id="28" title="ATA: ASMedia controller debug">
+    <string id="01" text="Quest'opzione di debug è specifica per le unità connesse ad un controller ASMedia 106x. Devi selezionare quest'opzione solo le l'unità eselezionata è connessa a questo tipo di controller e se il suo output è incompleto.\\Questo problema appare (almeno) conil driver versione 3.1.6.0 del controller.\\Nota che quest'opzione è relativa alla sola unità selezionata." />
+    <string id="02" text="Attiva il debug per il controller SATA ASMedia 106x" />
   </group>
-  <group id="30" title="Generic: events chart">
-    <string id="01" text="% eventi registrati" />
+  <group id="30" title="Generic: events">
     <string id="02" text="Data e ora" />
     <string id="03" text="Da" />
     <string id="04" text="A" />
     <string id="05" text="Variazione" />
     <string id="06" text="Ricarica" />
+    <string id="07" text="Esporta" />
+    <string id="08" text="Nessun evento registrato per questa unità." />
+    <string id="09" text="Nessun evento registrato nel periodo selezionato." />
+    <string id="10" text="Elenco eventi" />
+    <string id="11" text="Copia" />
+    <string id="12" text="Copia tutto" />
+    <string id="20" text="Grafico eventi" />
+    <string id="21" text="Limie massimo temperatura" />
+    <string id="22" text="Visualizza valori" />
+    <string id="23" text="Dimensione punti" />
+    <string id="30" text="Visualizza" />
+    <string id="31" text="Intero periodo" />
+    <string id="32" text="Selezione" />
+    <string id="41" text="Nome" />
+    <string id="42" text="Eventi registrati" />
   </group>
   <group id="31" title="Generic: smartctl output">
     <string id="01" text="Salva" />
@@ -572,15 +636,17 @@
   <group id="33" title="Settings side menu">
     <string id="01" text="Impostazioni generali" />
     <string id="02" text="Rilevazione unità" />
-    <string id="04" text="Avvisi via mail" />
     <string id="05" text="Lingue" />
     <string id="06" text="Aggiornamento unità" />
-    <string id="07" text="Monitoraggio" />
-    <string id="08" text="Avvisi" />
     <string id="09" text="Condivisione output" />
     <string id="10" text="Valutazione unità" />
     <string id="12" text="Versione di smartctl" />
     <string id="13" text="Controller RAID" />
+    <string id="14" text="Impostazioni mail" />
+    <string id="15" text="Tracciamento attributi" />
+    <string id="16" text="Notifiche ed azioni" />
+    <string id="30" text="Esporta impostazioni" />
+    <string id="31" text="Importa impostazioni" />
   </group>
   <group id="34" title="Settings: general settings">
     <string id="01" text="Avvia con Windows" />
@@ -606,6 +672,9 @@
     <string id="03" text="Attiva il supporto per l'Intel Matrix (CSMI)" />
     <string id="04" text="Devi riavviare HDD Guardian perché questa impostazione funzioni." />
     <string id="05" text="Aggiungi un'unità per gli output delle unità 3ware presenti negli appunti" />
+    <string id="10" text="Unità addizionali" />
+    <string id="11" text="Qui puoi aggiungere le unità ch smartctl o HDD Guardian non rilevano. Devi smeplicemente scrivere l'indirizzo ed il tipo corretto usando i comandi smartctl.\Se hai più di un'unità che non appare, separa ogni comando con una virgola. Se l'unità è di tipo USB, scrivi nel comando la nota [USB] per istruire HDD Guardian su come trattare l'unità.\\Per esempio:\/dev/sdd -d sat\[USB] /dev/sdg -d usbjmicron, /dev/sdh -d scsi" />
+    <string id="12" text="Aggiungi ora" />
   </group>
   <group id="46" title="Settings: RAID controllers">
     <string id="01" text="Gestione controllers" />
@@ -630,13 +699,8 @@
     <string id="44" text="Annulla" />
     <string id="50" text="Sei sicuro di voler rimuovere il controller selezionato?" />
   </group>
-  <group id="37" title="Settings: mail alerts">
-    <string id="01" text="Attiva gli avvisi via mail" />
+  <group id="37" title="Settings: mail setup">
     <string id="03" text="Invia mail di prova" />
-    <string id="04" text="Invia mail quando" />
-    <string id="05" text="Un'unità si sta guastando" />
-    <string id="06" text="Temperatura eccessiva" />
-    <string id="07" text="Calo dell'affidabilità" />
     <string id="08" text="Questa e-mail è stata spedita solo per fini di test." />
     <string id="20" text="Le unità seguenti hanno fallito il test generale di salute S.M.A.R.T." />
     <string id="21" text="Le seguenti unità hanno riportato una temperatura eccessiva" />
@@ -645,9 +709,10 @@
     <string id="32" text="Password utente" />
     <string id="33" text="Indirizzo smtp" />
     <string id="34" text="Porta smtp" />
-    <string id="35" text="Usa SSL" />
     <string id="36" text="Da" />
     <string id="37" text="A" />
+    <string id="38" text="Provider" />
+    <string id="39" text="Usa connessione criptata" />
     <string id="40" text="Server mail" />
     <string id="50" text="Rapporto sullo stato corrente" />
     <string id="51" text="Nessun rapporto" />
@@ -658,19 +723,19 @@
     <string id="61" text="Corpo" />
     <string id="70" text="Server" />
     <string id="71" text="Messaggio" />
-    <string id="72" text="Attivatori" />
+    <string id="80" text="Personalizzato" />
+    <string id="81" text="Devi autorizzare l'accesso per le app meno sicure." />
   </group>
   <group id="38" title="Settings: devices updates">
     <string id="01" text="Imposta frequenza aggiornamento dati delle unità" />
     <string id="02" text="minuti" />
   </group>
-  <group id="39" title="Settings: devices monitoring">
-    <string id="01" text="Tieni traccia dei seguenti parametri" />
+  <group id="39" title="Settings: device monitoring">
     <string id="02" text="Parametri HDD" />
-    <string id="03" text="Indicatori di vita delle SSD" />
-    <string id="04" text="Inverti selezione" />
-    <string id="05" text="Parametri generici" />
     <string id="06" text="Parametri SCSI" />
+    <string id="07" text="Indicatori SSD" />
+    <string id="08" text="Generico" />
+    <string id="09" text="Scegli le azioni per il tracciamento degli attributi" />
     <string id="10" text="Conteggio settori riallocati" />
     <string id="11" text="Conteggio tentativi d'avvio" />
     <string id="12" text="Temperatura" />
@@ -686,16 +751,27 @@
     <string id="24" text="Vita rimanente SSD" />
     <string id="30" text="Errori 'non medium'" />
     <string id="31" text="Elementi nella lista dei difetti" />
+    <string id="40" text="Non fare nulla" />
+    <string id="41" text="Tieni traccia" />
+    <string id="42" text="Avvisa" />
+    <string id="43" text="Tieni traccia ed avvisa" />
   </group>
-  <group id="40" title="Settings: warnings">
-    <string id="01" text="Avvisa..." />
-    <string id="03" text="In caso di guasto imminente" />
-    <string id="04" text="Quando supera la temperatura limite" />
-    <string id="05" text="Limite personalizzato" />
-    <string id="10" text="Quando cambia un parametro vitale" />
-    <string id="11" text="Scegli parametri" />
-    <string id="12" text="Parametri vitali" />
-    <string id="13" text="Ritorna agli avvisi" />
+  <group id="40" title="Settings: notifications and actions">
+    <string id="02" text="Messaggio popup" />
+    <string id="10" text="Invia mail" />
+    <string id="11" text="Clicca qui per impostare la mail" />
+    <string id="20" text="Allarme sonoro" />
+    <string id="21" text="Sfoglia" />
+    <string id="22" text="Avvia" />
+    <string id="30" text="Spegni" />
+    <string id="31" text="Tempo di spegnimento (secondi)" />
+    <string id="32" text="Reimposta predefinito" />
+    <string id="33" text="Forza la chiusura delle applicazioni" />
+    <string id="34" text="Non verrà chiesto il salvataggio dei file delle applicazioni aperte, per cui si verifica una perdita dei dati non salvati." />
+    <string id="40" text="Mai" />
+    <string id="41" text="Guasto unità" />
+    <string id="42" text="Temperatura eccessiva" />
+    <string id="43" text="Guasto unità ed eccessiva temperatura" />
   </group>
   <group id="41" title="Settings: output sharing">
     <string id="01" text="Seleziona la cartella dove condividere l'output delle unità" />
@@ -774,13 +850,44 @@
     <string id="03" text="Impossibile trovare 'smartctl.exe'. Il programma verrà terminato." />
     <string id="10" text="Questa sezione richiede i diritti di amministratore." />
     <string id="11" text="Dati non disponibili a causa della mancanza dei diritti di amministratore." />
-    <string id="12" text="Questa impostazione non comporta perdita di dati, richiede i diritti di amministratore e non è disponibile per i dischi SCSI e le unità virtuali." />
-    <string id="13" text="Questa sezione richiede i diritti di amministratore e non è disponibile per le unità virtuali." />
-    <string id="20" text="Questa impostazione non comporta perdita di dati e non è disponibile per i dischi SCSI e le unità virtuali." />
-    <string id="21" text="Questa sezione non è disponibile per le unità virtuali." />
+    <string id="30" text="Qesta impostazione è sicura per i dati dell'utente e non è disponibile per le unità SCSI e le unità virtuali." />
+    <string id="31" text="Questa sezione non è disponibile per le unità virtuali." />
   </group>
   <group id="52" title="Quit confirm">
     <string id="01" text="Conferma" />
     <string id="02" text="Sei sicuro di voler uscire?" />
+  </group>
+  <group id="60" title="Test planner">
+    <string id="01" text="Nuovo" />
+    <string id="02" text="Modifica" />
+    <string id="03" text="Rimuovi" />
+    <string id="04" text="Rimuovi tutto" />
+    <string id="10" text="Unità" />
+    <string id="11" text="Test" />
+    <string id="12" text="Attivazione" />
+    <string id="20" text="Test da avviare" />
+    <string id="21" text="Rapido" />
+    <string id="22" text="Esteso" />
+    <string id="23" text="Durata stimata del test" />
+    <string id="24" text="Ricorrenza" />
+    <string id="25" text="Giornaliera" />
+    <string id="26" text="Settimanale" />
+    <string id="27" text="Ripeti ogni" />
+    <string id="28" text="giorno/i" />
+    <string id="29" text="settimana/e" />
+    <string id="30" text="Ora di avvio" />
+    <string id="40" text="Salva" />
+    <string id="41" text="Annulla" />
+    <string id="50" text="Ogni %" />
+    <string id="51" text="giorno" />
+    <string id="52" text="giorni" />
+    <string id="53" text="di ogni" />
+    <string id="54" text="settimana" />
+    <string id="55" text="settimane" />
+    <string id="61" text="Nuova operazione" />
+    <string id="62" text="Modifica operazione" />
+    <string id="63" text="Rimuovere l'operazione corrente?" />
+    <string id="64" text="Rimuovere tutte le operazioni?" />
+    <string id="65" text="Conferma" />
   </group>
 </interface>
