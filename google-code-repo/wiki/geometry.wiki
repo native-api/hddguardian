@@ -1,0 +1,36 @@
+#summary Geometry and partitions
+
+= Geometry and partitions =
+
+From version 0.4.0.0 on main section we have this new tab that displays some information about geometry and partitions hosted into selected device.
+
+All these informations are not available for virtual devices.
+<br></br>
+== Disk geometry ==
+http://hddguardian.googlecode.com/svn/screenshots/0400/geometry_and_partitions.png
+
+These informations are all relatives to hardware of unit.
+
+Here you can see:
+ * OS index of selected device;
+ * total number of partitions;
+ * total size of device;
+ * available (unpartitioned) size;
+ * cylinders, heads, sectors and tracks of device;
+ * bytes per sector amount;
+ * sectors per track amount;
+ * tracks per cylinder amount.
+Since these informations are recovered via WMI (Windows Management Instrumentation), for SSD devices could be possible that are displayed data of cylinders, heads, sectors and tracks, but are completely meaningless because they don't have platters and mechanical parts in movement like classic hard disks. In this case this data is useful only for a disk reconaissance.
+
+<br></br>
+== Partition details ==
+http://hddguardian.googlecode.com/svn/screenshots/0400/geometry_and_partitions_2.png
+
+These informations are all relatives to partitions.
+
+Here you can get an overview of:
+ * partition serial number;
+ * installed file system;
+ * total size and available size;
+ * amount of blocks and their size;
+ * partition type, if is bootable, if is a bootable partiton and if is a primary partition.

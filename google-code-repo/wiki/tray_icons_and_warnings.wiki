@@ -1,0 +1,30 @@
+#summary Tray icons and Warnings
+
+= Tray icons =
+
+When HDD Guardian is hidden or closed into the tray area, appear a program icon that varies following this scheme:
+ # http://hddguardian.googlecode.com/svn/wiki/images/all-ok.png this is the basic icon that normally appears: the blue shield indicates that all installed devices are in a good state;
+ # http://hddguardian.googlecode.com/svn/wiki/images/some-problems.png when the shield of the basic icon become red, means that at least one device is failing;
+ # http://hddguardian.googlecode.com/svn/wiki/images/update-ok.png this is a variation of the basic icon: all devices are in a good state, and a new version of HDD Guardian is available;
+ # http://hddguardian.googlecode.com/svn/wiki/images/update-ko.png this icon reports that a new version of HDD Guardian is available, but at  least one device is failing.
+
+Devices tray icon varies in base of temperatures and health verifications: the temperature font color is blue up to 49°C, becomes yellow until reach 50°C and then is red from 55°C. The line at the bottom is green if the device have passed the health verification and becomes red if the device is failing.
+The following images represents some samples of devices tray icons:
+
+http://hddguardian.googlecode.com/svn/wiki/images/34.png
+http://hddguardian.googlecode.com/svn/wiki/images/50.png
+http://hddguardian.googlecode.com/svn/wiki/images/55.png
+
+Tray icons supports three mouse gestures:
+ # left button click: restore the main program window;
+ # center button click: update attributes for all devices;
+ # right button click: for the main icon of HDD Guardian display the icon context menu; otherwise for devices icon, appears a balloon that display the device name, their temperature and the last health test check.
+
+http://hddguardian.googlecode.com/svn/screenshots/22-trayicons_device_info.png
+
+= Warnings =
+
+When HDD Guardian is placed into the tray area it monitor silently all devices listed and show all the warnings events selected with balloon messages. The following images represents some samples of warning balloons.
+
+http://hddguardian.googlecode.com/svn/wiki/images/25-high_temperature_warning.png
+http://hddguardian.googlecode.com/svn/screenshots/24-device_failure_warning.png

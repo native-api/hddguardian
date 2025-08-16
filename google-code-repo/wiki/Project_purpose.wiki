@@ -1,0 +1,7 @@
+#summary Project porpose
+
+= Project purpose =
+
+The purpose of HDD Guardian is to provide a new graphical user interface under Windows for smartctl, a command line tool of [http://sourceforge.net/apps/trac/smartmontools/wiki SMART Monitoring Tools] project, in order to make this utility available for all Windows users.
+
+With HDD Guardian is possible to monitor all installed HDD and SSD devices recognized by smartctl, offering the possibility to make a continuous and silent monitoring of your storage devices, placing icons into the tray area and settings the warning behavior.

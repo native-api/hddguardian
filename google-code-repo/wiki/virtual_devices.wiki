@@ -1,0 +1,24 @@
+#summary Virtual devices
+
+= Virtual devices =
+
+HDD Guardian offer the possibility to monitor other devices that are not connected with a PC sharing smartctl output into a specified folder.
+This folder can be selected into the “Sharing” panel of “Settings” section; when the refresh rate expires, HDD Guardian automatically save a copy of smartctl output for all local devices that have their sharing option enabled.
+
+http://hddguardian.googlecode.com/svn/wiki/images/Sharing.png
+
+The steps to follow for activate the sharing option are:
+ # go to “Settings” section, select the “Sharing” and then select the output folder. When a folder is selected successfully, HDD Guardian automatically save their path;
+ # go to “Main” section and then select “[enable_disable_features Enable/disable features]”. In the lower part of this panel we have the “Monitoring features”. Clicking on “Share smartctl device output”, you enable HDD Guardian to save a copy of the last output into the previous specified folder. This is a per-device setting, which means that you can check the sharing capability for each device installed into your computer.
+
+To add a virtual device, simply right click into the devices list and then select “Add virtual device”.
+
+http://hddguardian.googlecode.com/svn/wiki/images/Context_menu.png
+
+A dialog box appear: into this window you can set a description about the device to monitor and select the device output file location.
+
+http://hddguardian.googlecode.com/svn/wiki/images/Add_virtual_device.png
+
+To remove a virtual device, select it, right click and then select “Remove virtual device”.
+
+The S.M.A.R.T. settings, the “run test” capability, the device tray icon and also other settings are not available for virtual devices because HDD Guardian (and smartctl) doesn't have a direct access to these fake devices.

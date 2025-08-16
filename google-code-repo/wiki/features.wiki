@@ -1,0 +1,26 @@
+#summary HDD Guardian features
+
+=HDD Guardian features=
+
+  * automatic translation (if language files doesn't exists, it load automatically english). Available languages: english, italian, finnish, french, german, hungarian and swedish;
+  * easy device overview, with temperature, last test result, overall health and bad sectors indication;
+  * display an optional icon into the tray area for each fixed device;
+  * HDD Guardian tray icon change shield color if a device is failing;
+  * automatically export smartctl output into a specified folder;
+  * monitor virtual devices loaded from a shared smartctl output;
+  * displays device identity information;
+  * perform self-test and displays their results;
+  * allow enabling/disabling S.M.A.R.T., automatic offline data collection (an automatic test performed by device every four hours) and autosave of vendor-specific attributes;
+  * displays attributes informations and graphs;
+  * displays device capabilities;
+  * displays device error log;
+  * allow to set device-specific tolerance, attribute format and firmware debug;
+  * allow to set warnings behaviour;
+  * allow to monitor SSDs life percentage;
+  * allow to monitor external devices (requires administrative rigths);
+  * allow to set APM (Advanced Power Management), AAM (Advanced Acoustic Management), standby frequency, volatile write cache and read look ahead features;
+  * support Intel Matrix system (thanks to Daniel Pixley);
+  * support LSI Falcon (LSI SAS 9211-8i);
+  * support Intel RST (QM77 chipset);
+  * temperatures can be displayed in Fahrenheit;
+  * support SCSI devices.

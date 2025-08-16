@@ -1,0 +1,24 @@
+#summary SMART Modular Technologies S.M.A.R.T. attributes
+
+= SMART Modular Technologies S.M.A.R.T. attributes =
+
+=== Attributes table ===
+|| *ID* || *Hex* || *Name* || *Description* ||
+||09||09||Power-On Hours||The Power-On Hours attribute specifies the total number of hours the drive has been operational. This counter starts when the drive is first manufactured and continues whenever the drive is powered on.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+||12||0C||Power Cycle Count||The Power Cycle Count attribute indicates the total number of times power has cycled on the drive.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+||192||C0||Power-Off Retract Count||The Power-Off Retract Count attribute returns the number of times the drive has been powered-off. This value is one less than the Power-Cycle Count attribute value.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+||194||C2||Temperature||The Temperature attribute indicates the current drive temperature in degrees Celsius.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+||197||C5||Number of ECC Errors||The Number of ECC Errors attribute specifies the number of sectors that encountered an ECC error and were recovered.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+||198||C6||Uncorrectable Errors Count||The Uncorrectable Errors Count attribute returns the number of uncorrectable ECC errors that occurred. This counter increments if more than four bits in the affected sector are uncorrectable.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+||199||C7||UDMA CRC Error Count||The UDMA CRC Error Count attribute indicates the number of sectors that encountered a CRC error while in UDMA mode.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+||232||E8||Endurance Remaining||The Endurance Remaining attribute reports the number of physical erase cycles completed on the drive as a percentage of the maximum physical erase cycles the drive supports. Because the maximum physical erase cycles is a theoretical number (100,000), a low value in this attribute does not necessarily mean the drive will fail. In other words, the drive may exceed the maximum number of erase cycles, causing the drive to report 0%, without impacting drive performance.<sup>[Smart_Modular_SMART_attributes#Sources 2]</sup>||
+||233||E9||Power-On Time||The Power-On Time attribute indicates the total number of seconds the drive has been operational. This timer starts when the drive is manufactured in production and continues whenever the drive is powered on.<sup>[Smart_Modular_SMART_attributes#Sources 2]</sup>||
+||234||EA||Uncorrectable ECC Count||The Uncorrectable ECC Count attribute stores the total number of ECC errors the drive encountered but could not resolve. If an uncorrectable ECC error occurs, the drive returns the error in the Status and Error registers and increments this counter.<sup>[Smart_Modular_SMART_attributes#Sources 2]</sup>||
+||235||EB||Good Block Rate||The Good Block Rate attribute reports the number of available reserved blocks (for spares) as a percentage of the total number of reserved blocks. Whenever the drive swaps a reserved block for a bad block, this percentage decreases.<sup>[Smart_Modular_SMART_attributes#Sources 2]</sup>||
+||251||FB||Minimum Spares Remaining||The Minimum Spares Remaining attribute indicates the number of remaining spare blocks as a percentage of the total number of spare blocks available.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+||252||FC||Newly Added Bad Flash Block||The Newly Added Bad Flash Block attribute indicates the total number of bad flash blocks the drive detected since it was first initialized in manufacturing.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+||254||FE||Total Erase Blocks||The Total Erase Blocks attribute indicates the total number of times the drive has erased any erase block. Because a secure erase operation erases every block, this number increases significantly whenever a secure erase is performed.<sup>[Smart_Modular_SMART_attributes#Sources 1]</sup>||
+
+=== Sources ===
+ # [http://www.adtron.com/pdf/SMART_Attributes_Xcel-10_810800014_RevB.pdf Technical Reference for Xcel-10 Solid State Drives]
+ # [http://www.adtron.com/pdf/SMART_for_XceedLite_SATA_RevA.pdf Technical Reference for XceedLite and XceedLite2 SATA Drives]

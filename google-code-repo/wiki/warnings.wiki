@@ -1,0 +1,11 @@
+#summary Warnings
+
+= Warnings =
+
+http://hddguardian.googlecode.com/svn/screenshots/050/settings-warnings.png
+
+Here you can set the behavior of HDD Guardian about some vital parameters of hard disk devices.
+
+The user can be alert in case of imminent failure of device if smartctl reports that the unit fails to pass all threshold of S.M.A.R.T. attributes.
+
+Another vital parameter for hard disk drives (but not for solid state disks) is the temperature: when we have a too high value (above 50°C), HDD Guardian display a warning; user is notified also if the unit is close to that threshold.

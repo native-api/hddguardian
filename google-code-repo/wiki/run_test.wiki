@@ -1,0 +1,16 @@
+#summary Run test
+
+= Run test =
+
+http://hddguardian.googlecode.com/svn/screenshots/050/advanced-run_test.png
+
+From this panel you can execute the built-in tests available on the selected device. These tests are: 
+ # offline data collection; 
+ # short test; 
+ # long test; 
+ # conveyance (portable devices only). 
+When you select a test, you see the estimated duration of test (variable if device is busy with other operations) and a description of selected test.
+
+You can execute only one test at time for each device.
+
+For more information about device's tests, you should see the [http://sourceforge.net/apps/trac/S.M.A.R.T.montools/wiki/TocDoc#S.M.A.R.T.Testing smartctl manual]. 

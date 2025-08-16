@@ -1,0 +1,37 @@
+#summary Satron S.M.A.R.T. attributes
+
+= Satron S.M.A.R.T. attributes =
+
+<font color="red">Note: Satron was closed on 31 July 2011.</font>
+
+=== Attributes table ===
+|| *ID* || *Hex* || *Name* ||
+||01||01||Raw Read Error Rate||
+||03||03||Spin Up Time||
+||04||04||Spin Up Count||
+||05||05||Reallocated Sector Count||
+||07||07||Seek Error Rate||
+||08||08||Seek Time Performance||
+||09||09||Power-On Hours||
+||10||0A||Spin Retry Count||
+||11||0B||Load/Unload Retry Count||
+||12||0C||Power On Count||
+||184||B8||Buffer CRC Count||
+||187||BB||Uncorrectable Error Count||
+||188||BC||Command Time-out Error Count||
+||190||BE||Airflow Temperature||
+||191||BF||Shock Count||
+||192||C0||Emergency Retract||
+||193||C1||Load/Unload Count||
+||194||C2||User Temperature||
+||195||C3||ECC rate||
+||197||C5||Pending Sector Count||
+||198||C6||Off-line Uncorrectable Error Count||
+||199||C7||CRC Error Count||
+||200||C8||Used Reserved Block Count||
+||201||C9||Program Fail Count||
+||202||CA||Erase Fail Count||
+||203||CB||Wear Leveling Count||
+
+=== Sources ===
+ * [http://www.users.on.net/~fzabkar/SSD_CF_attribs.txt Text file with some SSD attributes]

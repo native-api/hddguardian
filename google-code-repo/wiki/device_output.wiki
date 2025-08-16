@@ -1,0 +1,7 @@
+#summary Device output
+
+= Device output =
+
+http://hddguardian.googlecode.com/svn/screenshots/050/smartctl-device_output.png
+
+This panel allows you to see the full report generated for selected device from smartctl, including some information that does not appear in HDD Guardian window.

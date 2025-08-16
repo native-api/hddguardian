@@ -1,0 +1,17 @@
+#summary HDD Guardian 0.4.2 screenshots.
+
+These are screenshots of the interface parts that have been changed or added from version 0.4.1.0.
+
+http://hddguardian.googlecode.com/svn/screenshots/042/main.png
+
+http://hddguardian.googlecode.com/svn/screenshots/042/device_info.png
+
+http://hddguardian.googlecode.com/svn/screenshots/042/features.png
+
+http://hddguardian.googlecode.com/svn/screenshots/042/system_1.png
+
+http://hddguardian.googlecode.com/svn/screenshots/042/system_2.png
+
+http://hddguardian.googlecode.com/svn/screenshots/042/system_3.png
+
+http://hddguardian.googlecode.com/svn/screenshots/042/settings.png

@@ -1,0 +1,13 @@
+#summary Monitoring
+
+= Monitoring =
+
+http://hddguardian.googlecode.com/svn/screenshots/050/settings-monitoring.png
+
+Here is possible to select some vital parameters to monitor: generic parameters are principally for classic HDD devices, the SSD life indicators are designed specifically for SSD devices.
+
+If one of these parameter change, HDD Guardian alert that the parameter is changed and the amount of this change. You can see all these changes into the “Log events” panel of the “Main” section.
+
+Generic parameters that is monitored are reported as critical in the [http://en.wikipedia.org/wiki/S.M.A.R.T. S.M.A.R.T. page of Wikipedia], with the exception of the value "Raw Read Error Rate", which can be greater than zero even on new discs.
+
+The SSD life indicators are all manufacturer specific parameters: we have _“Remaining life percentage”_ (attribute 209) for [Indilinx_SMART_attributes Indilinx] based devices, _“Media wearout indicator”_ (attribute 233) for [Intel_SMART_attributes Intel] based devices, _“Percentage lifetime used”_ (attribute 202) for [Micron_SMART_attributes Micron] based devices, _“Wear leveling count”_ (attribute 177) for [Samsung_SMART_attributes Samsung] based devices and _“SSD life left”_ (attribute 231) for [SandForce_SMART_attributes SandForce] based devices.

@@ -1,0 +1,11 @@
+#summary Log events
+
+= Log events =
+
+http://hddguardian.googlecode.com/svn/wiki/images/03-Main-Log_events.png
+
+Log events panel displays all parameters have changed during HDD Guardian monitoring.
+
+Here you can navigate through the days, refresh the log or delete a single or all the logs registered.
+
+You can choose parameters to monitor into the [warnings Warnings] panel of Settings section.

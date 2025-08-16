@@ -1,0 +1,32 @@
+#summary JMicron S.M.A.R.T. attributes
+
+= JMicron S.M.A.R.T. attributes =
+
+=== Attributes table ===
+|| *ID* || *Hex* || *Name* ||
+||01||01||Read Error Rate||
+||02||02||Throughput Performance||
+||03||03||Spin Up Time||
+||05||05||Reallocated Sector Count||
+||07||07||Seek Error Rate||
+||08||08||Seek Time performance||
+||09||09||Power-On hours Count||
+||10||0A||Spin Retry Count||
+||12||0C||Drive Power Cycle Count||
+||168||A8||SATA PHY Error Count||
+||170||AA||Bad Block Count||
+||173||AD||Erase Count||
+||175||AF||Bad Cluster Table Count||
+||192||C0||Unexpected Power Loss Count||
+||194||C2||Temperature||
+||197||C5||Current Pending Sector Counter||
+||229||E5||Halt System, Flash ID||
+||232||E8||Firmware Version Information||
+||233||E9||ECC Fail Record||
+||234||EA||Average Erase Count, Max Erase Count||
+||235||EB||Good Block Count, System Block Count||
+||240||F0||Write Head||
+
+=== Sources ===
+ * [http://www.transcendusa.com/support/dlcenter/datasheet/SSD25-JMI%20Datasheet%20v1.08.pdf Transcend SSD25-JMI Datasheet v1.03]
+ * [http://www.jactron.co.uk/images/pdfs/InnoDisk_FiD_1_8%27%27_SATA_D150_SSD_tech_spec_Full_Rev1.0.pdf InnoDisk FiD 1,8” SATA D150 SSD]

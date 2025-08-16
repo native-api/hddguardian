@@ -1,0 +1,12 @@
+#summary Sharing
+
+= Sharing =
+
+http://hddguardian.googlecode.com/svn/screenshots/050/settings-sharing.png
+
+HDD Guardian can export and import smartctl devices outputs. In a context of local area network is possible for the system administrator to monitor all disks of the computers in the LAN.
+
+To share local drives, you must select a destination folder where HDD Guardian will save these outputs after the set refresh timing is expired. You can also select the local disks you want to share into the [enable_disable_features Enable/disable features] of Main section.
+
+From version 0.4.0.0 you can also create a summary output of devices in Xml format. This can be useful for desktop customization tools like [http://rainmeter.net/cms/ Rainmeter]: you can parse Xml content and put the result into a skin directly into your desktop.
+For a better control of this option is possible to set the output folder. The name of output file is "hddguardian.xml".

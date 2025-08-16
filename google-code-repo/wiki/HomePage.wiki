@@ -1,0 +1,79 @@
+#summary Home Page
+
+This is the project page of HDD Guardian until version 0.5.0.<br></br>
+*Newest versions of [http://hddguardian.codeplex.com HDD Guardian] are now on Codeplex.*
+
+<img src="http://hddguardian.googlecode.com/svn/screenshots/Overview.png"></img>
+
+----
+<wiki:comment>
+                      ##############
+                      ## Warnings ##
+                      ##############
+</wiki:comment>
+
+<img src="http://websvn.kde.org/*checkout*/trunk/kdesupport/oxygen-icons/32x32/status/dialog-warning.png"></img>
+
+*WARNING!*<br></br>
+Do not use HDD Guardian with Samsung HD155UI and HD204UI unless you install [http://www.samsung.com/global/business/hdd/faqView.do?b2b_bbs_msg_id=386 this patch]. See [http://www.smartmontools.org/wiki/SamsungF4EGBadBlocks this page] for details.
+
+----
+<wiki:comment>
+                      ##########
+                      ## News ##
+                      ##########
+</wiki:comment>
+<img src="http://websvn.kde.org/*checkout*/trunk/kdesupport/oxygen-icons/32x32/actions/view-pim-news.png"></img>
+
+*UPDATES*<br></br>
+
+*08 jul 2014*: Released HDD Guardian 0.6.0<br>Now the new [http://hddguardian.codeplex.com page project] is on Codeplex.</br>
+
+*14 jul 2013*: Thanks to Ivan Karadzhov HDD Guardian have also the bulgarian translation! You can find it into the download section as a separate archive!
+
+*26 jun 2013*: Released HDD Guardian 0.5.0<br>Now package include swedish translation, add support for SCSI devices (thanks to Gerhard Schneider), tray icons can display remaining life for SSD and into the new "Monitoring" section is available a graph with variations of vital parameters!</br>
+
+*19 mar 2013*: And now, thanks to Joakim Roubert, HDD Guardian have also the swedish translation, that is available into the download section as a separate archive!
+
+*10 feb 2013*: Released HDD Guardian 0.4.3<br>Now package include german and finnish translation, add an initial support for LSI Falcon (LSI SAS 9211-8i) and Intel RST (QM77 chipset) and fixed an issue that affect systems with more than one hard drive of the same model (only one was displayed).</br>
+
+*04 dec 2012*: Updated finnish translation with SMART attributes and some corrections. Thanks again, Teijo!
+
+*02 dec 2012*: Thanks to Teijo HDD Guardian have also the finnish translation! You can find it into the download section as a separate archive!
+
+*27 nov 2012*: Now, thanks to Ben Berger, HDD Guardian have also the german translation! You can find it into the download section as a separate archive!
+
+*07 nov 2012*: Released HDD Guardian 0.4.2<br>Added Intel Matrix system support (thanks to Daniel Pixley) and temperatures can be displayed in Fahrenheit!
+</br>
+
+*13 aug 2012*: Released HDD Guardian 0.4.1.0<br>Added "Performance" section, that allows to change status of Automatic Acoustic Management (AAM), Advanced Power Managemet (APM), standby frequency, disk write cache and Read Look-Ahead capabilities!
+</br>
+
+*19 may 2012*: Released HDD Guardian 0.4.0.0<br>Now package is also available in portable version, added french language (I'm sorry for errors, my french is covered by rust!), is possible to export an xml summary for desktop enhancers, you can see geometry and partitions details and is introduced a five star rating system for devices realibility!</br>
+
+*12 feb 2012*: [http://code.google.com/p/hddguardian/wiki/Project_purpose New online help!]
+
+*14 jan 2012*: Released HDD Guardian 0.3.1.0<br>Now support external devices (requires administrative rights) and monitor SSD health percentages!</br>
+
+*24 oct 2011*: Released HDD Guardian 0.2.0.0<br>Included languages: english (default), italian and hungarian.</br>
+
+*26 aug 2011*: Over 10000 downloads for HDD Guardian! Thank you very much for your appreciation!
+
+*25 aug 2011*: Added hungarian translation created by Kutfej Béla.
+
+*16 oct 2010*: Published the first version of HDD Guardian.
+
+----
+<wiki:comment>
+                      #################
+                      ## Clustermaps ##
+                      #################
+</wiki:comment>
+<table width="100%">
+<tr>
+<td align="center" width="100%">
+<a href="http://www4.clustrmaps.com/user/7f1d9da0"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/code.google.com-p-hddguardian--thumb.jpg" alt="Locations of visitors to this page" align="center"/></a>
+<a href="http://www.histats.com" alt="counter stats" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?1695912&101" alt="counter stats" border="0"/></a>
+</td>
+</tr>
+</table>

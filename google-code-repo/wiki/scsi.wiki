@@ -1,0 +1,43 @@
+#summary SCSI devices
+
+= SCSI devices =
+
+From version 0.5.0 HDD Guardian add also a support for SCSI devices.
+
+Note that SCSI S.M.A.R.T. data is not detailed like the one available for ATA devices.
+
+== Summary ==
+
+http://hddguardian.googlecode.com/svn/screenshots/050/scsi-main-summary.png
+
+The summary panel displays health basics about selected device: temperature, last test result, overall health, bad sector and error information, the last update and eventual warnings about firmware updates.
+
+At panel's left bottom we have an area where you can see the OS (a) and manufacturer logos (b), plus the nationality flag of manufacturer (c).
+
+http://hddguardian.googlecode.com/svn/screenshots/050/infobar.png
+
+At right we have three buttons, for updating the stats of selected device, a button to display S.M.A.R.T. attributes details and the last to run the available tests for the selected device.
+
+== Device info ==
+
+http://hddguardian.googlecode.com/svn/screenshots/050/scsi-main-device_info.png
+
+Into device info panel you can see many useful informations about your device, like vendor, product, revision, serial number, logical unit ID, total disk size, the logical block size, the rotation rate (if available), the transport protocol and the S.M.A.R.T. ability availability and if they're enabled.
+
+== Device features ==
+
+http://hddguardian.googlecode.com/svn/screenshots/050/scsi-main-device_features.png
+
+From here you can enable or disable the S.M.A.R.T. capability, the GLTSD and the read and write cache of the disk.
+
+== Details ==
+
+=== Error counter log ===
+http://hddguardian.googlecode.com/svn/screenshots/050/scsi-main-details-error_counter_log.png
+
+From here you can see details about errors encountered by the unit during his write, read and verification activity.
+
+=== Self test log ===
+http://hddguardian.googlecode.com/svn/screenshots/050/scsi-main-details-selft_test_log.png
+
+This section display the report of tests exectued on the unit.

@@ -1,0 +1,15 @@
+#summary S.M.A.R.T. error log
+
+= S.M.A.R.T. error log =
+
+http://hddguardian.googlecode.com/svn/screenshots/050/advanced-errors_log.png
+
+The units have the ability to record each error that occur during their life cycle, even if you normally can recover only the data of the past five errors recorded.
+
+If errors are recorded, their will be listed in descending order, displaying the error number, when it occurred and the unit's status at the time of the error.
+
+Clicking on a list of errors you can view the status register after the completion of the command with the error details and settings that generated the error.
+
+Some informations of data displayed is available moving the mouse pointer across this section.
+
+For more information about these types of errors, you should see the [http://S.M.A.R.T.montools.sourceforge.net/man/S.M.A.R.T.ctl.8.html smartctl manual].
